@@ -2,6 +2,1009 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [55c80a5](https://github.com/virtualitypage/AdGuardHome_Filters/commit/55c80a53de683433484fb178be1545ee5ad858bd) - 2025-11-18
+
+### Date
+
+- 2025/11/18 21:28:34
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 14 November 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -44,6 +44,7 @@
+
+      @@||account.prod.devsisters.cloud
+      @@||account.proton.me
+      @@||account.protonvpn.com
+      @@||accounts.google.co.jp
+      @@||accounts.google.com
+      @@||accounts.pixiv.net
+
+      @@ -65,6 +66,7 @@
+
+      @@||adm-srch.newsapp.nhk.or.jp
+      @@||ads-delivery-cdn.gunosy.com
+      @@||ads-delivery.gunosy.com
+      @@||age-restrictions.playrix.com
+      @@||ahamo.com
+      @@||airplane.kairogame.jp
+
+      @@ -77,6 +79,7 @@
+
+      @@||analytics.ff.avast.com
+      @@||analytics.yay.space
+      @@||analytics.yay.space.lan
+      @@||anshin.demdex.net
+      @@||api-akm.goodnovel.com
+      @@||api-d.dropbox.com
+
+      @@ -115,6 +118,7 @@
+
+      @@||api.x.com
+      @@||api.yay.space
+      @@||api.yay.space.lan
+      @@||app-api.pixiv.net
+      @@||app.botchan.chat
+      @@||app.bspace.jp
+
+      @@ -126,6 +130,8 @@
+
+      @@||appassets.androidplatform.net.lan
+      @@||appimg.chatplus.jp
+      @@||appli.kairogame.jp
+      @@||apps.nhk.or.jp
+      @@||appsgrowthpromo-pa.clients6.google.com
+      @@||appstoreanalyzer.norton.com
+
+      @@ -150,6 +156,7 @@
+
+      @@||atmarkit.itmedia.co.jp
+      @@||auth.cid.capcom.com
+      @@||auth.ff.avast.com
+      @@||avatars.mds.yandex.net
+      @@||azurefd-t-prod.trafficmanager.net
+      @@||b.hatena.ne.jp
+
+      @@ -168,6 +175,7 @@
+
+      @@||bff-v2.eneos-ss.app.lan
+      @@||bff-v2.eneos-ss.app.ts.net
+      @@||biz-media.tokyo
+      @@||blog.hatena.ne.jp
+      @@||blog.with2.net
+      @@||blogs.vmware.com
+
+      @@ -199,6 +207,7 @@
+
+      @@||cache.prd.tokyodebunker.com
+      @@||cache.sirok.jp
+      @@||caloo.jp
+      @@||capi.tigmedia.jp
+      @@||capig.stape.jp
+      @@||card-ropng.img.sus-game.com
+
+      @@ -212,10 +221,13 @@
+
+      @@||cdn-ak.f.st-hatena.com
+      @@||cdn-assets.mr-colosseum.com
+      @@||cdn-content.ampproject.org
+      @@||cdn-masterdata.mr-colosseum.com
+      @@||cdn-os.qookkagames.com
+      @@||cdn.assets.paypay.ne.jp
+      @@||cdn.blog.st-hatena.com
+      @@||cdn.dailyinnovation.biz
+      @@||cdn.discordapp.com
+      @@||cdn.dropboxexperiment.com
+
+      @@ -248,16 +260,19 @@
+
+      @@||challenges.cloudflare.com
+      @@||chatman-replay-ap-northeast-1.pscp.tv
+      @@||check.gred.jp
+      @@||chichi-pui.imgix.net
+      @@||chirashi.otoku.aeonsquare.net
+      @@||choices.trustarc.com
+      @@||choices.truste.com
+      @@||chrome.google.com
+      @@||chromewebstore.google.com
+      @@||cid.capcom.com
+      @@||cl.sourcenext.com
+      @@||classical-sound.up.seesaa.net
+      @@||clients.l.google.com
+      @@||cloudfront.net
+      @@||cloudfront.net.lan
+      @@||cm.nordvpn.com
+
+      @@ -265,12 +280,14 @@
+
+      @@||coinlog.kairogame.jp
+      @@||collector.github.com
+      @@||config.mapbox.com
+      @@||configserver.platform.hicloud.com
+      @@||connectivitycheck.gstatic.com
+      @@||connectivitycheck.gstatic.com.lan
+      @@||connectivitycheck.platform.hicloud.com
+      @@||connectivitycheck.platform.hicloud.com.lan
+      @@||consent.cookiebot.com
+      @@||consentcdn.cookiebot.com
+      @@||content-vita-api.snow.me
+      @@||content.dropboxapi.com
+
+      @@ -325,11 +342,13 @@
+
+      @@||doda.jp
+      @@||dotapps.jp
+      @@||doujin-hp.or.jp
+      @@||downloader-api-service-eqiwquegnq-uc.a.run.app
+      @@||dpm.demdex.net
+      @@||dpm.demdex.net.lan
+      @@||dreamplanetstation.up.seesaa.net
+      @@||drive.google.com
+      @@||dsp-ad-cache-gcp-tm.trafficmanager.net
+      @@||dtm00.deteql.net
+      @@||dualstack.beacon.itmedia.jp
+
+      @@ -361,6 +380,7 @@
+
+      @@||faq.cecile.co.jp
+      @@||fastly.jsdelivr.net
+      @@||fc.itmedia.co.jp
+      @@||file.123chat.jp
+      @@||file.imanara.jp
+      @@||file.kanochat.jp
+
+      @@ -380,6 +400,7 @@
+
+      @@||fraud-buster.appspot.com
+      @@||free.buzzsight.co
+      @@||frog.wix.com
+      @@||fw.gl-inet.com
+      @@||g*.gstatic.com
+      @@||gacha-lineup.pokapoka-farm.com
+
+      @@ -392,10 +413,13 @@
+
+      @@||gateway.devsisters.cloud
+      @@||gateway.discord.gg
+      @@||gctok*.exitgames.com
+      @@||geo0.ggpht.com
+      @@||get-beauty.net
+      @@||gigafile.nu
+      @@||gigaplus.makeshop.jp
+      @@||global-web-assets.cpcdn.com
+      @@||global.sitesafety.trendmicro.com
+      @@||global.stun.twilio.com
+
+      @@ -407,6 +431,8 @@
+
+      @@||gofuku-ishihara.heteml.net
+      @@||golazo1978.net
+      @@||gomall-jp.com
+      @@||group.ntt
+      @@||gstatic.com
+      @@||guest.pscp.tv
+
+      @@ -420,8 +446,10 @@
+
+      @@||i-l-dsp-inmobicdn-net-tm.trafficmanager.net
+      @@||i-l-inmobicdn-net-tm.trafficmanager.net
+      @@||i-ogp.pximg.net
+      @@||i.instagram.com
+      @@||i.instagram.com.lan
+      @@||i.pximg.net
+      @@||i.ytimg.com
+      @@||i.ytimg.com.lan
+
+      @@ -446,8 +474,10 @@
+
+      @@||images.ctfassets.net
+      @@||images.dmca.com
+      @@||images.gunosy.com
+      @@||images.wondershare.com
+      @@||imanara.jp
+      @@||img-global-jp.cpcdn.com
+      @@||img-global.cpcdn.com
+      @@||img-sketch.pximg.net
+
+      @@ -456,6 +486,8 @@
+
+      @@||img.nosh.jp
+      @@||img.retsta.jp
+      @@||img.riskified.com
+      @@||imgsct.cookiebot.com
+      @@||imgweb.with2.net
+      @@||imp.gain-ads.com
+
+      @@ -488,6 +520,7 @@
+
+      @@||kddi-h.assetsadobe3.com
+      @@||kefirgames.com
+      @@||key.streaks.jp
+      @@||kit-cdn.shazam.com
+      @@||kit.fontawesome.com
+      @@||kn.nice-news.net
+
+      @@ -506,6 +539,9 @@
+
+      @@||lb.wordpress.com
+      @@||lf16-geckocdn-offline.g-p-static.com
+      @@||lh3.ggpht.com
+      @@||lh6.ggpht.com
+      @@||live-tver-simul-*.streaks.jp
+      @@||live-tver-simul-tbs.streaks.jp
+
+      @@ -520,12 +556,15 @@
+
+      @@||logcollector.note.com
+      @@||logging.devsisters.cloud
+      @@||logging.prod.devsisters.cloud
+      @@||login.tailscale.com
+      @@||login.wikimedia.org
+      @@||m.goodnovel.com
+      @@||m.stripe.com
+      @@||m.stripe.network
+      @@||m1.nintendo.net
+      @@||mail.google.com
+      @@||manifest.streaks.jp
+      @@||map.go.affec.tv
+
+      @@ -537,6 +576,8 @@
+
+      @@||marui.ad.zetacx.net
+      @@||marui.recommend.zetacx.net
+      @@||marui.search.zetacx.net
+      @@||matrix.dailyinnovation.biz
+      @@||measure.lamp.avct.cloud
+      @@||media.cld.navitime.jp
+
+      @@ -555,15 +596,18 @@
+
+      @@||metric.acestudio.ai
+      @@||metrics-dra.dt.hicloud.com.ts.net
+      @@||microapps.google.com
+      @@||mini-app-sdk-core.paypay.ne.jp
+      @@||missions-assets.smartnews.com
+      @@||mmp.getdropbox.com
+      @@||mobile-webview.gmail.com
+      @@||mobile.events.data.trafficmanager.net
+      @@||mochimoji.jp
+      @@||monorail-edge.shopifysvc.com
+      @@||mp.smartnews.com
+      @@||mpc-prod-11-s6uit34pua-uc.a.run.app
+      @@||mpc-prod-2-1053047382554.us-central1.run.app
+      @@||msg.township-ios.playrix.com
+      @@||mt.gigazine.net
+
+      @@ -575,10 +619,12 @@
+
+      @@||my-coupon-static.smartnews.com
+      @@||my.komeri-card.com
+      @@||myaccount.google.com
+      @@||n.yapp.li
+      @@||navismithapis-cdn.com
+      @@||navismithapis.com
+      @@||news-in.feednews.com
+      @@||news.google.com
+      @@||newsapi.nhk.or.jp
+      @@||newsdig.tbs.co.jp
+
+      @@ -617,6 +663,7 @@
+
+      @@||ota-cache1.googlezip.net
+      @@||ota.googlezip.net
+      @@||otbp-trnelb.onetapbuy.jp
+      @@||otlp-http-production.shopifysvc.com
+      @@||otn.fujitv.co.jp
+      @@||p-smith.com
+
+      @@ -624,6 +671,7 @@
+
+      @@||p.twitter.com.lan
+      @@||p.twitter.com.ts.net
+      @@||p.typekit.net
+      @@||paddock2.kairogame.jp
+      @@||page.taponland.com
+      @@||pai-gm-prod.paypay.ne.jp
+
+      @@ -647,6 +695,8 @@
+
+      @@||pdst.fm
+      @@||pf-api.hatena.com
+      @@||pfprod-beppu-input.yapp.li
+      @@||pi.music.amanotes.net
+      @@||pi.pardot.com
+      @@||pic.paypay.ne.jp
+
+      @@ -665,6 +715,7 @@
+
+      @@||playdreams.online
+      @@||player-api-m-prod.prinai.com
+      @@||plugins.mixi.jp
+      @@||pocket.shonenmagazine.com
+      @@||poi-static-map.cld.navitime.jp
+      @@||policies.google.com
+
+      @@ -688,6 +739,7 @@
+
+      @@||productreviews.shopifycdn.com.lan
+      @@||productreviews.shopifycdn.com.ts.net
+      @@||profile.yoshimoto.co.jp
+      @@||proton.me
+      @@||protonvpn.com
+      @@||proxsee.pscp.tv
+
+      @@ -695,6 +747,7 @@
+
+      @@||prs.paypay.ne.jp
+      @@||public-api.wordpress.com
+      @@||public-img-comic.pximg.net
+      @@||push-area.newsapp.nhk.or.jp
+      @@||push-config.paypay.ne.jp
+      @@||push-config.paypay.ne.jp.lan
+
+      @@ -721,6 +774,7 @@
+
+      @@||reports.proton.me
+      @@||res.adx.opera.com.ts.net
+      @@||restapi-chat-management.ppcd-support.jp
+      @@||retty.me
+      @@||ropng.img.sus-game.com
+      @@||ropng.img.sus-staging.com
+
+      @@ -736,6 +790,7 @@
+
+      @@||s.w.org
+      @@||s.wordpress.com
+      @@||s.youtube.com
+      @@||s.youtube.com.ts.net
+      @@||s.ytimg.com
+      @@||s.zeptolab.com
+
+      @@ -777,9 +832,11 @@
+
+      @@||shop.adidas.jp
+      @@||shop.gofuku-ishihara.com
+      @@||sirok.jp
+      @@||sl.skyflag.jp
+      @@||smartnews-assets.s3.ap-northeast-1.amazonaws.com
+      @@||smt.docomo.ne.jp
+      @@||sn-proxy.smartnews.com
+      @@||sodium.slp.pos.here.com
+      @@||sodium.slp.pos.here.com.lan
+
+      @@ -803,6 +860,7 @@
+
+      @@||ssif1.globalsign.com
+      @@||ssl.gstatic.com
+      @@||sssinstagram.com
+      @@||stable.dl2.discordapp.net
+      @@||static-fe.payments-amazon.com
+      @@||static.addtoany.com
+
+      @@ -814,12 +872,15 @@
+
+      @@||static.cdninstagram.com
+      @@||static.cookpad.com
+      @@||static.es.cyberowl.jp
+      @@||static.line.naver.jp
+      @@||static.makuake.com
+      @@||static.media.cld.navitime.jp
+      @@||static.mixerbox.com
+      @@||static.newsapp.nhk.or.jp
+      @@||static.parastorage.com
+      @@||static.paypay.ne.jp
+      @@||static.wixstatic.com
+      @@||stats.playrix.com
+
+      @@ -830,6 +891,7 @@
+
+      @@||steering-manifest.streaks.jp
+      @@||storage.radiotalk.jp
+      @@||stream-log.profilepassport.jp
+      @@||sundry-f-net.trafficmanager.net
+      @@||supply-inmobicdn-net-tm.trafficmanager.net
+      @@||support.google.com
+
+      @@ -872,6 +934,7 @@
+
+      @@||tver.jp
+      @@||tweeload.aculix.net
+      @@||twicomi.com
+      @@||twincle.schanbeauty.com
+      @@||twoucan.com
+      @@||tx.lbg.play.naver.jp
+
+      @@ -916,6 +979,7 @@
+
+      @@||waa-pa.clients6.google.com
+      @@||wallet.google.com
+      @@||wallet.yay.space
+      @@||web-api.nordvpn.com
+      @@||web-api.tapon.com
+      @@||web.api.cmoa.jp
+
+      @@ -943,6 +1007,7 @@
+
+      @@||www.asahibeer-cp.jp
+      @@||www.bing.com
+      @@||www.broadcom.com.cdn.cloudflare.net
+      @@||www.cecile.co.jp
+      @@||www.city.kami.lg.jp
+      @@||www.cmoa.jp
+
+      @@ -961,6 +1026,7 @@
+
+      @@||www.google.us
+      @@||www.google.us.lan
+      @@||www.googleadservices.com
+      @@||www.gstatic.com
+      @@||www.gstatic.com.lan
+      @@||www.icloud.com
+
+      @@ -987,6 +1053,7 @@
+
+      @@||www.lifemag.jp
+      @@||www.lofter.com
+      @@||www.merupero.com
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+      @@||www.newsapp.nhk.or.jp
+
+      @@ -1050,9 +1117,12 @@
+
+      @@||yield-manager.browsiprod.com
+      @@||yorozu-kochi.go.jp
+      @@||youtu.be
+      @@||yt3.ggpht.com
+      @@||yt3.googleusercontent.com
+      @@||yt4.ggpht.com
+      @@||yururi2019.com
+      @@||za.tapon.com
+      @@||zapgo.org
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 18 November 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -44,6 +44,7 @@
+
+      @@||account.prod.devsisters.cloud
+      @@||account.proton.me
+      @@||account.protonvpn.com
+    + @@||accountapi.imyfone.com
+      @@||accounts.google.co.jp
+      @@||accounts.google.com
+      @@||accounts.pixiv.net
+
+      @@ -65,6 +66,7 @@
+
+      @@||adm-srch.newsapp.nhk.or.jp
+      @@||ads-delivery-cdn.gunosy.com
+      @@||ads-delivery.gunosy.com
+    + @@||afs.ampaeservices.com
+      @@||age-restrictions.playrix.com
+      @@||ahamo.com
+      @@||airplane.kairogame.jp
+
+      @@ -77,6 +79,7 @@
+
+      @@||analytics.ff.avast.com
+      @@||analytics.yay.space
+      @@||analytics.yay.space.lan
+    + @@||android.clients.google.com.ts.net
+      @@||anshin.demdex.net
+      @@||api-akm.goodnovel.com
+      @@||api-d.dropbox.com
+
+      @@ -115,6 +118,7 @@
+
+      @@||api.x.com
+      @@||api.yay.space
+      @@||api.yay.space.lan
+    + @@||apis.imyfone.com
+      @@||app-api.pixiv.net
+      @@||app.botchan.chat
+      @@||app.bspace.jp
+
+      @@ -126,6 +130,8 @@
+
+      @@||appassets.androidplatform.net.lan
+      @@||appimg.chatplus.jp
+      @@||appli.kairogame.jp
+    + @@||apps.google.com
+    + @@||apps.itunes-nocookie.com
+      @@||apps.nhk.or.jp
+      @@||appsgrowthpromo-pa.clients6.google.com
+      @@||appstoreanalyzer.norton.com
+
+      @@ -150,6 +156,7 @@
+
+      @@||atmarkit.itmedia.co.jp
+      @@||auth.cid.capcom.com
+      @@||auth.ff.avast.com
+    + @@||avatars.githubusercontent.com
+      @@||avatars.mds.yandex.net
+      @@||azurefd-t-prod.trafficmanager.net
+      @@||b.hatena.ne.jp
+
+      @@ -168,6 +175,7 @@
+
+      @@||bff-v2.eneos-ss.app.lan
+      @@||bff-v2.eneos-ss.app.ts.net
+      @@||biz-media.tokyo
+    + @@||blobcomments-pa.clients6.google.com
+      @@||blog.hatena.ne.jp
+      @@||blog.with2.net
+      @@||blogs.vmware.com
+
+      @@ -199,6 +207,7 @@
+
+      @@||cache.prd.tokyodebunker.com
+      @@||cache.sirok.jp
+      @@||caloo.jp
+    + @@||campaign.nissay-e.jp
+      @@||capi.tigmedia.jp
+      @@||capig.stape.jp
+      @@||card-ropng.img.sus-game.com
+
+      @@ -212,10 +221,13 @@
+
+      @@||cdn-ak.f.st-hatena.com
+      @@||cdn-assets.mr-colosseum.com
+      @@||cdn-content.ampproject.org
+    + @@||cdn-manga-static-file-origin.ldf-static.net
+      @@||cdn-masterdata.mr-colosseum.com
+      @@||cdn-os.qookkagames.com
+    + @@||cdn-promo.iwebms.com
+      @@||cdn.assets.paypay.ne.jp
+      @@||cdn.blog.st-hatena.com
+    + @@||cdn.d2-apps.net
+      @@||cdn.dailyinnovation.biz
+      @@||cdn.discordapp.com
+      @@||cdn.dropboxexperiment.com
+
+      @@ -248,16 +260,19 @@
+
+      @@||challenges.cloudflare.com
+      @@||chatman-replay-ap-northeast-1.pscp.tv
+      @@||check.gred.jp
+    + @@||checkoutshopper-live.adyen.com
+      @@||chichi-pui.imgix.net
+      @@||chirashi.otoku.aeonsquare.net
+      @@||choices.trustarc.com
+      @@||choices.truste.com
+      @@||chrome.google.com
+      @@||chromewebstore.google.com
+    + @@||ci5.googleusercontent.com
+      @@||cid.capcom.com
+      @@||cl.sourcenext.com
+      @@||classical-sound.up.seesaa.net
+      @@||clients.l.google.com
+    + @@||cloudflare.com
+      @@||cloudfront.net
+      @@||cloudfront.net.lan
+      @@||cm.nordvpn.com
+
+      @@ -265,12 +280,14 @@
+
+      @@||coinlog.kairogame.jp
+      @@||collector.github.com
+      @@||config.mapbox.com
+    + @@||config.mini-app-4pay.devops-app.paypay-sec.co.jp
+      @@||configserver.platform.hicloud.com
+      @@||connectivitycheck.gstatic.com
+      @@||connectivitycheck.gstatic.com.lan
+      @@||connectivitycheck.platform.hicloud.com
+      @@||connectivitycheck.platform.hicloud.com.lan
+      @@||consent.cookiebot.com
+    + @@||consent.youtube.com
+      @@||consentcdn.cookiebot.com
+      @@||content-vita-api.snow.me
+      @@||content.dropboxapi.com
+
+      @@ -325,11 +342,13 @@
+
+      @@||doda.jp
+      @@||dotapps.jp
+      @@||doujin-hp.or.jp
+    + @@||download.apple.map.fastly.net
+      @@||downloader-api-service-eqiwquegnq-uc.a.run.app
+      @@||dpm.demdex.net
+      @@||dpm.demdex.net.lan
+      @@||dreamplanetstation.up.seesaa.net
+      @@||drive.google.com
+    + @@||drive.usercontent.google.com
+      @@||dsp-ad-cache-gcp-tm.trafficmanager.net
+      @@||dtm00.deteql.net
+      @@||dualstack.beacon.itmedia.jp
+
+      @@ -361,6 +380,7 @@
+
+      @@||faq.cecile.co.jp
+      @@||fastly.jsdelivr.net
+      @@||fc.itmedia.co.jp
+    + @@||fcd.paypay-bank.co.jp
+      @@||file.123chat.jp
+      @@||file.imanara.jp
+      @@||file.kanochat.jp
+
+      @@ -380,6 +400,7 @@
+
+      @@||fraud-buster.appspot.com
+      @@||free.buzzsight.co
+      @@||frog.wix.com
+    + @@||fuchsia-blobs.googleusercontent.com
+      @@||fw.gl-inet.com
+      @@||g*.gstatic.com
+      @@||gacha-lineup.pokapoka-farm.com
+
+      @@ -392,10 +413,13 @@
+
+      @@||gateway.devsisters.cloud
+      @@||gateway.discord.gg
+      @@||gctok*.exitgames.com
+    + @@||gdpr.fc2.com
+    + @@||gds.google.com
+      @@||geo0.ggpht.com
+      @@||get-beauty.net
+      @@||gigafile.nu
+      @@||gigaplus.makeshop.jp
+    + @@||github.com
+      @@||global-web-assets.cpcdn.com
+      @@||global.sitesafety.trendmicro.com
+      @@||global.stun.twilio.com
+
+      @@ -407,6 +431,8 @@
+
+      @@||gofuku-ishihara.heteml.net
+      @@||golazo1978.net
+      @@||gomall-jp.com
+    + @@||google.co.jp
+    + @@||googlehosted.l.googleusercontent.com
+      @@||group.ntt
+      @@||gstatic.com
+      @@||guest.pscp.tv
+
+      @@ -420,8 +446,10 @@
+
+      @@||i-l-dsp-inmobicdn-net-tm.trafficmanager.net
+      @@||i-l-inmobicdn-net-tm.trafficmanager.net
+      @@||i-ogp.pximg.net
+    + @@||i.gzn.jp
+      @@||i.instagram.com
+      @@||i.instagram.com.lan
+    + @@||i.pki.goog
+      @@||i.pximg.net
+      @@||i.ytimg.com
+      @@||i.ytimg.com.lan
+
+      @@ -446,8 +474,10 @@
+
+      @@||images.ctfassets.net
+      @@||images.dmca.com
+      @@||images.gunosy.com
+    + @@||images.imyfone.com
+      @@||images.wondershare.com
+      @@||imanara.jp
+    + @@||imap.gmail.com
+      @@||img-global-jp.cpcdn.com
+      @@||img-global.cpcdn.com
+      @@||img-sketch.pximg.net
+
+      @@ -456,6 +486,8 @@
+
+      @@||img.nosh.jp
+      @@||img.retsta.jp
+      @@||img.riskified.com
+    + @@||img.topics.smt.news.goo.ne.jp
+    + @@||img.youtube.com
+      @@||imgsct.cookiebot.com
+      @@||imgweb.with2.net
+      @@||imp.gain-ads.com
+
+      @@ -488,6 +520,7 @@
+
+      @@||kddi-h.assetsadobe3.com
+      @@||kefirgames.com
+      @@||key.streaks.jp
+    + @@||keycolle.jp
+      @@||kit-cdn.shazam.com
+      @@||kit.fontawesome.com
+      @@||kn.nice-news.net
+
+      @@ -506,6 +539,9 @@
+
+      @@||lb.wordpress.com
+      @@||lf16-geckocdn-offline.g-p-static.com
+      @@||lh3.ggpht.com
+    + @@||lh3.google.com
+    + @@||lh4.googleusercontent.com
+    + @@||lh4.googleusercontent.com.lan
+      @@||lh6.ggpht.com
+      @@||live-tver-simul-*.streaks.jp
+      @@||live-tver-simul-tbs.streaks.jp
+
+      @@ -520,12 +556,15 @@
+
+      @@||logcollector.note.com
+      @@||logging.devsisters.cloud
+      @@||logging.prod.devsisters.cloud
+    + @@||login.paypay-bank.co.jp
+      @@||login.tailscale.com
+      @@||login.wikimedia.org
+      @@||m.goodnovel.com
+      @@||m.stripe.com
+      @@||m.stripe.network
+      @@||m1.nintendo.net
+    + @@||mail-ads.google.com
+    + @@||mail-attachment.googleusercontent.com
+      @@||mail.google.com
+      @@||manifest.streaks.jp
+      @@||map.go.affec.tv
+
+      @@ -537,6 +576,8 @@
+
+      @@||marui.ad.zetacx.net
+      @@||marui.recommend.zetacx.net
+      @@||marui.search.zetacx.net
+    + @@||match.prod.bidr.io
+    + @@||matomo2000.fc2.com
+      @@||matrix.dailyinnovation.biz
+      @@||measure.lamp.avct.cloud
+      @@||media.cld.navitime.jp
+
+      @@ -555,15 +596,18 @@
+
+      @@||metric.acestudio.ai
+      @@||metrics-dra.dt.hicloud.com.ts.net
+      @@||microapps.google.com
+    + @@||microservice.mbplayer.com
+      @@||mini-app-sdk-core.paypay.ne.jp
+      @@||missions-assets.smartnews.com
+      @@||mmp.getdropbox.com
+    + @@||mobile-gtalk.l.google.com
+      @@||mobile-webview.gmail.com
+      @@||mobile.events.data.trafficmanager.net
+      @@||mochimoji.jp
+      @@||monorail-edge.shopifysvc.com
+      @@||mp.smartnews.com
+      @@||mpc-prod-11-s6uit34pua-uc.a.run.app
+    + @@||mpc-prod-16-s6uit34pua-uk.a.run.app
+      @@||mpc-prod-2-1053047382554.us-central1.run.app
+      @@||msg.township-ios.playrix.com
+      @@||mt.gigazine.net
+
+      @@ -575,10 +619,12 @@
+
+      @@||my-coupon-static.smartnews.com
+      @@||my.komeri-card.com
+      @@||myaccount.google.com
+    + @@||myactivity.google.com
+      @@||n.yapp.li
+      @@||navismithapis-cdn.com
+      @@||navismithapis.com
+      @@||news-in.feednews.com
+    + @@||news.goo.ne.jp
+      @@||news.google.com
+      @@||newsapi.nhk.or.jp
+      @@||newsdig.tbs.co.jp
+
+      @@ -617,6 +663,7 @@
+
+      @@||ota-cache1.googlezip.net
+      @@||ota.googlezip.net
+      @@||otbp-trnelb.onetapbuy.jp
+    + @@||otel-collector.reliability.smartnews.net
+      @@||otlp-http-production.shopifysvc.com
+      @@||otn.fujitv.co.jp
+      @@||p-smith.com
+
+      @@ -624,6 +671,7 @@
+
+      @@||p.twitter.com.lan
+      @@||p.twitter.com.ts.net
+      @@||p.typekit.net
+    + @@||p25-imap.mail.me.com
+      @@||paddock2.kairogame.jp
+      @@||page.taponland.com
+      @@||pai-gm-prod.paypay.ne.jp
+
+      @@ -647,6 +695,8 @@
+
+      @@||pdst.fm
+      @@||pf-api.hatena.com
+      @@||pfprod-beppu-input.yapp.li
+    + @@||photoeditorapps.com
+    + @@||photos-ugc.l.googleusercontent.com
+      @@||pi.music.amanotes.net
+      @@||pi.pardot.com
+      @@||pic.paypay.ne.jp
+
+      @@ -665,6 +715,7 @@
+
+      @@||playdreams.online
+      @@||player-api-m-prod.prinai.com
+      @@||plugins.mixi.jp
+    + @@||plus.l.google.com
+      @@||pocket.shonenmagazine.com
+      @@||poi-static-map.cld.navitime.jp
+      @@||policies.google.com
+
+      @@ -688,6 +739,7 @@
+
+      @@||productreviews.shopifycdn.com.lan
+      @@||productreviews.shopifycdn.com.ts.net
+      @@||profile.yoshimoto.co.jp
+    + @@||promo.iwebms.com
+      @@||proton.me
+      @@||protonvpn.com
+      @@||proxsee.pscp.tv
+
+      @@ -695,6 +747,7 @@
+
+      @@||prs.paypay.ne.jp
+      @@||public-api.wordpress.com
+      @@||public-img-comic.pximg.net
+    + @@||public.imyfone.com
+      @@||push-area.newsapp.nhk.or.jp
+      @@||push-config.paypay.ne.jp
+      @@||push-config.paypay.ne.jp.lan
+
+      @@ -721,6 +774,7 @@
+
+      @@||reports.proton.me
+      @@||res.adx.opera.com.ts.net
+      @@||restapi-chat-management.ppcd-support.jp
+    + @@||restrictmoderate.youtube.com
+      @@||retty.me
+      @@||ropng.img.sus-game.com
+      @@||ropng.img.sus-staging.com
+
+      @@ -736,6 +790,7 @@
+
+      @@||s.w.org
+      @@||s.wordpress.com
+      @@||s.youtube.com
+    + @@||s.youtube.com.lan
+      @@||s.youtube.com.ts.net
+      @@||s.ytimg.com
+      @@||s.zeptolab.com
+
+      @@ -777,9 +832,11 @@
+
+      @@||shop.adidas.jp
+      @@||shop.gofuku-ishihara.com
+      @@||sirok.jp
+    + @@||siteassets.parastorage.com
+      @@||sl.skyflag.jp
+      @@||smartnews-assets.s3.ap-northeast-1.amazonaws.com
+      @@||smt.docomo.ne.jp
+    + @@||smtp.gmail.com
+      @@||sn-proxy.smartnews.com
+      @@||sodium.slp.pos.here.com
+      @@||sodium.slp.pos.here.com.lan
+
+      @@ -803,6 +860,7 @@
+
+      @@||ssif1.globalsign.com
+      @@||ssl.gstatic.com
+      @@||sssinstagram.com
+    + @@||st-cdn.net
+      @@||stable.dl2.discordapp.net
+      @@||static-fe.payments-amazon.com
+      @@||static.addtoany.com
+
+      @@ -814,12 +872,15 @@
+
+      @@||static.cdninstagram.com
+      @@||static.cookpad.com
+      @@||static.es.cyberowl.jp
+    + @@||static.fc2.com
+      @@||static.line.naver.jp
+      @@||static.makuake.com
+    + @@||static.mbplayer.com
+      @@||static.media.cld.navitime.jp
+      @@||static.mixerbox.com
+      @@||static.newsapp.nhk.or.jp
+      @@||static.parastorage.com
+    + @@||static.parastorage.com
+      @@||static.paypay.ne.jp
+      @@||static.wixstatic.com
+      @@||stats.playrix.com
+
+      @@ -830,6 +891,7 @@
+
+      @@||steering-manifest.streaks.jp
+      @@||storage.radiotalk.jp
+      @@||stream-log.profilepassport.jp
+    + @@||suggestqueries.l.google.com
+      @@||sundry-f-net.trafficmanager.net
+      @@||supply-inmobicdn-net-tm.trafficmanager.net
+      @@||support.google.com
+
+      @@ -872,6 +934,7 @@
+
+      @@||tver.jp
+      @@||tweeload.aculix.net
+      @@||twicomi.com
+    + @@||twimg.twitter.map.fastly.net
+      @@||twincle.schanbeauty.com
+      @@||twoucan.com
+      @@||tx.lbg.play.naver.jp
+
+      @@ -916,6 +979,7 @@
+
+      @@||waa-pa.clients6.google.com
+      @@||wallet.google.com
+      @@||wallet.yay.space
+    + @@||wap.wovn.io
+      @@||web-api.nordvpn.com
+      @@||web-api.tapon.com
+      @@||web.api.cmoa.jp
+
+      @@ -943,6 +1007,7 @@
+
+      @@||www.asahibeer-cp.jp
+      @@||www.bing.com
+      @@||www.broadcom.com.cdn.cloudflare.net
+    + @@||www.calendar-u.com
+      @@||www.cecile.co.jp
+      @@||www.city.kami.lg.jp
+      @@||www.cmoa.jp
+
+      @@ -961,6 +1026,7 @@
+
+      @@||www.google.us
+      @@||www.google.us.lan
+      @@||www.googleadservices.com
+    + @@||www.googletagservices.com
+      @@||www.gstatic.com
+      @@||www.gstatic.com.lan
+      @@||www.icloud.com
+
+      @@ -987,6 +1053,7 @@
+
+      @@||www.lifemag.jp
+      @@||www.lofter.com
+      @@||www.merupero.com
+    + @@||www.mnvnmwhr.comprod.mbplayer.com
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+      @@||www.newsapp.nhk.or.jp
+
+      @@ -1050,9 +1117,12 @@
+
+      @@||yield-manager.browsiprod.com
+      @@||yorozu-kochi.go.jp
+      @@||youtu.be
+    + @@||youtube-ui.l.google.com
+    + @@||youtube.com
+      @@||yt3.ggpht.com
+      @@||yt3.googleusercontent.com
+      @@||yt4.ggpht.com
+    + @@||ytplayer.ios.mbplayer.com
+      @@||yururi2019.com
+      @@||za.tapon.com
+      @@||zapgo.org
+    ```
+
 ## Commit: [9aa7bf9](https://github.com/virtualitypage/AdGuardHome_Filters/commit/9aa7bf9b2da9dc01bce84a98307fdf9c845395b9) - 2025-11-14
 
 ### Date
