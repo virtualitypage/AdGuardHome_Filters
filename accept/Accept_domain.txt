@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 19 November 2025
+# Last modified: 22 November 2025
 #
 
 # [許可リクエスト]
@@ -1727,6 +1727,60 @@
 @@||youtube.googleapis.com
 @@||youtubei.googleapis.com
 @@||youtubei.googleapis.com.lan
+
+# [HeyTap]
+@@||actimg.heytapimg.com
+@@||adx-f.ads.heytapmobile.com
+@@||adx-f.ads.heytapmobile.com.lan
+@@||adx-id.ads.heytapmobile.com
+@@||appconf-ocs-eu.heytapdl.com
+@@||appconf-ocs-in.heytapdl.com
+@@||appconf-ocs-sgp.heytapdl.com
+@@||appconf-sgp.heytapdl.com
+@@||cl-data-f.ads.heytapmobile.com
+@@||cl-data-sg.ads.heytapmobi.com
+@@||cl-data-sg.ads.heytapmobi.com.lan
+@@||cloudconf-app-eu.heytapmobile.com
+@@||cloudconf-app-jp.heytapmobile.com
+@@||cloudconf-app-jp.heytapmobile.com.lan
+@@||cloudconf-app-jp.heytapmobile.com.ts.net
+@@||cloudconf-app-sg.heytapmobile.com
+@@||cloudconf-app-sg.heytapmobile.com.lan
+@@||cloudconf-app-sg.heytapmobile.com.ts.net
+@@||dc-dragate-sg.heytapmobile.com
+@@||dc-dragate-sg.heytapmobile.com.lan
+@@||dcc-awareness-sg.heytapmobile.com
+@@||file-intl-push.heytapdl.com
+@@||games-community-gl.heytapmobile.com
+@@||games-community-gl.heytapmobile.com.lan
+@@||global-search-gl.heytapmobile.com
+@@||httpdns-push.heytapmobile.com
+@@||httpdns-push.heytapmobile.com.ts.net
+@@||mdp-appconf-eu.heytapdl.com
+@@||mdp-appconf-eu.heytapdl.com.lan
+@@||mdp-appconf-in.heytapdl.com
+@@||mdp-appconf-jp.heytapdl.com
+@@||mdp-appconf-jp.heytapdl.com.lan
+@@||mdp-appconf-jp.heytapdl.com.ts.net
+@@||mdp-appconf-sg.heytapdl.com
+@@||mdp-appconf-sg.heytapdl.com.lan
+@@||mdp-appconf-sg.heytapdl.com.ts.net
+@@||obus-config-sg.heytapmobile.com
+@@||obus-dc121100-sg.heytapmobile.com
+@@||obus-dc20123-sg.heytapmobile.com
+@@||obus-dctech-sg.heytapmobile.com
+@@||obus-dctech-sg.heytapmobile.com.lan
+@@||obus-sg.dc.heytapmobile.com
+@@||obus-sg.dc.heytapmobile.com.lan
+@@||obus-sg.dc.heytapmobile.com.ts.net
+@@||omes-sec.heytapmobile.com
+@@||phone-manager-gl.heytapmobile.com
+@@||shortintl.push.heytapmobile.com
+@@||stg-data-f.ads.heytapmobile.comprod
+@@||stg-data-f.ads.heytapmobile.com.lan
+@@||stg-data-f.ads.heytapmobile.com.ts.net
+@@||store-quic-gl.heytapmobile.com
+@@||virusinfo-cloudscan-sn.heytapmobile.com
 
 # [KDDI]
 @@/media[1-9].kddi.com.lan/
