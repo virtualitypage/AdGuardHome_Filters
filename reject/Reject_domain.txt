@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 22 November 2025
+# Last modified: 23 November 2025
 #
 
 # [拒否リクエスト]
@@ -61,11 +61,13 @@
 0.0.0.0 ad.dynalyst.jp
 0.0.0.0 ad.ust-ad.com
 0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 adclick.startappservice.com
 0.0.0.0 ade.clmbtech.com
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 adexp.liftoff.io
 0.0.0.0 adg-data.kajicam.com
 0.0.0.0 adg.kajicam.com
+0.0.0.0 adimpression.startappservice.com
 0.0.0.0 adjs.ust-ad.com
 0.0.0.0 adm.dsp.cartajp.com
 0.0.0.0 adm.shinobi.jp
@@ -234,6 +236,7 @@
 0.0.0.0 bm.moduleapps.com
 0.0.0.0 boost-next.co.jp
 0.0.0.0 booster.reproio.com
+0.0.0.0 br-trk.smadex.com
 0.0.0.0 bs.karte.io
 0.0.0.0 bs.nakanohito.jp
 0.0.0.0 bs.serving-sys.com
@@ -241,6 +244,7 @@
 0.0.0.0 bs.serving-sys.com.ts.net
 0.0.0.0 bstatic.octopus.tokyo
 0.0.0.0 btloader.com
+0.0.0.0 bw-trk.smadex.com
 0.0.0.0 bypass.ad-stir.com
 0.0.0.0 bypass.ad-stir.com.lan
 0.0.0.0 bypass.jp
@@ -268,6 +272,7 @@
 0.0.0.0 cdn-adn-https.mtgglobals.com
 0.0.0.0 cdn-adn-https.mtgglobals.com.lan
 0.0.0.0 cdn-blocks.karte.io
+0.0.0.0 cdn-bp-viewer.mysquadbeyond.com
 0.0.0.0 cdn-cookieyes.com
 0.0.0.0 cdn-creatives.adikteev.com
 0.0.0.0 cdn-f-t.adsmoloco.com
@@ -342,8 +347,10 @@
 0.0.0.0 cm-beacon.nakanohito.jp
 0.0.0.0 cm-widget.nakanohito.jp
 0.0.0.0 cm.adform.net
+0.0.0.0 cm.everesttech.net
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 cm.g.doubleclick.net.lan
+0.0.0.0 cm.smadex.com
 0.0.0.0 common-jp.genieesspv.jp
 0.0.0.0 commvod.kwcdn.com.ts.net
 0.0.0.0 component-ota-sg.allawnos.com
@@ -388,6 +395,7 @@
 0.0.0.0 creative.smartnews-ads.com
 0.0.0.0 creative.stackadapt.com.lan
 0.0.0.0 creative.stackadapt.com.ts.net
+0.0.0.0 creatives.smadex.com
 0.0.0.0 crosh-tag.xlisting.jp
 0.0.0.0 cs.ademon.net
 0.0.0.0 cs.admanmedia.com
@@ -427,6 +435,7 @@
 0.0.0.0 demand-engine.browsiprod.com
 0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 direct.adsrvr.org
+0.0.0.0 displayf-tm.everesttech.net
 0.0.0.0 dist.micres.cyberowl.jp
 0.0.0.0 dm.slim01.jp
 0.0.0.0 dmm-dj.shinobi.jp
@@ -453,6 +462,7 @@
 0.0.0.0 dsp.logly.co.jp
 0.0.0.0 dt.adsafeprotected.com
 0.0.0.0 dt.adsafeprotected.com.lan
+0.0.0.0 dts.startappservice.com
 0.0.0.0 dynamic-yda.c.yimg.jp
 0.0.0.0 dynamic2-ydn.c.yimg.jp
 0.0.0.0 e.axon.ai
@@ -490,6 +500,7 @@
 0.0.0.0 events.popinfo.jp
 0.0.0.0 f4.axon.ai
 0.0.0.0 feel-live.com
+0.0.0.0 file.mysquadbeyond.com
 0.0.0.0 find.userpilot.io
 0.0.0.0 fldt.afafb.com
 0.0.0.0 flux-cdn.com
@@ -520,6 +531,7 @@
 0.0.0.0 gen2.glssp.net
 0.0.0.0 gen2.glssp.net.lan
 0.0.0.0 genieedmp.com
+0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 gj.gds.mmstat.com
 0.0.0.0 gj.mmstat.com
 0.0.0.0 global.apis.naver.com
@@ -842,6 +854,7 @@
 0.0.0.0 rtbtrack-asia.rtblab.net
 0.0.0.0 rtbtrack-asia.rtblab.net.lan
 0.0.0.0 rtbtrack-asia.rtblab.net.ts.net
+0.0.0.0 rtd-tm.everesttech.net
 0.0.0.0 rumcdn.geoedge.be
 0.0.0.0 rumcdn.geoedge.be.lan
 0.0.0.0 rus-service-sg.allawnos.com
@@ -965,6 +978,7 @@
 0.0.0.0 stage-f4.axon.ai
 0.0.0.0 static-assets.sdhahs.com
 0.0.0.0 static-assets.sdhahs.com.lan
+0.0.0.0 static-content-1.smadex.com
 0.0.0.0 static-rise.enhance.co.jp
 0.0.0.0 static-v1.va-api.net
 0.0.0.0 static.ads-twitter.com
@@ -979,6 +993,7 @@
 0.0.0.0 static.smilewanted.com
 0.0.0.0 static.starmobicloud.net
 0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 statsf-tm.everesttech.net
 0.0.0.0 stjp.image-qoo10.jp
 0.0.0.0 storage.buzzsprout.com
 0.0.0.0 store-visit-to-haas.east.edge.storage-yahoo.jp
@@ -988,6 +1003,8 @@
 0.0.0.0 support-widget.nakanohito.jp
 0.0.0.0 sync-jp.im-apps.net
 0.0.0.0 sync-jp.im-apps.net.lan
+0.0.0.0 sync-tm.everesttech.net
+0.0.0.0 sync-tm.everesttech.net.lan
 0.0.0.0 sync.a-mo.net
 0.0.0.0 sync.a-mo.net.lan
 0.0.0.0 sync.adkernel.com
@@ -1075,6 +1092,7 @@
 0.0.0.0 ut.rd.linksynergy.com
 0.0.0.0 v.adsrvr.org
 0.0.0.0 v1-videocdn.gjhyss.com
+0.0.0.0 va-trk.smadex.com
 0.0.0.0 vad-bid.adsrvr.org
 0.0.0.0 vae-bid.adsrvr.org
 0.0.0.0 vam-bid.adsrvr.org
@@ -1168,8 +1186,6 @@
 0.0.0.0 accdn.lpsnmedia.net
 0.0.0.0 ad-delivery.net
 0.0.0.0 ad.jp.ap.valuecommerce.com
-0.0.0.0 adclick.startappservice.com
-0.0.0.0 adimpression.startappservice.com
 0.0.0.0 adrta.com
 0.0.0.0 ads.adingo.jp
 0.0.0.0 ads.adjust-net.jp
@@ -1243,16 +1259,13 @@
 0.0.0.0 beacon-sjc2.rubiconproject.com
 0.0.0.0 bq-api.squadbeyond.com
 0.0.0.0 bq-api.squadbeyond.com.lan
-0.0.0.0 br-trk.smadex.com
 0.0.0.0 buy-ap.piano.io
-0.0.0.0 bw-trk.smadex.com
 0.0.0.0 c.evidon.com
 0.0.0.0 c2-ap.piano.io
 0.0.0.0 c21lg-d.media.net
 0.0.0.0 c21lg-d.media.net.lan
 0.0.0.0 cdn-ap.piano.io
 0.0.0.0 cdn-au.onetrust.com
-0.0.0.0 cdn-bp-viewer.mysquadbeyond.com
 0.0.0.0 cdn-kddi-prod.adobecqms.net
 0.0.0.0 cdn-lb.vungle.com
 0.0.0.0 cdn-lb.vungle.com.lan
@@ -1274,10 +1287,7 @@
 0.0.0.0 cdn.zmaticoo.com
 0.0.0.0 cf.vast.doubleverify.com
 0.0.0.0 cf.vast.doubleverify.com.cdn.cloudflare.net
-0.0.0.0 chartbeat.net
 0.0.0.0 cm.creativecdn.com
-0.0.0.0 cm.everesttech.net
-0.0.0.0 cm.smadex.com
 0.0.0.0 code.piano.io
 0.0.0.0 collector.superwall.me
 0.0.0.0 collector.tracking.io
@@ -1297,7 +1307,6 @@
 0.0.0.0 creative.stackadapt.com
 0.0.0.0 creativecdn.com
 0.0.0.0 creativecdn.com.lan
-0.0.0.0 creatives.smadex.com
 0.0.0.0 criteo-sync.teads.tv
 0.0.0.0 cs.media.net
 0.0.0.0 cs.media.net.lan
@@ -1309,7 +1318,6 @@
 0.0.0.0 dalb.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com.lan
-0.0.0.0 displayf-tm.everesttech.net
 0.0.0.0 dl.listdl.com
 0.0.0.0 dossier.chartboost.com
 0.0.0.0 dreamgames.helpshift.com
@@ -1319,7 +1327,6 @@
 0.0.0.0 dsum-sec.casalemedia.com.lan
 0.0.0.0 dsum.casalemedia.com
 0.0.0.0 dsum.casalemedia.com.lan
-0.0.0.0 dts.startappservice.com
 0.0.0.0 e.crashlytics.com
 0.0.0.0 e.crashlytics.com.lan
 0.0.0.0 e.crashlytics.com.ts.net
@@ -1339,13 +1346,11 @@
 0.0.0.0 f.creativecdn.com
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 fastlane.rubiconproject.com.lan
-0.0.0.0 file.mysquadbeyond.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebase-settings.crashlytics.com.lan
 0.0.0.0 firebase-settings.crashlytics.com.ts.net
 0.0.0.0 format.prod.cloud.ogury.io
 0.0.0.0 games.tresensa.com
-0.0.0.0 geo-tracker.smadex.com
 0.0.0.0 geoclue.smaato.net
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 ghent-gce-jp.bidswitch.net
@@ -1478,7 +1483,6 @@
 0.0.0.0 rtb-csync.smartadserver.com
 0.0.0.0 rtb-csync.smartadserver.com.lan
 0.0.0.0 rtb0.doubleverify.com
-0.0.0.0 rtd-tm.everesttech.net
 0.0.0.0 s.ad.smaato.net
 0.0.0.0 s.ad.smaato.net.lan
 0.0.0.0 s.update.rose.pubmatic.com
@@ -1516,13 +1520,9 @@
 0.0.0.0 ssum.casalemedia.com
 0.0.0.0 st.pubmatic.com
 0.0.0.0 staging-ghent-gce-jp.bidswitch.net
-0.0.0.0 static-content-1.smadex.com
 0.0.0.0 static.chartbeat.com
 0.0.0.0 static.chartbeat.com.lan
 0.0.0.0 statics.creativecdn.com
-0.0.0.0 statsf-tm.everesttech.net
-0.0.0.0 sync-tm.everesttech.net
-0.0.0.0 sync-tm.everesttech.net.lan
 0.0.0.0 sync.1rx.io
 0.0.0.0 sync.crwdcntrl.net
 0.0.0.0 sync.crwdcntrl.net.lan
@@ -1568,7 +1568,6 @@
 0.0.0.0 us.creativecdn.com
 0.0.0.0 user-content.superwalleditor.com
 0.0.0.0 user-data-apac-jp.bidswitch.net
-0.0.0.0 va-trk.smadex.com
 0.0.0.0 vas.outbrain.com
 0.0.0.0 vas.outbrain.com.lan
 0.0.0.0 vast.doubleverify.com
