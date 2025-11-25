@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 24 November 2025
+# Last modified: 25 November 2025
 #
 
 # [許可リクエスト]
@@ -330,6 +330,7 @@
 @@||damedameyo.up.seesaa.net
 @@||data.api.streaks.jp
 @@||data.wovn.io
+@@||dc-server.live.prod.devsjelly.cloud
 @@||dc-static.wondershare.com
 @@||dc.services.visualstudio.com
 @@||demotiles.maplibre.org
@@ -562,6 +563,7 @@
 @@||live-tver-simul-*.streaks.jp
 @@||live-tver-simul-tbs.streaks.jp
 @@||livechat.ppcd-support.jp
+@@||lobby-server.live.prod.devsjelly.cloud
 @@||location.nhk.or.jp
 @@||log.goodnovel.com
 @@||log.nordot.jp
@@ -595,6 +597,7 @@
 @@||marui.recommend.zetacx.net
 @@||marui.search.zetacx.net
 @@||match.prod.bidr.io
+@@||matchmaker.live.prod.devsjelly.cloud
 @@||matomo2000.fc2.com
 @@||matrix.dailyinnovation.biz
 @@||measure.lamp.avct.cloud
@@ -801,6 +804,7 @@
 @@||ropng.img.sus-staging.com
 @@||ropng.sus-game.com
 @@||ropng.sus-game.com.lan
+@@||route.live.prod.devsjelly.cloud
 @@||rtbdemand.apiip.net
 @@||rum.hlx.page
 @@||s-part-0018.t-0009.fb-t-msedge.net

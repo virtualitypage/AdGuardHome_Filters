@@ -2,6 +2,1411 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [f326903](https://github.com/virtualitypage/AdGuardHome_Filters/commit/f326903ec743b8eb334c4fa89f3c72b40f297d44) - 2025-11-24
+
+### Date
+
+- 2025/11/24 21:19:46
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 22 November 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -21,6 +21,7 @@
+
+      @@||*.blob.core.windows.net
+      @@||*.cloudfront.net
+      @@||*.cloudfront.net.lan
+      @@||*.user.webaccel.jp
+      @@||268gr.com
+      @@||404-alt.playrix.com
+
+      @@ -79,10 +80,12 @@
+
+      @@||analytics.ff.avast.com
+      @@||analytics.yay.space
+      @@||analytics.yay.space.lan
+      @@||android.clients.google.com.ts.net
+      @@||anshin.demdex.net
+      @@||api-akm.goodnovel.com
+      @@||api-d.dropbox.com
+      @@||api-stream.twitter.com.lan
+      @@||api.amazon.co.jp
+      @@||api.antibanads.com
+
+      @@ -109,6 +112,7 @@
+
+      @@||api.rudderstack.com
+      @@||api.seminar.shift-ai.co.jp
+      @@||api.smartwaon.com
+      @@||api.twicomi.com
+      @@||api.twitter.com
+      @@||api.typesquare.com
+
+      @@ -133,6 +137,7 @@
+
+      @@||apps.google.com
+      @@||apps.itunes-nocookie.com
+      @@||apps.nhk.or.jp
+      @@||appsgrowthpromo-pa.clients6.google.com
+      @@||appstoreanalyzer.norton.com
+      @@||arcus-uswest.amazon.com
+
+      @@ -149,6 +154,7 @@
+
+      @@||assets-game-prinai-com.cdn-dena.com
+      @@||assets.goodnovel.com
+      @@||assets.goodnovel.com.lan
+      @@||assets.smartnews.com
+      @@||assets.st-note.com
+      @@||assistant.google.com
+
+      @@ -236,7 +242,9 @@
+
+      @@||cdn.gcore.ldoe-static.kefirgames.com.lan
+      @@||cdn.globalsigncdn.com.cdn.cloudflare.net
+      @@||cdn.ibispaint.com
+      @@||cdn.image.st-hatena.com
+      @@||cdn.jsdelivr.net.cdn.cloudflare.net
+      @@||cdn.kusurinomadoguchi.com
+      @@||cdn.paypay-card.co.jp
+
+      @@ -314,6 +322,7 @@
+
+      @@||cubeapix.qookkagames.com
+      @@||cubeapix.qookkagames.com.lan
+      @@||cubeapix.qookkagames.com.ts.net
+      @@||cx.api.itmedia.co.jp
+      @@||cyberjapandata.gsi.go.jp
+      @@||d.dropbox.com
+
+      @@ -397,6 +406,7 @@
+
+      @@||fotolia-prod-templates.global.ssl.fastly.net
+      @@||fotolia-prod-templates.s3.amazonaws.com
+      @@||fp.dropbox.com
+      @@||fraud-buster.appspot.com
+      @@||free.buzzsight.co
+      @@||frog.wix.com
+
+      @@ -441,6 +451,7 @@
+
+      @@||help.twitter.com
+      @@||helper-api-m-prod.prinai.com
+      @@||houmukyoku.moj.go.jp
+      @@||humanbug.shop
+      @@||hw-slg-report.eyugame.com
+      @@||i-l-dsp-inmobicdn-net-tm.trafficmanager.net
+
+      @@ -486,18 +497,23 @@
+
+      @@||img.nosh.jp
+      @@||img.retsta.jp
+      @@||img.riskified.com
+      @@||img.topics.smt.news.goo.ne.jp
+      @@||img.youtube.com
+      @@||imgsct.cookiebot.com
+      @@||imgweb.with2.net
+      @@||imp.gain-ads.com
+      @@||imp.pixiv.net
+      @@||initplayback.ts.net
+      @@||integration.virtusize.jp
+      @@||ipapi.co
+      @@||ipinfo.io
+      @@||ipmcdn.avast.com.lan
+      @@||ipqcache2.shufoo.net
+      @@||itunes.com
+      @@||j.wovn.io
+      @@||ja.m.wikipedia.org
+
+      @@ -559,6 +575,8 @@
+
+      @@||login.paypay-bank.co.jp
+      @@||login.tailscale.com
+      @@||login.wikimedia.org
+      @@||m.goodnovel.com
+      @@||m.stripe.com
+      @@||m.stripe.network
+
+      @@ -598,6 +616,7 @@
+
+      @@||microapps.google.com
+      @@||microservice.mbplayer.com
+      @@||mini-app-sdk-core.paypay.ne.jp
+      @@||missions-assets.smartnews.com
+      @@||mmp.getdropbox.com
+      @@||mobile-gtalk.l.google.com
+
+      @@ -671,6 +690,8 @@
+
+      @@||p.twitter.com.lan
+      @@||p.twitter.com.ts.net
+      @@||p.typekit.net
+      @@||p25-imap.mail.me.com
+      @@||paddock2.kairogame.jp
+      @@||page.taponland.com
+
+      @@ -780,6 +801,7 @@
+
+      @@||ropng.img.sus-staging.com
+      @@||ropng.sus-game.com
+      @@||ropng.sus-game.com.lan
+      @@||rum.hlx.page
+      @@||s-part-0018.t-0009.fb-t-msedge.net
+      @@||s-part-0018.t-0009.t-msedge.net
+
+      @@ -801,6 +823,7 @@
+
+      @@||safebrowsing.g.applimg.com
+      @@||sakura-checker.jp
+      @@||sb-ssl.google.com
+      @@||sb.nordcdn.com
+      @@||sc-static.net
+      @@||scontent.cdninstagram.com.lan
+
+      @@ -831,6 +854,7 @@
+
+      @@||shiorio.com
+      @@||shop.adidas.jp
+      @@||shop.gofuku-ishihara.com
+      @@||sirok.jp
+      @@||siteassets.parastorage.com
+      @@||sl.skyflag.jp
+
+      @@ -848,11 +872,13 @@
+
+      @@||sp-*.apkrep.avcdn.net.lan
+      @@||sp-*.honzik.avcdn.net
+      @@||sp-*.honzik.avcdn.net.lan
+      @@||sp-ao.shortpixel.ai
+      @@||sp-trk.com
+      @@||sp.gmossp-sp.jp
+      @@||special.sankei.com
+      @@||spt.saygames.io
+      @@||src.doda.jp
+      @@||ssai-manifest.streaks.jp
+      @@||ssai-variants.streaks.jp
+
+      @@ -881,6 +907,7 @@
+
+      @@||static.newsapp.nhk.or.jp
+      @@||static.parastorage.com
+      @@||static.paypay.ne.jp
+      @@||static.wixstatic.com
+      @@||stats.playrix.com
+      @@||stats.wp.com
+
+      @@ -908,6 +935,9 @@
+
+      @@||terms.snow.me
+      @@||thumbnail.smartnews.com
+      @@||tig-contents.com
+      @@||time.windows.com
+      @@||timecheck.imanara.jp
+      @@||times-abema.ismcdn.jp
+
+      @@ -962,6 +992,7 @@
+
+      @@||video-s.twimg.com
+      @@||video-t-1.twimg.com
+      @@||video-t-2.twimg.com
+      @@||video.kurashiru.com.lan
+      @@||video.twimg.com
+      @@||video.twimg.com.lan
+
+      @@ -999,6 +1030,8 @@
+
+      @@||www-nenrei--hayami-net.cdn.ampproject.org
+      @@||www.123chat.jp
+      @@||www.666-666.jp
+      @@||www.adidas.jp
+      @@||www.agrinews.co.jp
+      @@||www.amazon.co.jp
+
+      @@ -1009,6 +1042,7 @@
+
+      @@||www.calendar-u.com
+      @@||www.cecile.co.jp
+      @@||www.city.kami.lg.jp
+      @@||www.cmoa.jp
+      @@||www.dai-ichi-life.co.jp
+      @@||www.dropbox.com
+
+      @@ -1019,6 +1053,7 @@
+
+      @@||www.fondesk.jp
+      @@||www.fujitv.co.jp
+      @@||www.gl-inet.com
+      @@||www.goodnovel.com
+      @@||www.google.co.jp
+      @@||www.google.com.ts.net
+
+      @@ -1028,7 +1063,9 @@
+
+      @@||www.googletagservices.com
+      @@||www.gstatic.com
+      @@||www.gstatic.com.lan
+      @@||www.icloud.com
+      @@||www.instagram.com
+      @@||www.itmedia.co.jp
+      @@||www.jabank-kochi.jp
+
+      @@ -1055,6 +1092,7 @@
+
+      @@||www.mnvnmwhr.comprod.mbplayer.com
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+      @@||www.newsapp.nhk.or.jp
+      @@||www.nexters.com
+      @@||www.nhk.or.jp
+
+      @@ -1063,8 +1101,10 @@
+
+      @@||www.nijiyome.jp
+      @@||www.nikkei.com
+      @@||www.nitori-net.jp
+      @@||www.omnycontent.com
+      @@||www.onamae.com
+      @@||www.paypal.com
+      @@||www.paypay-card.co.jp
+      @@||www.paypay.ne.jp
+
+      @@ -1080,6 +1120,7 @@
+
+      @@||www.smartwaon.com
+      @@||www.sourcenext.com
+      @@||www.sponichi.co.jp
+      @@||www.threads.net
+      @@||www.tm.ak.prd.aadg.trafficmanager.net
+      @@||www.topvalu.net
+
+      @@ -1122,6 +1163,7 @@
+
+      @@||yt3.googleusercontent.com
+      @@||yt4.ggpht.com
+      @@||ytplayer.ios.mbplayer.com
+      @@||yururi2019.com
+      @@||za.tapon.com
+      @@||zapgo.org
+
+      @@ -1206,6 +1248,7 @@
+
+      @@||afs.ampservices.v.aaplimg.com
+      @@||amd-infra.apps-apple.com.akadns.net
+      @@||amd-infra.itunes.apple.com
+      @@||amp-account.itunes-apple.com.akadns.net
+      @@||amp-account.itunes.apple.com
+      @@||amp-api-edge-lb.itunes-apple.com.akadns.net
+
+      @@ -1223,6 +1266,7 @@
+
+      @@||api-glb-aapne1a.smoot.apple.com
+      @@||api-glb-aapne1c.smoot.apple.com
+      @@||api-safari-aapne1c.smoot.apple.com
+      @@||api.smoot.apple.com
+      @@||apis.apple.map.fastly.net
+      @@||app-site-association.cdn-apple.com
+
+      @@ -1230,27 +1274,36 @@
+
+      @@||appleid.apple.com
+      @@||applepay.cdn-apple.com
+      @@||apps-mzstatic-cdn.itunes-apple.com.akadns.net
+      @@||apps.apple.com
+      @@||apptrailers-ssl.itunes.apple.com
+      @@||apptrailers.itunes.apple.com
+      @@||apse1-wps-prod.apple.com
+      @@||assets-mercury.v.aaplimg.com
+      @@||auth.v.aaplimg.com
+      @@||background-weighted.ls4-apple.com.akadns.net
+      @@||bag-cdn-akam.itunes-apple.com.akadns.net
+      @@||bag-cdn-lb.itunes-apple.com.akadns.net
+      @@||bag-cdn.itunes-apple.com.akadns.net
+      @@||bag.itunes.apple.com
+      @@||buy.itunes-apple.com.akadns.net
+      @@||ca.iadsdk.apple.com
+      @@||cabana-config.cdn-apple.com
+      @@||cabana-config.g.aaplimg.com
+      @@||cabana-server.lb-apple.com.akadns.net
+      @@||captive-cdn.origin-apple.com.akadns.net
+      @@||captive-cidr.origin-apple.com.akadns.net
+      @@||captive.apple.com
+      @@||captive.g.aaplimg.com
+      @@||carrierbundle.g.aaplimg.com
+      @@||cdn.icloud-content.com
+      @@||cdn.smoot.g.aaplimg.com
+      @@||cdn2.smoot.apple.com
+
+      @@ -1260,21 +1313,26 @@
+
+      @@||cma.itunes.apple.com
+      @@||config-chr.health.apple.com
+      @@||config-chr.health.g.aaplimg.com
+      @@||configuration-row-lb.apple.com.akadns.net
+      @@||configuration.apple.com
+      @@||configuration.apple.com.akadns.net
+      @@||configuration.ls.apple.com
+      @@||configuration.v.aaplimg.com
+      @@||content.fe2.apple-dns.net
+      @@||courier-ab-vs.push-apple.com.akadns.net
+      @@||courier-ab-vs.push.apple.com
+      @@||croissant.cdn-apple.com
+      @@||croissant.edge.apple
+      @@||cstat.cdn-apple.com
+      @@||current.jposa3.me.apple-dns.net
+      @@||current.jptyo12.me.apple-dns.net
+      @@||current.twntc1.me.apple-dns.net
+      @@||device-config.pcms.apple.com
+      @@||doh.dns.apple.com
+      @@||doh.dns.apple.com.v.aaplimg.com
+      @@||downloaddispatch.g.aaplimg.com
+
+      @@ -1282,7 +1340,9 @@
+
+      @@||entitlements-itunes.g.aaplimg.com
+      @@||entitlements.edge-itunes-apple.com.akadns.net
+      @@||entitlements.itunes.apple.com
+      @@||fbs.smoot.apple.com
+      @@||fmfmobile.fe2.apple-dns.net
+      @@||fmip.fe2.apple-dns.net
+      @@||fmipmobile.fe2.apple-dns.net
+
+      @@ -1294,8 +1354,12 @@
+
+      @@||friend.gc.apple.com
+      @@||friend.gc.fe2.apple-dns.net
+      @@||gateway-asset.icloud-content.com
+      @@||gateway.icloud.com
+      @@||gdmf.apple.com
+      @@||gs-loc-new.ls-apple.com.akadns.net
+      @@||gs-loc.ls-apple.com.akadns.net
+      @@||gs.apple.com
+
+      @@ -1303,9 +1367,10 @@
+
+      @@||gsa.apple.com
+      @@||gsa.idms-apple.com.akadns.net
+      @@||gsp-ssl-geomap.ls-apple.com.akadns.net
+      @@||gsp*ssl.apple.com
+      @@||gsp*ssl.ls.apple.com
+    - @@||gsp*ssl.ls.apple.com.akadns.net
+      @@||gsp36-ssl.ls-apple.com.akadns.net
+      @@||gsp51-ssl-ds.ls-apple.com.akadns.net
+      @@||gsp53-ssl.ls-apple.com.akadns.net
+
+      @@ -1313,9 +1378,17 @@
+
+      @@||gsp57-ssl-background.ls.apple.com
+      @@||gsp57-ssl-locus.ls.apple.com
+      @@||gsp57-ssl-revgeo.ls.apple.com
+      @@||gspe*ssl.ls-apple.com.akadns.net
+      @@||gspe*ssl.ls.apple.com
+      @@||gspe*ssl.ls.apple.com.edgesuite.net
+      @@||guzzoni-apple-com.v.aaplimg.com
+      @@||guzzoni.apple.com
+      @@||humb.apple.com
+
+      @@ -1331,9 +1404,12 @@
+
+      @@||init.push-apple.com.akadns.net
+      @@||init.push.apple.com
+      @@||iosapps.itunes.apple.com
+      @@||ipcdn-lb.apple.com.akadns.net
+      @@||ipcdn.apple.com
+      @@||iphonesubmissions.apple.com
+      @@||is-ssl-cdn.itunes-apple.com.akadns.net
+      @@||itunes.apple.com
+      @@||jptyo12.icloud-content.com
+
+      @@ -1341,11 +1417,14 @@
+
+      @@||kt-prod.ess.apple.com
+      @@||lcdn-locator.apple.com
+      @@||mailws.fe2.apple-dns.net
+      @@||mask-h2.icloud.com
+      @@||mcc.fe2.apple-dns.net
+      @@||mesu-cdn.apple.com.akadns.net
+      @@||mesu-cdn.origin-apple.com.akadns.net
+      @@||mesu.apple.com
+      @@||metricsedge-continent-wrr-cutover.v.aaplimg.com
+      @@||metricsedge-continent-wrr.v.aaplimg.com
+      @@||ml.cdn-apple.com
+
+      @@ -1358,6 +1437,7 @@
+
+      @@||mzstorekit.g.aaplimg.com
+      @@||netcts.cdn-apple.com
+      @@||ocsp2.apple.com
+      @@||ontology.health.apple.com
+      @@||p105-content.icloud.com
+      @@||p105-fmfmobile.icloud.com
+
+      @@ -1395,16 +1475,21 @@
+
+      @@||pds.ess.apple.com
+      @@||play.itunes.apple.com
+      @@||probe.icloud.com
+      @@||probe.siri.apple.com
+      @@||profile.ess-apple.com.akadns.net
+      @@||profile.ess.apple.com
+      @@||profile.gc.apple.com
+      @@||profile.gc.fe2.apple-dns.net
+      @@||publicassets.cdn-apple.com
+      @@||query.ess-apple.com.akadns.net
+      @@||query.ess.apple.com
+      @@||radio-services.g.aaplimg.com
+      @@||radio.itunes.apple.com
+      @@||sandbox-origin.itunes-apple.com.akadns.net
+      @@||sas-as1-pcms.apple.com
+      @@||sas.pcms.apple.com
+
+      @@ -1414,11 +1499,14 @@
+
+      @@||se2.itunes.apple.com
+      @@||securemetrics.apple.com
+      @@||sequoia.cdn-apple.com
+      @@||sf-api-token-service.itunes.apple.com
+      @@||sfss.v.aaplimg.com
+      @@||sharedstreams.fe2.apple-dns.net
+      @@||skl.apple.com
+      @@||smoot-api-safari-aapne1c.v.aaplimg.com
+      @@||smp-device-content.apple.com
+      @@||speedysub-apac-s.edge-itunes-apple.com.akadns.net
+      @@||speedysub.itunes.apple.com
+
+      @@ -1429,6 +1517,7 @@
+
+      @@||static.gc.apple.com
+      @@||stocks-data-service.apple.com
+      @@||stocks-data-service.lb-apple.com.akadns.net
+      @@||stocks-edge.apple.com
+      @@||su.itunes.apple.com
+      @@||supportmetrics.apple.com
+
+      @@ -1440,16 +1529,21 @@
+
+      @@||swscan.apple.com
+      @@||sync.itunes.apple.com
+      @@||tdms.apple.com
+      @@||time.apple.com
+      @@||time.asia.apple.com
+      @@||token.safebrowsing.apple.com
+      @@||ts.apps-apple.com.akadns.net
+      @@||unlinkability.apple.com
+      @@||updates.cdn-apple.com
+      @@||upp.itunes.apple.com
+      @@||us-sandbox-courier-4.push-apple.com.akadns.net
+      @@||usw2-tdm-prod.apple.com
+      @@||uts-api.itunes.apple.com
+      @@||valid.apple.com
+      @@||valid.origin-apple.com.akadns.net
+      @@||weather-data.apple.com
+
+      @@ -1490,6 +1584,7 @@
+
+      @@||assistantfrontend-pa.googleapis.com
+      @@||auditrecording-pa.googleapis.com
+      @@||automate-prod.storage.googleapis.com
+      @@||calendar-pa.googleapis.com
+      @@||calendarpushsubscription-pa.googleapis.com
+      @@||calendarsync-pa.googleapis.com
+
+      @@ -1782,6 +1877,9 @@
+
+      @@||store-quic-gl.heytapmobile.com
+      @@||virusinfo-cloudscan-sn.heytapmobile.com
+
+      # [KDDI]
+      @@/media[1-9].kddi.com.lan/
+      @@/media[1-9].kddi.com/
+
+      @@ -1891,9 +1989,12 @@
+
+      @@||cdn-manga-stf-router-api.line-scdn.net
+      @@||cdp.livedoor.com
+      @@||ch-news.line-apps.com
+      @@||chatapp-admin.line-scdn.net
+      @@||crs-event.line.me
+      @@||d.line-scdn.net
+      @@||gak.webtoons.jp.ts.net
+      @@||game-api.line.me
+      @@||game-campaign-static.line-scdn.net
+
+      @@ -1903,10 +2004,14 @@
+
+      @@||lan.line.me
+      @@||lan3rd.line.me
+      @@||lap-click.tr.line.me
+      @@||legy-jp.line-apps.com.ts.net
+      @@||lgw.line-scdn.net
+      @@||liff-line-premium.line-apps.com
+      @@||liff.line.me
+      @@||line-manga.blog.jp
+      @@||line-objects-internal.com
+      @@||line.me
+
+      @@ -1917,15 +2022,22 @@
+
+      @@||livedoor.sp.blogimg.jp
+      @@||lps-editor-570.landpress.line.me
+      @@||lyprec.line-scdn.net
+      @@||manga-api-gateway.line-apps.com.lan
+      @@||manga.line.me
+      @@||mpol-ga.line-apps.com.lan
+      @@||music-jp-api.line-apps.com
+      @@||music.line.me
+      @@||news-obs.line-scdn.net
+      @@||notice2.line.me
+      @@||oa-coupon.line-scdn.net
+      @@||oa-profile-media.line-scdn.net
+      @@||obs.line-scdn.net.lan
+      @@||optout-api.tr.line.me
+      @@||org-api-tyo-osk-2.line.me.akadns.net
+
+      @@ -1940,6 +2052,7 @@
+
+      @@||resource-jp-linemusic.line-scdn.net
+      @@||scdn.line-apps.com
+      @@||seasonal.line-scdn.net
+      @@||shop.line-scdn.net
+      @@||social-plugins.line.me
+      @@||static.line-scdn.net
+
+      @@ -1947,8 +2060,10 @@
+
+      @@||stickershop.line.me
+      @@||talk-chateffect.line-scdn.net
+      @@||tr.line.me
+      @@||ts.line-apps.com.lan
+      @@||u.lin.ee
+      @@||uts-front.line-apps.com.ts.net
+      @@||voom-obs.line-scdn.net
+      @@||vos.line-scdn.net
+
+      @@ -2115,7 +2230,9 @@
+
+      @@||app-static.cf.radiko.jp
+      @@||beacon.ads.smartstream.ne.jp
+      @@||log2.radiko.jp
+      @@||news-static.cf.radiko.jp
+      @@||program-static.cf.radiko.jp
+      @@||program-static.radiko.jp
+      @@||radiko-pmp-vast.smartstream.ne.jp
+
+      @@ -2305,6 +2422,8 @@
+
+      @@||boombeach.inbox.supercell.com
+      @@||cdn.id.supercell.com
+      @@||cdn.id.supercell.com.lan
+      @@||clashofclans-api.inbox.supercell.com
+      @@||clashofclans.inbox.supercell.com
+      @@||clashofclans.scescdn.com
+
+      @@ -2312,6 +2431,7 @@
+
+      @@||collector.snowplow.supercell.com
+      @@||event-assets.clashofclans.com
+      @@||event-assets.clashroyale.com
+      @@||game-assets.clashofclans.com
+      @@||game-assets.clashroyaleapp.com
+      @@||game.clashroyaleapp.com
+
+      @@ -2457,6 +2577,7 @@
+
+      @@||yvpub-pctr.c.yimg.jp
+
+      # [reverse DNS]
+      @@||110.174.217.172.in-addr.arpa
+      @@||110.175.217.172.in-addr.arpa
+      @@||110.196.250.142.in-addr.arpa
+
+      @@ -2489,9 +2610,22 @@
+
+      @@||46.175.217.172.in-addr.arpa
+      @@||46.207.250.142.in-addr.arpa
+      @@||46.222.251.142.in-addr.arpa
+      @@||78.161.217.172.in-addr.arpa
+      @@||78.175.217.172.in-addr.arpa
+
+      # [DNS-SD]
+      # https://en.m.wikipedia.org/wiki/Service_discovery
+      # http://www.dns-sd.org/
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 24 November 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -21,6 +21,7 @@
+
+      @@||*.blob.core.windows.net
+      @@||*.cloudfront.net
+      @@||*.cloudfront.net.lan
+    + @@||*.sardine.ai
+      @@||*.user.webaccel.jp
+      @@||268gr.com
+      @@||404-alt.playrix.com
+
+      @@ -79,10 +80,12 @@
+
+      @@||analytics.ff.avast.com
+      @@||analytics.yay.space
+      @@||analytics.yay.space.lan
+    + @@||android.clients.google.com
+      @@||android.clients.google.com.ts.net
+      @@||anshin.demdex.net
+      @@||api-akm.goodnovel.com
+      @@||api-d.dropbox.com
+    + @@||api-stream.twitter.com
+      @@||api-stream.twitter.com.lan
+      @@||api.amazon.co.jp
+      @@||api.antibanads.com
+
+      @@ -109,6 +112,7 @@
+
+      @@||api.rudderstack.com
+      @@||api.seminar.shift-ai.co.jp
+      @@||api.smartwaon.com
+    + @@||api.techtouch.jp
+      @@||api.twicomi.com
+      @@||api.twitter.com
+      @@||api.typesquare.com
+
+      @@ -133,6 +137,7 @@
+
+      @@||apps.google.com
+      @@||apps.itunes-nocookie.com
+      @@||apps.nhk.or.jp
+    + @@||apps.techtouch.jp
+      @@||appsgrowthpromo-pa.clients6.google.com
+      @@||appstoreanalyzer.norton.com
+      @@||arcus-uswest.amazon.com
+
+      @@ -149,6 +154,7 @@
+
+      @@||assets-game-prinai-com.cdn-dena.com
+      @@||assets.goodnovel.com
+      @@||assets.goodnovel.com.lan
+    + @@||assets.gunosy.com
+      @@||assets.smartnews.com
+      @@||assets.st-note.com
+      @@||assistant.google.com
+
+      @@ -236,7 +242,9 @@
+
+      @@||cdn.gcore.ldoe-static.kefirgames.com.lan
+      @@||cdn.globalsigncdn.com.cdn.cloudflare.net
+      @@||cdn.ibispaint.com
+    + @@||cdn.ie-miru.jp
+      @@||cdn.image.st-hatena.com
+    + @@||cdn.jsdelivr.net
+      @@||cdn.jsdelivr.net.cdn.cloudflare.net
+      @@||cdn.kusurinomadoguchi.com
+      @@||cdn.paypay-card.co.jp
+
+      @@ -314,6 +322,7 @@
+
+      @@||cubeapix.qookkagames.com
+      @@||cubeapix.qookkagames.com.lan
+      @@||cubeapix.qookkagames.com.ts.net
+    + @@||cv.gunosy.com
+      @@||cx.api.itmedia.co.jp
+      @@||cyberjapandata.gsi.go.jp
+      @@||d.dropbox.com
+
+      @@ -397,6 +406,7 @@
+
+      @@||fotolia-prod-templates.global.ssl.fastly.net
+      @@||fotolia-prod-templates.s3.amazonaws.com
+      @@||fp.dropbox.com
+    + @@||frame.ie-miru.jp
+      @@||fraud-buster.appspot.com
+      @@||free.buzzsight.co
+      @@||frog.wix.com
+
+      @@ -441,6 +451,7 @@
+
+      @@||help.twitter.com
+      @@||helper-api-m-prod.prinai.com
+      @@||houmukyoku.moj.go.jp
+    + @@||http-intake.logs.datadoghq.com
+      @@||humanbug.shop
+      @@||hw-slg-report.eyugame.com
+      @@||i-l-dsp-inmobicdn-net-tm.trafficmanager.net
+
+      @@ -486,18 +497,23 @@
+
+      @@||img.nosh.jp
+      @@||img.retsta.jp
+      @@||img.riskified.com
+    + @@||img.skyflag.jp
+      @@||img.topics.smt.news.goo.ne.jp
+      @@||img.youtube.com
+      @@||imgsct.cookiebot.com
+      @@||imgweb.with2.net
+      @@||imp.gain-ads.com
+      @@||imp.pixiv.net
+    + @@||initplayback
+    + @@||initplayback.lan
+      @@||initplayback.ts.net
+      @@||integration.virtusize.jp
+    + @@||ip-info.ff.avast.com
+      @@||ipapi.co
+      @@||ipinfo.io
+      @@||ipmcdn.avast.com.lan
+      @@||ipqcache2.shufoo.net
+    + @@||ipv4only.arpa
+      @@||itunes.com
+      @@||j.wovn.io
+      @@||ja.m.wikipedia.org
+
+      @@ -559,6 +575,8 @@
+
+      @@||login.paypay-bank.co.jp
+      @@||login.tailscale.com
+      @@||login.wikimedia.org
+    + @@||lp.acom.co.jp
+    + @@||lv-a.toyama-jobiyaku.co.jp
+      @@||m.goodnovel.com
+      @@||m.stripe.com
+      @@||m.stripe.network
+
+      @@ -598,6 +616,7 @@
+
+      @@||microapps.google.com
+      @@||microservice.mbplayer.com
+      @@||mini-app-sdk-core.paypay.ne.jp
+    + @@||miniapp.buruburu.app
+      @@||missions-assets.smartnews.com
+      @@||mmp.getdropbox.com
+      @@||mobile-gtalk.l.google.com
+
+      @@ -671,6 +690,8 @@
+
+      @@||p.twitter.com.lan
+      @@||p.twitter.com.ts.net
+      @@||p.typekit.net
+    + @@||p11-imap.mail.me.com
+    + @@||p11-imap.mail.me.com.akadns.net
+      @@||p25-imap.mail.me.com
+      @@||paddock2.kairogame.jp
+      @@||page.taponland.com
+
+      @@ -780,6 +801,7 @@
+
+      @@||ropng.img.sus-staging.com
+      @@||ropng.sus-game.com
+      @@||ropng.sus-game.com.lan
+    + @@||rtbdemand.apiip.net
+      @@||rum.hlx.page
+      @@||s-part-0018.t-0009.fb-t-msedge.net
+      @@||s-part-0018.t-0009.t-msedge.net
+
+      @@ -801,6 +823,7 @@
+
+      @@||safebrowsing.g.applimg.com
+      @@||sakura-checker.jp
+      @@||sb-ssl.google.com
+    + @@||sb.kagome.co.jp
+      @@||sb.nordcdn.com
+      @@||sc-static.net
+      @@||scontent.cdninstagram.com.lan
+
+      @@ -831,6 +854,7 @@
+
+      @@||shiorio.com
+      @@||shop.adidas.jp
+      @@||shop.gofuku-ishihara.com
+    + @@||shop.tsuruha-g.com
+      @@||sirok.jp
+      @@||siteassets.parastorage.com
+      @@||sl.skyflag.jp
+
+      @@ -848,11 +872,13 @@
+
+      @@||sp-*.apkrep.avcdn.net.lan
+      @@||sp-*.honzik.avcdn.net
+      @@||sp-*.honzik.avcdn.net.lan
+    + @@||sp-497f6f2f.filerep.avcdn.net
+      @@||sp-ao.shortpixel.ai
+      @@||sp-trk.com
+      @@||sp.gmossp-sp.jp
+      @@||special.sankei.com
+      @@||spt.saygames.io
+    + @@||sqs.ap-northeast-1.amazonaws.com
+      @@||src.doda.jp
+      @@||ssai-manifest.streaks.jp
+      @@||ssai-variants.streaks.jp
+
+      @@ -881,6 +907,7 @@
+
+      @@||static.newsapp.nhk.or.jp
+      @@||static.parastorage.com
+      @@||static.paypay.ne.jp
+    + @@||static.smartnews.com
+      @@||static.wixstatic.com
+      @@||stats.playrix.com
+      @@||stats.wp.com
+
+      @@ -908,6 +935,9 @@
+
+      @@||terms.snow.me
+      @@||thumbnail.smartnews.com
+      @@||tig-contents.com
+    + @@||time.android.com
+    + @@||time.android.com.lan
+    + @@||time.android.com.ts.net
+      @@||time.windows.com
+      @@||timecheck.imanara.jp
+      @@||times-abema.ismcdn.jp
+
+      @@ -962,6 +992,7 @@
+
+      @@||video-s.twimg.com
+      @@||video-t-1.twimg.com
+      @@||video-t-2.twimg.com
+    + @@||video.kurashiru.com
+      @@||video.kurashiru.com.lan
+      @@||video.twimg.com
+      @@||video.twimg.com.lan
+
+      @@ -999,6 +1030,8 @@
+
+      @@||www-nenrei--hayami-net.cdn.ampproject.org
+      @@||www.123chat.jp
+      @@||www.666-666.jp
+    + @@||www.acom.co.jp
+    + @@||www.aderans.co.jp
+      @@||www.adidas.jp
+      @@||www.agrinews.co.jp
+      @@||www.amazon.co.jp
+
+      @@ -1009,6 +1042,7 @@
+
+      @@||www.calendar-u.com
+      @@||www.cecile.co.jp
+      @@||www.city.kami.lg.jp
+    + @@||www.city.kochi.kochi.jp
+      @@||www.cmoa.jp
+      @@||www.dai-ichi-life.co.jp
+      @@||www.dropbox.com
+
+      @@ -1019,6 +1053,7 @@
+
+      @@||www.fondesk.jp
+      @@||www.fujitv.co.jp
+      @@||www.gl-inet.com
+    + @@||www.gmail.com
+      @@||www.goodnovel.com
+      @@||www.google.co.jp
+      @@||www.google.com.ts.net
+
+      @@ -1028,7 +1063,9 @@
+
+      @@||www.googletagservices.com
+      @@||www.gstatic.com
+      @@||www.gstatic.com.lan
+    + @@||www.hisamitsu.info
+      @@||www.icloud.com
+    + @@||www.ie-miru.jp
+      @@||www.instagram.com
+      @@||www.itmedia.co.jp
+      @@||www.jabank-kochi.jp
+
+      @@ -1055,6 +1092,7 @@
+
+      @@||www.mnvnmwhr.comprod.mbplayer.com
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+    + @@||www.nenkin.go.jp
+      @@||www.newsapp.nhk.or.jp
+      @@||www.nexters.com
+      @@||www.nhk.or.jp
+
+      @@ -1063,8 +1101,10 @@
+
+      @@||www.nijiyome.jp
+      @@||www.nikkei.com
+      @@||www.nitori-net.jp
+    + @@||www.oisix.com
+      @@||www.omnycontent.com
+      @@||www.onamae.com
+    + @@||www.oricon.co.jp
+      @@||www.paypal.com
+      @@||www.paypay-card.co.jp
+      @@||www.paypay.ne.jp
+
+      @@ -1080,6 +1120,7 @@
+
+      @@||www.smartwaon.com
+      @@||www.sourcenext.com
+      @@||www.sponichi.co.jp
+    + @@||www.studio-alice.co.jp
+      @@||www.threads.net
+      @@||www.tm.ak.prd.aadg.trafficmanager.net
+      @@||www.topvalu.net
+
+      @@ -1122,6 +1163,7 @@
+
+      @@||yt3.googleusercontent.com
+      @@||yt4.ggpht.com
+      @@||ytplayer.ios.mbplayer.com
+    + @@||yubinbango.github.io
+      @@||yururi2019.com
+      @@||za.tapon.com
+      @@||zapgo.org
+
+      @@ -1206,6 +1248,7 @@
+
+      @@||afs.ampservices.v.aaplimg.com
+      @@||amd-infra.apps-apple.com.akadns.net
+      @@||amd-infra.itunes.apple.com
+    + @@||amd-infra.itunes.g.aaplimg.com
+      @@||amp-account.itunes-apple.com.akadns.net
+      @@||amp-account.itunes.apple.com
+      @@||amp-api-edge-lb.itunes-apple.com.akadns.net
+
+      @@ -1223,6 +1266,7 @@
+
+      @@||api-glb-aapne1a.smoot.apple.com
+      @@||api-glb-aapne1c.smoot.apple.com
+      @@||api-safari-aapne1c.smoot.apple.com
+    + @@||api.apple-cloudkit.fe2.apple-dns.net
+      @@||api.smoot.apple.com
+      @@||apis.apple.map.fastly.net
+      @@||app-site-association.cdn-apple.com
+
+      @@ -1230,27 +1274,36 @@
+
+      @@||appleid.apple.com
+      @@||applepay.cdn-apple.com
+      @@||apps-mzstatic-cdn.itunes-apple.com.akadns.net
+    + @@||apps-mzstatic-lb.itunes-apple.com.akadns.net
+      @@||apps.apple.com
+      @@||apptrailers-ssl.itunes.apple.com
+      @@||apptrailers.itunes.apple.com
+      @@||apse1-wps-prod.apple.com
+      @@||assets-mercury.v.aaplimg.com
+    + @@||attester.gateway.fe2.apple-dns.net
+      @@||auth.v.aaplimg.com
+      @@||background-weighted.ls4-apple.com.akadns.net
+      @@||bag-cdn-akam.itunes-apple.com.akadns.net
+      @@||bag-cdn-lb.itunes-apple.com.akadns.net
+      @@||bag-cdn.itunes-apple.com.akadns.net
+    + @@||bag-smoot.v.aaplimg.com
+      @@||bag.itunes.apple.com
+    + @@||buy-lb.itunes-apple.com.akadns.net
+      @@||buy.itunes-apple.com.akadns.net
+      @@||ca.iadsdk.apple.com
+      @@||cabana-config.cdn-apple.com
+      @@||cabana-config.g.aaplimg.com
+    + @@||cabana-server.cdn-apple.com
+    + @@||cabana-server.g.aaplimg.com
+      @@||cabana-server.lb-apple.com.akadns.net
+    + @@||caldav.fe2.apple-dns.net
+    + @@||calendars.fe2.apple-dns.net
+      @@||captive-cdn.origin-apple.com.akadns.net
+      @@||captive-cidr.origin-apple.com.akadns.net
+      @@||captive.apple.com
+      @@||captive.g.aaplimg.com
+      @@||carrierbundle.g.aaplimg.com
+    + @@||cdn-icloud-content.g.aaplimg.com
+      @@||cdn.icloud-content.com
+      @@||cdn.smoot.g.aaplimg.com
+      @@||cdn2.smoot.apple.com
+
+      @@ -1260,21 +1313,26 @@
+
+      @@||cma.itunes.apple.com
+      @@||config-chr.health.apple.com
+      @@||config-chr.health.g.aaplimg.com
+    + @@||configuration-lb.ls-apple.com.akadns.net
+      @@||configuration-row-lb.apple.com.akadns.net
+      @@||configuration.apple.com
+      @@||configuration.apple.com.akadns.net
+      @@||configuration.ls.apple.com
+    + @@||configuration.ls.v.aaplimg.com
+      @@||configuration.v.aaplimg.com
+    + @@||contacts.fe2.apple-dns.net
+      @@||content.fe2.apple-dns.net
+      @@||courier-ab-vs.push-apple.com.akadns.net
+      @@||courier-ab-vs.push.apple.com
+      @@||croissant.cdn-apple.com
+      @@||croissant.edge.apple
+      @@||cstat.cdn-apple.com
+    + @@||cstat.g.aaplimg.com
+      @@||current.jposa3.me.apple-dns.net
+      @@||current.jptyo12.me.apple-dns.net
+      @@||current.twntc1.me.apple-dns.net
+      @@||device-config.pcms.apple.com
+    + @@||device-config.v.aaplimg.com
+      @@||doh.dns.apple.com
+      @@||doh.dns.apple.com.v.aaplimg.com
+      @@||downloaddispatch.g.aaplimg.com
+
+      @@ -1282,7 +1340,9 @@
+
+      @@||entitlements-itunes.g.aaplimg.com
+      @@||entitlements.edge-itunes-apple.com.akadns.net
+      @@||entitlements.itunes.apple.com
+    + @@||escrowproxy.fe2.apple-dns.net
+      @@||fbs.smoot.apple.com
+    + @@||fmf.fe2.apple-dns.net
+      @@||fmfmobile.fe2.apple-dns.net
+      @@||fmip.fe2.apple-dns.net
+      @@||fmipmobile.fe2.apple-dns.net
+
+      @@ -1294,8 +1354,12 @@
+
+      @@||friend.gc.apple.com
+      @@||friend.gc.fe2.apple-dns.net
+      @@||gateway-asset.icloud-content.com
+    + @@||gateway.fe2.apple-dns.net
+      @@||gateway.icloud.com
+    + @@||gdmf-ados.v.aaplimg.com
+      @@||gdmf.apple.com
+    + @@||gdmf.v.aaplimg.com
+    + @@||get-bx.g.aaplimg.com
+      @@||gs-loc-new.ls-apple.com.akadns.net
+      @@||gs-loc.ls-apple.com.akadns.net
+      @@||gs.apple.com
+
+      @@ -1303,9 +1367,10 @@
+
+      @@||gsa.apple.com
+      @@||gsa.idms-apple.com.akadns.net
+      @@||gsp-ssl-geomap.ls-apple.com.akadns.net
+    + @@||gsp-ssl.ls-apple.com.akadns.net
+      @@||gsp*ssl.apple.com
+      @@||gsp*ssl.ls.apple.com
+    + @@||gsp10-ssl.ls-apple.com.akadns.net
+      @@||gsp36-ssl.ls-apple.com.akadns.net
+      @@||gsp51-ssl-ds.ls-apple.com.akadns.net
+      @@||gsp53-ssl.ls-apple.com.akadns.net
+
+      @@ -1313,9 +1378,17 @@
+
+      @@||gsp57-ssl-background.ls.apple.com
+      @@||gsp57-ssl-locus.ls.apple.com
+      @@||gsp57-ssl-revgeo.ls.apple.com
+    + @@||gsp64-ssl.ls-apple.com.akadns.net
+    + @@||gsp85-ssl.ls2-apple.com.akadns.net
+      @@||gspe*ssl.ls-apple.com.akadns.net
+      @@||gspe*ssl.ls.apple.com
+      @@||gspe*ssl.ls.apple.com.edgesuite.net
+    + @@||gspe19-geo-selector.ls2-apple.com.akadns.net
+    + @@||gspe21-cdn.v.aaplimg.com
+    + @@||gspe35-applecdn-cutover.ls-apple.com.akadns.net
+    + @@||gspe35-cdn.v.aaplimg.com
+    + @@||gspe79-cdn.g.aaplimg.com
+    + @@||gspe85-ssl.g.aaplimg.com
+      @@||guzzoni-apple-com.v.aaplimg.com
+      @@||guzzoni.apple.com
+      @@||humb.apple.com
+
+      @@ -1331,9 +1404,12 @@
+
+      @@||init.push-apple.com.akadns.net
+      @@||init.push.apple.com
+      @@||iosapps.itunes.apple.com
+    + @@||iosapps.itunes.g.aaplimg.com
+      @@||ipcdn-lb.apple.com.akadns.net
+      @@||ipcdn.apple.com
+    + @@||ipcdn.g.aaplimg.com
+      @@||iphonesubmissions.apple.com
+    + @@||iphonesubmissions.v.aaplimg.com
+      @@||is-ssl-cdn.itunes-apple.com.akadns.net
+      @@||itunes.apple.com
+      @@||jptyo12.icloud-content.com
+
+      @@ -1341,11 +1417,14 @@
+
+      @@||kt-prod.ess.apple.com
+      @@||lcdn-locator.apple.com
+      @@||mailws.fe2.apple-dns.net
+    + @@||mask-api.fe2.apple-dns.net
+      @@||mask-h2.icloud.com
+    + @@||mask.apple-dns.net
+      @@||mcc.fe2.apple-dns.net
+      @@||mesu-cdn.apple.com.akadns.net
+      @@||mesu-cdn.origin-apple.com.akadns.net
+      @@||mesu.apple.com
+    + @@||mesu.g.aaplimg.com
+      @@||metricsedge-continent-wrr-cutover.v.aaplimg.com
+      @@||metricsedge-continent-wrr.v.aaplimg.com
+      @@||ml.cdn-apple.com
+
+      @@ -1358,6 +1437,7 @@
+
+      @@||mzstorekit.g.aaplimg.com
+      @@||netcts.cdn-apple.com
+      @@||ocsp2.apple.com
+    + @@||ocsp2.g.aaplimg.com
+      @@||ontology.health.apple.com
+      @@||p105-content.icloud.com
+      @@||p105-fmfmobile.icloud.com
+
+      @@ -1395,16 +1475,21 @@
+
+      @@||pds.ess.apple.com
+      @@||play.itunes.apple.com
+      @@||probe.icloud.com
+    + @@||probe.me.apple-dns.net
+      @@||probe.siri.apple.com
+      @@||profile.ess-apple.com.akadns.net
+      @@||profile.ess.apple.com
+      @@||profile.gc.apple.com
+      @@||profile.gc.fe2.apple-dns.net
+      @@||publicassets.cdn-apple.com
+    + @@||publicassets.cdn-apple.g.aaplimg.com
+      @@||query.ess-apple.com.akadns.net
+      @@||query.ess.apple.com
+    + @@||quota.fe2.apple-dns.net
+      @@||radio-services.g.aaplimg.com
+      @@||radio.itunes.apple.com
+    + @@||safebrowsing-proxy.g.aaplimg.com
+    + @@||safebrowsing.g.aaplimg.com
+      @@||sandbox-origin.itunes-apple.com.akadns.net
+      @@||sas-as1-pcms.apple.com
+      @@||sas.pcms.apple.com
+
+      @@ -1414,11 +1499,14 @@
+
+      @@||se2.itunes.apple.com
+      @@||securemetrics.apple.com
+      @@||sequoia.cdn-apple.com
+    + @@||setup.fe2.apple-dns.net
+      @@||sf-api-token-service.itunes.apple.com
+      @@||sfss.v.aaplimg.com
+      @@||sharedstreams.fe2.apple-dns.net
+      @@||skl.apple.com
+      @@||smoot-api-safari-aapne1c.v.aaplimg.com
+    + @@||smoot-feedback.v.aaplimg.com
+    + @@||smoot-searchv2-aapne1c.v.aaplimg.com
+      @@||smp-device-content.apple.com
+      @@||speedysub-apac-s.edge-itunes-apple.com.akadns.net
+      @@||speedysub.itunes.apple.com
+
+      @@ -1429,6 +1517,7 @@
+
+      @@||static.gc.apple.com
+      @@||stocks-data-service.apple.com
+      @@||stocks-data-service.lb-apple.com.akadns.net
+    + @@||stocks-data-service.v.aaplimg.com
+      @@||stocks-edge.apple.com
+      @@||su.itunes.apple.com
+      @@||supportmetrics.apple.com
+
+      @@ -1440,16 +1529,21 @@
+
+      @@||swscan.apple.com
+      @@||sync.itunes.apple.com
+      @@||tdms.apple.com
+    + @@||time-ios.g.aaplimg.com
+      @@||time.apple.com
+      @@||time.asia.apple.com
+    + @@||time.g.aaplimg.com
+    + @@||token.safebrowsing.apple
+      @@||token.safebrowsing.apple.com
+      @@||ts.apps-apple.com.akadns.net
+      @@||unlinkability.apple.com
+    + @@||unlinkability.fe2.apple-dns.net
+      @@||updates.cdn-apple.com
+      @@||upp.itunes.apple.com
+      @@||us-sandbox-courier-4.push-apple.com.akadns.net
+      @@||usw2-tdm-prod.apple.com
+      @@||uts-api.itunes.apple.com
+    + @@||valid-apple.g.aaplimg.com
+      @@||valid.apple.com
+      @@||valid.origin-apple.com.akadns.net
+      @@||weather-data.apple.com
+
+      @@ -1490,6 +1584,7 @@
+
+      @@||assistantfrontend-pa.googleapis.com
+      @@||auditrecording-pa.googleapis.com
+      @@||automate-prod.storage.googleapis.com
+    + @@||c2paregistration.pa.googleapis.com
+      @@||calendar-pa.googleapis.com
+      @@||calendarpushsubscription-pa.googleapis.com
+      @@||calendarsync-pa.googleapis.com
+
+      @@ -1782,6 +1877,9 @@
+
+      @@||store-quic-gl.heytapmobile.com
+      @@||virusinfo-cloudscan-sn.heytapmobile.com
+
+    + # [HUMAN]
+    + @@||i.clean.gg
+    +
+      # [KDDI]
+      @@/media[1-9].kddi.com.lan/
+      @@/media[1-9].kddi.com/
+
+      @@ -1891,9 +1989,12 @@
+
+      @@||cdn-manga-stf-router-api.line-scdn.net
+      @@||cdp.livedoor.com
+      @@||ch-news.line-apps.com
+    + @@||ch.line-scdn.net
+      @@||chatapp-admin.line-scdn.net
+    + @@||cix.line-apps.com
+      @@||crs-event.line.me
+      @@||d.line-scdn.net
+    + @@||gak.webtoons.jp
+      @@||gak.webtoons.jp.ts.net
+      @@||game-api.line.me
+      @@||game-campaign-static.line-scdn.net
+
+      @@ -1903,10 +2004,14 @@
+
+      @@||lan.line.me
+      @@||lan3rd.line.me
+      @@||lap-click.tr.line.me
+    + @@||legy-jp-addr-ds.line-apps.com
+    + @@||legy-jp.line-apps.com
+      @@||legy-jp.line-apps.com.ts.net
+    + @@||lg-config.line-apps.com
+      @@||lgw.line-scdn.net
+      @@||liff-line-premium.line-apps.com
+      @@||liff.line.me
+    + @@||liffsdk.line-scdn.net
+      @@||line-manga.blog.jp
+      @@||line-objects-internal.com
+      @@||line.me
+
+      @@ -1917,15 +2022,22 @@
+
+      @@||livedoor.sp.blogimg.jp
+      @@||lps-editor-570.landpress.line.me
+      @@||lyprec.line-scdn.net
+    + @@||manager.line-scdn.net
+    + @@||manga-api-gateway.line-apps.com
+      @@||manga-api-gateway.line-apps.com.lan
+      @@||manga.line.me
+    + @@||mpol-ga.line-apps.com
+      @@||mpol-ga.line-apps.com.lan
+    + @@||mpol-gd3.line-apps.com
+      @@||music-jp-api.line-apps.com
+      @@||music.line.me
+      @@||news-obs.line-scdn.net
+    + @@||news.line-apps.com
+      @@||notice2.line.me
+      @@||oa-coupon.line-scdn.net
+      @@||oa-profile-media.line-scdn.net
+    + @@||obs-jp.line-apps.com
+    + @@||obs.line-scdn.net
+      @@||obs.line-scdn.net.lan
+      @@||optout-api.tr.line.me
+      @@||org-api-tyo-osk-2.line.me.akadns.net
+
+      @@ -1940,6 +2052,7 @@
+
+      @@||resource-jp-linemusic.line-scdn.net
+      @@||scdn.line-apps.com
+      @@||seasonal.line-scdn.net
+    + @@||sentry-uit.line-apps.com
+      @@||shop.line-scdn.net
+      @@||social-plugins.line.me
+      @@||static.line-scdn.net
+
+      @@ -1947,8 +2060,10 @@
+
+      @@||stickershop.line.me
+      @@||talk-chateffect.line-scdn.net
+      @@||tr.line.me
+    + @@||ts.line-apps.com
+      @@||ts.line-apps.com.lan
+      @@||u.lin.ee
+    + @@||uts-front.line-apps.com
+      @@||uts-front.line-apps.com.ts.net
+      @@||voom-obs.line-scdn.net
+      @@||vos.line-scdn.net
+
+      @@ -2115,7 +2230,9 @@
+
+      @@||app-static.cf.radiko.jp
+      @@||beacon.ads.smartstream.ne.jp
+      @@||log2.radiko.jp
+    + @@||log3.radiko.jp
+      @@||news-static.cf.radiko.jp
+    + @@||podcast-static.cf.radiko.jp
+      @@||program-static.cf.radiko.jp
+      @@||program-static.radiko.jp
+      @@||radiko-pmp-vast.smartstream.ne.jp
+
+      @@ -2305,6 +2422,8 @@
+
+      @@||boombeach.inbox.supercell.com
+      @@||cdn.id.supercell.com
+      @@||cdn.id.supercell.com.lan
+    + @@||cdn.supercell.com
+    + @@||clash-static.inbox.supercell.com
+      @@||clashofclans-api.inbox.supercell.com
+      @@||clashofclans.inbox.supercell.com
+      @@||clashofclans.scescdn.com
+
+      @@ -2312,6 +2431,7 @@
+
+      @@||collector.snowplow.supercell.com
+      @@||event-assets.clashofclans.com
+      @@||event-assets.clashroyale.com
+    + @@||game-assets.boombeach.com
+      @@||game-assets.clashofclans.com
+      @@||game-assets.clashroyaleapp.com
+      @@||game.clashroyaleapp.com
+
+      @@ -2457,6 +2577,7 @@
+
+      @@||yvpub-pctr.c.yimg.jp
+
+      # [reverse DNS]
+    + @@||0.0.0.0.in-addr.arpa
+      @@||110.174.217.172.in-addr.arpa
+      @@||110.175.217.172.in-addr.arpa
+      @@||110.196.250.142.in-addr.arpa
+
+      @@ -2489,9 +2610,22 @@
+
+      @@||46.175.217.172.in-addr.arpa
+      @@||46.207.250.142.in-addr.arpa
+      @@||46.222.251.142.in-addr.arpa
+    + @@||69.127.125.100.in-addr.arpa
+      @@||78.161.217.172.in-addr.arpa
+      @@||78.175.217.172.in-addr.arpa
+
+    + # [DNS Record]
+    + @@||_aaplcache._tcp.lan
+    + @@||_aaplcache._tcp.ts.net
+    + @@||_aaplcache1._tcp.lan
+    + @@||_aaplcache1._tcp.ts.net
+    + @@||_aaplcache2._tcp.lan
+    + @@||_aaplcache2._tcp.ts.net
+    + @@||_aaplcache3._tcp.lan
+    + @@||_aaplcache3._tcp.ts.net
+    + @@||_aaplcache4._tcp.lan
+    + @@||_aaplcache4._tcp.ts.net
+    +
+      # [DNS-SD]
+      # https://en.m.wikipedia.org/wiki/Service_discovery
+      # http://www.dns-sd.org/
+    ```
+
 ## Commit: [4ac8222](https://github.com/virtualitypage/AdGuardHome_Filters/commit/4ac8222ea581a525d5451bc36c148c2bb396ec49) - 2025-11-23
 
 ### Date

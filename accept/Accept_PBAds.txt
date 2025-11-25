@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_PBAds.txt
 #
-# Last modified: 14 November 2025
+# Last modified: 25 November 2025
 #
 
 # [AppLovin]
@@ -13,6 +13,7 @@
 @@||a.applvn.com^$client=192.168.8.159
 @@||a4.applovin.com.lan^$client=192.168.8.235
 @@||a4.applovin.com^$client=192.168.8.159
+@@||a4.applovin.com^$client=192.168.8.235
 @@||akamai-res1.applovin.com^$client=192.168.8.219
 @@||artifacts.applovin.com^$client=192.168.8.117
 @@||artifacts.applovin.com^$client=192.168.8.159
@@ -31,6 +32,7 @@
 @@||d.applovin.com^$client=192.168.8.219
 @@||d.applovin.com^$client=192.168.8.235
 @@||img.applovin.com.lan^$client=192.168.8.219
+@@||img.applovin.com.ts.net^$client=192.168.8.235
 @@||img.applovin.com^$client=192.168.8.117
 @@||img.applovin.com^$client=192.168.8.159
 @@||img.applovin.com^$client=192.168.8.219
@@ -50,6 +52,7 @@
 @@||ms4.applovin.com^$client=192.168.8.159
 @@||ms4.applovin.com^$client=192.168.8.219
 @@||ms4.applovin.com^$client=192.168.8.235
+@@||ms4.applvn.com^$client=192.168.8.219
 @@||prod-a-events.applovin.com^$client=192.168.8.159
 @@||prod-a-events.applovin.com^$client=192.168.8.219
 @@||prod-a-events.applovin.com^$client=192.168.8.235
@@ -78,6 +81,11 @@
 @@||res1.applovin.com.lan^$client=192.168.8.159
 @@||res1.applovin.com.lan^$client=192.168.8.219
 @@||res1.applovin.com.lan^$client=192.168.8.235
+@@||res1.applovin.com.ts.net^$client=192.168.8.235
+@@||res1.applovin.com^$client=192.168.8.117
+@@||res1.applovin.com^$client=192.168.8.159
+@@||res1.applovin.com^$client=192.168.8.219
+@@||res1.applovin.com^$client=192.168.8.235
 @@||rt.applovin.com.lan^$client=192.168.8.117
 @@||rt.applovin.com.lan^$client=192.168.8.159
 @@||rt.applovin.com.lan^$client=192.168.8.219
@@ -119,10 +127,6 @@
 @@||t.applovin.com^$client=192.168.8.159
 @@||t.applovin.com^$client=192.168.8.219
 @@||t.applovin.com^$client=192.168.8.235
-@@||t.applovin.coma4.applovin.com^$client=192.168.8.117
-@@||t.applovin.coma4.applovin.com^$client=192.168.8.159
-@@||t.applovin.coma4.applovin.com^$client=192.168.8.219
-@@||t.applovin.coma4.applovin.com^$client=192.168.8.235
 
 # [Digital Turbine]
 # https://www.netify.ai/resources/applications/digital-turbine
