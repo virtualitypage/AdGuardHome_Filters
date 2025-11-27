@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 25 November 2025
+# Last modified: 27 November 2025
 #
 
 # [許可リクエスト]
@@ -21,11 +21,13 @@
 @@||*.blob.core.windows.net
 @@||*.cloudfront.net
 @@||*.cloudfront.net.lan
+@@||*.h5capsule.com
 @@||*.sardine.ai
 @@||*.user.webaccel.jp
 @@||268gr.com
 @@||404-alt.playrix.com
 @@||404.playrix.com
+@@||610wtp38z1.execute-api.eu-west-1.amazonaws.com
 @@||a.flux.jp
 @@||a.pixiv.org
 @@||a3.gmo-app.jp
@@ -61,6 +63,7 @@
 @@||acps-api.mixerbox.com.cdn.cloudflare.net
 @@||acps-iaa.mixerbox.com
 @@||acps-iaa.mixerbox.com.cdn.cloudflare.net
+@@||acps-iaa.s3.amazonaws.com
 @@||ad-segments-proxy.streaks.jp
 @@||ad.ads.arutana.jp
 @@||ad.gain-ads.com
@@ -279,12 +282,14 @@
 @@||cid.capcom.com
 @@||cl.sourcenext.com
 @@||classical-sound.up.seesaa.net
+@@||client.rum.us-east-1.amazonaws.com
 @@||clients.l.google.com
 @@||cloudflare.com
 @@||cloudfront.net
 @@||cloudfront.net.lan
 @@||cm.nordvpn.com
 @@||cnobi.jp.lan
+@@||cognito-identity.us-west-2.amazonaws.com
 @@||coinlog.kairogame.jp
 @@||collector.github.com
 @@||config.mapbox.com
@@ -357,6 +362,7 @@
 @@||dpm.demdex.net
 @@||dpm.demdex.net.lan
 @@||dreamplanetstation.up.seesaa.net
+@@||drive-thirdparty.googleusercontent.com
 @@||drive.google.com
 @@||drive.usercontent.google.com
 @@||dsp-ad-cache-gcp-tm.trafficmanager.net
@@ -386,6 +392,7 @@
 @@||ext-api.paypay-card.co.jp
 @@||ext-miniapp.paypay-card.co.jp
 @@||ext-sap.paypay-card.co.jp
+@@||f4tlsm9xv0.execute-api.eu-west-1.amazonaws.com
 @@||fair-navi.com
 @@||faq.cecile.co.jp
 @@||fastly.jsdelivr.net
@@ -538,6 +545,7 @@
 @@||kefirgames.com
 @@||key.streaks.jp
 @@||keycolle.jp
+@@||kinesis.ap-northeast-1.amazonaws.com
 @@||kit-cdn.shazam.com
 @@||kit.fontawesome.com
 @@||kn.nice-news.net
@@ -723,6 +731,7 @@
 @@||photos-ugc.l.googleusercontent.com
 @@||pi.music.amanotes.net
 @@||pi.pardot.com
+@@||pianoidol2.s3.amazonaws.com
 @@||pic.paypay.ne.jp
 @@||picosaba.net
 @@||pinnaclemnt.net
@@ -822,6 +831,10 @@
 @@||s.zeptolab.com
 @@||s0.wp.com
 @@||s1.nordcdn.com
+@@||s3-1-w.amazonaws.com
+@@||s3-r-w.dualstack.us-west-2.amazonaws.com
+@@||s3-us-west-2.amazonaws.com
+@@||s3-w.us-east-1.amazonaws.com
 @@||s3.ap-northeast-1.amazonaws.com
 @@||s3.dualstack.ap-southeast-1.amazonaws.com
 @@||safebrowsing.g.applimg.com
@@ -921,6 +934,9 @@
 @@||steering-manifest.streaks.jp
 @@||storage.radiotalk.jp
 @@||stream-log.profilepassport.jp
+@@||sts.us-west-2.amazonaws.com
+@@||sudoku-and.s3.us-east-2.amazonaws.com
+@@||sudoku-and.s3.us-east-2.amazonaws.com.lan
 @@||suggestqueries.l.google.com
 @@||sundry-f-net.trafficmanager.net
 @@||supply-inmobicdn-net-tm.trafficmanager.net
@@ -980,11 +996,13 @@
 @@||upload.wikimedia.org
 @@||urlite.ff.avast.com
 @@||us-central1-revnues.cloudfunctions.net
+@@||us-ore-00001.s3.dualstack.us-west-2.amazonaws.com
 @@||use.fontawesome.com
 @@||use.typekit.net
 @@||user-photo.paypay.ne.jp
 @@||usercss.blog.st-hatena.com
 @@||users.app-box.jp
+@@||uwev1xir4b.execute-api.eu-west-1.amazonaws.com
 @@||v0.wordpress.com
 @@||variants.streaks.jp
 @@||vastproxy-brand-inmobi-comtm.trafficmanager.net
@@ -1443,6 +1461,7 @@
 @@||ocsp2.apple.com
 @@||ocsp2.g.aaplimg.com
 @@||ontology.health.apple.com
+@@||p105-acsegateway.icloud.com
 @@||p105-content.icloud.com
 @@||p105-fmfmobile.icloud.com
 @@||p105-fmip.icloud.com
@@ -1494,6 +1513,7 @@
 @@||radio.itunes.apple.com
 @@||safebrowsing-proxy.g.aaplimg.com
 @@||safebrowsing.g.aaplimg.com
+@@||sandbox-dist.itunes-apple.com.akadns.net
 @@||sandbox-origin.itunes-apple.com.akadns.net
 @@||sas-as1-pcms.apple.com
 @@||sas.pcms.apple.com
@@ -1988,7 +2008,9 @@
 @@||ai-friends-api-server.line-apps.com
 @@||ai-friends-web.line-apps.com
 @@||api.line.me
+@@||assets.line-scdn.net
 @@||cac-obs.line-scdn.net.line-zero.akadns.net
+@@||campaign-server-red.line-apps.com
 @@||campaign-template.line-scdn.net
 @@||cdn-manga-stf-router-api.line-scdn.net
 @@||cdp.livedoor.com
@@ -1998,20 +2020,27 @@
 @@||cix.line-apps.com
 @@||crs-event.line.me
 @@||d.line-scdn.net
+@@||desktop.line-scdn.net
 @@||gak.webtoons.jp
 @@||gak.webtoons.jp.ts.net
 @@||game-api.line.me
 @@||game-campaign-static.line-scdn.net
+@@||game-lgtmtm.line-scdn.net
+@@||game-lgtmtm.line-scdn.net.lan
+@@||game-promotion-obs.line-scdn.net
 @@||help2.line.me
 @@||img-api-jp-linemusic.line-apps.com
 @@||lan-click.tr.line.me
 @@||lan.line.me
 @@||lan3rd.line.me
 @@||lap-click.tr.line.me
+@@||legy-backup.line-apps.com
 @@||legy-jp-addr-ds.line-apps.com
 @@||legy-jp.line-apps.com
 @@||legy-jp.line-apps.com.ts.net
 @@||lg-config.line-apps.com
+@@||lgtmtm-game.linegame.jp
+@@||lgtmtm-game.linegame.jp.lan
 @@||lgw.line-scdn.net
 @@||liff-line-premium.line-apps.com
 @@||liff.line.me
@@ -2019,20 +2048,25 @@
 @@||line-manga.blog.jp
 @@||line-objects-internal.com
 @@||line.me
+@@||linegame-obs.line-scdn.net
 @@||linemanga-obs.line-scdn.net
 @@||linemusic-webapp.landpress.line.me
 @@||linevoom.line.me
 @@||livedoor.blogimg.jp
 @@||livedoor.sp.blogimg.jp
 @@||lps-editor-570.landpress.line.me
+@@||lss-vml.line-scdn.net
 @@||lyprec.line-scdn.net
 @@||manager.line-scdn.net
+@@||manager.line-scdn.net.lan
 @@||manga-api-gateway.line-apps.com
 @@||manga-api-gateway.line-apps.com.lan
 @@||manga.line.me
 @@||mpol-ga.line-apps.com
 @@||mpol-ga.line-apps.com.lan
 @@||mpol-gd3.line-apps.com
+@@||mpol-gd3.line-apps.com.lan
+@@||mpol-ge2.line-apps.com
 @@||music-jp-api.line-apps.com
 @@||music.line.me
 @@||news-obs.line-scdn.net
@@ -2043,6 +2077,7 @@
 @@||obs-jp.line-apps.com
 @@||obs.line-scdn.net
 @@||obs.line-scdn.net.lan
+@@||obs.line-scdn.net.line-apps.com.akadns.net
 @@||optout-api.tr.line.me
 @@||org-api-tyo-osk-2.line.me.akadns.net
 @@||page.line-scdn.net
@@ -2050,6 +2085,7 @@
 @@||poigacha-api.line-apps.com
 @@||poigacha.line-apps.com
 @@||profile.line-scdn.net
+@@||release-lgsbp16-api.linegame.jp
 @@||release-lgsmk19-api.linegame.jp
 @@||release-lgstt18-api.linegame.jp
 @@||release-lgstt18-api.linegame.jp.lan
@@ -2062,16 +2098,19 @@
 @@||static.line-scdn.net
 @@||stickershop.line-scdn.net
 @@||stickershop.line.me
+@@||talk-asset.line-scdn.net
 @@||talk-chateffect.line-scdn.net
 @@||tr.line.me
 @@||ts.line-apps.com
 @@||ts.line-apps.com.lan
 @@||u.lin.ee
+@@||user-profile.line-scdn.net
 @@||uts-front.line-apps.com
 @@||uts-front.line-apps.com.ts.net
 @@||voom-obs.line-scdn.net
 @@||vos.line-scdn.net
 @@||vos.line-scdn.net.lan
+@@||wc.line-scdn.net
 @@||wcc-image.line-scdn.net
 @@||www.line-website.com
 @@||www.line.me
