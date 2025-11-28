@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_PBAds.txt
 #
-# Last modified: 25 November 2025
+# Last modified: 28 November 2025
 #
 
 # [AppLovin]
@@ -359,3 +359,53 @@
 @@||www.inmobi.com^$client=192.168.8.159
 @@||www.inmobi.com^$client=192.168.8.219
 @@||www.inmobi.com^$client=192.168.8.235
+
+# [Moloco]
+# https://www.moloco.com/ja
+@@||cdn-f-t.adsmoloco.com.lan^$client=192.168.8.235
+@@||cdn-f-t.adsmoloco.com.ts.net^$client=192.168.8.235
+@@||cdn-f-t.adsmoloco.com^$client=192.168.8.219
+@@||cdn-f-t.adsmoloco.com^$client=192.168.8.235
+@@||eventfnt-asia.dsp-api.moloco.com.lan^$client=192.168.8.235
+@@||eventfnt-asia.dsp-api.moloco.com.ts.net^$client=192.168.8.235
+@@||eventfnt-asia.dsp-api.moloco.com^$client=192.168.8.117
+@@||eventfnt-asia.dsp-api.moloco.com^$client=192.168.8.159
+@@||eventfnt-asia.dsp-api.moloco.com^$client=192.168.8.219
+@@||eventfnt-asia.dsp-api.moloco.com^$client=192.168.8.235
+@@||sdkapi.dsp-api.moloco.com.lan^$client=192.168.8.219
+@@||sdkapi.dsp-api.moloco.com^$client=192.168.8.117
+@@||sdkapi.dsp-api.moloco.com^$client=192.168.8.219
+@@||sdkeventfnt-asia.dsp-api.moloco.com^$client=192.168.8.219
+@@||sdkopmetrics-asia.dsp-api.moloco.com^$client=192.168.8.117
+@@||sdkopmetrics-asia.dsp-api.moloco.com^$client=192.168.8.219
+@@||sdkopmetrics-us.dsp-api.moloco.com^$client=192.168.8.117
+@@||sdkopmetrics-us.dsp-api.moloco.com^$client=192.168.8.219
+
+# [popIn]
+# https://discovery.popin.cc/
+@@||api.popin.cc^$client=192.168.8.117
+@@||api.popin.cc^$client=192.168.8.159
+@@||api.popin.cc^$client=192.168.8.219
+@@||api.popin.cc^$client=192.168.8.235
+@@||asset.popin.cc^$client=192.168.8.159
+@@||asset.popin.cc^$client=192.168.8.219
+@@||imageaws.popin.cc^$client=192.168.8.117
+@@||imageaws.popin.cc^$client=192.168.8.159
+@@||imageaws.popin.cc^$client=192.168.8.219
+@@||inrecsys.popin.cc^$client=192.168.8.159
+@@||inrecsys.popin.cc^$client=192.168.8.219
+@@||jp.popin.cc^$client=192.168.8.159
+@@||jp.popin.cc^$client=192.168.8.219
+@@||jp.popin.cc^$client=192.168.8.235
+@@||log.popin.cc^$client=192.168.8.159
+@@||log.popin.cc^$client=192.168.8.219
+@@||log.popin.cc^$client=192.168.8.235
+@@||r.popin.cc^$client=192.168.8.159
+@@||r.popin.cc^$client=192.168.8.219
+@@||r.popin.cc^$client=192.168.8.235
+@@||rlog.popin.cc^$client=192.168.8.159
+@@||rlog.popin.cc^$client=192.168.8.219
+@@||trace.popin.cc^$client=192.168.8.117
+@@||trace.popin.cc^$client=192.168.8.159
+@@||trace.popin.cc^$client=192.168.8.219
+@@||trace.popin.cc^$client=192.168.8.235
