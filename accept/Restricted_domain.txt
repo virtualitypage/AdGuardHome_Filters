@@ -4,12 +4,15 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Restricted_domain.txt
 #
-# Last modified: 28 November 2025
+# Last modified: 3 December 2025
 #
 
 # [Restricted Domain]
+@@||16163.com^$client=192.168.8.117
 @@||accountinformation.roblox.com^$client=192.168.8.117
 @@||accountsettings.roblox.com^$client=192.168.8.117
+@@||aggr16-normal.capcutapi.com.lan^$client=192.168.8.117
+@@||aggr16-normal.capcutapi.com.ts.net^$client=192.168.8.117
 @@||aggr16-normal.capcutapi.com^$client=192.168.8.117
 @@||ai-api.simeji.me^$client=192.168.8.117
 @@||aityping.simeji.me^$client=192.168.8.117
@@ -51,11 +54,13 @@
 @@||cdg2-128-116-13-3.roblox.com^$client=192.168.8.117
 @@||cdn.dev.mirrativ.com^$client=192.168.8.117
 @@||cdn.mirrativ.com.lan^$client=192.168.8.117
+@@||cdn.mirrativ.com.ts.net^$client=192.168.8.117
 @@||cdn.mirrativ.com^$client=192.168.8.117
 @@||client-telemetry.roblox.com^$client=192.168.8.117
 @@||clientsettings.roblox.com^$client=192.168.8.117
 @@||clientsettingscdn.roblox.com^$client=192.168.8.117
 @@||clog.mirrativ.com.lan^$client=192.168.8.117
+@@||clog.mirrativ.com.ts.net^$client=192.168.8.117
 @@||clog.mirrativ.com^$client=192.168.8.117
 @@||cloud.simeji.me.lan^$client=192.168.8.117
 @@||cloud.simeji.me^$client=192.168.8.117
@@ -130,15 +135,13 @@
 @@||h55na.appdump.nie.easebar.com^$client=192.168.8.117
 @@||h55na.gph.easebar.com^$client=192.168.8.117
 @@||h55na.update.easebar.com^$client=192.168.8.117
-@@||hls-cdn24.mirrativ.com^$client=192.168.8.117
-@@||hls-cdn26.mirrativ.com.lan^$client=192.168.8.117
-@@||hls-cdn26.mirrativ.com^$client=192.168.8.117
-@@||hls-cdn30.mirrativ.com.lan^$client=192.168.8.117
-@@||hls-cdn30.mirrativ.com.ts.net^$client=192.168.8.117
-@@||hls-cdn31.mirrativ.com^$client=192.168.8.117
+@@||hls-cdn*.mirrativ.com.lan^$client=192.168.8.117
+@@||hls-cdn*.mirrativ.com.ts.net^$client=192.168.8.117
+@@||hls-cdn*.mirrativ.com^$client=192.168.8.117
 @@||hls-segments.rbxcdn.com^$client=192.168.8.117
 @@||i-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
 @@||i-sg.capcutapi.com.lan^$client=192.168.8.117
+@@||i-sg.capcutapi.com.ts.net^$client=192.168.8.117
 @@||i-sg.capcutapi.com^$client=192.168.8.117
 @@||i.pinimg.com.lan^$client=192.168.8.117
 @@||i.pinimg.com^$client=192.168.8.117
@@ -156,12 +159,12 @@
 @@||lax*.roblox.com^$client=192.168.8.117
 @@||lax2-128-116-116-3.roblox.com^$client=192.168.8.117
 @@||lax4-128-116-63-3.roblox.com^$client=192.168.8.117
+@@||lf-main-gecko-source.tiktokcdn.com^$client=192.168.8.117
+@@||lf-videocut-ug-hybird.tiktokcdn.com^$client=192.168.8.117
 @@||lf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
 @@||lf*-pitayacdn.tiktokcdn.com^$client=192.168.8.117
 @@||lf*-tiktok-im-scp.tiktokcdn.com^$client=192.168.8.117
 @@||lf*-tos-files.tiktokcdn.com^$client=192.168.8.117
-@@||lf-main-gecko-source.tiktokcdn.com^$client=192.168.8.117
-@@||lf-videocut-ug-hybird.tiktokcdn.com^$client=192.168.8.117
 @@||lf16-tos-sg.capcutstatic.com^$client=192.168.8.117
 @@||lf16-web-buz.capcut.com^$client=192.168.8.117
 @@||lf19-tos-sg.capcutstatic.com^$client=192.168.8.117
@@ -199,6 +202,7 @@
 @@||netease-publish-v.w.alikunlun.com^$client=192.168.8.117
 @@||netease-publish-web.w.alikunlun.com^$client=192.168.8.117
 @@||netlink-sigma.proxima.nie.easebar.com.lan^$client=192.168.8.117
+@@||netlink-sigma.proxima.nie.easebar.com.ts.net^$client=192.168.8.117
 @@||netlink-sigma.proxima.nie.easebar.com^$client=192.168.8.117
 @@||nie.res.netease.com^$client=192.168.8.117
 @@||notifications.roblox.com^$client=192.168.8.117
@@ -237,6 +241,8 @@
 @@||passport32-normal-sg.capcutapi.com.lan^$client=192.168.8.117
 @@||passport32-normal-sg.capcutapi.com.ts.net^$client=192.168.8.117
 @@||passport32-normal-sg.capcutapi.com^$client=192.168.8.117
+@@||pharos.easebar.com.lan^$client=192.168.8.117
+@@||pharos.easebar.com.ts.net^$client=192.168.8.117
 @@||pharos.easebar.com^$client=192.168.8.117
 @@||pimg.easebar.com^$client=192.168.8.117
 @@||pitaya-sg.capcutapi.com.lan^$client=192.168.8.117
@@ -286,12 +292,12 @@
 @@||sdksggcp32-normal.evercloud.capcutapi.com^$client=192.168.8.117
 @@||sea*.roblox.com^$client=192.168.8.117
 @@||sea1-128-116-115-3.roblox.com^$client=192.168.8.117
-@@||sf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
-@@||sf*-ies-music.tiktokcdn.com^$client=192.168.8.117
-@@||sf*m-geckocdn.tiktokcdn.com^$client=192.168.8.117
 @@||sf-fe.capcut.com^$client=192.168.8.117
 @@||sf-i18n-resources.tiktokcdn.com.ttdns2.com^$client=192.168.8.117
 @@||sf-static.tiktokcdn.com^$client=192.168.8.117
+@@||sf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
+@@||sf*-ies-music.tiktokcdn.com^$client=192.168.8.117
+@@||sf*m-geckocdn.tiktokcdn.com^$client=192.168.8.117
 @@||sf16-web-login-neutral.capcutstatic.com^$client=192.168.8.117
 @@||sf16-web-music.capcutstatic.com^$client=192.168.8.117
 @@||sf16-web-tos-buz.capcutcdn-us.com^$client=192.168.8.117
@@ -323,16 +329,17 @@
 @@||t2.rbxcdn.com^$client=192.168.8.117
 @@||thumbnails.roblox.com^$client=192.168.8.117
 @@||timejs.game.easebar.com^$client=192.168.8.117
-@@||tnc*-normal-my.tiktokv.com^$client=192.168.8.117
 @@||tnc-boot.capcutapi.com^$client=192.168.8.117
 @@||tnc-boot.tiktokv.com^$client=192.168.8.117
 @@||tnc-sg.capcutapi.com^$client=192.168.8.117
+@@||tnc*-normal-my.tiktokv.com^$client=192.168.8.117
 @@||tos-quic-kix1b.tiktokcdn.com^$client=192.168.8.117
 @@||tr.rbxcdn.com^$client=192.168.8.117
 @@||tracing.roblox.com^$client=192.168.8.117
 @@||trades.roblox.com^$client=192.168.8.117
 @@||translate.mpsdk.easebar.com^$client=192.168.8.117
 @@||tt-gecko-sg.capcutapi.com.lan^$client=192.168.8.117
+@@||tt-gecko-sg.capcutapi.com.ts.net^$client=192.168.8.117
 @@||tt-gecko-sg.capcutapi.com^$client=192.168.8.117
 @@||twiman.net^$client=192.168.8.117
 @@||twostepverification.roblox.com^$client=192.168.8.117
@@ -341,12 +348,12 @@
 @@||us-central-origin-px.roblox.com^$client=192.168.8.117
 @@||usermoderation.roblox.com^$client=192.168.8.117
 @@||users.roblox.com^$client=192.168.8.117
+@@||v-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
 @@||v*-cla.tiktokcdn.com^$client=192.168.8.117
 @@||v*-coin.tiktokcdn.com^$client=192.168.8.117
 @@||v*-jp.tiktokcdn.com.lan^$client=192.168.8.117
 @@||v*-jp.tiktokcdn.com^$client=192.168.8.117
 @@||v*.tiktokcdn.com^$client=192.168.8.117
-@@||v-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
 @@||v1.pinimg.com.lan^$client=192.168.8.117
 @@||v1.pinimg.com.ts.net^$client=192.168.8.117
 @@||v1.pinimg.com^$client=192.168.8.117
@@ -380,5 +387,6 @@
 @@||www.pinterest.com^$client=192.168.8.117
 @@||www.roblox.com^$client=192.168.8.117
 @@||www.tiktok.com^$client=192.168.8.117
+@@||x.identityvgame-cp.jp^$client=192.168.8.117
 @@||xyq-service-gcp.easebar.com^$client=192.168.8.117
 @@||xyq-service.easebar.com^$client=192.168.8.117
