@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_PBAds.txt
 #
-# Last modified: 28 November 2025
+# Last modified: 6 December 2025
 #
 
 # [AppLovin]
@@ -27,6 +27,7 @@
 @@||d.applovin.com.lan^$client=192.168.8.159
 @@||d.applovin.com.lan^$client=192.168.8.219
 @@||d.applovin.com.lan^$client=192.168.8.235
+@@||d.applovin.com.ts.net^$client=192.168.8.159
 @@||d.applovin.com^$client=192.168.8.117
 @@||d.applovin.com^$client=192.168.8.159
 @@||d.applovin.com^$client=192.168.8.219
@@ -41,10 +42,16 @@
 @@||ms.applovin.com.lan^$client=192.168.8.159
 @@||ms.applovin.com.lan^$client=192.168.8.219
 @@||ms.applovin.com.lan^$client=192.168.8.235
+@@||ms.applovin.com.ts.net^$client=192.168.8.159
+@@||ms.applovin.com.ts.net^$client=192.168.8.219
+@@||ms.applovin.com.ts.net^$client=192.168.8.235
 @@||ms.applovin.com^$client=192.168.8.117
 @@||ms.applovin.com^$client=192.168.8.159
 @@||ms.applovin.com^$client=192.168.8.219
 @@||ms.applovin.com^$client=192.168.8.235
+@@||ms.applvn.com^$client=192.168.8.117
+@@||ms.applvn.com^$client=192.168.8.219
+@@||ms.applvn.com^$client=192.168.8.235
 @@||ms4.applovin.com.lan^$client=192.168.8.117
 @@||ms4.applovin.com.lan^$client=192.168.8.219
 @@||ms4.applovin.com.ts.net^$client=192.168.8.219
@@ -73,6 +80,8 @@
 @@||prod-mediate-events.applovin.com.lan^$client=192.168.8.159
 @@||prod-mediate-events.applovin.com.lan^$client=192.168.8.219
 @@||prod-mediate-events.applovin.com.lan^$client=192.168.8.235
+@@||prod-mediate-events.applovin.com.ts.net^$client=192.168.8.117
+@@||prod-mediate-events.applovin.com.ts.net^$client=192.168.8.219
 @@||prod-mediate-events.applovin.com^$client=192.168.8.117
 @@||prod-mediate-events.applovin.com^$client=192.168.8.159
 @@||prod-mediate-events.applovin.com^$client=192.168.8.219
@@ -81,6 +90,7 @@
 @@||res1.applovin.com.lan^$client=192.168.8.159
 @@||res1.applovin.com.lan^$client=192.168.8.219
 @@||res1.applovin.com.lan^$client=192.168.8.235
+@@||res1.applovin.com.ts.net^$client=192.168.8.219
 @@||res1.applovin.com.ts.net^$client=192.168.8.235
 @@||res1.applovin.com^$client=192.168.8.117
 @@||res1.applovin.com^$client=192.168.8.159
@@ -119,6 +129,7 @@
 @@||sts.applovin.com.lan^$client=192.168.8.159
 @@||sts.applovin.com.lan^$client=192.168.8.219
 @@||sts.applovin.com.lan^$client=192.168.8.235
+@@||sts.applovin.com.ts.net^$client=192.168.8.219
 @@||sts.applovin.com^$client=192.168.8.117
 @@||sts.applovin.com^$client=192.168.8.159
 @@||sts.applovin.com^$client=192.168.8.219
