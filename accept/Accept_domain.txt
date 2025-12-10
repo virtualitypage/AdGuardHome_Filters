@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 6 December 2025
+# Last modified: 10 December 2025
 #
 
 # [許可リクエスト]
@@ -12,7 +12,7 @@
 @@/alt[0-9]-mtalk.google.com.lan/
 @@/alt[0-9]-mtalk.google.com.ts.net/
 @@/alt[0-9]-mtalk.google.com/
-@@/e[1-9]*.gcp.gvt2.com/
+@@/e[0-9]*.gcp.gvt2.com/
 @@/e[5-9]*.i.lencr.org/
 @@/e[5-9]*.o.lencr.org/
 @@/i[1-9]*.ytimg.com/
@@ -329,6 +329,7 @@
 @@||choices.truste.com
 @@||chrome.google.com
 @@||chromewebstore.google.com
+@@||ci3.googleusercontent.com
 @@||ci5.googleusercontent.com
 @@||cid.capcom.com
 @@||cl.sourcenext.com
@@ -362,6 +363,7 @@
 @@||config.mapbox.com
 @@||config.mini-app-4pay.devops-app.paypay-sec.co.jp
 @@||configserver.platform.hicloud.com
+@@||connect.gdxtag.com
 @@||connectivitycheck.gstatic.com
 @@||connectivitycheck.gstatic.com.lan
 @@||connectivitycheck.platform.hicloud.com
@@ -632,6 +634,7 @@
 @@||jicoo-resource.imgix.net
 @@||jicoo.imgix.net
 @@||jima.or.jp
+@@||jp-jst.exp.fastly-masque.net
 @@||jp.images-monotaro.com
 @@||js.dsp.cartajp.com
 @@||js.pay.com
@@ -665,6 +668,7 @@
 @@||l.shift-ai.co.jp
 @@||l.threads.net
 @@||l8juu6yk25.execute-api.us-east-1.amazonaws.com
+@@||lakealsa.com
 @@||lapi.oceans-nadia.com
 @@||lawson.go.link
 @@||lb.wordpress.com
@@ -685,6 +689,7 @@
 @@||lobby-server.live.prod.devsjelly.cloud
 @@||location.nhk.or.jp
 @@||log.goodnovel.com
+@@||log.letro.jp
 @@||log.nordot.jp
 @@||log.qookkagames.com
 @@||log.shufoo.net
@@ -818,11 +823,14 @@
 @@||open-pixon.ads-pixiv.net
 @@||ops.p.kefir.games
 @@||ota-cache1.googlezip.net
+@@||ota-cache3.googlezip.net
 @@||ota.googlezip.net
 @@||otbp-trnelb.onetapbuy.jp
 @@||otel-collector.reliability.smartnews.net
 @@||otlp-http-production.shopifysvc.com
 @@||otn.fujitv.co.jp
+@@||ow.api.skyflag.jp
+@@||ow.skyflag.jp
 @@||p-smith.com
 @@||p.twitter.com
 @@||p.twitter.com.lan
@@ -896,6 +904,7 @@
 @@||prd-real.card-type-message-wlb.verda2.akadns.net
 @@||president.jp
 @@||privacy-score.ff.avast.com
+@@||privatter.net
 @@||probe.twitter.com
 @@||prod-api.pokapoka-farm.com
 @@||prod-assets-cms.mtech.xvservice.net
@@ -1016,6 +1025,7 @@
 @@||shop.gofuku-ishihara.com
 @@||shop.tsuruha-g.com
 @@||shopapi.socialplus.jp
+@@||show.revico.jp
 @@||signaler-pa.clients6.google.com
 @@||sirok.jp
 @@||siteassets.parastorage.com
@@ -1050,6 +1060,7 @@
 @@||ssai.api.streaks.jp
 @@||ssif1.globalsign.com
 @@||ssl.gstatic.com
+@@||ssl.syncsearch.jp
 @@||sssinstagram.com
 @@||st-cdn.net
 @@||stable.dl2.discordapp.net
@@ -1215,6 +1226,7 @@
 @@||widgets.twimg.com.lan
 @@||widgets.wp.com
 @@||work.fife.usercontent.google.com
+@@||workman.jp
 @@||workspace.google.com
 @@||worldaz.relay.teams.trafficmanager.net
 @@||worldtimeapi.org
@@ -1238,6 +1250,7 @@
 @@||www.bing.com
 @@||www.broadcom.com.cdn.cloudflare.net
 @@||www.calendar-u.com
+@@||www.cardloanlp.mizuhobank.co.jp
 @@||www.cecile.co.jp
 @@||www.city.kami.lg.jp
 @@||www.city.kochi.kochi.jp
@@ -1290,6 +1303,7 @@
 @@||www.lifemag.jp
 @@||www.lofter.com
 @@||www.merupero.com
+@@||www.mizuhobank.co.jp
 @@||www.mnvnmwhr.comprod.mbplayer.com
 @@||www.monotaro.com
 @@||www.navitime.co.jp
@@ -1430,6 +1444,7 @@
 @@||ln-cdn.akamaized.net
 @@||makeshop-multi-images.akamaized.net
 @@||melonbooks.akamaized.net
+@@||mig-jp-cflisa-wlb.verda.akadns.net
 @@||p16-sg-default.akamaized.net
 @@||p16-tiktokcdn-com.akamaized.net
 @@||prd-real.lisa2-wlb.verda2.akadns.net
@@ -1476,6 +1491,7 @@
 @@||apac-mask.wrr.me.apple-dns.net
 @@||api-glb-aapne1a.smoot.apple.com
 @@||api-glb-aapne1c.smoot.apple.com
+@@||api-safari-aapne1a.smoot.apple.com
 @@||api-safari-aapne1c.smoot.apple.com
 @@||api.apple-cloudkit.fe2.apple-dns.net
 @@||api.smoot.apple.com
@@ -1713,6 +1729,7 @@
 @@||probe.icloud.com
 @@||probe.me.apple-dns.net
 @@||probe.siri.apple.com
+@@||prod-event-relay-weather-api.v.aaplimg.com
 @@||profile.ess-apple.com.akadns.net
 @@||profile.ess.apple.com
 @@||profile.gc.apple.com
@@ -1743,6 +1760,7 @@
 @@||sfss.v.aaplimg.com
 @@||sharedstreams.fe2.apple-dns.net
 @@||skl.apple.com
+@@||smoot-api-safari-aapne1a.v.aaplimg.com
 @@||smoot-api-safari-aapne1c.v.aaplimg.com
 @@||smoot-feedback.v.aaplimg.com
 @@||smoot-searchv2-aapne1a.v.aaplimg.com
@@ -2072,6 +2090,7 @@
 @@||actimg.heytapimg.com
 @@||adx-f.ads.heytapmobile.com
 @@||adx-f.ads.heytapmobile.com.lan
+@@||adx-id.ads.heytapmobi.com
 @@||adx-id.ads.heytapmobile.com
 @@||appconf-ocs-eu.heytapdl.com
 @@||appconf-ocs-in.heytapdl.com
@@ -2120,6 +2139,7 @@
 @@||stg-data-f.ads.heytapmobile.com.lan
 @@||stg-data-f.ads.heytapmobile.com.ts.net
 @@||store-quic-gl.heytapmobile.com
+@@||storeimg.heytapimg.com
 @@||virusinfo-cloudscan-sn.heytapmobile.com
 
 # [HUMAN]
@@ -2227,10 +2247,12 @@
 @@||account-center-fe.line-scdn.net
 @@||ad.line-scdn.net.lan
 @@||ai-friends-api-server.line-apps.com
+@@||ai-friends-obs.line-scdn.net
 @@||ai-friends-web.line-apps.com
 @@||api.line.me
 @@||assets.line-scdn.net
 @@||cac-obs.line-scdn.net.line-zero.akadns.net
+@@||cac-profile.line-scdn.net.line-zero.akadns.net
 @@||campaign-server-red.line-apps.com
 @@||campaign-template.line-scdn.net
 @@||cdn-manga-stf-router-api.line-scdn.net
@@ -2243,6 +2265,7 @@
 @@||crs-event.line.me
 @@||d.line-scdn.net
 @@||desktop.line-scdn.net
+@@||fonts.line-scdn.net
 @@||gak.webtoons.jp
 @@||gak.webtoons.jp.lan
 @@||gak.webtoons.jp.ts.net
@@ -2268,6 +2291,7 @@
 @@||lgw.line-scdn.net
 @@||liff-line-premium.line-apps.com
 @@||liff.line.me
+@@||liffsdk-line-scdn-net.vcdn.line-apps.com
 @@||liffsdk.line-scdn.net
 @@||line-manga.blog.jp
 @@||line-objects-internal.com
@@ -2287,6 +2311,9 @@
 @@||manga-api-gateway.line-apps.com
 @@||manga-api-gateway.line-apps.com.lan
 @@||manga.line.me
+@@||monary-web.line-apps.com
+@@||monary.line-apps.com
+@@||monary.line-scdn.net
 @@||mpol-ga.line-apps.com
 @@||mpol-ga.line-apps.com.lan
 @@||mpol-gd3.line-apps.com
@@ -2322,6 +2349,7 @@
 @@||release-lgstt18-api.linegame.jp.lan
 @@||resource-jp-linemusic.line-scdn.net
 @@||scdn.line-apps.com
+@@||search.line-scdn.net
 @@||seasonal.line-scdn.net
 @@||sentry-uit.line-apps.com
 @@||shop.line-scdn.net
@@ -2601,6 +2629,7 @@
 @@||app.rakuten.co.jp
 @@||aps1.travel.rakuten.co.jp
 @@||ashiato.rakuten.co.jp
+@@||ashiato.travel.rakuten.co.jp
 @@||ask.step.rakuten.co.jp
 @@||ba.afl.rakuten.co.jp
 @@||ba.afl.rakuten.co.jp.lan
@@ -2671,6 +2700,7 @@
 @@||manager.review.rakuten.co.jp
 @@||member.id.rakuten.co.jp
 @@||membership.rakuten-static.com
+@@||mobileapp-gateway.rakuten.co.jp
 @@||mtwidget03.affiliate.ashiato.rakuten.co.jp
 @@||mtwidget04.affiliate.rakuten.co.jp
 @@||mtwidget05.affiliate.ashiato.rakuten.co.jp
@@ -2719,6 +2749,7 @@
 @@||signal-wrg002.rcs.mobile.rakuten.co.jp
 @@||sp.basket.step.rakuten.co.jp
 @@||sp.books.step.rakuten.co.jp
+@@||sp.cart.step.rakuten.co.jp
 @@||sp.order.my.rakuten.co.jp
 @@||static.affiliate.rakuten.co.jp
 @@||static.affiliate.rakuten.co.jp.lan
@@ -2747,6 +2778,7 @@
 @@||ucc-api-signal-wrg004.rcs.mobile.rakuten.co.jp
 @@||ucc-api-signal-wrg005.rcs.mobile.rakuten.co.jp
 @@||ucc-api-signal-wrg006.rcs.mobile.rakuten.co.jp
+@@||ui-api.cart.step.rakuten.co.jp
 @@||user-attributes-api-external.gslb.rdcnw.net
 @@||user-attributes.api.rakuten.co.jp
 @@||www.rakuten-bank.co.jp

@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 7 December 2025
+# Last modified: 10 December 2025
 #
 
 # [拒否リクエスト]
@@ -79,6 +79,7 @@
 0.0.0.0 admanmedia.com
 0.0.0.0 adn.caprofitx.com
 0.0.0.0 adone.yicha.jp
+0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads.adex.com.ua
 0.0.0.0 ads.adex.com.ua.lan
 0.0.0.0 ads.adex.com.ua.ts.net
@@ -111,6 +112,7 @@
 0.0.0.0 am.lazybumblebee.com
 0.0.0.0 am.moduleapps.com
 0.0.0.0 am.moduleapps.com.lan
+0.0.0.0 am.moduleapps.com.ts.net
 0.0.0.0 am.yahoo.co.jp
 0.0.0.0 analytex-us.userpilot.io
 0.0.0.0 analytics-tcp.mtgglobals.com
@@ -358,6 +360,7 @@
 0.0.0.0 classify-app-sg.allawnos.com
 0.0.0.0 clb.yahoo.co.jp
 0.0.0.0 click.liftoff.io
+0.0.0.0 clicktrack.pubmatic.com
 0.0.0.0 client.aps.amazon-adsystem.com
 0.0.0.0 clk.srv.stackadapt.com
 0.0.0.0 cloud.xaid.jp
@@ -400,6 +403,8 @@
 0.0.0.0 connectid.analytics.yahoo.com
 0.0.0.0 consent-api.service.consent.usercentrics.eu
 0.0.0.0 content.cdn.personaly.bid
+0.0.0.0 contents.visumo.io
+0.0.0.0 control.kochava.com
 0.0.0.0 control.smbeat.jp
 0.0.0.0 control.smbeat.jp.lan
 0.0.0.0 cr.adsappier.com
@@ -492,6 +497,8 @@
 0.0.0.0 e.cquotient.com
 0.0.0.0 e3.adpushup.com
 0.0.0.0 e4.axon.ai
+0.0.0.0 e4.axon.ai.lan
+0.0.0.0 e4.axon.ai.ts.net
 0.0.0.0 e9xs.adj.st
 0.0.0.0 eb2.3lift.com
 0.0.0.0 ec-concier.com
@@ -516,6 +523,7 @@
 0.0.0.0 ev.rollnat.com
 0.0.0.0 event-action.popinfo.jp
 0.0.0.0 event-sg.ssp.taxssp.com
+0.0.0.0 event.lib.visumo.io
 0.0.0.0 events-dca.bidder.kayzen.io
 0.0.0.0 events-sgp.bidder.kayzen.io
 0.0.0.0 events-sgp.bidder.kayzen.io.lan
@@ -660,6 +668,7 @@
 0.0.0.0 ip-api.com
 0.0.0.0 ipcheck.blogsys.jp
 0.0.0.0 ipds.opr.adx.opera.com
+0.0.0.0 ipm.avcdn.net
 0.0.0.0 ipv6.6sc.co
 0.0.0.0 ittpx.eskimi.com
 0.0.0.0 ittw-asia.eskimi.com
@@ -1022,6 +1031,7 @@
 0.0.0.0 stage-e.axon.ai.lan
 0.0.0.0 stage-e.axon.ai.ts.net
 0.0.0.0 stage-e.axon.aie.axon.ai
+0.0.0.0 stage-e4.axon.ai
 0.0.0.0 stage-f4.axon.ai
 0.0.0.0 static-assets.sdhahs.com
 0.0.0.0 static-assets.sdhahs.com.lan
@@ -1083,6 +1093,7 @@
 0.0.0.0 tadata.afafb.com
 0.0.0.0 tadata.afafb.com.lan
 0.0.0.0 tagan.adlightning.com
+0.0.0.0 tagdelivery.visumo.io
 0.0.0.0 tags.rd.linksynergy.com
 0.0.0.0 tags.srv.stackadapt.com
 0.0.0.0 taj1.ebis.ne.jp
@@ -1102,6 +1113,8 @@
 0.0.0.0 torimochi.line-apps.com
 0.0.0.0 tp.adx.opera.com
 0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com.lan
+0.0.0.0 tpc.googlesyndication.com.ts.net
 0.0.0.0 tr.acobt.tech
 0.0.0.0 tr.dsp.bance.jp
 0.0.0.0 tr.ssp.bance.jp
@@ -1111,6 +1124,7 @@
 0.0.0.0 track.analytics-data.io
 0.0.0.0 track.analytics-data.io.lan
 0.0.0.0 track.analytics-data.io.ts.net
+0.0.0.0 track.api.visumo.io
 0.0.0.0 track.hubspot.com
 0.0.0.0 track.lacunads.com
 0.0.0.0 tracker.maticooads.com
@@ -1168,6 +1182,7 @@
 0.0.0.0 video-player.aps.amazon-adsystem.com.lan
 0.0.0.0 video.adpushup.com
 0.0.0.0 video.seenthis.se
+0.0.0.0 video.visumo.jp
 0.0.0.0 vimp.u.send.microad.jp
 0.0.0.0 visitor-33across.omnitagjs.com
 0.0.0.0 vogue-mode-symphony.site
@@ -1335,6 +1350,7 @@
 0.0.0.0 cdn.krxd.net.lan
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cdn.liftoff-creatives.io.lan
+0.0.0.0 cdn.liftoff-creatives.io.ts.net
 0.0.0.0 cdn.mediago.io
 0.0.0.0 cdn.opinew.com
 0.0.0.0 cdn.stackadapt.com
@@ -1754,6 +1770,13 @@
 0.0.0.0 wa.appsflyer.com
 0.0.0.0 websdk.appsflyer.com
 0.0.0.0 wpzdjg-register.appsflyersdk.com
+0.0.0.0 y1o83k.attr.appsflyersdk.com
+0.0.0.0 y1o83k.conversions.appsflyersdk.com
+0.0.0.0 y1o83k.dlsdk.appsflyersdk.com
+0.0.0.0 y1o83k.inapps.appsflyersdk.com
+0.0.0.0 y1o83k.launches.appsflyersdk.com
+0.0.0.0 y1o83k.pia.appsflyersdk.com
+0.0.0.0 y1o83k.register.appsflyersdk.com
 0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com
 0.0.0.0 zvf6kq.attr.appsflyersdk.com
 0.0.0.0 zvf6kq.conversions.appsflyersdk.com
@@ -2310,6 +2333,7 @@
 0.0.0.0 p16-tiktokyoyo-va.ibyteimg.com
 0.0.0.0 p16-ttam-va.ibyteimg.com
 0.0.0.0 p16-ttam-va.ibyteimg.com.lan
+0.0.0.0 p16-ttam-va.ibyteimg.com.ts.net
 0.0.0.0 p16-ttbanner-va.ibyteimg.com
 0.0.0.0 p16-ttlive-ranklist-sg.ibyteimg.com
 0.0.0.0 p16-ulike-sg.ibyteimg.com
