@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Restricted_domain.txt
 #
-# Last modified: 3 December 2025
+# Last modified: 18 December 2025
 #
 
 # [Restricted Domain]
@@ -80,6 +80,8 @@
 @@||economy.roblox.com^$client=192.168.8.117
 @@||ecsv2.roblox.com^$client=192.168.8.117
 @@||edge-*.mirrativ.com^$client=192.168.8.117
+@@||edge-210-140-191-154.mirrativ.com.lan^$client=192.168.8.117
+@@||edge-210-140-191-154.mirrativ.com.ts.net^$client=192.168.8.117
 @@||edge-term4-fra4.roblox.com^$client=192.168.8.117
 @@||edge-term4-nrt2.roblox.com^$client=192.168.8.117
 @@||editor-api-sg.capcut.com.lan^$client=192.168.8.117
@@ -151,6 +153,8 @@
 @@||idv.fp.ps.easebar.com.ts.net^$client=192.168.8.117
 @@||idv.fp.ps.easebar.com^$client=192.168.8.117
 @@||images.rbxcdn.com^$client=192.168.8.117
+@@||impression.update.easebar.com.lan^$client=192.168.8.117
+@@||impression.update.easebar.com.ts.net^$client=192.168.8.117
 @@||impression.update.easebar.com^$client=192.168.8.117
 @@||inneraudioms.cc.easebar.com^$client=192.168.8.117
 @@||inventory.roblox.com^$client=192.168.8.117
@@ -298,6 +302,7 @@
 @@||sf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
 @@||sf*-ies-music.tiktokcdn.com^$client=192.168.8.117
 @@||sf*m-geckocdn.tiktokcdn.com^$client=192.168.8.117
+@@||sf16-seeyou-ug.capcutstatic.com^$client=192.168.8.117
 @@||sf16-web-login-neutral.capcutstatic.com^$client=192.168.8.117
 @@||sf16-web-music.capcutstatic.com^$client=192.168.8.117
 @@||sf16-web-tos-buz.capcutcdn-us.com^$client=192.168.8.117

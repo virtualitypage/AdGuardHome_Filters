@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_PBAds.txt
 #
-# Last modified: 6 December 2025
+# Last modified: 18 December 2025
 #
 
 # [AppLovin]
@@ -22,6 +22,7 @@
 @@||assets.applovin.com^$client=192.168.8.117
 @@||assets.applovin.com^$client=192.168.8.159
 @@||assets.applovin.com^$client=192.168.8.219
+@@||assets.applovin.com^$client=192.168.8.235
 @@||aws-res1.applovin.com^$client=192.168.8.235
 @@||d.applovin.com.lan^$client=192.168.8.117
 @@||d.applovin.com.lan^$client=192.168.8.159
@@ -30,8 +31,13 @@
 @@||d.applovin.com.ts.net^$client=192.168.8.159
 @@||d.applovin.com^$client=192.168.8.117
 @@||d.applovin.com^$client=192.168.8.159
+@@||d.applovin.com^$client=192.168.8.163
 @@||d.applovin.com^$client=192.168.8.219
 @@||d.applovin.com^$client=192.168.8.235
+@@||d.applvn.com^$client=192.168.8.117
+@@||d.applvn.com^$client=192.168.8.159
+@@||d.applvn.com^$client=192.168.8.219
+@@||d.applvn.com^$client=192.168.8.235
 @@||img.applovin.com.lan^$client=192.168.8.219
 @@||img.applovin.com.ts.net^$client=192.168.8.235
 @@||img.applovin.com^$client=192.168.8.117
@@ -47,6 +53,7 @@
 @@||ms.applovin.com.ts.net^$client=192.168.8.235
 @@||ms.applovin.com^$client=192.168.8.117
 @@||ms.applovin.com^$client=192.168.8.159
+@@||ms.applovin.com^$client=192.168.8.163
 @@||ms.applovin.com^$client=192.168.8.219
 @@||ms.applovin.com^$client=192.168.8.235
 @@||ms.applvn.com^$client=192.168.8.117
@@ -102,6 +109,7 @@
 @@||rt.applovin.com.lan^$client=192.168.8.235
 @@||rt.applovin.com^$client=192.168.8.117
 @@||rt.applovin.com^$client=192.168.8.159
+@@||rt.applovin.com^$client=192.168.8.163
 @@||rt.applovin.com^$client=192.168.8.204
 @@||rt.applovin.com^$client=192.168.8.219
 @@||rt.applovin.com^$client=192.168.8.235

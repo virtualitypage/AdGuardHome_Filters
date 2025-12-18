@@ -2,6 +2,910 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [8b07a5f](https://github.com/virtualitypage/AdGuardHome_Filters/commit/8b07a5f8f37f6ee77e171c31c43d52dd8c869703) - 2025-12-10
+
+### Date
+
+- 2025/12/10 23:51:32
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 6 December 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -12,7 +12,7 @@
+
+      @@/alt[0-9]-mtalk.google.com.lan/
+      @@/alt[0-9]-mtalk.google.com.ts.net/
+      @@/alt[0-9]-mtalk.google.com/
+    - @@/e[1-9]*.gcp.gvt2.com/
+      @@/e[5-9]*.i.lencr.org/
+      @@/e[5-9]*.o.lencr.org/
+      @@/i[1-9]*.ytimg.com/
+
+      @@ -329,6 +329,7 @@
+
+      @@||choices.truste.com
+      @@||chrome.google.com
+      @@||chromewebstore.google.com
+      @@||ci5.googleusercontent.com
+      @@||cid.capcom.com
+      @@||cl.sourcenext.com
+
+      @@ -362,6 +363,7 @@
+
+      @@||config.mapbox.com
+      @@||config.mini-app-4pay.devops-app.paypay-sec.co.jp
+      @@||configserver.platform.hicloud.com
+      @@||connectivitycheck.gstatic.com
+      @@||connectivitycheck.gstatic.com.lan
+      @@||connectivitycheck.platform.hicloud.com
+
+      @@ -632,6 +634,7 @@
+
+      @@||jicoo-resource.imgix.net
+      @@||jicoo.imgix.net
+      @@||jima.or.jp
+      @@||jp.images-monotaro.com
+      @@||js.dsp.cartajp.com
+      @@||js.pay.com
+
+      @@ -665,6 +668,7 @@
+
+      @@||l.shift-ai.co.jp
+      @@||l.threads.net
+      @@||l8juu6yk25.execute-api.us-east-1.amazonaws.com
+      @@||lapi.oceans-nadia.com
+      @@||lawson.go.link
+      @@||lb.wordpress.com
+
+      @@ -685,6 +689,7 @@
+
+      @@||lobby-server.live.prod.devsjelly.cloud
+      @@||location.nhk.or.jp
+      @@||log.goodnovel.com
+      @@||log.nordot.jp
+      @@||log.qookkagames.com
+      @@||log.shufoo.net
+
+      @@ -818,11 +823,14 @@
+
+      @@||open-pixon.ads-pixiv.net
+      @@||ops.p.kefir.games
+      @@||ota-cache1.googlezip.net
+      @@||ota.googlezip.net
+      @@||otbp-trnelb.onetapbuy.jp
+      @@||otel-collector.reliability.smartnews.net
+      @@||otlp-http-production.shopifysvc.com
+      @@||otn.fujitv.co.jp
+      @@||p-smith.com
+      @@||p.twitter.com
+      @@||p.twitter.com.lan
+
+      @@ -896,6 +904,7 @@
+
+      @@||prd-real.card-type-message-wlb.verda2.akadns.net
+      @@||president.jp
+      @@||privacy-score.ff.avast.com
+      @@||probe.twitter.com
+      @@||prod-api.pokapoka-farm.com
+      @@||prod-assets-cms.mtech.xvservice.net
+
+      @@ -1016,6 +1025,7 @@
+
+      @@||shop.gofuku-ishihara.com
+      @@||shop.tsuruha-g.com
+      @@||shopapi.socialplus.jp
+      @@||signaler-pa.clients6.google.com
+      @@||sirok.jp
+      @@||siteassets.parastorage.com
+
+      @@ -1050,6 +1060,7 @@
+
+      @@||ssai.api.streaks.jp
+      @@||ssif1.globalsign.com
+      @@||ssl.gstatic.com
+      @@||sssinstagram.com
+      @@||st-cdn.net
+      @@||stable.dl2.discordapp.net
+
+      @@ -1215,6 +1226,7 @@
+
+      @@||widgets.twimg.com.lan
+      @@||widgets.wp.com
+      @@||work.fife.usercontent.google.com
+      @@||workspace.google.com
+      @@||worldaz.relay.teams.trafficmanager.net
+      @@||worldtimeapi.org
+
+      @@ -1238,6 +1250,7 @@
+
+      @@||www.bing.com
+      @@||www.broadcom.com.cdn.cloudflare.net
+      @@||www.calendar-u.com
+      @@||www.cecile.co.jp
+      @@||www.city.kami.lg.jp
+      @@||www.city.kochi.kochi.jp
+
+      @@ -1290,6 +1303,7 @@
+
+      @@||www.lifemag.jp
+      @@||www.lofter.com
+      @@||www.merupero.com
+      @@||www.mnvnmwhr.comprod.mbplayer.com
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+
+      @@ -1430,6 +1444,7 @@
+
+      @@||ln-cdn.akamaized.net
+      @@||makeshop-multi-images.akamaized.net
+      @@||melonbooks.akamaized.net
+      @@||p16-sg-default.akamaized.net
+      @@||p16-tiktokcdn-com.akamaized.net
+      @@||prd-real.lisa2-wlb.verda2.akadns.net
+
+      @@ -1476,6 +1491,7 @@
+
+      @@||apac-mask.wrr.me.apple-dns.net
+      @@||api-glb-aapne1a.smoot.apple.com
+      @@||api-glb-aapne1c.smoot.apple.com
+      @@||api-safari-aapne1c.smoot.apple.com
+      @@||api.apple-cloudkit.fe2.apple-dns.net
+      @@||api.smoot.apple.com
+
+      @@ -1713,6 +1729,7 @@
+
+      @@||probe.icloud.com
+      @@||probe.me.apple-dns.net
+      @@||probe.siri.apple.com
+      @@||profile.ess-apple.com.akadns.net
+      @@||profile.ess.apple.com
+      @@||profile.gc.apple.com
+
+      @@ -1743,6 +1760,7 @@
+
+      @@||sfss.v.aaplimg.com
+      @@||sharedstreams.fe2.apple-dns.net
+      @@||skl.apple.com
+      @@||smoot-api-safari-aapne1c.v.aaplimg.com
+      @@||smoot-feedback.v.aaplimg.com
+      @@||smoot-searchv2-aapne1a.v.aaplimg.com
+
+      @@ -2072,6 +2090,7 @@
+
+      @@||actimg.heytapimg.com
+      @@||adx-f.ads.heytapmobile.com
+      @@||adx-f.ads.heytapmobile.com.lan
+      @@||adx-id.ads.heytapmobile.com
+      @@||appconf-ocs-eu.heytapdl.com
+      @@||appconf-ocs-in.heytapdl.com
+
+      @@ -2120,6 +2139,7 @@
+
+      @@||stg-data-f.ads.heytapmobile.com.lan
+      @@||stg-data-f.ads.heytapmobile.com.ts.net
+      @@||store-quic-gl.heytapmobile.com
+      @@||virusinfo-cloudscan-sn.heytapmobile.com
+
+      # [HUMAN]
+
+      @@ -2227,10 +2247,12 @@
+
+      @@||account-center-fe.line-scdn.net
+      @@||ad.line-scdn.net.lan
+      @@||ai-friends-api-server.line-apps.com
+      @@||ai-friends-web.line-apps.com
+      @@||api.line.me
+      @@||assets.line-scdn.net
+      @@||cac-obs.line-scdn.net.line-zero.akadns.net
+      @@||campaign-server-red.line-apps.com
+      @@||campaign-template.line-scdn.net
+      @@||cdn-manga-stf-router-api.line-scdn.net
+
+      @@ -2243,6 +2265,7 @@
+
+      @@||crs-event.line.me
+      @@||d.line-scdn.net
+      @@||desktop.line-scdn.net
+      @@||gak.webtoons.jp
+      @@||gak.webtoons.jp.lan
+      @@||gak.webtoons.jp.ts.net
+
+      @@ -2268,6 +2291,7 @@
+
+      @@||lgw.line-scdn.net
+      @@||liff-line-premium.line-apps.com
+      @@||liff.line.me
+      @@||liffsdk.line-scdn.net
+      @@||line-manga.blog.jp
+      @@||line-objects-internal.com
+
+      @@ -2287,6 +2311,9 @@
+
+      @@||manga-api-gateway.line-apps.com
+      @@||manga-api-gateway.line-apps.com.lan
+      @@||manga.line.me
+      @@||mpol-ga.line-apps.com
+      @@||mpol-ga.line-apps.com.lan
+      @@||mpol-gd3.line-apps.com
+
+      @@ -2322,6 +2349,7 @@
+
+      @@||release-lgstt18-api.linegame.jp.lan
+      @@||resource-jp-linemusic.line-scdn.net
+      @@||scdn.line-apps.com
+      @@||seasonal.line-scdn.net
+      @@||sentry-uit.line-apps.com
+      @@||shop.line-scdn.net
+
+      @@ -2601,6 +2629,7 @@
+
+      @@||app.rakuten.co.jp
+      @@||aps1.travel.rakuten.co.jp
+      @@||ashiato.rakuten.co.jp
+      @@||ask.step.rakuten.co.jp
+      @@||ba.afl.rakuten.co.jp
+      @@||ba.afl.rakuten.co.jp.lan
+
+      @@ -2671,6 +2700,7 @@
+
+      @@||manager.review.rakuten.co.jp
+      @@||member.id.rakuten.co.jp
+      @@||membership.rakuten-static.com
+      @@||mtwidget03.affiliate.ashiato.rakuten.co.jp
+      @@||mtwidget04.affiliate.rakuten.co.jp
+      @@||mtwidget05.affiliate.ashiato.rakuten.co.jp
+
+      @@ -2719,6 +2749,7 @@
+
+      @@||signal-wrg002.rcs.mobile.rakuten.co.jp
+      @@||sp.basket.step.rakuten.co.jp
+      @@||sp.books.step.rakuten.co.jp
+      @@||sp.order.my.rakuten.co.jp
+      @@||static.affiliate.rakuten.co.jp
+      @@||static.affiliate.rakuten.co.jp.lan
+
+      @@ -2747,6 +2778,7 @@
+
+      @@||ucc-api-signal-wrg004.rcs.mobile.rakuten.co.jp
+      @@||ucc-api-signal-wrg005.rcs.mobile.rakuten.co.jp
+      @@||ucc-api-signal-wrg006.rcs.mobile.rakuten.co.jp
+      @@||user-attributes-api-external.gslb.rdcnw.net
+      @@||user-attributes.api.rakuten.co.jp
+      @@||www.rakuten-bank.co.jp
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 10 December 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -12,7 +12,7 @@
+
+      @@/alt[0-9]-mtalk.google.com.lan/
+      @@/alt[0-9]-mtalk.google.com.ts.net/
+      @@/alt[0-9]-mtalk.google.com/
+    + @@/e[0-9]*.gcp.gvt2.com/
+      @@/e[5-9]*.i.lencr.org/
+      @@/e[5-9]*.o.lencr.org/
+      @@/i[1-9]*.ytimg.com/
+
+      @@ -329,6 +329,7 @@
+
+      @@||choices.truste.com
+      @@||chrome.google.com
+      @@||chromewebstore.google.com
+    + @@||ci3.googleusercontent.com
+      @@||ci5.googleusercontent.com
+      @@||cid.capcom.com
+      @@||cl.sourcenext.com
+
+      @@ -362,6 +363,7 @@
+
+      @@||config.mapbox.com
+      @@||config.mini-app-4pay.devops-app.paypay-sec.co.jp
+      @@||configserver.platform.hicloud.com
+    + @@||connect.gdxtag.com
+      @@||connectivitycheck.gstatic.com
+      @@||connectivitycheck.gstatic.com.lan
+      @@||connectivitycheck.platform.hicloud.com
+
+      @@ -632,6 +634,7 @@
+
+      @@||jicoo-resource.imgix.net
+      @@||jicoo.imgix.net
+      @@||jima.or.jp
+    + @@||jp-jst.exp.fastly-masque.net
+      @@||jp.images-monotaro.com
+      @@||js.dsp.cartajp.com
+      @@||js.pay.com
+
+      @@ -665,6 +668,7 @@
+
+      @@||l.shift-ai.co.jp
+      @@||l.threads.net
+      @@||l8juu6yk25.execute-api.us-east-1.amazonaws.com
+    + @@||lakealsa.com
+      @@||lapi.oceans-nadia.com
+      @@||lawson.go.link
+      @@||lb.wordpress.com
+
+      @@ -685,6 +689,7 @@
+
+      @@||lobby-server.live.prod.devsjelly.cloud
+      @@||location.nhk.or.jp
+      @@||log.goodnovel.com
+    + @@||log.letro.jp
+      @@||log.nordot.jp
+      @@||log.qookkagames.com
+      @@||log.shufoo.net
+
+      @@ -818,11 +823,14 @@
+
+      @@||open-pixon.ads-pixiv.net
+      @@||ops.p.kefir.games
+      @@||ota-cache1.googlezip.net
+    + @@||ota-cache3.googlezip.net
+      @@||ota.googlezip.net
+      @@||otbp-trnelb.onetapbuy.jp
+      @@||otel-collector.reliability.smartnews.net
+      @@||otlp-http-production.shopifysvc.com
+      @@||otn.fujitv.co.jp
+    + @@||ow.api.skyflag.jp
+    + @@||ow.skyflag.jp
+      @@||p-smith.com
+      @@||p.twitter.com
+      @@||p.twitter.com.lan
+
+      @@ -896,6 +904,7 @@
+
+      @@||prd-real.card-type-message-wlb.verda2.akadns.net
+      @@||president.jp
+      @@||privacy-score.ff.avast.com
+    + @@||privatter.net
+      @@||probe.twitter.com
+      @@||prod-api.pokapoka-farm.com
+      @@||prod-assets-cms.mtech.xvservice.net
+
+      @@ -1016,6 +1025,7 @@
+
+      @@||shop.gofuku-ishihara.com
+      @@||shop.tsuruha-g.com
+      @@||shopapi.socialplus.jp
+    + @@||show.revico.jp
+      @@||signaler-pa.clients6.google.com
+      @@||sirok.jp
+      @@||siteassets.parastorage.com
+
+      @@ -1050,6 +1060,7 @@
+
+      @@||ssai.api.streaks.jp
+      @@||ssif1.globalsign.com
+      @@||ssl.gstatic.com
+    + @@||ssl.syncsearch.jp
+      @@||sssinstagram.com
+      @@||st-cdn.net
+      @@||stable.dl2.discordapp.net
+
+      @@ -1215,6 +1226,7 @@
+
+      @@||widgets.twimg.com.lan
+      @@||widgets.wp.com
+      @@||work.fife.usercontent.google.com
+    + @@||workman.jp
+      @@||workspace.google.com
+      @@||worldaz.relay.teams.trafficmanager.net
+      @@||worldtimeapi.org
+
+      @@ -1238,6 +1250,7 @@
+
+      @@||www.bing.com
+      @@||www.broadcom.com.cdn.cloudflare.net
+      @@||www.calendar-u.com
+    + @@||www.cardloanlp.mizuhobank.co.jp
+      @@||www.cecile.co.jp
+      @@||www.city.kami.lg.jp
+      @@||www.city.kochi.kochi.jp
+
+      @@ -1290,6 +1303,7 @@
+
+      @@||www.lifemag.jp
+      @@||www.lofter.com
+      @@||www.merupero.com
+    + @@||www.mizuhobank.co.jp
+      @@||www.mnvnmwhr.comprod.mbplayer.com
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+
+      @@ -1430,6 +1444,7 @@
+
+      @@||ln-cdn.akamaized.net
+      @@||makeshop-multi-images.akamaized.net
+      @@||melonbooks.akamaized.net
+    + @@||mig-jp-cflisa-wlb.verda.akadns.net
+      @@||p16-sg-default.akamaized.net
+      @@||p16-tiktokcdn-com.akamaized.net
+      @@||prd-real.lisa2-wlb.verda2.akadns.net
+
+      @@ -1476,6 +1491,7 @@
+
+      @@||apac-mask.wrr.me.apple-dns.net
+      @@||api-glb-aapne1a.smoot.apple.com
+      @@||api-glb-aapne1c.smoot.apple.com
+    + @@||api-safari-aapne1a.smoot.apple.com
+      @@||api-safari-aapne1c.smoot.apple.com
+      @@||api.apple-cloudkit.fe2.apple-dns.net
+      @@||api.smoot.apple.com
+
+      @@ -1713,6 +1729,7 @@
+
+      @@||probe.icloud.com
+      @@||probe.me.apple-dns.net
+      @@||probe.siri.apple.com
+    + @@||prod-event-relay-weather-api.v.aaplimg.com
+      @@||profile.ess-apple.com.akadns.net
+      @@||profile.ess.apple.com
+      @@||profile.gc.apple.com
+
+      @@ -1743,6 +1760,7 @@
+
+      @@||sfss.v.aaplimg.com
+      @@||sharedstreams.fe2.apple-dns.net
+      @@||skl.apple.com
+    + @@||smoot-api-safari-aapne1a.v.aaplimg.com
+      @@||smoot-api-safari-aapne1c.v.aaplimg.com
+      @@||smoot-feedback.v.aaplimg.com
+      @@||smoot-searchv2-aapne1a.v.aaplimg.com
+
+      @@ -2072,6 +2090,7 @@
+
+      @@||actimg.heytapimg.com
+      @@||adx-f.ads.heytapmobile.com
+      @@||adx-f.ads.heytapmobile.com.lan
+    + @@||adx-id.ads.heytapmobi.com
+      @@||adx-id.ads.heytapmobile.com
+      @@||appconf-ocs-eu.heytapdl.com
+      @@||appconf-ocs-in.heytapdl.com
+
+      @@ -2120,6 +2139,7 @@
+
+      @@||stg-data-f.ads.heytapmobile.com.lan
+      @@||stg-data-f.ads.heytapmobile.com.ts.net
+      @@||store-quic-gl.heytapmobile.com
+    + @@||storeimg.heytapimg.com
+      @@||virusinfo-cloudscan-sn.heytapmobile.com
+
+      # [HUMAN]
+
+      @@ -2227,10 +2247,12 @@
+
+      @@||account-center-fe.line-scdn.net
+      @@||ad.line-scdn.net.lan
+      @@||ai-friends-api-server.line-apps.com
+    + @@||ai-friends-obs.line-scdn.net
+      @@||ai-friends-web.line-apps.com
+      @@||api.line.me
+      @@||assets.line-scdn.net
+      @@||cac-obs.line-scdn.net.line-zero.akadns.net
+    + @@||cac-profile.line-scdn.net.line-zero.akadns.net
+      @@||campaign-server-red.line-apps.com
+      @@||campaign-template.line-scdn.net
+      @@||cdn-manga-stf-router-api.line-scdn.net
+
+      @@ -2243,6 +2265,7 @@
+
+      @@||crs-event.line.me
+      @@||d.line-scdn.net
+      @@||desktop.line-scdn.net
+    + @@||fonts.line-scdn.net
+      @@||gak.webtoons.jp
+      @@||gak.webtoons.jp.lan
+      @@||gak.webtoons.jp.ts.net
+
+      @@ -2268,6 +2291,7 @@
+
+      @@||lgw.line-scdn.net
+      @@||liff-line-premium.line-apps.com
+      @@||liff.line.me
+    + @@||liffsdk-line-scdn-net.vcdn.line-apps.com
+      @@||liffsdk.line-scdn.net
+      @@||line-manga.blog.jp
+      @@||line-objects-internal.com
+
+      @@ -2287,6 +2311,9 @@
+
+      @@||manga-api-gateway.line-apps.com
+      @@||manga-api-gateway.line-apps.com.lan
+      @@||manga.line.me
+    + @@||monary-web.line-apps.com
+    + @@||monary.line-apps.com
+    + @@||monary.line-scdn.net
+      @@||mpol-ga.line-apps.com
+      @@||mpol-ga.line-apps.com.lan
+      @@||mpol-gd3.line-apps.com
+
+      @@ -2322,6 +2349,7 @@
+
+      @@||release-lgstt18-api.linegame.jp.lan
+      @@||resource-jp-linemusic.line-scdn.net
+      @@||scdn.line-apps.com
+    + @@||search.line-scdn.net
+      @@||seasonal.line-scdn.net
+      @@||sentry-uit.line-apps.com
+      @@||shop.line-scdn.net
+
+      @@ -2601,6 +2629,7 @@
+
+      @@||app.rakuten.co.jp
+      @@||aps1.travel.rakuten.co.jp
+      @@||ashiato.rakuten.co.jp
+    + @@||ashiato.travel.rakuten.co.jp
+      @@||ask.step.rakuten.co.jp
+      @@||ba.afl.rakuten.co.jp
+      @@||ba.afl.rakuten.co.jp.lan
+
+      @@ -2671,6 +2700,7 @@
+
+      @@||manager.review.rakuten.co.jp
+      @@||member.id.rakuten.co.jp
+      @@||membership.rakuten-static.com
+    + @@||mobileapp-gateway.rakuten.co.jp
+      @@||mtwidget03.affiliate.ashiato.rakuten.co.jp
+      @@||mtwidget04.affiliate.rakuten.co.jp
+      @@||mtwidget05.affiliate.ashiato.rakuten.co.jp
+
+      @@ -2719,6 +2749,7 @@
+
+      @@||signal-wrg002.rcs.mobile.rakuten.co.jp
+      @@||sp.basket.step.rakuten.co.jp
+      @@||sp.books.step.rakuten.co.jp
+    + @@||sp.cart.step.rakuten.co.jp
+      @@||sp.order.my.rakuten.co.jp
+      @@||static.affiliate.rakuten.co.jp
+      @@||static.affiliate.rakuten.co.jp.lan
+
+      @@ -2747,6 +2778,7 @@
+
+      @@||ucc-api-signal-wrg004.rcs.mobile.rakuten.co.jp
+      @@||ucc-api-signal-wrg005.rcs.mobile.rakuten.co.jp
+      @@||ucc-api-signal-wrg006.rcs.mobile.rakuten.co.jp
+    + @@||ui-api.cart.step.rakuten.co.jp
+      @@||user-attributes-api-external.gslb.rdcnw.net
+      @@||user-attributes.api.rakuten.co.jp
+      @@||www.rakuten-bank.co.jp
+    ```
+
+- reject/Reject_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    - # Last modified: 7 December 2025
+      #
+
+      # [拒否リクエスト]
+
+      @@ -79,6 +79,7 @@
+
+      0.0.0.0 admanmedia.com
+      0.0.0.0 adn.caprofitx.com
+      0.0.0.0 adone.yicha.jp
+      0.0.0.0 ads.adex.com.ua
+      0.0.0.0 ads.adex.com.ua.lan
+      0.0.0.0 ads.adex.com.ua.ts.net
+
+      @@ -111,6 +112,7 @@
+
+      0.0.0.0 am.lazybumblebee.com
+      0.0.0.0 am.moduleapps.com
+      0.0.0.0 am.moduleapps.com.lan
+      0.0.0.0 am.yahoo.co.jp
+      0.0.0.0 analytex-us.userpilot.io
+      0.0.0.0 analytics-tcp.mtgglobals.com
+
+      @@ -358,6 +360,7 @@
+
+      0.0.0.0 classify-app-sg.allawnos.com
+      0.0.0.0 clb.yahoo.co.jp
+      0.0.0.0 click.liftoff.io
+      0.0.0.0 client.aps.amazon-adsystem.com
+      0.0.0.0 clk.srv.stackadapt.com
+      0.0.0.0 cloud.xaid.jp
+
+      @@ -400,6 +403,8 @@
+
+      0.0.0.0 connectid.analytics.yahoo.com
+      0.0.0.0 consent-api.service.consent.usercentrics.eu
+      0.0.0.0 content.cdn.personaly.bid
+      0.0.0.0 control.smbeat.jp
+      0.0.0.0 control.smbeat.jp.lan
+      0.0.0.0 cr.adsappier.com
+
+      @@ -492,6 +497,8 @@
+
+      0.0.0.0 e.cquotient.com
+      0.0.0.0 e3.adpushup.com
+      0.0.0.0 e4.axon.ai
+      0.0.0.0 e9xs.adj.st
+      0.0.0.0 eb2.3lift.com
+      0.0.0.0 ec-concier.com
+
+      @@ -516,6 +523,7 @@
+
+      0.0.0.0 ev.rollnat.com
+      0.0.0.0 event-action.popinfo.jp
+      0.0.0.0 event-sg.ssp.taxssp.com
+      0.0.0.0 events-dca.bidder.kayzen.io
+      0.0.0.0 events-sgp.bidder.kayzen.io
+      0.0.0.0 events-sgp.bidder.kayzen.io.lan
+
+      @@ -660,6 +668,7 @@
+
+      0.0.0.0 ip-api.com
+      0.0.0.0 ipcheck.blogsys.jp
+      0.0.0.0 ipds.opr.adx.opera.com
+      0.0.0.0 ipv6.6sc.co
+      0.0.0.0 ittpx.eskimi.com
+      0.0.0.0 ittw-asia.eskimi.com
+
+      @@ -1022,6 +1031,7 @@
+
+      0.0.0.0 stage-e.axon.ai.lan
+      0.0.0.0 stage-e.axon.ai.ts.net
+      0.0.0.0 stage-e.axon.aie.axon.ai
+      0.0.0.0 stage-f4.axon.ai
+      0.0.0.0 static-assets.sdhahs.com
+      0.0.0.0 static-assets.sdhahs.com.lan
+
+      @@ -1083,6 +1093,7 @@
+
+      0.0.0.0 tadata.afafb.com
+      0.0.0.0 tadata.afafb.com.lan
+      0.0.0.0 tagan.adlightning.com
+      0.0.0.0 tags.rd.linksynergy.com
+      0.0.0.0 tags.srv.stackadapt.com
+      0.0.0.0 taj1.ebis.ne.jp
+
+      @@ -1102,6 +1113,8 @@
+
+      0.0.0.0 torimochi.line-apps.com
+      0.0.0.0 tp.adx.opera.com
+      0.0.0.0 tpc.googlesyndication.com
+      0.0.0.0 tr.acobt.tech
+      0.0.0.0 tr.dsp.bance.jp
+      0.0.0.0 tr.ssp.bance.jp
+
+      @@ -1111,6 +1124,7 @@
+
+      0.0.0.0 track.analytics-data.io
+      0.0.0.0 track.analytics-data.io.lan
+      0.0.0.0 track.analytics-data.io.ts.net
+      0.0.0.0 track.hubspot.com
+      0.0.0.0 track.lacunads.com
+      0.0.0.0 tracker.maticooads.com
+
+      @@ -1168,6 +1182,7 @@
+
+      0.0.0.0 video-player.aps.amazon-adsystem.com.lan
+      0.0.0.0 video.adpushup.com
+      0.0.0.0 video.seenthis.se
+      0.0.0.0 vimp.u.send.microad.jp
+      0.0.0.0 visitor-33across.omnitagjs.com
+      0.0.0.0 vogue-mode-symphony.site
+
+      @@ -1335,6 +1350,7 @@
+
+      0.0.0.0 cdn.krxd.net.lan
+      0.0.0.0 cdn.liftoff-creatives.io
+      0.0.0.0 cdn.liftoff-creatives.io.lan
+      0.0.0.0 cdn.mediago.io
+      0.0.0.0 cdn.opinew.com
+      0.0.0.0 cdn.stackadapt.com
+
+      @@ -1754,6 +1770,13 @@
+
+      0.0.0.0 wa.appsflyer.com
+      0.0.0.0 websdk.appsflyer.com
+      0.0.0.0 wpzdjg-register.appsflyersdk.com
+      0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com
+      0.0.0.0 zvf6kq.attr.appsflyersdk.com
+      0.0.0.0 zvf6kq.conversions.appsflyersdk.com
+
+      @@ -2310,6 +2333,7 @@
+
+      0.0.0.0 p16-tiktokyoyo-va.ibyteimg.com
+      0.0.0.0 p16-ttam-va.ibyteimg.com
+      0.0.0.0 p16-ttam-va.ibyteimg.com.lan
+      0.0.0.0 p16-ttbanner-va.ibyteimg.com
+      0.0.0.0 p16-ttlive-ranklist-sg.ibyteimg.com
+      0.0.0.0 p16-ulike-sg.ibyteimg.com
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    + # Last modified: 10 December 2025
+      #
+
+      # [拒否リクエスト]
+
+      @@ -79,6 +79,7 @@
+
+      0.0.0.0 admanmedia.com
+      0.0.0.0 adn.caprofitx.com
+      0.0.0.0 adone.yicha.jp
+    + 0.0.0.0 ads-api.twitter.com
+      0.0.0.0 ads.adex.com.ua
+      0.0.0.0 ads.adex.com.ua.lan
+      0.0.0.0 ads.adex.com.ua.ts.net
+
+      @@ -111,6 +112,7 @@
+
+      0.0.0.0 am.lazybumblebee.com
+      0.0.0.0 am.moduleapps.com
+      0.0.0.0 am.moduleapps.com.lan
+    + 0.0.0.0 am.moduleapps.com.ts.net
+      0.0.0.0 am.yahoo.co.jp
+      0.0.0.0 analytex-us.userpilot.io
+      0.0.0.0 analytics-tcp.mtgglobals.com
+
+      @@ -358,6 +360,7 @@
+
+      0.0.0.0 classify-app-sg.allawnos.com
+      0.0.0.0 clb.yahoo.co.jp
+      0.0.0.0 click.liftoff.io
+    + 0.0.0.0 clicktrack.pubmatic.com
+      0.0.0.0 client.aps.amazon-adsystem.com
+      0.0.0.0 clk.srv.stackadapt.com
+      0.0.0.0 cloud.xaid.jp
+
+      @@ -400,6 +403,8 @@
+
+      0.0.0.0 connectid.analytics.yahoo.com
+      0.0.0.0 consent-api.service.consent.usercentrics.eu
+      0.0.0.0 content.cdn.personaly.bid
+    + 0.0.0.0 contents.visumo.io
+    + 0.0.0.0 control.kochava.com
+      0.0.0.0 control.smbeat.jp
+      0.0.0.0 control.smbeat.jp.lan
+      0.0.0.0 cr.adsappier.com
+
+      @@ -492,6 +497,8 @@
+
+      0.0.0.0 e.cquotient.com
+      0.0.0.0 e3.adpushup.com
+      0.0.0.0 e4.axon.ai
+    + 0.0.0.0 e4.axon.ai.lan
+    + 0.0.0.0 e4.axon.ai.ts.net
+      0.0.0.0 e9xs.adj.st
+      0.0.0.0 eb2.3lift.com
+      0.0.0.0 ec-concier.com
+
+      @@ -516,6 +523,7 @@
+
+      0.0.0.0 ev.rollnat.com
+      0.0.0.0 event-action.popinfo.jp
+      0.0.0.0 event-sg.ssp.taxssp.com
+    + 0.0.0.0 event.lib.visumo.io
+      0.0.0.0 events-dca.bidder.kayzen.io
+      0.0.0.0 events-sgp.bidder.kayzen.io
+      0.0.0.0 events-sgp.bidder.kayzen.io.lan
+
+      @@ -660,6 +668,7 @@
+
+      0.0.0.0 ip-api.com
+      0.0.0.0 ipcheck.blogsys.jp
+      0.0.0.0 ipds.opr.adx.opera.com
+    + 0.0.0.0 ipm.avcdn.net
+      0.0.0.0 ipv6.6sc.co
+      0.0.0.0 ittpx.eskimi.com
+      0.0.0.0 ittw-asia.eskimi.com
+
+      @@ -1022,6 +1031,7 @@
+
+      0.0.0.0 stage-e.axon.ai.lan
+      0.0.0.0 stage-e.axon.ai.ts.net
+      0.0.0.0 stage-e.axon.aie.axon.ai
+    + 0.0.0.0 stage-e4.axon.ai
+      0.0.0.0 stage-f4.axon.ai
+      0.0.0.0 static-assets.sdhahs.com
+      0.0.0.0 static-assets.sdhahs.com.lan
+
+      @@ -1083,6 +1093,7 @@
+
+      0.0.0.0 tadata.afafb.com
+      0.0.0.0 tadata.afafb.com.lan
+      0.0.0.0 tagan.adlightning.com
+    + 0.0.0.0 tagdelivery.visumo.io
+      0.0.0.0 tags.rd.linksynergy.com
+      0.0.0.0 tags.srv.stackadapt.com
+      0.0.0.0 taj1.ebis.ne.jp
+
+      @@ -1102,6 +1113,8 @@
+
+      0.0.0.0 torimochi.line-apps.com
+      0.0.0.0 tp.adx.opera.com
+      0.0.0.0 tpc.googlesyndication.com
+    + 0.0.0.0 tpc.googlesyndication.com.lan
+    + 0.0.0.0 tpc.googlesyndication.com.ts.net
+      0.0.0.0 tr.acobt.tech
+      0.0.0.0 tr.dsp.bance.jp
+      0.0.0.0 tr.ssp.bance.jp
+
+      @@ -1111,6 +1124,7 @@
+
+      0.0.0.0 track.analytics-data.io
+      0.0.0.0 track.analytics-data.io.lan
+      0.0.0.0 track.analytics-data.io.ts.net
+    + 0.0.0.0 track.api.visumo.io
+      0.0.0.0 track.hubspot.com
+      0.0.0.0 track.lacunads.com
+      0.0.0.0 tracker.maticooads.com
+
+      @@ -1168,6 +1182,7 @@
+
+      0.0.0.0 video-player.aps.amazon-adsystem.com.lan
+      0.0.0.0 video.adpushup.com
+      0.0.0.0 video.seenthis.se
+    + 0.0.0.0 video.visumo.jp
+      0.0.0.0 vimp.u.send.microad.jp
+      0.0.0.0 visitor-33across.omnitagjs.com
+      0.0.0.0 vogue-mode-symphony.site
+
+      @@ -1335,6 +1350,7 @@
+
+      0.0.0.0 cdn.krxd.net.lan
+      0.0.0.0 cdn.liftoff-creatives.io
+      0.0.0.0 cdn.liftoff-creatives.io.lan
+    + 0.0.0.0 cdn.liftoff-creatives.io.ts.net
+      0.0.0.0 cdn.mediago.io
+      0.0.0.0 cdn.opinew.com
+      0.0.0.0 cdn.stackadapt.com
+
+      @@ -1754,6 +1770,13 @@
+
+      0.0.0.0 wa.appsflyer.com
+      0.0.0.0 websdk.appsflyer.com
+      0.0.0.0 wpzdjg-register.appsflyersdk.com
+    + 0.0.0.0 y1o83k.attr.appsflyersdk.com
+    + 0.0.0.0 y1o83k.conversions.appsflyersdk.com
+    + 0.0.0.0 y1o83k.dlsdk.appsflyersdk.com
+    + 0.0.0.0 y1o83k.inapps.appsflyersdk.com
+    + 0.0.0.0 y1o83k.launches.appsflyersdk.com
+    + 0.0.0.0 y1o83k.pia.appsflyersdk.com
+    + 0.0.0.0 y1o83k.register.appsflyersdk.com
+      0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com
+      0.0.0.0 zvf6kq.attr.appsflyersdk.com
+      0.0.0.0 zvf6kq.conversions.appsflyersdk.com
+
+      @@ -2310,6 +2333,7 @@
+
+      0.0.0.0 p16-tiktokyoyo-va.ibyteimg.com
+      0.0.0.0 p16-ttam-va.ibyteimg.com
+      0.0.0.0 p16-ttam-va.ibyteimg.com.lan
+    + 0.0.0.0 p16-ttam-va.ibyteimg.com.ts.net
+      0.0.0.0 p16-ttbanner-va.ibyteimg.com
+      0.0.0.0 p16-ttlive-ranklist-sg.ibyteimg.com
+      0.0.0.0 p16-ulike-sg.ibyteimg.com
+    ```
+
 ## Commit: [f17eeb9](https://github.com/virtualitypage/AdGuardHome_Filters/commit/f17eeb98c0cb0f18a39fe977f20580a9c10bdaf9) - 2025-12-07
 
 ### Date
