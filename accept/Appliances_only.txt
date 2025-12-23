@@ -1,0 +1,21 @@
+# smart appliances domain list
+# Query declarations from smart appliances.
+#
+# References: querylog
+# definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
+#
+# Last modified: 23 December 2025
+#
+
+# [192.168.8.168 (LDA5F-E17 LED)]
+@@||a3-us.lifeaiot.com
+@@||m3-us.lifeaiot.com
+
+# [192.168.8.169 (SwitchBot-CeilingLight)]
+@@||a2alhn2dfztqv9.iot.ap-northeast-1.amazonaws.com
+@@||pool.ntp.org^$client=192.168.8.169
+@@||time.google.com^$client=192.168.8.169
+
+# [192.168.8.170 (PLUG-C2-JP(BT))]
+@@||iots01-asia-g1.aweray.net
+@@||ntp1.aliyun.com
