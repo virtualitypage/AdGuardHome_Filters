@@ -2,6 +2,15 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [09d7e8a](https://github.com/virtualitypage/AdGuardHome_Filters/commit/09d7e8a0077fcc70c266545615618fc4cfb517e7) - 2025-12-23
+
+### Date
+
+- 2025/12/23 22:26:16
+
+### Add
+
+- accept/Appliances_only.txt
 ## Commit: [19ed2a6](https://github.com/virtualitypage/AdGuardHome_Filters/commit/19ed2a6341a03e4b015e67170d758dac914e385e) - 2025-12-18
 
 ### Date
