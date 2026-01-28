@@ -2,6 +2,1240 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [c8860ff](https://github.com/virtualitypage/AdGuardHome_Filters/commit/c8860ffd9dcd9eb763461e2aecdc21d143cf7669) - 2026-01-19
+
+### Date
+
+- 2026/01/19 23:46:22
+
+### Change
+
+- reject/Reject_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    - # Last modified: 10 December 2025
+      #
+  
+      # [拒否リクエスト]
+
+      @@ -114,6 +114,7 @@
+
+      0.0.0.0 am.moduleapps.com.lan
+      0.0.0.0 am.moduleapps.com.ts.net
+      0.0.0.0 am.yahoo.co.jp
+      0.0.0.0 analytex-us.userpilot.io
+      0.0.0.0 analytics-tcp.mtgglobals.com
+      0.0.0.0 analytics.app-adforce.jp
+
+      @@ -159,6 +160,8 @@
+
+      0.0.0.0 api.gameanalytics.com
+      0.0.0.0 api.gdsec.net
+      0.0.0.0 api.gov-img.site
+      0.0.0.0 api.hubspot.com
+      0.0.0.0 api.id5-sync.com
+      0.0.0.0 api.judge.me
+
+      @@ -199,6 +202,8 @@
+
+      0.0.0.0 app.publer.com
+      0.0.0.0 app.publer.io
+      0.0.0.0 app.usercentrics.eu
+      0.0.0.0 appollo-plus.com
+      0.0.0.0 appollo.jp
+      0.0.0.0 apps.sascdn.com
+
+      @@ -215,6 +220,8 @@
+
+      0.0.0.0 assets.a-mo.net
+      0.0.0.0 assets.a-mo.net.cdn.cloudflare.net
+      0.0.0.0 assets.adobedtm.com
+      0.0.0.0 assets.rpdt.net
+      0.0.0.0 assetscdn.isappcloud.com
+      0.0.0.0 asumi.shinobi.jp
+
+      @@ -243,6 +250,7 @@
+
+      0.0.0.0 b1sync.zemanta.com
+      0.0.0.0 b6.im-apps.net
+      0.0.0.0 bam.nr-data.net
+      0.0.0.0 bat.bing.com
+      0.0.0.0 bid.g.doubleclick.net
+      0.0.0.0 bid.ssp.bance.jp
+
+      @@ -272,10 +280,12 @@
+
+      0.0.0.0 c.amazon-adsystem.com
+      0.0.0.0 c.amazon-adsystem.com.lan
+      0.0.0.0 c.amazon-adsystem.com.tail06b0f8.ts.net
+      0.0.0.0 c.aps.amazon-adsystem.com
+      0.0.0.0 c.dialogone.jp
+      0.0.0.0 c1.adform.net
+      0.0.0.0 c1.adform.net.lan
+      0.0.0.0 c3.a-mo.net
+      0.0.0.0 cache.send.microad.jp
+      0.0.0.0 cache.send.microad.jp.cdngc.net
+
+      @@ -373,6 +383,7 @@
+
+      0.0.0.0 cm.g.doubleclick.net
+      0.0.0.0 cm.g.doubleclick.net.lan
+      0.0.0.0 cm.smadex.com
+      0.0.0.0 collector.appconsent.io
+      0.0.0.0 collector.lunalabs.io
+      0.0.0.0 common-jp.genieesspv.jp
+
+      @@ -471,6 +482,7 @@
+
+      0.0.0.0 dmp.im-apps.net.lan
+      0.0.0.0 doubleclick.net
+      0.0.0.0 doubleclick.net.lan
+      0.0.0.0 dp.image-qoo10.jp
+      0.0.0.0 dp1.33across.com
+      0.0.0.0 dr-dlsite-02.shinobi.jp
+
+      @@ -480,6 +492,7 @@
+
+      0.0.0.0 dsb.yahoo.co.jp
+      0.0.0.0 dsb.yahooapis.jp
+      0.0.0.0 dsb.yahooapis.jp.lan
+      0.0.0.0 dsp-ap.eskimi.com
+      0.0.0.0 dsp-media.eskimi.com
+      0.0.0.0 dsp-static.clickhubs.com
+
+      @@ -529,6 +542,7 @@
+
+      0.0.0.0 events-sgp.bidder.kayzen.io.lan
+      0.0.0.0 events.browsiprod.com
+      0.0.0.0 events.popinfo.jp
+      0.0.0.0 f4.axon.ai
+      0.0.0.0 feel-live.com
+      0.0.0.0 file.mysquadbeyond.com
+
+      @@ -586,6 +600,7 @@
+
+      0.0.0.0 gw.geoedge.be
+      0.0.0.0 h.accesstrade.net
+      0.0.0.0 h.apcloud.xyz
+      0.0.0.0 hb.360yield.com
+      0.0.0.0 hb.360yield.com.lan
+      0.0.0.0 hella-ping.afafb.com
+
+      @@ -605,6 +620,7 @@
+
+      0.0.0.0 i18n.mclean.50union.com.lan
+      0.0.0.0 i18n.mclean.50union.com.ts.net
+      0.0.0.0 i6.smartnews-ads.com
+      0.0.0.0 ib.adnxs.com
+      0.0.0.0 ib.adnxs.com.lan
+      0.0.0.0 ib.isappcloud.com
+
+      @@ -719,6 +735,7 @@
+
+      0.0.0.0 lazy.rayjump.com.ts.net
+      0.0.0.0 lb.eu-1-id5-sync.com
+      0.0.0.0 lbs.eu-1-id5-sync.com
+      0.0.0.0 lexicon.33across.com
+      0.0.0.0 lf-cdn.coze.cn
+      0.0.0.0 log-v4-insight.kaizenplatform.net
+
+      @@ -795,6 +812,8 @@
+
+      0.0.0.0 nl-gcp-ad-track-sdk-europe-west4-b.mtgglobals.com
+      0.0.0.0 node.aibeacon.jp
+      0.0.0.0 noti-asia.adsmoloco.com
+      0.0.0.0 notifications-gke-sdk-bidding-a.fyber.com
+      0.0.0.0 notifications-gke-sdk-bidding-b.fyber.com
+      0.0.0.0 notifications-gke-sdk-bidding-canary.fyber.com
+
+      @@ -803,6 +822,10 @@
+
+      0.0.0.0 nt-compass-fit-jp.logly.co.jp
+      0.0.0.0 ntp.sjtu.edu.cn
+      0.0.0.0 ntracker-collector.naver.com
+      0.0.0.0 nurl.pubmatic.com
+      0.0.0.0 nurl.pubmatic.com.lan
+      0.0.0.0 nurl.pubmatic.com.ts.net
+
+      @@ -816,6 +839,7 @@
+
+      0.0.0.0 octopus.tokyo
+      0.0.0.0 octopus.tokyo.lan
+      0.0.0.0 octopus.tokyo.ts.net
+      0.0.0.0 opr.adx.opera.com
+      0.0.0.0 ota-recruit-sg.allawnos.com
+      0.0.0.0 ota.lokalise.com
+
+      @@ -880,6 +904,7 @@
+
+      0.0.0.0 rd.dynalyst.jp
+      0.0.0.0 rec.ebis.ne.jp
+      0.0.0.0 recruit.112.2o7.net
+      0.0.0.0 res.adx.opera.com
+      0.0.0.0 research-image-itmedia-co-jp.cdn.ampproject.org
+      0.0.0.0 resize.blogsys.jp
+
+      @@ -906,7 +931,10 @@
+
+      0.0.0.0 rules.quantcount.com
+      0.0.0.0 rumcdn.geoedge.be
+      0.0.0.0 rumcdn.geoedge.be.lan
+      0.0.0.0 rus-service-sg.allawnos.com
+      0.0.0.0 ryk3.adj.st
+      0.0.0.0 s-ad.rmp.rakuten.co.jp
+      0.0.0.0 s-cdn.rmp.rakuten.co.jp
+
+      @@ -920,6 +948,7 @@
+
+      0.0.0.0 s.amazon-adsystem.com
+      0.0.0.0 s.amazon-adsystem.com.lan
+      0.0.0.0 s.company-target.com
+      0.0.0.0 s.edge.svr-algorix.com
+      0.0.0.0 s.everestop.io
+      0.0.0.0 s.lazybumblebee.com
+
+      @@ -935,6 +964,7 @@
+
+      0.0.0.0 s2.adform.net
+      0.0.0.0 s9.r-ad.ne.jp
+      0.0.0.0 sau-server-sg.allawnos.com
+      0.0.0.0 sb-kirabana.discover-news.tokyo
+      0.0.0.0 sb-tama-ran.musthave-magazine.tokyo
+      0.0.0.0 sb.scorecardresearch.com
+
+      @@ -943,6 +973,8 @@
+
+      0.0.0.0 script.hotjar.com
+      0.0.0.0 scripts.im-apps.net
+      0.0.0.0 sdk-api-v1.singular.net
+      0.0.0.0 sdk-api.maticooads.com
+      0.0.0.0 sdk-api.maticooads.com.lan
+      0.0.0.0 sdk.hellouniweb.com
+
+      @@ -966,6 +998,7 @@
+
+      0.0.0.0 secure.quantserve.com
+      0.0.0.0 securepubads.g.doubleclick.net
+      0.0.0.0 sentry-prod.branch.io
+      0.0.0.0 server.jp1media.com
+      0.0.0.0 service.fyber.com
+      0.0.0.0 sessions.bugsnag.com
+
+      @@ -1032,6 +1065,8 @@
+
+      0.0.0.0 stage-e.axon.ai.ts.net
+      0.0.0.0 stage-e.axon.aie.axon.ai
+      0.0.0.0 stage-e4.axon.ai
+      0.0.0.0 stage-f4.axon.ai
+      0.0.0.0 static-assets.sdhahs.com
+      0.0.0.0 static-assets.sdhahs.com.lan
+
+      @@ -1089,6 +1124,7 @@
+
+      0.0.0.0 t.adx.opera.com
+      0.0.0.0 t.adx.opera.com.lan
+      0.0.0.0 t.afi-b.com
+      0.0.0.0 t.seenthis.se
+      0.0.0.0 tadata.afafb.com
+      0.0.0.0 tadata.afafb.com.lan
+
+      @@ -1099,6 +1135,8 @@
+
+      0.0.0.0 taj1.ebis.ne.jp
+      0.0.0.0 td.doubleclick.net
+      0.0.0.0 templatesadactions.startappservice.com
+      0.0.0.0 thumbnail.smartnews-ads.com
+      0.0.0.0 tiffanyandcompany.demdex.net
+      0.0.0.0 tiger.clickhubs.com
+
+      @@ -1111,6 +1149,7 @@
+
+      0.0.0.0 tm.r-ad.ne.jp
+      0.0.0.0 tokyo.in.treasuredata.com
+      0.0.0.0 torimochi.line-apps.com
+      0.0.0.0 tp.adx.opera.com
+      0.0.0.0 tpc.googlesyndication.com
+      0.0.0.0 tpc.googlesyndication.com.lan
+
+      @@ -1128,6 +1167,7 @@
+
+      0.0.0.0 track.hubspot.com
+      0.0.0.0 track.lacunads.com
+      0.0.0.0 tracker.maticooads.com
+      0.0.0.0 tracking-apac.tmbid.com
+      0.0.0.0 tracking-useast.tmbid.com
+      0.0.0.0 tracking.aws.judge.me
+
+      @@ -1141,10 +1181,13 @@
+
+      0.0.0.0 ts.foisonad.com.lan
+      0.0.0.0 tsuruhahdapp-proxy.moduleapps.com
+      0.0.0.0 tus.foisonad.com
+      0.0.0.0 uct.service.usercentrics.eu
+      0.0.0.0 uh.nakanohito.jp
+      0.0.0.0 ums.acuityplatform.com
+      0.0.0.0 uncn.jp
+      0.0.0.0 unified.adsafeprotected.com
+      0.0.0.0 universe.send.microad.jp
+      0.0.0.0 ups.analytics.yahoo.com
+
+      @@ -1223,6 +1266,12 @@
+
+      0.0.0.0 www.tidysuite.net
+      0.0.0.0 www.tidysuite.netrtb.mfadsrvr.com
+      0.0.0.0 www.visumo.jp
+      0.0.0.0 wwwa.netcrew-analysis.jp
+      0.0.0.0 wwwc.netcrew-analysis.jp
+      0.0.0.0 x.everestop.io
+
+      @@ -1241,6 +1290,7 @@
+
+      0.0.0.0 z3.lptag.liveperson.net
+      0.0.0.0 zmaticoo.funsdata.com
+  
+      # [広告・データ分析・トラッキング関連]
+      # https://www.netify.ai/resources/applications_reference
+      /a[0-9]*.casalemedia.com/
+
+      @@ -1272,9 +1322,11 @@
+
+      0.0.0.0 aml.valuecommerce.com
+      0.0.0.0 aml.valuecommerce.com.lan
+      0.0.0.0 amplify.outbrain.com
+      0.0.0.0 analytics-tcp.mintegral.net.lan
+      0.0.0.0 analytics-tcp.mintegral.net.ts.net
+      0.0.0.0 analytics.adjust.com
+      0.0.0.0 analytics.adjust.net.in
+      0.0.0.0 analytics.adjust.world
+      0.0.0.0 ap.lijit.com
+
+      @@ -1285,6 +1337,7 @@
+
+      0.0.0.0 api-esp-ap.piano.io
+      0.0.0.0 api.helpshift.com
+      0.0.0.0 api.helpshift.com.lan
+      0.0.0.0 api.opinew.com
+      0.0.0.0 api.relaido.jp
+      0.0.0.0 api.revenuecat.com
+
+      @@ -1373,6 +1426,7 @@
+
+      0.0.0.0 consent.adjust.io
+      0.0.0.0 consent.adjust.net.in
+      0.0.0.0 consent.adjust.world
+      0.0.0.0 content-static.pstatic.net
+      0.0.0.0 contextual.media.net
+      0.0.0.0 cookie.sync.usonar.jp
+
+      @@ -1421,13 +1475,19 @@
+
+      0.0.0.0 firebase-settings.crashlytics.com
+      0.0.0.0 firebase-settings.crashlytics.com.lan
+      0.0.0.0 firebase-settings.crashlytics.com.ts.net
+      0.0.0.0 format.prod.cloud.ogury.io
+      0.0.0.0 games.tresensa.com
+      0.0.0.0 geoclue.smaato.net
+      0.0.0.0 geolocation.onetrust.com
+      0.0.0.0 ghent-gce-jp.bidswitch.net
+      0.0.0.0 gps.adjust.com
+      0.0.0.0 graph-fallback.instagram.com
+      0.0.0.0 graph.instagram.com
+      0.0.0.0 graph.instagram.com.lan
+      0.0.0.0 graph.instagram.com.ts.net
+
+      @@ -1455,6 +1515,7 @@
+
+      0.0.0.0 images.outbrainimg.com
+      0.0.0.0 images.outbrainimg.com.lan
+      0.0.0.0 imp.storematch.jp
+      0.0.0.0 invstatic101.creativecdn.com
+      0.0.0.0 ipds.adrta.com
+      0.0.0.0 ipv6.adrta.com
+
+      @@ -1470,6 +1531,7 @@
+
+      0.0.0.0 l.evidon.com
+      0.0.0.0 ldoe-analytics.kefirgames.ru
+      0.0.0.0 ldoe-analytics.kefirgames.ru.lan
+      0.0.0.0 libs.outbrain.com
+      0.0.0.0 link.rubiconproject.com
+      0.0.0.0 live.chartboost.com
+
+      @@ -1498,6 +1560,7 @@
+
+      0.0.0.0 micro.rubiconproject.com.lan
+      0.0.0.0 mobile-api.rokt.com
+      0.0.0.0 mobile-api.rokt.com.lan
+      0.0.0.0 ms-ads-events-apne1.prod.cloud.ogury.io
+      0.0.0.0 ms-ads-monitoring-events.prod.cloud.ogury.io
+      0.0.0.0 ms-ads.prod.cloud.ogury.io
+
+      @@ -1703,11 +1766,13 @@
+
+      0.0.0.0 app.appsflyer.com
+      0.0.0.0 aps-webhandler.appsflyer.com
+      0.0.0.0 attr.appsflyer.com
+      0.0.0.0 cdn-settings.appsflyersdk.com
+      0.0.0.0 cdn-settings.appsflyersdk.com.lan
+      0.0.0.0 cdn.appsflyer.com
+      0.0.0.0 conversions.appsflyer.com
+      0.0.0.0 conversions.appsflyersdk.com
+      0.0.0.0 duqggm.attr.appsflyersdk.com
+      0.0.0.0 duqggm.conversions.appsflyersdk.com
+      0.0.0.0 duqggm.dlsdk.appsflyersdk.com
+
+      @@ -1722,6 +1787,12 @@
+
+      0.0.0.0 evmapr-gcdsdk.appsflyersdk.com
+      0.0.0.0 gcdsdk.appsflyer.com
+      0.0.0.0 gcdsdk.appsflyersdk.com
+      0.0.0.0 impression.appsflyer.com
+      0.0.0.0 impression.appsflyer.com.lan
+      0.0.0.0 impression.appsflyer.com.ts.net
+
+      @@ -1744,10 +1815,17 @@
+
+      0.0.0.0 orspid-adrevenue.appsflyersdk.com
+      0.0.0.0 otpi0g-dlsdk.appsflyersdk.com
+      0.0.0.0 privacy-sandbox.appsflyersdk.com
+      0.0.0.0 qbhozv-gcdsdk.appsflyersdk.com
+      0.0.0.0 qkdasj-adrevenue.appsflyersdk.com
+      0.0.0.0 qkjbfq-gcdsdk.appsflyersdk.com
+      0.0.0.0 register.appsflyer.com
+      0.0.0.0 snjqhu-dlsdk.appsflyersdk.com
+      0.0.0.0 statgw.devtodev.com.lan
+      0.0.0.0 tfqwb2-register.appsflyersdk.com
+
+      @@ -1758,6 +1836,8 @@
+
+      0.0.0.0 upj2lp-launches.appsflyersdk.com.lan
+      0.0.0.0 upj2lp-pia.appsflyersdk.com
+      0.0.0.0 upj2lp.inapps.appsflyersdk.com
+      0.0.0.0 upj2lp.launches.appsflyersdk.com
+      0.0.0.0 vd8qif.adrevenue.appsflyersdk.com
+      0.0.0.0 vd8qif.conversions.appsflyersdk.com
+
+      @@ -1770,6 +1850,9 @@
+
+      0.0.0.0 wa.appsflyer.com
+      0.0.0.0 websdk.appsflyer.com
+      0.0.0.0 wpzdjg-register.appsflyersdk.com
+      0.0.0.0 y1o83k.attr.appsflyersdk.com
+      0.0.0.0 y1o83k.conversions.appsflyersdk.com
+      0.0.0.0 y1o83k.dlsdk.appsflyersdk.com
+
+      @@ -1778,6 +1861,8 @@
+
+      0.0.0.0 y1o83k.pia.appsflyersdk.com
+      0.0.0.0 y1o83k.register.appsflyersdk.com
+      0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com
+      0.0.0.0 zvf6kq.attr.appsflyersdk.com
+      0.0.0.0 zvf6kq.conversions.appsflyersdk.com
+      0.0.0.0 zvf6kq.inapps.appsflyersdk.com
+
+      @@ -1849,6 +1934,7 @@
+
+      0.0.0.0 sf16-static.i18n-pglstatp.com.bytegeo.akadns.net
+      0.0.0.0 sf16-static.i18n-pglstatp.com.lan
+      0.0.0.0 sf16-static.i18n-pglstatp.com.ts.net
+      0.0.0.0 sf19-static.i18n-pglstatp.com
+      0.0.0.0 sf19-static.i18n-pglstatp.com.lan
+      0.0.0.0 sf19-static.i18n-pglstatp.com.ts.net
+
+      @@ -1872,6 +1958,7 @@
+
+      0.0.0.0 cs02-pps-drcn.dbankcdn.com
+      0.0.0.0 dnkeeper.platform.dbankcloud.com
+      0.0.0.0 dnkeeper.platform.dbankcloud.com.lan
+      0.0.0.0 events-dra.op.dbankcloud.cn
+      0.0.0.0 events-dra.op.dbankcloud.cn.lan
+      0.0.0.0 events-dra.op.dbankcloud.cn.ts.net
+
+      @@ -1907,6 +1994,7 @@
+
+      0.0.0.0 sdkserver-dra.op.dbankcloud.cn
+      0.0.0.0 sdkserver-dra.op.dbankcloud.com
+      0.0.0.0 sdkserver-dra.op.dbankcloud.com.lan
+      0.0.0.0 store-dra.hispace.dbankcloud.com
+      0.0.0.0 tsms-dra.security.dbankcloud.cn
+      0.0.0.0 tsms-dra.security.dbankcloud.cn.lan
+
+      @@ -1993,6 +2081,7 @@
+
+      0.0.0.0 sdkserver-dra.op.hicloud.com.lan
+      0.0.0.0 sdkserver-dre.op.hicloud.com
+      0.0.0.0 sdkserver-dre.op.hicloud.com.lan
+      0.0.0.0 store.hispace.hicloud.com
+      0.0.0.0 store.hispace.hicloud.com.lan
+      0.0.0.0 store.hispace.hicloud.com.ts.net
+
+      @@ -2058,6 +2147,7 @@
+
+      0.0.0.0 sync.inmobi.com.lan
+      0.0.0.0 telemetry.sdk.inmobi.com
+      0.0.0.0 telemetry.sdk.inmobi.com.lan
+      0.0.0.0 unif-id.ssp.inmobi.com
+      0.0.0.0 unif-id.ssp.inmobi.com.lan
+      0.0.0.0 unif-id.ssp.inmobi.com.ts.net
+
+      @@ -2097,6 +2187,7 @@
+
+      0.0.0.0 impressions.onelink.me
+      0.0.0.0 nikke.onelink.me
+      0.0.0.0 ovenbreak.onelink.me
+      0.0.0.0 paypay.onelink.me
+      0.0.0.0 shortswave.onelink.me
+      0.0.0.0 snssdk1180.onelink.me
+
+      @@ -2126,6 +2217,7 @@
+
+      0.0.0.0 api16-access-wf-sg.pangle.io.ts.net
+      0.0.0.0 api16-dual-event-sg2.pangle.io
+      0.0.0.0 api16-dual-event-sg2.pangle.io.lan
+      0.0.0.0 api16-event-sg.pangle.io
+      0.0.0.0 api16-event-sg2.pangle.io
+      0.0.0.0 api16-event-sg2.pangle.io.lan
+
+      @@ -2172,6 +2264,7 @@
+
+      /path[1-9].xtracloud.net/
+      0.0.0.0 qcc.qualcomm.com
+      0.0.0.0 qcc.qualcomm.com.lan
+      0.0.0.0 time.xtracloud.net
+  
+      # [tiktok (mobile analytics and spyware, other)]
+
+      @@ -2304,6 +2397,7 @@
+
+      0.0.0.0 lf16-tiktok-common.ibytedtos.com
+      0.0.0.0 libra-sg.tiktokv.com
+      0.0.0.0 location-v6-sg.tiktokv.com
+      0.0.0.0 mon-va.tiktokv.com
+      0.0.0.0 mon.isnssdk.com
+      0.0.0.0 mon.tiktokv.com.ttdns2.com
+
+      @@ -2410,6 +2504,8 @@
+
+      0.0.0.0 cdp.cloud.unity3d.com
+      0.0.0.0 cdp.cloud.unity3d.com.lan
+      0.0.0.0 config.uca.cloud.unity3d.com
+      0.0.0.0 configv2.unityads.unity3d.com
+      0.0.0.0 configv2.unityads.unity3d.com.lan
+      0.0.0.0 configv2.unityads.unity3d.com.ts.net
+
+      @@ -2447,6 +2543,8 @@
+
+      0.0.0.0 img-dyn-uap.iads.unity3d.com
+      0.0.0.0 img-uap.iads.unity3d.com
+      0.0.0.0 o-adq.mediation.unity3d.com
+      0.0.0.0 o-iab-imp-counters.mediation.unity3d.com
+      0.0.0.0 o-iab-notifications.mediation.unity3d.com
+      0.0.0.0 o-iab.mediation.unity3d.com
+
+      @@ -2479,6 +2577,7 @@
+
+      0.0.0.0 api.account.xiaomi.com.lan
+      0.0.0.0 api.ad.intl.xiaomi.com
+      0.0.0.0 api.ad.intl.xiaomi.com.lan
+      0.0.0.0 api.aurogon.intl.miui.com
+      0.0.0.0 api.aurogon.intl.miui.com.lan
+      0.0.0.0 api.g.micloud.xiaomi.net
+
+      @@ -2488,6 +2587,7 @@
+
+      0.0.0.0 app.chat.global.xiaomi.net
+      0.0.0.0 app.chat.global.xiaomi.net.lan
+      0.0.0.0 app.chat.global.xiaomi.net.ts.net
+      0.0.0.0 authbe.sec.intl.miui.com
+      0.0.0.0 browser.cdn.intl.miui.com
+      0.0.0.0 cdn-exp-sg-recommend.pt.xiaomi.com
+
+      @@ -2548,6 +2648,7 @@
+
+      0.0.0.0 tracking.intl.miui.com
+      0.0.0.0 tracking.intl.miui.com.lan
+      0.0.0.0 ts.market.mi-img.com
+      0.0.0.0 update.intl.miui.com
+      0.0.0.0 virus-engine.sec.intl.miui.com
+      0.0.0.0 weatherapi.intl.xiaomi.com
+
+      @@ -2585,6 +2686,8 @@
+
+      0.0.0.0 api.cv.mieru-ca.com
+      0.0.0.0 api.cxense.com
+      0.0.0.0 api.karte.io
+      0.0.0.0 api2.cv.mieru-ca.com
+      0.0.0.0 api3.cv.mieru-ca.com
+      0.0.0.0 appconf.rfp.fout.jp
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    + # Last modified: 19 January 2026
+      #
+  
+      # [拒否リクエスト]
+
+      @@ -114,6 +114,7 @@
+
+      0.0.0.0 am.moduleapps.com.lan
+      0.0.0.0 am.moduleapps.com.ts.net
+      0.0.0.0 am.yahoo.co.jp
+    + 0.0.0.0 ams.honzik.avcdn.net
+      0.0.0.0 analytex-us.userpilot.io
+      0.0.0.0 analytics-tcp.mtgglobals.com
+      0.0.0.0 analytics.app-adforce.jp
+
+      @@ -159,6 +160,8 @@
+
+      0.0.0.0 api.gameanalytics.com
+      0.0.0.0 api.gdsec.net
+      0.0.0.0 api.gov-img.site
+    + 0.0.0.0 api.gov-img.site.lan
+    + 0.0.0.0 api.gov-img.site.ts.net
+      0.0.0.0 api.hubspot.com
+      0.0.0.0 api.id5-sync.com
+      0.0.0.0 api.judge.me
+
+      @@ -199,6 +202,8 @@
+
+      0.0.0.0 app.publer.com
+      0.0.0.0 app.publer.io
+      0.0.0.0 app.usercentrics.eu
+    + 0.0.0.0 app.usercentrics.eu.lan
+    + 0.0.0.0 app.usercentrics.eu.ts.net
+      0.0.0.0 appollo-plus.com
+      0.0.0.0 appollo.jp
+      0.0.0.0 apps.sascdn.com
+
+      @@ -215,6 +220,8 @@
+
+      0.0.0.0 assets.a-mo.net
+      0.0.0.0 assets.a-mo.net.cdn.cloudflare.net
+      0.0.0.0 assets.adobedtm.com
+    + 0.0.0.0 assets.adobedtm.com.lan
+    + 0.0.0.0 assets.adobedtm.com.ts.net
+      0.0.0.0 assets.rpdt.net
+      0.0.0.0 assetscdn.isappcloud.com
+      0.0.0.0 asumi.shinobi.jp
+
+      @@ -243,6 +250,7 @@
+
+      0.0.0.0 b1sync.zemanta.com
+      0.0.0.0 b6.im-apps.net
+      0.0.0.0 bam.nr-data.net
+    + 0.0.0.0 banner-cdn.linksynergy.com
+      0.0.0.0 bat.bing.com
+      0.0.0.0 bid.g.doubleclick.net
+      0.0.0.0 bid.ssp.bance.jp
+
+      @@ -272,10 +280,12 @@
+
+      0.0.0.0 c.amazon-adsystem.com
+      0.0.0.0 c.amazon-adsystem.com.lan
+      0.0.0.0 c.amazon-adsystem.com.tail06b0f8.ts.net
+    + 0.0.0.0 c.amazon-adsystem.com.ts.net
+      0.0.0.0 c.aps.amazon-adsystem.com
+      0.0.0.0 c.dialogone.jp
+      0.0.0.0 c1.adform.net
+      0.0.0.0 c1.adform.net.lan
+    + 0.0.0.0 c2.taboola.com
+      0.0.0.0 c3.a-mo.net
+      0.0.0.0 cache.send.microad.jp
+      0.0.0.0 cache.send.microad.jp.cdngc.net
+
+      @@ -373,6 +383,7 @@
+
+      0.0.0.0 cm.g.doubleclick.net
+      0.0.0.0 cm.g.doubleclick.net.lan
+      0.0.0.0 cm.smadex.com
+    + 0.0.0.0 cms.quantserve.com
+      0.0.0.0 collector.appconsent.io
+      0.0.0.0 collector.lunalabs.io
+      0.0.0.0 common-jp.genieesspv.jp
+
+      @@ -471,6 +482,7 @@
+
+      0.0.0.0 dmp.im-apps.net.lan
+      0.0.0.0 doubleclick.net
+      0.0.0.0 doubleclick.net.lan
+    + 0.0.0.0 downloads.intercomcdn.com
+      0.0.0.0 dp.image-qoo10.jp
+      0.0.0.0 dp1.33across.com
+      0.0.0.0 dr-dlsite-02.shinobi.jp
+
+      @@ -480,6 +492,7 @@
+
+      0.0.0.0 dsb.yahoo.co.jp
+      0.0.0.0 dsb.yahooapis.jp
+      0.0.0.0 dsb.yahooapis.jp.lan
+    + 0.0.0.0 dsb.yahooapis.jp.ts.net
+      0.0.0.0 dsp-ap.eskimi.com
+      0.0.0.0 dsp-media.eskimi.com
+      0.0.0.0 dsp-static.clickhubs.com
+
+      @@ -529,6 +542,7 @@
+
+      0.0.0.0 events-sgp.bidder.kayzen.io.lan
+      0.0.0.0 events.browsiprod.com
+      0.0.0.0 events.popinfo.jp
+    + 0.0.0.0 external-tag.mysquadbeyond.com
+      0.0.0.0 f4.axon.ai
+      0.0.0.0 feel-live.com
+      0.0.0.0 file.mysquadbeyond.com
+
+      @@ -586,6 +600,7 @@
+
+      0.0.0.0 gw.geoedge.be
+      0.0.0.0 h.accesstrade.net
+      0.0.0.0 h.apcloud.xyz
+    + 0.0.0.0 h5b5.adj.st
+      0.0.0.0 hb.360yield.com
+      0.0.0.0 hb.360yield.com.lan
+      0.0.0.0 hella-ping.afafb.com
+
+      @@ -605,6 +620,7 @@
+
+      0.0.0.0 i18n.mclean.50union.com.lan
+      0.0.0.0 i18n.mclean.50union.com.ts.net
+      0.0.0.0 i6.smartnews-ads.com
+    + 0.0.0.0 ib.3lift.com
+      0.0.0.0 ib.adnxs.com
+      0.0.0.0 ib.adnxs.com.lan
+      0.0.0.0 ib.isappcloud.com
+
+      @@ -719,6 +735,7 @@
+
+      0.0.0.0 lazy.rayjump.com.ts.net
+      0.0.0.0 lb.eu-1-id5-sync.com
+      0.0.0.0 lbs.eu-1-id5-sync.com
+    + 0.0.0.0 lcs.naver.com
+      0.0.0.0 lexicon.33across.com
+      0.0.0.0 lf-cdn.coze.cn
+      0.0.0.0 log-v4-insight.kaizenplatform.net
+
+      @@ -795,6 +812,8 @@
+
+      0.0.0.0 nl-gcp-ad-track-sdk-europe-west4-b.mtgglobals.com
+      0.0.0.0 node.aibeacon.jp
+      0.0.0.0 noti-asia.adsmoloco.com
+    + 0.0.0.0 noti-asia.adsmoloco.com.lan
+    + 0.0.0.0 noti-asia.adsmoloco.com.ts.net
+      0.0.0.0 notifications-gke-sdk-bidding-a.fyber.com
+      0.0.0.0 notifications-gke-sdk-bidding-b.fyber.com
+      0.0.0.0 notifications-gke-sdk-bidding-canary.fyber.com
+
+      @@ -803,6 +822,10 @@
+
+      0.0.0.0 nt-compass-fit-jp.logly.co.jp
+      0.0.0.0 ntp.sjtu.edu.cn
+      0.0.0.0 ntracker-collector.naver.com
+    + 0.0.0.0 ntusus.bidease.com
+    + 0.0.0.0 ntusus6.bidease.com
+    + 0.0.0.0 ntusus6.bidease.com.lan
+    + 0.0.0.0 ntusus6.bidease.com.ts.net
+      0.0.0.0 nurl.pubmatic.com
+      0.0.0.0 nurl.pubmatic.com.lan
+      0.0.0.0 nurl.pubmatic.com.ts.net
+
+      @@ -816,6 +839,7 @@
+
+      0.0.0.0 octopus.tokyo
+      0.0.0.0 octopus.tokyo.lan
+      0.0.0.0 octopus.tokyo.ts.net
+    + 0.0.0.0 opex-service-sg.allawnos.com
+      0.0.0.0 opr.adx.opera.com
+      0.0.0.0 ota-recruit-sg.allawnos.com
+      0.0.0.0 ota.lokalise.com
+
+      @@ -880,6 +904,7 @@
+
+      0.0.0.0 rd.dynalyst.jp
+      0.0.0.0 rec.ebis.ne.jp
+      0.0.0.0 recruit.112.2o7.net
+    + 0.0.0.0 regionconfig.amplitude.com
+      0.0.0.0 res.adx.opera.com
+      0.0.0.0 research-image-itmedia-co-jp.cdn.ampproject.org
+      0.0.0.0 resize.blogsys.jp
+
+      @@ -906,7 +931,10 @@
+
+      0.0.0.0 rules.quantcount.com
+      0.0.0.0 rumcdn.geoedge.be
+      0.0.0.0 rumcdn.geoedge.be.lan
+    + 0.0.0.0 rumcdn.geoedge.be.ts.net
+      0.0.0.0 rus-service-sg.allawnos.com
+    + 0.0.0.0 rus-service-sg.allawnos.com.lan
+    + 0.0.0.0 rus-service-sg.allawnos.com.ts.net
+      0.0.0.0 ryk3.adj.st
+      0.0.0.0 s-ad.rmp.rakuten.co.jp
+      0.0.0.0 s-cdn.rmp.rakuten.co.jp
+
+      @@ -920,6 +948,7 @@
+
+      0.0.0.0 s.amazon-adsystem.com
+      0.0.0.0 s.amazon-adsystem.com.lan
+      0.0.0.0 s.company-target.com
+    + 0.0.0.0 s.dc-tag.jp
+      0.0.0.0 s.edge.svr-algorix.com
+      0.0.0.0 s.everestop.io
+      0.0.0.0 s.lazybumblebee.com
+
+      @@ -935,6 +964,7 @@
+
+      0.0.0.0 s2.adform.net
+      0.0.0.0 s9.r-ad.ne.jp
+      0.0.0.0 sau-server-sg.allawnos.com
+    + 0.0.0.0 sb-killer-men.discover-news.tokyo
+      0.0.0.0 sb-kirabana.discover-news.tokyo
+      0.0.0.0 sb-tama-ran.musthave-magazine.tokyo
+      0.0.0.0 sb.scorecardresearch.com
+
+      @@ -943,6 +973,8 @@
+
+      0.0.0.0 script.hotjar.com
+      0.0.0.0 scripts.im-apps.net
+      0.0.0.0 sdk-api-v1.singular.net
+    + 0.0.0.0 sdk-api-v1.singular.net.lan
+    + 0.0.0.0 sdk-api-v1.singular.net.ts.net
+      0.0.0.0 sdk-api.maticooads.com
+      0.0.0.0 sdk-api.maticooads.com.lan
+      0.0.0.0 sdk.hellouniweb.com
+
+      @@ -966,6 +998,7 @@
+
+      0.0.0.0 secure.quantserve.com
+      0.0.0.0 securepubads.g.doubleclick.net
+      0.0.0.0 sentry-prod.branch.io
+    + 0.0.0.0 servedby.flashtalking.com
+      0.0.0.0 server.jp1media.com
+      0.0.0.0 service.fyber.com
+      0.0.0.0 sessions.bugsnag.com
+
+      @@ -1032,6 +1065,8 @@
+
+      0.0.0.0 stage-e.axon.ai.ts.net
+      0.0.0.0 stage-e.axon.aie.axon.ai
+      0.0.0.0 stage-e4.axon.ai
+    + 0.0.0.0 stage-e4.axon.ai.lan
+    + 0.0.0.0 stage-e4.axon.ai.ts.net
+      0.0.0.0 stage-f4.axon.ai
+      0.0.0.0 static-assets.sdhahs.com
+      0.0.0.0 static-assets.sdhahs.com.lan
+
+      @@ -1089,6 +1124,7 @@
+
+      0.0.0.0 t.adx.opera.com
+      0.0.0.0 t.adx.opera.com.lan
+      0.0.0.0 t.afi-b.com
+    + 0.0.0.0 t.dc-tag.jp
+      0.0.0.0 t.seenthis.se
+      0.0.0.0 tadata.afafb.com
+      0.0.0.0 tadata.afafb.com.lan
+
+      @@ -1099,6 +1135,8 @@
+
+      0.0.0.0 taj1.ebis.ne.jp
+      0.0.0.0 td.doubleclick.net
+      0.0.0.0 templatesadactions.startappservice.com
+    + 0.0.0.0 test-gateway.instagram.com.lan
+    + 0.0.0.0 test-gateway.instagram.com.ts.net
+      0.0.0.0 thumbnail.smartnews-ads.com
+      0.0.0.0 tiffanyandcompany.demdex.net
+      0.0.0.0 tiger.clickhubs.com
+
+      @@ -1111,6 +1149,7 @@
+
+      0.0.0.0 tm.r-ad.ne.jp
+      0.0.0.0 tokyo.in.treasuredata.com
+      0.0.0.0 torimochi.line-apps.com
+    + 0.0.0.0 toyotamotorcorporation.122.2o7.net
+      0.0.0.0 tp.adx.opera.com
+      0.0.0.0 tpc.googlesyndication.com
+      0.0.0.0 tpc.googlesyndication.com.lan
+
+      @@ -1128,6 +1167,7 @@
+
+      0.0.0.0 track.hubspot.com
+      0.0.0.0 track.lacunads.com
+      0.0.0.0 tracker.maticooads.com
+    + 0.0.0.0 tracker.rtb.admanmedia.com
+      0.0.0.0 tracking-apac.tmbid.com
+      0.0.0.0 tracking-useast.tmbid.com
+      0.0.0.0 tracking.aws.judge.me
+
+      @@ -1141,10 +1181,13 @@
+
+      0.0.0.0 ts.foisonad.com.lan
+      0.0.0.0 tsuruhahdapp-proxy.moduleapps.com
+      0.0.0.0 tus.foisonad.com
+    + 0.0.0.0 u-tyo.4dex.io
+      0.0.0.0 uct.service.usercentrics.eu
+      0.0.0.0 uh.nakanohito.jp
+      0.0.0.0 ums.acuityplatform.com
+      0.0.0.0 uncn.jp
+    + 0.0.0.0 uncn.jp.lan
+    + 0.0.0.0 uncn.jp.ts.net
+      0.0.0.0 unified.adsafeprotected.com
+      0.0.0.0 universe.send.microad.jp
+      0.0.0.0 ups.analytics.yahoo.com
+
+      @@ -1223,6 +1266,12 @@
+
+      0.0.0.0 www.tidysuite.net
+      0.0.0.0 www.tidysuite.netrtb.mfadsrvr.com
+      0.0.0.0 www.visumo.jp
+    + 0.0.0.0 www22.a8.net
+    + 0.0.0.0 www24.a8.net
+    + 0.0.0.0 www26.a8.net
+    + 0.0.0.0 www27.a8.net
+    + 0.0.0.0 www28.a8.net
+    + 0.0.0.0 www29.a8.net
+      0.0.0.0 wwwa.netcrew-analysis.jp
+      0.0.0.0 wwwc.netcrew-analysis.jp
+      0.0.0.0 x.everestop.io
+
+      @@ -1241,6 +1290,7 @@
+
+      0.0.0.0 z3.lptag.liveperson.net
+      0.0.0.0 zmaticoo.funsdata.com
+  
+    + 
+      # [広告・データ分析・トラッキング関連]
+      # https://www.netify.ai/resources/applications_reference
+      /a[0-9]*.casalemedia.com/
+
+      @@ -1272,9 +1322,11 @@
+
+      0.0.0.0 aml.valuecommerce.com
+      0.0.0.0 aml.valuecommerce.com.lan
+      0.0.0.0 amplify.outbrain.com
+    + 0.0.0.0 analytics-tcp.mintegral.net
+      0.0.0.0 analytics-tcp.mintegral.net.lan
+      0.0.0.0 analytics-tcp.mintegral.net.ts.net
+      0.0.0.0 analytics.adjust.com
+    + 0.0.0.0 analytics.adjust.io
+      0.0.0.0 analytics.adjust.net.in
+      0.0.0.0 analytics.adjust.world
+      0.0.0.0 ap.lijit.com
+
+      @@ -1285,6 +1337,7 @@
+
+      0.0.0.0 api-esp-ap.piano.io
+      0.0.0.0 api.helpshift.com
+      0.0.0.0 api.helpshift.com.lan
+    + 0.0.0.0 api.helpshift.com.ts.net
+      0.0.0.0 api.opinew.com
+      0.0.0.0 api.relaido.jp
+      0.0.0.0 api.revenuecat.com
+
+      @@ -1373,6 +1426,7 @@
+
+      0.0.0.0 consent.adjust.io
+      0.0.0.0 consent.adjust.net.in
+      0.0.0.0 consent.adjust.world
+    + 0.0.0.0 content-signature-2.cdn.mozilla.net
+      0.0.0.0 content-static.pstatic.net
+      0.0.0.0 contextual.media.net
+      0.0.0.0 cookie.sync.usonar.jp
+
+      @@ -1421,13 +1475,19 @@
+
+      0.0.0.0 firebase-settings.crashlytics.com
+      0.0.0.0 firebase-settings.crashlytics.com.lan
+      0.0.0.0 firebase-settings.crashlytics.com.ts.net
+    + 0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
+    + 0.0.0.0 firefox.settings.services.mozilla.com
+      0.0.0.0 format.prod.cloud.ogury.io
+      0.0.0.0 games.tresensa.com
+    + 0.0.0.0 geo-api.superwall.com
+      0.0.0.0 geoclue.smaato.net
+      0.0.0.0 geolocation.onetrust.com
+      0.0.0.0 ghent-gce-jp.bidswitch.net
+    + 0.0.0.0 got-iad3rs0zoneb.track.smaato.net
+      0.0.0.0 gps.adjust.com
+      0.0.0.0 graph-fallback.instagram.com
+    + 0.0.0.0 graph-fallback.instagram.com.lan
+    + 0.0.0.0 graph-fallback.instagram.com.ts.net
+      0.0.0.0 graph.instagram.com
+      0.0.0.0 graph.instagram.com.lan
+      0.0.0.0 graph.instagram.com.ts.net
+
+      @@ -1455,6 +1515,7 @@
+
+      0.0.0.0 images.outbrainimg.com
+      0.0.0.0 images.outbrainimg.com.lan
+      0.0.0.0 imp.storematch.jp
+    + 0.0.0.0 incoming.telemetry.mozilla.org
+      0.0.0.0 invstatic101.creativecdn.com
+      0.0.0.0 ipds.adrta.com
+      0.0.0.0 ipv6.adrta.com
+
+      @@ -1470,6 +1531,7 @@
+
+      0.0.0.0 l.evidon.com
+      0.0.0.0 ldoe-analytics.kefirgames.ru
+      0.0.0.0 ldoe-analytics.kefirgames.ru.lan
+    + 0.0.0.0 ldoe-analytics.kefirgames.ru.ts.net
+      0.0.0.0 libs.outbrain.com
+      0.0.0.0 link.rubiconproject.com
+      0.0.0.0 live.chartboost.com
+
+      @@ -1498,6 +1560,7 @@
+
+      0.0.0.0 micro.rubiconproject.com.lan
+      0.0.0.0 mobile-api.rokt.com
+      0.0.0.0 mobile-api.rokt.com.lan
+    + 0.0.0.0 mobile-api.rokt.com.ts.net
+      0.0.0.0 ms-ads-events-apne1.prod.cloud.ogury.io
+      0.0.0.0 ms-ads-monitoring-events.prod.cloud.ogury.io
+      0.0.0.0 ms-ads.prod.cloud.ogury.io
+
+      @@ -1703,11 +1766,13 @@
+
+      0.0.0.0 app.appsflyer.com
+      0.0.0.0 aps-webhandler.appsflyer.com
+      0.0.0.0 attr.appsflyer.com
+    + 0.0.0.0 banner.appsflyer.com
+      0.0.0.0 cdn-settings.appsflyersdk.com
+      0.0.0.0 cdn-settings.appsflyersdk.com.lan
+      0.0.0.0 cdn.appsflyer.com
+      0.0.0.0 conversions.appsflyer.com
+      0.0.0.0 conversions.appsflyersdk.com
+    + 0.0.0.0 dlsdk.appsflyersdk.com
+      0.0.0.0 duqggm.attr.appsflyersdk.com
+      0.0.0.0 duqggm.conversions.appsflyersdk.com
+      0.0.0.0 duqggm.dlsdk.appsflyersdk.com
+
+      @@ -1722,6 +1787,12 @@
+
+      0.0.0.0 evmapr-gcdsdk.appsflyersdk.com
+      0.0.0.0 gcdsdk.appsflyer.com
+      0.0.0.0 gcdsdk.appsflyersdk.com
+    + 0.0.0.0 hs342d.conversions.appsflyersdk.com
+    + 0.0.0.0 hs342d.dlsdk.appsflyersdk.com
+    + 0.0.0.0 hs342d.gcdsdk.appsflyersdk.com
+    + 0.0.0.0 hs342d.inapps.appsflyersdk.com
+    + 0.0.0.0 hs342d.launches.appsflyersdk.com
+    + 0.0.0.0 hs342d.pia.appsflyersdk.com
+      0.0.0.0 impression.appsflyer.com
+      0.0.0.0 impression.appsflyer.com.lan
+      0.0.0.0 impression.appsflyer.com.ts.net
+
+      @@ -1744,10 +1815,17 @@
+
+      0.0.0.0 orspid-adrevenue.appsflyersdk.com
+      0.0.0.0 otpi0g-dlsdk.appsflyersdk.com
+      0.0.0.0 privacy-sandbox.appsflyersdk.com
+    + 0.0.0.0 pyc86x-dlsdk.appsflyersdk.com
+    + 0.0.0.0 pyc86x-onelink.appsflyersdk.com
+    + 0.0.0.0 pyc86x-register.appsflyersdk.com
+      0.0.0.0 qbhozv-gcdsdk.appsflyersdk.com
+      0.0.0.0 qkdasj-adrevenue.appsflyersdk.com
+      0.0.0.0 qkjbfq-gcdsdk.appsflyersdk.com
+      0.0.0.0 register.appsflyer.com
+    + 0.0.0.0 sgwckg.adrevenue.appsflyersdk.com
+    + 0.0.0.0 sgwckg.conversions.appsflyersdk.com
+    + 0.0.0.0 sgwckg.gcdsdk.appsflyersdk.com
+    + 0.0.0.0 sgwckg.launches.appsflyersdk.com
+      0.0.0.0 snjqhu-dlsdk.appsflyersdk.com
+      0.0.0.0 statgw.devtodev.com.lan
+      0.0.0.0 tfqwb2-register.appsflyersdk.com
+
+      @@ -1758,6 +1836,8 @@
+
+      0.0.0.0 upj2lp-launches.appsflyersdk.com.lan
+      0.0.0.0 upj2lp-pia.appsflyersdk.com
+      0.0.0.0 upj2lp.inapps.appsflyersdk.com
+    + 0.0.0.0 upj2lp.inapps.appsflyersdk.com.lan
+    + 0.0.0.0 upj2lp.inapps.appsflyersdk.com.ts.net
+      0.0.0.0 upj2lp.launches.appsflyersdk.com
+      0.0.0.0 vd8qif.adrevenue.appsflyersdk.com
+      0.0.0.0 vd8qif.conversions.appsflyersdk.com
+
+      @@ -1770,6 +1850,9 @@
+
+      0.0.0.0 wa.appsflyer.com
+      0.0.0.0 websdk.appsflyer.com
+      0.0.0.0 wpzdjg-register.appsflyersdk.com
+    + 0.0.0.0 wpzdjg.adrevenue.appsflyersdk.com
+    + 0.0.0.0 wpzdjg.inapps.appsflyersdk.com
+    + 0.0.0.0 wpzdjg.launches.appsflyersdk.com
+      0.0.0.0 y1o83k.attr.appsflyersdk.com
+      0.0.0.0 y1o83k.conversions.appsflyersdk.com
+      0.0.0.0 y1o83k.dlsdk.appsflyersdk.com
+
+      @@ -1778,6 +1861,8 @@
+
+      0.0.0.0 y1o83k.pia.appsflyersdk.com
+      0.0.0.0 y1o83k.register.appsflyersdk.com
+      0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com
+    + 0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com.lan
+    + 0.0.0.0 zvf6kq.adrevenue.appsflyersdk.com.ts.net
+      0.0.0.0 zvf6kq.attr.appsflyersdk.com
+      0.0.0.0 zvf6kq.conversions.appsflyersdk.com
+      0.0.0.0 zvf6kq.inapps.appsflyersdk.com
+
+      @@ -1849,6 +1934,7 @@
+
+      0.0.0.0 sf16-static.i18n-pglstatp.com.bytegeo.akadns.net
+      0.0.0.0 sf16-static.i18n-pglstatp.com.lan
+      0.0.0.0 sf16-static.i18n-pglstatp.com.ts.net
+    + 0.0.0.0 sf19-fe-tos-sg.i18n-pglstatp.com
+      0.0.0.0 sf19-static.i18n-pglstatp.com
+      0.0.0.0 sf19-static.i18n-pglstatp.com.lan
+      0.0.0.0 sf19-static.i18n-pglstatp.com.ts.net
+
+      @@ -1872,6 +1958,7 @@
+
+      0.0.0.0 cs02-pps-drcn.dbankcdn.com
+      0.0.0.0 dnkeeper.platform.dbankcloud.com
+      0.0.0.0 dnkeeper.platform.dbankcloud.com.lan
+    + 0.0.0.0 dnkeeper.platform.dbankcloud.com.ts.net
+      0.0.0.0 events-dra.op.dbankcloud.cn
+      0.0.0.0 events-dra.op.dbankcloud.cn.lan
+      0.0.0.0 events-dra.op.dbankcloud.cn.ts.net
+
+      @@ -1907,6 +1994,7 @@
+
+      0.0.0.0 sdkserver-dra.op.dbankcloud.cn
+      0.0.0.0 sdkserver-dra.op.dbankcloud.com
+      0.0.0.0 sdkserver-dra.op.dbankcloud.com.lan
+    + 0.0.0.0 sdkserver-dra.op.dbankcloud.com.ts.net
+      0.0.0.0 store-dra.hispace.dbankcloud.com
+      0.0.0.0 tsms-dra.security.dbankcloud.cn
+      0.0.0.0 tsms-dra.security.dbankcloud.cn.lan
+
+      @@ -1993,6 +2081,7 @@
+
+      0.0.0.0 sdkserver-dra.op.hicloud.com.lan
+      0.0.0.0 sdkserver-dre.op.hicloud.com
+      0.0.0.0 sdkserver-dre.op.hicloud.com.lan
+    + 0.0.0.0 sdkserver-dre.op.hicloud.com.ts.net
+      0.0.0.0 store.hispace.hicloud.com
+      0.0.0.0 store.hispace.hicloud.com.lan
+      0.0.0.0 store.hispace.hicloud.com.ts.net
+
+      @@ -2058,6 +2147,7 @@
+
+      0.0.0.0 sync.inmobi.com.lan
+      0.0.0.0 telemetry.sdk.inmobi.com
+      0.0.0.0 telemetry.sdk.inmobi.com.lan
+    + 0.0.0.0 telemetry.sdk.inmobi.com.ts.net
+      0.0.0.0 unif-id.ssp.inmobi.com
+      0.0.0.0 unif-id.ssp.inmobi.com.lan
+      0.0.0.0 unif-id.ssp.inmobi.com.ts.net
+
+      @@ -2097,6 +2187,7 @@
+
+      0.0.0.0 impressions.onelink.me
+      0.0.0.0 nikke.onelink.me
+      0.0.0.0 ovenbreak.onelink.me
+    + 0.0.0.0 paidy.onelink.me
+      0.0.0.0 paypay.onelink.me
+      0.0.0.0 shortswave.onelink.me
+      0.0.0.0 snssdk1180.onelink.me
+
+      @@ -2126,6 +2217,7 @@
+
+      0.0.0.0 api16-access-wf-sg.pangle.io.ts.net
+      0.0.0.0 api16-dual-event-sg2.pangle.io
+      0.0.0.0 api16-dual-event-sg2.pangle.io.lan
+    + 0.0.0.0 api16-dual-event-sg2.pangle.io.ts.net
+      0.0.0.0 api16-event-sg.pangle.io
+      0.0.0.0 api16-event-sg2.pangle.io
+      0.0.0.0 api16-event-sg2.pangle.io.lan
+
+      @@ -2172,6 +2264,7 @@
+
+      /path[1-9].xtracloud.net/
+      0.0.0.0 qcc.qualcomm.com
+      0.0.0.0 qcc.qualcomm.com.lan
+    + 0.0.0.0 qcc.qualcomm.com.ts.net
+      0.0.0.0 time.xtracloud.net
+  
+      # [tiktok (mobile analytics and spyware, other)]
+
+      @@ -2304,6 +2397,7 @@
+
+      0.0.0.0 lf16-tiktok-common.ibytedtos.com
+      0.0.0.0 libra-sg.tiktokv.com
+      0.0.0.0 location-v6-sg.tiktokv.com
+    + 0.0.0.0 log.sgsnssdk.com
+      0.0.0.0 mon-va.tiktokv.com
+      0.0.0.0 mon.isnssdk.com
+      0.0.0.0 mon.tiktokv.com.ttdns2.com
+
+      @@ -2410,6 +2504,8 @@
+
+      0.0.0.0 cdp.cloud.unity3d.com
+      0.0.0.0 cdp.cloud.unity3d.com.lan
+      0.0.0.0 config.uca.cloud.unity3d.com
+    + 0.0.0.0 config.uca.cloud.unity3d.com.lan
+    + 0.0.0.0 config.uca.cloud.unity3d.com.ts.net
+      0.0.0.0 configv2.unityads.unity3d.com
+      0.0.0.0 configv2.unityads.unity3d.com.lan
+      0.0.0.0 configv2.unityads.unity3d.com.ts.net
+
+      @@ -2447,6 +2543,8 @@
+
+      0.0.0.0 img-dyn-uap.iads.unity3d.com
+      0.0.0.0 img-uap.iads.unity3d.com
+      0.0.0.0 o-adq.mediation.unity3d.com
+    + 0.0.0.0 o-adq.mediation.unity3d.com.lan
+    + 0.0.0.0 o-adq.mediation.unity3d.com.ts.net
+      0.0.0.0 o-iab-imp-counters.mediation.unity3d.com
+      0.0.0.0 o-iab-notifications.mediation.unity3d.com
+      0.0.0.0 o-iab.mediation.unity3d.com
+
+      @@ -2479,6 +2577,7 @@
+
+      0.0.0.0 api.account.xiaomi.com.lan
+      0.0.0.0 api.ad.intl.xiaomi.com
+      0.0.0.0 api.ad.intl.xiaomi.com.lan
+    + 0.0.0.0 api.ad.intl.xiaomi.com.ts.net
+      0.0.0.0 api.aurogon.intl.miui.com
+      0.0.0.0 api.aurogon.intl.miui.com.lan
+      0.0.0.0 api.g.micloud.xiaomi.net
+
+      @@ -2488,6 +2587,7 @@
+
+      0.0.0.0 app.chat.global.xiaomi.net
+      0.0.0.0 app.chat.global.xiaomi.net.lan
+      0.0.0.0 app.chat.global.xiaomi.net.ts.net
+    + 0.0.0.0 auth-engine.sec.intl.miui.com
+      0.0.0.0 authbe.sec.intl.miui.com
+      0.0.0.0 browser.cdn.intl.miui.com
+      0.0.0.0 cdn-exp-sg-recommend.pt.xiaomi.com
+
+      @@ -2548,6 +2648,7 @@
+
+      0.0.0.0 tracking.intl.miui.com
+      0.0.0.0 tracking.intl.miui.com.lan
+      0.0.0.0 ts.market.mi-img.com
+    + 0.0.0.0 tz.sec.xiaomi.com
+      0.0.0.0 update.intl.miui.com
+      0.0.0.0 virus-engine.sec.intl.miui.com
+      0.0.0.0 weatherapi.intl.xiaomi.com
+
+      @@ -2585,6 +2686,8 @@
+
+      0.0.0.0 api.cv.mieru-ca.com
+      0.0.0.0 api.cxense.com
+      0.0.0.0 api.karte.io
+    + 0.0.0.0 api.karte.io.lan
+    + 0.0.0.0 api.karte.io.ts.net
+      0.0.0.0 api2.cv.mieru-ca.com
+      0.0.0.0 api3.cv.mieru-ca.com
+      0.0.0.0 appconf.rfp.fout.jp
+    ```
+
 ## Commit: [09d7e8a](https://github.com/virtualitypage/AdGuardHome_Filters/commit/09d7e8a0077fcc70c266545615618fc4cfb517e7) - 2025-12-23
 
 ### Date

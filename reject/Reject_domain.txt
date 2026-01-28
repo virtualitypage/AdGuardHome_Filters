@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 19 January 2026
+# Last modified: 28 January 2026
 #
 
 # [拒否リクエスト]
@@ -52,6 +52,7 @@
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acdn.adnxs.com.lan
 0.0.0.0 ad-generation.jp
+0.0.0.0 ad-generation.jp.lan
 0.0.0.0 ad-nex.com
 0.0.0.0 ad-nex.com.lan
 0.0.0.0 ad-proxy-reward-rakuten-co-jp.gslb.rdcnw.net
@@ -138,6 +139,7 @@
 0.0.0.0 ape-androids.isappcloud.com
 0.0.0.0 ape-androids.isappcloud.com.lan
 0.0.0.0 api-events.eventstracker.io
+0.0.0.0 api-events.eventstracker.io.lan
 0.0.0.0 api-fe.supnovel.com
 0.0.0.0 api-iam.intercom.io
 0.0.0.0 api-sdk-tracking.beaconbank.jp
@@ -158,6 +160,7 @@
 0.0.0.0 api.company-target.com
 0.0.0.0 api.flipdesk.jp
 0.0.0.0 api.gameanalytics.com
+0.0.0.0 api.gameanalytics.com.lan
 0.0.0.0 api.gdsec.net
 0.0.0.0 api.gov-img.site
 0.0.0.0 api.gov-img.site.lan
@@ -388,12 +391,16 @@
 0.0.0.0 collector.lunalabs.io
 0.0.0.0 common-jp.genieesspv.jp
 0.0.0.0 commvod.kwcdn.com.ts.net
+0.0.0.0 aimg.kwcdn.com.lan
+0.0.0.0 img.kwcdn.com.lan
+0.0.0.0 commvod.kwcdn.com.lan
 0.0.0.0 component-ota-sg.allawnos.com
 0.0.0.0 component-ota-sg.allawnos.com.lan
 0.0.0.0 component-ota-sg.allawnos.com.ts.net
 0.0.0.0 conduit.branch.io
 0.0.0.0 config.aps.amazon-adsystem.com
 0.0.0.0 config.ssp.taxssp.com
+0.0.0.0 analytics-tcp.mtgglobals.com.lan
 0.0.0.0 configure-tcp-android.mtgglobals.com
 0.0.0.0 configure-tcp-android.mtgglobals.com.lan
 0.0.0.0 configure-tcp-ios.mtgglobals.com
@@ -1290,7 +1297,6 @@
 0.0.0.0 z3.lptag.liveperson.net
 0.0.0.0 zmaticoo.funsdata.com
 
-
 # [広告・データ分析・トラッキング関連]
 # https://www.netify.ai/resources/applications_reference
 /a[0-9]*.casalemedia.com/
@@ -1694,6 +1700,7 @@
 0.0.0.0 tpsc-video-as.doubleverify.com
 0.0.0.0 tr.outbrain.com
 0.0.0.0 tr.slvrbullet.com
+0.0.0.0 trace.mediago.io
 0.0.0.0 track.tenjin.io
 0.0.0.0 tracker.v2.relaido.jp
 0.0.0.0 tracker.v2.relaido.jp.lan
@@ -1787,6 +1794,7 @@
 0.0.0.0 evmapr-gcdsdk.appsflyersdk.com
 0.0.0.0 gcdsdk.appsflyer.com
 0.0.0.0 gcdsdk.appsflyersdk.com
+0.0.0.0 hlc92t.skadsdkless.appsflyersdk.com
 0.0.0.0 hs342d.conversions.appsflyersdk.com
 0.0.0.0 hs342d.dlsdk.appsflyersdk.com
 0.0.0.0 hs342d.gcdsdk.appsflyersdk.com
@@ -1810,6 +1818,17 @@
 0.0.0.0 launches.appsflyersdk.com
 0.0.0.0 launches.appsflyersdk.com.lan
 0.0.0.0 launches.appsflyersdk.com.ts.net
+0.0.0.0 lgirob.attr.appsflyersdk.com
+0.0.0.0 lgirob.conversions.appsflyersdk.com
+0.0.0.0 lgirob.dlsdk.appsflyersdk.com
+0.0.0.0 lgirob.dynamic-config-api.appsflyersdk.com
+0.0.0.0 lgirob.dynamic-report-api.appsflyersdk.com
+0.0.0.0 lgirob.gcdsdk.appsflyersdk.com
+0.0.0.0 lgirob.inapps.appsflyersdk.com
+0.0.0.0 lgirob.launches.appsflyersdk.com
+0.0.0.0 lgirob.register.appsflyersdk.com
+0.0.0.0 lgirob.skadsdk.appsflyersdk.com
+0.0.0.0 lgirob.skadsdkless.appsflyersdk.com
 0.0.0.0 luakl2-adrevenue.appsflyersdk.com
 0.0.0.0 luakl2-impression.appsflyersdk.com
 0.0.0.0 orspid-adrevenue.appsflyersdk.com
@@ -1826,6 +1845,7 @@
 0.0.0.0 sgwckg.conversions.appsflyersdk.com
 0.0.0.0 sgwckg.gcdsdk.appsflyersdk.com
 0.0.0.0 sgwckg.launches.appsflyersdk.com
+0.0.0.0 sgwckg.launches.appsflyersdk.com.lan
 0.0.0.0 snjqhu-dlsdk.appsflyersdk.com
 0.0.0.0 statgw.devtodev.com.lan
 0.0.0.0 tfqwb2-register.appsflyersdk.com
@@ -1839,6 +1859,7 @@
 0.0.0.0 upj2lp.inapps.appsflyersdk.com.lan
 0.0.0.0 upj2lp.inapps.appsflyersdk.com.ts.net
 0.0.0.0 upj2lp.launches.appsflyersdk.com
+0.0.0.0 validate-and-log.appsflyersdk.com
 0.0.0.0 vd8qif.adrevenue.appsflyersdk.com
 0.0.0.0 vd8qif.conversions.appsflyersdk.com
 0.0.0.0 vd8qif.inapps.appsflyersdk.com
@@ -2181,6 +2202,7 @@
 0.0.0.0 pay.neteasegames.com
 
 # [onelink (associated with AppsFlyer)]
+0.0.0.0 dtjp.onelink.me
 0.0.0.0 go.onelink.me
 0.0.0.0 goodnovel.onelink.me
 0.0.0.0 gravityapp.onelink.me
@@ -2189,6 +2211,7 @@
 0.0.0.0 ovenbreak.onelink.me
 0.0.0.0 paidy.onelink.me
 0.0.0.0 paypay.onelink.me
+0.0.0.0 sej-app.onelink.me
 0.0.0.0 shortswave.onelink.me
 0.0.0.0 snssdk1180.onelink.me
 0.0.0.0 wa.onelink.me
