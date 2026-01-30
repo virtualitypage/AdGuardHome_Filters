@@ -2,6 +2,652 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [fcba2ab](https://github.com/virtualitypage/AdGuardHome_Filters/commit/fcba2ab76899fcf79c0e3facc36c17e49c0a13a6) - 2026-01-28
+
+### Date
+
+- 2026/01/28 23:04:46
+
+### Change
+
+- accept/Restricted_domain.txt
+    ```yaml
+    BEFORE:
+      # References: querylog
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Restricted_domain.txt
+      #
+    - # Last modified: 18 December 2025
+      #
+  
+      # [Restricted Domain]
+
+      @@ -50,6 +50,7 @@
+
+      @@||buddy.simeji.me^$client=192.168.8.117
+      @@||c2pa-cloud-server-sg.tiktokv.com^$client=192.168.8.117
+      @@||catalog.roblox.com^$client=192.168.8.117
+      @@||cdg*.roblox.com^$client=192.168.8.117
+      @@||cdg2-128-116-13-3.roblox.com^$client=192.168.8.117
+      @@||cdn.dev.mirrativ.com^$client=192.168.8.117
+
+      @@ -65,9 +66,12 @@
+
+      @@||cloud.simeji.me.lan^$client=192.168.8.117
+      @@||cloud.simeji.me^$client=192.168.8.117
+      @@||comm.res.easebar.com^$client=192.168.8.117
+      @@||commerce16-normal-mya.capcutapi.com^$client=192.168.8.117
+      @@||commerce32-normal-mya.capcutapi.com.lan^$client=192.168.8.117
+      @@||commerce32-normal-mya.capcutapi.com^$client=192.168.8.117
+      @@||contacts.roblox.com^$client=192.168.8.117
+      @@||css.rbxcdn.com^$client=192.168.8.117
+      @@||data-detect.nie.easebar.com^$client=192.168.8.117
+
+      @@ -80,12 +84,14 @@
+
+      @@||economy.roblox.com^$client=192.168.8.117
+      @@||ecsv2.roblox.com^$client=192.168.8.117
+      @@||edge-*.mirrativ.com^$client=192.168.8.117
+      @@||edge-210-140-191-154.mirrativ.com.lan^$client=192.168.8.117
+      @@||edge-210-140-191-154.mirrativ.com.ts.net^$client=192.168.8.117
+      @@||edge-term4-fra4.roblox.com^$client=192.168.8.117
+      @@||edge-term4-nrt2.roblox.com^$client=192.168.8.117
+      @@||editor-api-sg.capcut.com.lan^$client=192.168.8.117
+      @@||editor-api-sg.capcut.com^$client=192.168.8.117
+      @@||editor-api.capcutapi.com^$client=192.168.8.117
+      @@||editor16-normal-mya.capcutapi.com^$client=192.168.8.117
+      @@||editor16-normal-sg.capcutapi.com^$client=192.168.8.117
+
+      @@ -98,6 +104,7 @@
+
+      @@||ephemeralcounters.api.roblox.com^$client=192.168.8.117
+      @@||feed-api-mya.capcutapi.com^$client=192.168.8.117
+      @@||feed-api-sg.capcut.com^$client=192.168.8.117
+      @@||feed16-normal-mya.capcutapi.com^$client=192.168.8.117
+      @@||feed16-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+      @@||feed16-normal-sg.capcutapi.com^$client=192.168.8.117
+
+      @@ -110,6 +117,7 @@
+
+      @@||feedback-sg.tiktokv.com^$client=192.168.8.117
+      @@||feelgood-api.capcutapi.com^$client=192.168.8.117
+      @@||followings.roblox.com^$client=192.168.8.117
+      @@||fp.ps.netease.com^$client=192.168.8.117
+      @@||fra*.roblox.com^$client=192.168.8.117
+      @@||fra2-128-116-5-3.roblox.com^$client=192.168.8.117
+
+      @@ -136,10 +144,13 @@
+
+      @@||h55jp.gmsdk.gameyw.easebar.com^$client=192.168.8.117
+      @@||h55na.appdump.nie.easebar.com^$client=192.168.8.117
+      @@||h55na.gph.easebar.com^$client=192.168.8.117
+      @@||h55na.update.easebar.com^$client=192.168.8.117
+      @@||hls-cdn*.mirrativ.com.lan^$client=192.168.8.117
+      @@||hls-cdn*.mirrativ.com.ts.net^$client=192.168.8.117
+      @@||hls-cdn*.mirrativ.com^$client=192.168.8.117
+      @@||hls-segments.rbxcdn.com^$client=192.168.8.117
+      @@||i-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
+      @@||i-sg.capcutapi.com.lan^$client=192.168.8.117
+
+      @@ -163,12 +174,12 @@
+
+      @@||lax*.roblox.com^$client=192.168.8.117
+      @@||lax2-128-116-116-3.roblox.com^$client=192.168.8.117
+      @@||lax4-128-116-63-3.roblox.com^$client=192.168.8.117
+    - @@||lf-main-gecko-source.tiktokcdn.com^$client=192.168.8.117
+    - @@||lf-videocut-ug-hybird.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-pitayacdn.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-tiktok-im-scp.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-tos-files.tiktokcdn.com^$client=192.168.8.117
+      @@||lf16-tos-sg.capcutstatic.com^$client=192.168.8.117
+      @@||lf16-web-buz.capcut.com^$client=192.168.8.117
+      @@||lf19-tos-sg.capcutstatic.com^$client=192.168.8.117
+
+      @@ -183,6 +194,7 @@
+
+      @@||log16-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||log32-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+      @@||log32-normal-sg.capcutapi.com.ts.net^$client=192.168.8.117
+      @@||mcount.easebar.com^$client=192.168.8.117
+      @@||mcs-sg.tiktokv.com^$client=192.168.8.117
+      @@||mediation-gab-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+
+      @@ -241,6 +253,8 @@
+
+      @@||p16-capcut-va.ibyteimg.com^$client=192.168.8.117
+      @@||p16-music-useast8.tiktokcdn-us.com^$client=192.168.8.117
+      @@||p19-capcut-sg.ibyteimg.com^$client=192.168.8.117
+      @@||passport16-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||passport32-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+      @@||passport32-normal-sg.capcutapi.com.ts.net^$client=192.168.8.117
+
+      @@ -296,12 +310,12 @@
+
+      @@||sdksggcp32-normal.evercloud.capcutapi.com^$client=192.168.8.117
+      @@||sea*.roblox.com^$client=192.168.8.117
+      @@||sea1-128-116-115-3.roblox.com^$client=192.168.8.117
+    - @@||sf-fe.capcut.com^$client=192.168.8.117
+    - @@||sf-i18n-resources.tiktokcdn.com.ttdns2.com^$client=192.168.8.117
+    - @@||sf-static.tiktokcdn.com^$client=192.168.8.117
+      @@||sf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
+      @@||sf*-ies-music.tiktokcdn.com^$client=192.168.8.117
+      @@||sf*m-geckocdn.tiktokcdn.com^$client=192.168.8.117
+      @@||sf16-seeyou-ug.capcutstatic.com^$client=192.168.8.117
+      @@||sf16-web-login-neutral.capcutstatic.com^$client=192.168.8.117
+      @@||sf16-web-music.capcutstatic.com^$client=192.168.8.117
+
+      @@ -310,6 +324,7 @@
+
+      @@||sf19-web-music.capcutstatic.com^$client=192.168.8.117
+      @@||share.easebar.com^$client=192.168.8.117
+      @@||sigma-buriedpoint-opd.proxima.nie.easebar.com^$client=192.168.8.117
+      @@||sigma-orbitv3-impression.proxima.nie.easebar.com^$client=192.168.8.117
+      @@||sigma-pharosv3-pathn.proxima.nie.easebar.com^$client=192.168.8.117
+      @@||sigma-statistics-push.proxima.nie.easebar.com^$client=192.168.8.117
+
+      @@ -334,10 +349,11 @@
+
+      @@||t2.rbxcdn.com^$client=192.168.8.117
+      @@||thumbnails.roblox.com^$client=192.168.8.117
+      @@||timejs.game.easebar.com^$client=192.168.8.117
+      @@||tnc-boot.capcutapi.com^$client=192.168.8.117
+      @@||tnc-boot.tiktokv.com^$client=192.168.8.117
+      @@||tnc-sg.capcutapi.com^$client=192.168.8.117
+    - @@||tnc*-normal-my.tiktokv.com^$client=192.168.8.117
+      @@||tos-quic-kix1b.tiktokcdn.com^$client=192.168.8.117
+      @@||tr.rbxcdn.com^$client=192.168.8.117
+      @@||tracing.roblox.com^$client=192.168.8.117
+
+      @@ -353,12 +369,12 @@
+
+      @@||us-central-origin-px.roblox.com^$client=192.168.8.117
+      @@||usermoderation.roblox.com^$client=192.168.8.117
+      @@||users.roblox.com^$client=192.168.8.117
+    - @@||v-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
+      @@||v*-cla.tiktokcdn.com^$client=192.168.8.117
+      @@||v*-coin.tiktokcdn.com^$client=192.168.8.117
+      @@||v*-jp.tiktokcdn.com.lan^$client=192.168.8.117
+      @@||v*-jp.tiktokcdn.com^$client=192.168.8.117
+      @@||v*.tiktokcdn.com^$client=192.168.8.117
+      @@||v1.pinimg.com.lan^$client=192.168.8.117
+      @@||v1.pinimg.com.ts.net^$client=192.168.8.117
+      @@||v1.pinimg.com^$client=192.168.8.117
+
+      @@ -376,6 +392,7 @@
+
+      @@||webblox.roblox.com^$client=192.168.8.117
+      @@||webcast.tiktok.com.ttdns2.com^$client=192.168.8.117
+      @@||who.nie.easebar.com^$client=192.168.8.117
+      @@||whoami.nie.easebar.com.lan^$client=192.168.8.117
+      @@||whoami.nie.easebar.com^$client=192.168.8.117
+      @@||whoami.nie.netease.com.lan^$client=192.168.8.117
+    ```
+
+    ```yaml
+    AFTER:
+      # References: querylog
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Restricted_domain.txt
+      #
+    + # Last modified: 28 January 2026
+      #
+  
+      # [Restricted Domain]
+
+      @@ -50,6 +50,7 @@
+
+      @@||buddy.simeji.me^$client=192.168.8.117
+      @@||c2pa-cloud-server-sg.tiktokv.com^$client=192.168.8.117
+      @@||catalog.roblox.com^$client=192.168.8.117
+    + @@||ccsdk.fp.ps.easebar.com^$client=192.168.8.117
+      @@||cdg*.roblox.com^$client=192.168.8.117
+      @@||cdg2-128-116-13-3.roblox.com^$client=192.168.8.117
+      @@||cdn.dev.mirrativ.com^$client=192.168.8.117
+
+      @@ -65,9 +66,12 @@
+
+      @@||cloud.simeji.me.lan^$client=192.168.8.117
+      @@||cloud.simeji.me^$client=192.168.8.117
+      @@||comm.res.easebar.com^$client=192.168.8.117
+    + @@||commerce-api-sg.capcutapi.com^$client=192.168.8.117
+      @@||commerce16-normal-mya.capcutapi.com^$client=192.168.8.117
+    + @@||commerce16-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||commerce32-normal-mya.capcutapi.com.lan^$client=192.168.8.117
+      @@||commerce32-normal-mya.capcutapi.com^$client=192.168.8.117
+    + @@||commerce32-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||contacts.roblox.com^$client=192.168.8.117
+      @@||css.rbxcdn.com^$client=192.168.8.117
+      @@||data-detect.nie.easebar.com^$client=192.168.8.117
+
+      @@ -80,12 +84,14 @@
+
+      @@||economy.roblox.com^$client=192.168.8.117
+      @@||ecsv2.roblox.com^$client=192.168.8.117
+      @@||edge-*.mirrativ.com^$client=192.168.8.117
+    + @@||edge-210-129-64-224.mirrativ.com^$client=192.168.8.117
+      @@||edge-210-140-191-154.mirrativ.com.lan^$client=192.168.8.117
+      @@||edge-210-140-191-154.mirrativ.com.ts.net^$client=192.168.8.117
+      @@||edge-term4-fra4.roblox.com^$client=192.168.8.117
+      @@||edge-term4-nrt2.roblox.com^$client=192.168.8.117
+      @@||editor-api-sg.capcut.com.lan^$client=192.168.8.117
+      @@||editor-api-sg.capcut.com^$client=192.168.8.117
+    + @@||editor-api-sg.capcutapi.com^$client=192.168.8.117
+      @@||editor-api.capcutapi.com^$client=192.168.8.117
+      @@||editor16-normal-mya.capcutapi.com^$client=192.168.8.117
+      @@||editor16-normal-sg.capcutapi.com^$client=192.168.8.117
+
+      @@ -98,6 +104,7 @@
+
+      @@||ephemeralcounters.api.roblox.com^$client=192.168.8.117
+      @@||feed-api-mya.capcutapi.com^$client=192.168.8.117
+      @@||feed-api-sg.capcut.com^$client=192.168.8.117
+    + @@||feed-api-sg.capcutapi.com^$client=192.168.8.117
+      @@||feed16-normal-mya.capcutapi.com^$client=192.168.8.117
+      @@||feed16-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+      @@||feed16-normal-sg.capcutapi.com^$client=192.168.8.117
+
+      @@ -110,6 +117,7 @@
+
+      @@||feedback-sg.tiktokv.com^$client=192.168.8.117
+      @@||feelgood-api.capcutapi.com^$client=192.168.8.117
+      @@||followings.roblox.com^$client=192.168.8.117
+    + @@||fp.ps.easebar.com^$client=192.168.8.117
+      @@||fp.ps.netease.com^$client=192.168.8.117
+      @@||fra*.roblox.com^$client=192.168.8.117
+      @@||fra2-128-116-5-3.roblox.com^$client=192.168.8.117
+
+      @@ -136,10 +144,13 @@
+
+      @@||h55jp.gmsdk.gameyw.easebar.com^$client=192.168.8.117
+      @@||h55na.appdump.nie.easebar.com^$client=192.168.8.117
+      @@||h55na.gph.easebar.com^$client=192.168.8.117
+    + @@||h55na.gsf.easebar.com^$client=192.168.8.117
+      @@||h55na.update.easebar.com^$client=192.168.8.117
+    + @@||h55na.update.netease.com^$client=192.168.8.117
+      @@||hls-cdn*.mirrativ.com.lan^$client=192.168.8.117
+      @@||hls-cdn*.mirrativ.com.ts.net^$client=192.168.8.117
+      @@||hls-cdn*.mirrativ.com^$client=192.168.8.117
+    + @@||hls-cdn26.mirrativ.com^$client=192.168.8.117
+      @@||hls-segments.rbxcdn.com^$client=192.168.8.117
+      @@||i-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
+      @@||i-sg.capcutapi.com.lan^$client=192.168.8.117
+
+      @@ -163,12 +174,12 @@
+
+      @@||lax*.roblox.com^$client=192.168.8.117
+      @@||lax2-128-116-116-3.roblox.com^$client=192.168.8.117
+      @@||lax4-128-116-63-3.roblox.com^$client=192.168.8.117
+      @@||lf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-pitayacdn.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-tiktok-im-scp.tiktokcdn.com^$client=192.168.8.117
+      @@||lf*-tos-files.tiktokcdn.com^$client=192.168.8.117
+    + @@||lf-main-gecko-source.tiktokcdn.com^$client=192.168.8.117
+    + @@||lf-videocut-ug-hybird.tiktokcdn.com^$client=192.168.8.117
+      @@||lf16-tos-sg.capcutstatic.com^$client=192.168.8.117
+      @@||lf16-web-buz.capcut.com^$client=192.168.8.117
+      @@||lf19-tos-sg.capcutstatic.com^$client=192.168.8.117
+
+      @@ -183,6 +194,7 @@
+
+      @@||log16-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||log32-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+      @@||log32-normal-sg.capcutapi.com.ts.net^$client=192.168.8.117
+    + @@||log32-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||mcount.easebar.com^$client=192.168.8.117
+      @@||mcs-sg.tiktokv.com^$client=192.168.8.117
+      @@||mediation-gab-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+
+      @@ -241,6 +253,8 @@
+
+      @@||p16-capcut-va.ibyteimg.com^$client=192.168.8.117
+      @@||p16-music-useast8.tiktokcdn-us.com^$client=192.168.8.117
+      @@||p19-capcut-sg.ibyteimg.com^$client=192.168.8.117
+    + @@||passport-api-sg.capcutapi.com^$client=192.168.8.117
+    + @@||passport-normal.capcutapi.com^$client=192.168.8.117
+      @@||passport16-normal-sg.capcutapi.com^$client=192.168.8.117
+      @@||passport32-normal-sg.capcutapi.com.lan^$client=192.168.8.117
+      @@||passport32-normal-sg.capcutapi.com.ts.net^$client=192.168.8.117
+
+      @@ -296,12 +310,12 @@
+
+      @@||sdksggcp32-normal.evercloud.capcutapi.com^$client=192.168.8.117
+      @@||sea*.roblox.com^$client=192.168.8.117
+      @@||sea1-128-116-115-3.roblox.com^$client=192.168.8.117
+      @@||sf*-geckocdn.tiktokcdn.com^$client=192.168.8.117
+      @@||sf*-ies-music.tiktokcdn.com^$client=192.168.8.117
+      @@||sf*m-geckocdn.tiktokcdn.com^$client=192.168.8.117
+    + @@||sf-fe.capcut.com^$client=192.168.8.117
+    + @@||sf-i18n-resources.tiktokcdn.com.ttdns2.com^$client=192.168.8.117
+    + @@||sf-static.tiktokcdn.com^$client=192.168.8.117
+      @@||sf16-seeyou-ug.capcutstatic.com^$client=192.168.8.117
+      @@||sf16-web-login-neutral.capcutstatic.com^$client=192.168.8.117
+      @@||sf16-web-music.capcutstatic.com^$client=192.168.8.117
+
+      @@ -310,6 +324,7 @@
+
+      @@||sf19-web-music.capcutstatic.com^$client=192.168.8.117
+      @@||share.easebar.com^$client=192.168.8.117
+      @@||sigma-buriedpoint-opd.proxima.nie.easebar.com^$client=192.168.8.117
+    + @@||sigma-neoxjanktrace-h55.proxima.nie.netease.com^$client=192.168.8.117
+      @@||sigma-orbitv3-impression.proxima.nie.easebar.com^$client=192.168.8.117
+      @@||sigma-pharosv3-pathn.proxima.nie.easebar.com^$client=192.168.8.117
+      @@||sigma-statistics-push.proxima.nie.easebar.com^$client=192.168.8.117
+
+      @@ -334,10 +349,11 @@
+
+      @@||t2.rbxcdn.com^$client=192.168.8.117
+      @@||thumbnails.roblox.com^$client=192.168.8.117
+      @@||timejs.game.easebar.com^$client=192.168.8.117
+    + @@||tnc*-normal-my.tiktokv.com^$client=192.168.8.117
+      @@||tnc-boot.capcutapi.com^$client=192.168.8.117
+      @@||tnc-boot.tiktokv.com^$client=192.168.8.117
+      @@||tnc-sg.capcutapi.com^$client=192.168.8.117
+    + @@||tnc-v2-boot.capcutapi.com^$client=192.168.8.117
+      @@||tos-quic-kix1b.tiktokcdn.com^$client=192.168.8.117
+      @@||tr.rbxcdn.com^$client=192.168.8.117
+      @@||tracing.roblox.com^$client=192.168.8.117
+
+      @@ -353,12 +369,12 @@
+
+      @@||us-central-origin-px.roblox.com^$client=192.168.8.117
+      @@||usermoderation.roblox.com^$client=192.168.8.117
+      @@||users.roblox.com^$client=192.168.8.117
+      @@||v*-cla.tiktokcdn.com^$client=192.168.8.117
+      @@||v*-coin.tiktokcdn.com^$client=192.168.8.117
+      @@||v*-jp.tiktokcdn.com.lan^$client=192.168.8.117
+      @@||v*-jp.tiktokcdn.com^$client=192.168.8.117
+      @@||v*.tiktokcdn.com^$client=192.168.8.117
+    + @@||v-pinimg-com-edgesuite-net.pinimg.com^$client=192.168.8.117
+      @@||v1.pinimg.com.lan^$client=192.168.8.117
+      @@||v1.pinimg.com.ts.net^$client=192.168.8.117
+      @@||v1.pinimg.com^$client=192.168.8.117
+
+      @@ -376,6 +392,7 @@
+
+      @@||webblox.roblox.com^$client=192.168.8.117
+      @@||webcast.tiktok.com.ttdns2.com^$client=192.168.8.117
+      @@||who.nie.easebar.com^$client=192.168.8.117
+    + @@||whoami-ipv4.nie.easebar.com^$client=192.168.8.117
+      @@||whoami.nie.easebar.com.lan^$client=192.168.8.117
+      @@||whoami.nie.easebar.com^$client=192.168.8.117
+      @@||whoami.nie.netease.com.lan^$client=192.168.8.117
+    ```
+
+- reject/Reject_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    - # Last modified: 19 January 2026
+      #
+  
+      # [拒否リクエスト]
+
+      @@ -52,6 +52,7 @@
+
+      0.0.0.0 acdn.adnxs.com
+      0.0.0.0 acdn.adnxs.com.lan
+      0.0.0.0 ad-generation.jp
+      0.0.0.0 ad-nex.com
+      0.0.0.0 ad-nex.com.lan
+      0.0.0.0 ad-proxy-reward-rakuten-co-jp.gslb.rdcnw.net
+
+      @@ -138,6 +139,7 @@
+
+      0.0.0.0 ape-androids.isappcloud.com
+      0.0.0.0 ape-androids.isappcloud.com.lan
+      0.0.0.0 api-events.eventstracker.io
+      0.0.0.0 api-fe.supnovel.com
+      0.0.0.0 api-iam.intercom.io
+      0.0.0.0 api-sdk-tracking.beaconbank.jp
+
+      @@ -158,6 +160,7 @@
+
+      0.0.0.0 api.company-target.com
+      0.0.0.0 api.flipdesk.jp
+      0.0.0.0 api.gameanalytics.com
+      0.0.0.0 api.gdsec.net
+      0.0.0.0 api.gov-img.site
+      0.0.0.0 api.gov-img.site.lan
+
+      @@ -388,12 +391,16 @@
+
+      0.0.0.0 collector.lunalabs.io
+      0.0.0.0 common-jp.genieesspv.jp
+      0.0.0.0 commvod.kwcdn.com.ts.net
+      0.0.0.0 component-ota-sg.allawnos.com
+      0.0.0.0 component-ota-sg.allawnos.com.lan
+      0.0.0.0 component-ota-sg.allawnos.com.ts.net
+      0.0.0.0 conduit.branch.io
+      0.0.0.0 config.aps.amazon-adsystem.com
+      0.0.0.0 config.ssp.taxssp.com
+      0.0.0.0 configure-tcp-android.mtgglobals.com
+      0.0.0.0 configure-tcp-android.mtgglobals.com.lan
+      0.0.0.0 configure-tcp-ios.mtgglobals.com
+
+      @@ -1290,7 +1297,6 @@
+
+      0.0.0.0 z3.lptag.liveperson.net
+      0.0.0.0 zmaticoo.funsdata.com
+  
+    - 
+      # [広告・データ分析・トラッキング関連]
+      # https://www.netify.ai/resources/applications_reference
+      /a[0-9]*.casalemedia.com/
+
+      @@ -1694,6 +1700,7 @@
+
+      0.0.0.0 tpsc-video-as.doubleverify.com
+      0.0.0.0 tr.outbrain.com
+      0.0.0.0 tr.slvrbullet.com
+      0.0.0.0 track.tenjin.io
+      0.0.0.0 tracker.v2.relaido.jp
+      0.0.0.0 tracker.v2.relaido.jp.lan
+
+      @@ -1787,6 +1794,7 @@
+
+      0.0.0.0 evmapr-gcdsdk.appsflyersdk.com
+      0.0.0.0 gcdsdk.appsflyer.com
+      0.0.0.0 gcdsdk.appsflyersdk.com
+      0.0.0.0 hs342d.conversions.appsflyersdk.com
+      0.0.0.0 hs342d.dlsdk.appsflyersdk.com
+      0.0.0.0 hs342d.gcdsdk.appsflyersdk.com
+
+      @@ -1810,6 +1818,17 @@
+
+      0.0.0.0 launches.appsflyersdk.com
+      0.0.0.0 launches.appsflyersdk.com.lan
+      0.0.0.0 launches.appsflyersdk.com.ts.net
+      0.0.0.0 luakl2-adrevenue.appsflyersdk.com
+      0.0.0.0 luakl2-impression.appsflyersdk.com
+      0.0.0.0 orspid-adrevenue.appsflyersdk.com
+
+      @@ -1826,6 +1845,7 @@
+
+      0.0.0.0 sgwckg.conversions.appsflyersdk.com
+      0.0.0.0 sgwckg.gcdsdk.appsflyersdk.com
+      0.0.0.0 sgwckg.launches.appsflyersdk.com
+      0.0.0.0 snjqhu-dlsdk.appsflyersdk.com
+      0.0.0.0 statgw.devtodev.com.lan
+      0.0.0.0 tfqwb2-register.appsflyersdk.com
+
+      @@ -1839,6 +1859,7 @@
+
+      0.0.0.0 upj2lp.inapps.appsflyersdk.com.lan
+      0.0.0.0 upj2lp.inapps.appsflyersdk.com.ts.net
+      0.0.0.0 upj2lp.launches.appsflyersdk.com
+      0.0.0.0 vd8qif.adrevenue.appsflyersdk.com
+      0.0.0.0 vd8qif.conversions.appsflyersdk.com
+      0.0.0.0 vd8qif.inapps.appsflyersdk.com
+
+      @@ -2181,6 +2202,7 @@
+
+      0.0.0.0 pay.neteasegames.com
+  
+      # [onelink (associated with AppsFlyer)]
+      0.0.0.0 go.onelink.me
+      0.0.0.0 goodnovel.onelink.me
+      0.0.0.0 gravityapp.onelink.me
+
+      @@ -2189,6 +2211,7 @@
+
+      0.0.0.0 ovenbreak.onelink.me
+      0.0.0.0 paidy.onelink.me
+      0.0.0.0 paypay.onelink.me
+      0.0.0.0 shortswave.onelink.me
+      0.0.0.0 snssdk1180.onelink.me
+      0.0.0.0 wa.onelink.me
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    + # Last modified: 28 January 2026
+      #
+  
+      # [拒否リクエスト]
+
+      @@ -52,6 +52,7 @@
+
+      0.0.0.0 acdn.adnxs.com
+      0.0.0.0 acdn.adnxs.com.lan
+      0.0.0.0 ad-generation.jp
+    + 0.0.0.0 ad-generation.jp.lan
+      0.0.0.0 ad-nex.com
+      0.0.0.0 ad-nex.com.lan
+      0.0.0.0 ad-proxy-reward-rakuten-co-jp.gslb.rdcnw.net
+
+      @@ -138,6 +139,7 @@
+
+      0.0.0.0 ape-androids.isappcloud.com
+      0.0.0.0 ape-androids.isappcloud.com.lan
+      0.0.0.0 api-events.eventstracker.io
+    + 0.0.0.0 api-events.eventstracker.io.lan
+      0.0.0.0 api-fe.supnovel.com
+      0.0.0.0 api-iam.intercom.io
+      0.0.0.0 api-sdk-tracking.beaconbank.jp
+
+      @@ -158,6 +160,7 @@
+
+      0.0.0.0 api.company-target.com
+      0.0.0.0 api.flipdesk.jp
+      0.0.0.0 api.gameanalytics.com
+    + 0.0.0.0 api.gameanalytics.com.lan
+      0.0.0.0 api.gdsec.net
+      0.0.0.0 api.gov-img.site
+      0.0.0.0 api.gov-img.site.lan
+
+      @@ -388,12 +391,16 @@
+
+      0.0.0.0 collector.lunalabs.io
+      0.0.0.0 common-jp.genieesspv.jp
+      0.0.0.0 commvod.kwcdn.com.ts.net
+    + 0.0.0.0 aimg.kwcdn.com.lan
+    + 0.0.0.0 img.kwcdn.com.lan
+    + 0.0.0.0 commvod.kwcdn.com.lan
+      0.0.0.0 component-ota-sg.allawnos.com
+      0.0.0.0 component-ota-sg.allawnos.com.lan
+      0.0.0.0 component-ota-sg.allawnos.com.ts.net
+      0.0.0.0 conduit.branch.io
+      0.0.0.0 config.aps.amazon-adsystem.com
+      0.0.0.0 config.ssp.taxssp.com
+    + 0.0.0.0 analytics-tcp.mtgglobals.com.lan
+      0.0.0.0 configure-tcp-android.mtgglobals.com
+      0.0.0.0 configure-tcp-android.mtgglobals.com.lan
+      0.0.0.0 configure-tcp-ios.mtgglobals.com
+
+      @@ -1290,7 +1297,6 @@
+
+      0.0.0.0 z3.lptag.liveperson.net
+      0.0.0.0 zmaticoo.funsdata.com
+  
+      # [広告・データ分析・トラッキング関連]
+      # https://www.netify.ai/resources/applications_reference
+      /a[0-9]*.casalemedia.com/
+
+      @@ -1694,6 +1700,7 @@
+
+      0.0.0.0 tpsc-video-as.doubleverify.com
+      0.0.0.0 tr.outbrain.com
+      0.0.0.0 tr.slvrbullet.com
+    + 0.0.0.0 trace.mediago.io
+      0.0.0.0 track.tenjin.io
+      0.0.0.0 tracker.v2.relaido.jp
+      0.0.0.0 tracker.v2.relaido.jp.lan
+
+      @@ -1787,6 +1794,7 @@
+
+      0.0.0.0 evmapr-gcdsdk.appsflyersdk.com
+      0.0.0.0 gcdsdk.appsflyer.com
+      0.0.0.0 gcdsdk.appsflyersdk.com
+    + 0.0.0.0 hlc92t.skadsdkless.appsflyersdk.com
+      0.0.0.0 hs342d.conversions.appsflyersdk.com
+      0.0.0.0 hs342d.dlsdk.appsflyersdk.com
+      0.0.0.0 hs342d.gcdsdk.appsflyersdk.com
+
+      @@ -1810,6 +1818,17 @@
+
+      0.0.0.0 launches.appsflyersdk.com
+      0.0.0.0 launches.appsflyersdk.com.lan
+      0.0.0.0 launches.appsflyersdk.com.ts.net
+    + 0.0.0.0 lgirob.attr.appsflyersdk.com
+    + 0.0.0.0 lgirob.conversions.appsflyersdk.com
+    + 0.0.0.0 lgirob.dlsdk.appsflyersdk.com
+    + 0.0.0.0 lgirob.dynamic-config-api.appsflyersdk.com
+    + 0.0.0.0 lgirob.dynamic-report-api.appsflyersdk.com
+    + 0.0.0.0 lgirob.gcdsdk.appsflyersdk.com
+    + 0.0.0.0 lgirob.inapps.appsflyersdk.com
+    + 0.0.0.0 lgirob.launches.appsflyersdk.com
+    + 0.0.0.0 lgirob.register.appsflyersdk.com
+    + 0.0.0.0 lgirob.skadsdk.appsflyersdk.com
+    + 0.0.0.0 lgirob.skadsdkless.appsflyersdk.com
+      0.0.0.0 luakl2-adrevenue.appsflyersdk.com
+      0.0.0.0 luakl2-impression.appsflyersdk.com
+      0.0.0.0 orspid-adrevenue.appsflyersdk.com
+
+      @@ -1826,6 +1845,7 @@
+
+      0.0.0.0 sgwckg.conversions.appsflyersdk.com
+      0.0.0.0 sgwckg.gcdsdk.appsflyersdk.com
+      0.0.0.0 sgwckg.launches.appsflyersdk.com
+    + 0.0.0.0 sgwckg.launches.appsflyersdk.com.lan
+      0.0.0.0 snjqhu-dlsdk.appsflyersdk.com
+      0.0.0.0 statgw.devtodev.com.lan
+      0.0.0.0 tfqwb2-register.appsflyersdk.com
+
+      @@ -1839,6 +1859,7 @@
+
+      0.0.0.0 upj2lp.inapps.appsflyersdk.com.lan
+      0.0.0.0 upj2lp.inapps.appsflyersdk.com.ts.net
+      0.0.0.0 upj2lp.launches.appsflyersdk.com
+    + 0.0.0.0 validate-and-log.appsflyersdk.com
+      0.0.0.0 vd8qif.adrevenue.appsflyersdk.com
+      0.0.0.0 vd8qif.conversions.appsflyersdk.com
+      0.0.0.0 vd8qif.inapps.appsflyersdk.com
+
+      @@ -2181,6 +2202,7 @@
+
+      0.0.0.0 pay.neteasegames.com
+  
+      # [onelink (associated with AppsFlyer)]
+    + 0.0.0.0 dtjp.onelink.me
+      0.0.0.0 go.onelink.me
+      0.0.0.0 goodnovel.onelink.me
+      0.0.0.0 gravityapp.onelink.me
+
+      @@ -2189,6 +2211,7 @@
+
+      0.0.0.0 ovenbreak.onelink.me
+      0.0.0.0 paidy.onelink.me
+      0.0.0.0 paypay.onelink.me
+    + 0.0.0.0 sej-app.onelink.me
+      0.0.0.0 shortswave.onelink.me
+      0.0.0.0 snssdk1180.onelink.me
+      0.0.0.0 wa.onelink.me
+    ```
+
 ## Commit: [c8860ff](https://github.com/virtualitypage/AdGuardHome_Filters/commit/c8860ffd9dcd9eb763461e2aecdc21d143cf7669) - 2026-01-19
 
 ### Date

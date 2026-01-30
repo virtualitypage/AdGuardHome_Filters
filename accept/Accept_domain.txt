@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 18 December 2025
+# Last modified: 30 January 2026
 #
 
 # [許可リクエスト]
@@ -2209,6 +2209,12 @@
 
 # [HUMAN]
 @@||i.clean.gg
+
+# [ipgeolocation.io]
+@@||106.152.156.178.in-addr.arpa
+@@||125.51.129.175.in-addr.arpa
+@@||13.31.238.172.in-addr.arpa
+@@||15.158.177.209.in-addr.arpa
 
 # [KDDI]
 @@/media[1-9].kddi.com.lan/
