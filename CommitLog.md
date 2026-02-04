@@ -2,6 +2,228 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [aff939b](https://github.com/virtualitypage/AdGuardHome_Filters/commit/aff939b6d67107320382e1d3297bfeb39d10f250) - 2026-01-30
+
+### Date
+
+- 2026/01/30 22:45:33
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 18 December 2025
+      #
+
+      # [許可リクエスト]
+
+      @@ -2210,6 +2210,12 @@
+
+      # [HUMAN]
+      @@||i.clean.gg
+
+      # [KDDI]
+      @@/media[1-9].kddi.com.lan/
+      @@/media[1-9].kddi.com/
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 30 January 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -2210,6 +2210,12 @@
+
+      # [HUMAN]
+      @@||i.clean.gg
+
+    + # [ipgeolocation.io]
+    + @@||106.152.156.178.in-addr.arpa
+    + @@||125.51.129.175.in-addr.arpa
+    + @@||13.31.238.172.in-addr.arpa
+    + @@||15.158.177.209.in-addr.arpa
+    +
+      # [KDDI]
+      @@/media[1-9].kddi.com.lan/
+      @@/media[1-9].kddi.com/
+    ```
+
+- reject/Reject_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    - # Last modified: 28 January 2026
+      #
+
+      # [拒否リクエスト]
+
+      @@ -2195,6 +2195,132 @@
+
+      0.0.0.0 wv.inner-active.mobi
+      0.0.0.0 wv.inner-active.mobi.lan
+
+      # [netease]
+      0.0.0.0 acsdk.gameyw.easebar.com
+      0.0.0.0 nos.gameyw.easebar.com
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    + # Last modified: 30 January 2026
+      #
+
+      # [拒否リクエスト]
+
+      @@ -2195,6 +2195,132 @@
+
+      0.0.0.0 wv.inner-active.mobi
+      0.0.0.0 wv.inner-active.mobi.lan
+
+    + # [ipgeolocation.io]
+    + 0.0.0.0 100.136.165.199.in-addr.arpa
+    + 0.0.0.0 100.213.217.172.in-addr.arpa
+    + 0.0.0.0 101.136.165.199.in-addr.arpa
+    + 0.0.0.0 101.88.27.120.in-addr.arpa
+    + 0.0.0.0 102.213.217.172.in-addr.arpa
+    + 0.0.0.0 103.166.105.172.in-addr.arpa
+    + 0.0.0.0 104.181.38.199.in-addr.arpa
+    + 0.0.0.0 104.90.58.176.in-addr.arpa
+    + 0.0.0.0 11.31.238.172.in-addr.arpa
+    + 0.0.0.0 112.0.200.192.in-addr.arpa
+    + 0.0.0.0 113.0.200.192.in-addr.arpa
+    + 0.0.0.0 113.211.217.172.in-addr.arpa
+    + 0.0.0.0 113.213.217.172.in-addr.arpa
+    + 0.0.0.0 113.234.40.185.in-addr.arpa
+    + 0.0.0.0 115.0.200.192.in-addr.arpa
+    + 0.0.0.0 116.0.200.192.in-addr.arpa
+    + 0.0.0.0 118.182.38.199.in-addr.arpa
+    + 0.0.0.0 120.145.177.209.in-addr.arpa
+    + 0.0.0.0 120.90.183.68.in-addr.arpa
+    + 0.0.0.0 121.240.73.192.in-addr.arpa
+    + 0.0.0.0 124.51.129.175.in-addr.arpa
+    + 0.0.0.0 125.237.215.203.in-addr.arpa
+    + 0.0.0.0 126.128.249.140.in-addr.arpa
+    + 0.0.0.0 131.105.219.8.in-addr.arpa
+    + 0.0.0.0 132.240.73.192.in-addr.arpa
+    + 0.0.0.0 133.113.16.160.in-addr.arpa
+    + 0.0.0.0 133.155.72.208.in-addr.arpa
+    + 0.0.0.0 134.252.73.192.in-addr.arpa
+    + 0.0.0.0 135.243.73.192.in-addr.arpa
+    + 0.0.0.0 137.193.12.49.in-addr.arpa
+    + 0.0.0.0 138.119.251.142.in-addr.arpa
+    + 0.0.0.0 139.211.217.172.in-addr.arpa
+    + 0.0.0.0 14.196.250.142.in-addr.arpa
+    + 0.0.0.0 141.204.13.49.in-addr.arpa
+    + 0.0.0.0 141.24.97.202.in-addr.arpa
+    + 0.0.0.0 141.243.73.192.in-addr.arpa
+    + 0.0.0.0 142.180.132.106.in-addr.arpa
+    + 0.0.0.0 144.92.58.176.in-addr.arpa
+    + 0.0.0.0 144.97.159.45.in-addr.arpa
+    + 0.0.0.0 145.98.159.45.in-addr.arpa
+    + 0.0.0.0 147.90.58.176.in-addr.arpa
+    + 0.0.0.0 147.93.58.176.in-addr.arpa
+    + 0.0.0.0 151.234.83.208.in-addr.arpa
+    + 0.0.0.0 152.84.6.103.in-addr.arpa
+    + 0.0.0.0 154.93.58.176.in-addr.arpa
+    + 0.0.0.0 155.65.79.47.in-addr.arpa
+    + 0.0.0.0 157.62.97.202.in-addr.arpa
+    + 0.0.0.0 161.240.73.192.in-addr.arpa
+    + 0.0.0.0 164.238.243.133.in-addr.arpa
+    + 0.0.0.0 165.2.217.95.in-addr.arpa
+    + 0.0.0.0 167.21.237.172.in-addr.arpa
+    + 0.0.0.0 170.99.97.202.in-addr.arpa
+    + 0.0.0.0 178.34.111.208.in-addr.arpa
+    + 0.0.0.0 179.6.238.172.in-addr.arpa
+    + 0.0.0.0 18.31.238.172.in-addr.arpa
+    + 0.0.0.0 180.6.238.172.in-addr.arpa
+    + 0.0.0.0 183.28.237.172.in-addr.arpa
+    + 0.0.0.0 183.88.58.176.in-addr.arpa
+    + 0.0.0.0 185.165.67.102.in-addr.arpa
+    + 0.0.0.0 187.242.73.192.in-addr.arpa
+    + 0.0.0.0 188.167.67.102.in-addr.arpa
+    + 0.0.0.0 189.12.97.202.in-addr.arpa
+    + 0.0.0.0 190.61.237.172.in-addr.arpa
+    + 0.0.0.0 194.61.237.172.in-addr.arpa
+    + 0.0.0.0 196.98.159.45.in-addr.arpa
+    + 0.0.0.0 197.117.251.116.in-addr.arpa
+    + 0.0.0.0 197.156.177.209.in-addr.arpa
+    + 0.0.0.0 197.61.237.172.in-addr.arpa
+    + 0.0.0.0 198.87.104.5.in-addr.arpa
+    + 0.0.0.0 199.221.248.162.in-addr.arpa
+    + 0.0.0.0 20.31.238.172.in-addr.arpa
+    + 0.0.0.0 200.72.235.167.in-addr.arpa
+    + 0.0.0.0 202.12.97.202.in-addr.arpa
+    + 0.0.0.0 204.242.73.192.in-addr.arpa
+    + 0.0.0.0 207.3.34.185.in-addr.arpa
+    + 0.0.0.0 207.90.58.176.in-addr.arpa
+    + 0.0.0.0 21.121.17.14.in-addr.arpa
+    + 0.0.0.0 215.221.248.162.in-addr.arpa
+    + 0.0.0.0 216.40.111.208.in-addr.arpa
+    + 0.0.0.0 219.234.40.185.in-addr.arpa
+    + 0.0.0.0 22.0.0.224.in-addr.arpa
+    + 0.0.0.0 222.35.250.129.in-addr.arpa
+    + 0.0.0.0 23.31.238.172.in-addr.arpa
+    + 0.0.0.0 24.31.238.172.in-addr.arpa
+    + 0.0.0.0 26.31.238.172.in-addr.arpa
+    + 0.0.0.0 27.31.238.172.in-addr.arpa
+    + 0.0.0.0 28.242.73.192.in-addr.arpa
+    + 0.0.0.0 30.105.147.205.in-addr.arpa
+    + 0.0.0.0 30.66.237.172.in-addr.arpa
+    + 0.0.0.0 32.28.180.157.in-addr.arpa
+    + 0.0.0.0 32.31.238.172.in-addr.arpa
+    + 0.0.0.0 34.6.238.172.in-addr.arpa
+    + 0.0.0.0 35.31.238.172.in-addr.arpa
+    + 0.0.0.0 36.165.67.102.in-addr.arpa
+    + 0.0.0.0 37.167.67.102.in-addr.arpa
+    + 0.0.0.0 39.31.238.172.in-addr.arpa
+    + 0.0.0.0 43.72.237.172.in-addr.arpa
+    + 0.0.0.0 5.31.238.172.in-addr.arpa
+    + 0.0.0.0 53.234.40.185.in-addr.arpa
+    + 0.0.0.0 57.169.105.172.in-addr.arpa
+    + 0.0.0.0 6.0.0.192.in-addr.arpa
+    + 0.0.0.0 6.31.238.172.in-addr.arpa
+    + 0.0.0.0 61.97.159.45.in-addr.arpa
+    + 0.0.0.0 62.143.109.65.in-addr.arpa
+    + 0.0.0.0 65.252.73.192.in-addr.arpa
+    + 0.0.0.0 66.161.155.118.in-addr.arpa
+    + 0.0.0.0 66.35.129.175.in-addr.arpa
+    + 0.0.0.0 69.106.1.103.in-addr.arpa
+    + 0.0.0.0 74.192.105.172.in-addr.arpa
+    + 0.0.0.0 75.3.34.185.in-addr.arpa
+    + 0.0.0.0 77.234.40.185.in-addr.arpa
+    + 0.0.0.0 78.105.147.205.in-addr.arpa
+    + 0.0.0.0 79.72.237.172.in-addr.arpa
+    + 0.0.0.0 8.31.238.172.in-addr.arpa
+    + 0.0.0.0 8.72.237.172.in-addr.arpa
+    + 0.0.0.0 82.50.121.85.in-addr.arpa
+    + 0.0.0.0 83.248.73.192.in-addr.arpa
+    + 0.0.0.0 9.31.238.172.in-addr.arpa
+    + 0.0.0.0 90.165.67.102.in-addr.arpa
+    + 0.0.0.0 91.152.156.178.in-addr.arpa
+    + 0.0.0.0 93.181.38.199.in-addr.arpa
+    + 0.0.0.0 94.156.177.209.in-addr.arpa
+    + 0.0.0.0 97.88.27.120.in-addr.arpa
+    + 0.0.0.0 98.106.13.14.in-addr.arpa
+    +
+      # [netease]
+      0.0.0.0 acsdk.gameyw.easebar.com
+      0.0.0.0 nos.gameyw.easebar.com
+    ```
+
 ## Commit: [fcba2ab](https://github.com/virtualitypage/AdGuardHome_Filters/commit/fcba2ab76899fcf79c0e3facc36c17e49c0a13a6) - 2026-01-28
 
 ### Date
@@ -18,7 +240,7 @@ All commits to this repository will be logged in this file.
       #
     - # Last modified: 18 December 2025
       #
-  
+
       # [Restricted Domain]
 
       @@ -50,6 +50,7 @@
@@ -190,7 +412,7 @@ All commits to this repository will be logged in this file.
       #
     + # Last modified: 28 January 2026
       #
-  
+
       # [Restricted Domain]
 
       @@ -50,6 +50,7 @@
@@ -380,7 +602,7 @@ All commits to this repository will be logged in this file.
       #
     - # Last modified: 19 January 2026
       #
-  
+
       # [拒否リクエスト]
 
       @@ -52,6 +52,7 @@
@@ -429,8 +651,8 @@ All commits to this repository will be logged in this file.
 
       0.0.0.0 z3.lptag.liveperson.net
       0.0.0.0 zmaticoo.funsdata.com
-  
-    - 
+
+    -
       # [広告・データ分析・トラッキング関連]
       # https://www.netify.ai/resources/applications_reference
       /a[0-9]*.casalemedia.com/
@@ -483,7 +705,7 @@ All commits to this repository will be logged in this file.
       @@ -2181,6 +2202,7 @@
 
       0.0.0.0 pay.neteasegames.com
-  
+
       # [onelink (associated with AppsFlyer)]
       0.0.0.0 go.onelink.me
       0.0.0.0 goodnovel.onelink.me
@@ -506,7 +728,7 @@ All commits to this repository will be logged in this file.
       #
     + # Last modified: 28 January 2026
       #
-  
+
       # [拒否リクエスト]
 
       @@ -52,6 +52,7 @@
@@ -562,7 +784,7 @@ All commits to this repository will be logged in this file.
 
       0.0.0.0 z3.lptag.liveperson.net
       0.0.0.0 zmaticoo.funsdata.com
-  
+
       # [広告・データ分析・トラッキング関連]
       # https://www.netify.ai/resources/applications_reference
       /a[0-9]*.casalemedia.com/
@@ -630,7 +852,7 @@ All commits to this repository will be logged in this file.
       @@ -2181,6 +2202,7 @@
 
       0.0.0.0 pay.neteasegames.com
-  
+
       # [onelink (associated with AppsFlyer)]
     + 0.0.0.0 dtjp.onelink.me
       0.0.0.0 go.onelink.me
@@ -664,7 +886,7 @@ All commits to this repository will be logged in this file.
       #
     - # Last modified: 10 December 2025
       #
-  
+
       # [拒否リクエスト]
 
       @@ -114,6 +114,7 @@
@@ -941,7 +1163,7 @@ All commits to this repository will be logged in this file.
 
       0.0.0.0 z3.lptag.liveperson.net
       0.0.0.0 zmaticoo.funsdata.com
-  
+
       # [広告・データ分析・トラッキング関連]
       # https://www.netify.ai/resources/applications_reference
       /a[0-9]*.casalemedia.com/
@@ -1151,7 +1373,7 @@ All commits to this repository will be logged in this file.
       0.0.0.0 qcc.qualcomm.com
       0.0.0.0 qcc.qualcomm.com.lan
       0.0.0.0 time.xtracloud.net
-  
+
       # [tiktok (mobile analytics and spyware, other)]
 
       @@ -2304,6 +2397,7 @@
@@ -1225,7 +1447,7 @@ All commits to this repository will be logged in this file.
       #
     + # Last modified: 19 January 2026
       #
-  
+
       # [拒否リクエスト]
 
       @@ -114,6 +114,7 @@
@@ -1551,8 +1773,8 @@ All commits to this repository will be logged in this file.
 
       0.0.0.0 z3.lptag.liveperson.net
       0.0.0.0 zmaticoo.funsdata.com
-  
-    + 
+
+    +
       # [広告・データ分析・トラッキング関連]
       # https://www.netify.ai/resources/applications_reference
       /a[0-9]*.casalemedia.com/
@@ -1805,7 +2027,7 @@ All commits to this repository will be logged in this file.
       0.0.0.0 qcc.qualcomm.com.lan
     + 0.0.0.0 qcc.qualcomm.com.ts.net
       0.0.0.0 time.xtracloud.net
-  
+
       # [tiktok (mobile analytics and spyware, other)]
 
       @@ -2304,6 +2397,7 @@

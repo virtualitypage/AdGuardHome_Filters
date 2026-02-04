@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
 #
-# Last modified: 23 December 2025
+# Last modified: 4 February 2025
 #
 
 # [192.168.8.168 (LDA5F-E17 LED)]
@@ -17,5 +17,8 @@
 @@||time.google.com^$client=192.168.8.169
 
 # [192.168.8.170 (PLUG-C2-JP(BT))]
+@@||awesun.aweray.com
+@@||client-webapi-global.aweray.com
 @@||iots01-asia-g1.aweray.net
 @@||ntp1.aliyun.com
+@@||passport.aweray.com
