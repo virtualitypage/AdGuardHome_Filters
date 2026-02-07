@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 30 January 2026
+# Last modified: 7 February 2026
 #
 
 # [拒否リクエスト]
@@ -108,6 +108,7 @@
 0.0.0.0 aggregator.service.usercentrics.eu
 0.0.0.0 aggregator.service.usercentrics.eu.lan
 0.0.0.0 aid.send.microad.jp
+0.0.0.0 aimg.kwcdn.com.lan
 0.0.0.0 al-s.dc-tag.jp
 0.0.0.0 aladdin.genieesspv.jp
 0.0.0.0 am.lazybumblebee.com
@@ -118,6 +119,7 @@
 0.0.0.0 ams.honzik.avcdn.net
 0.0.0.0 analytex-us.userpilot.io
 0.0.0.0 analytics-tcp.mtgglobals.com
+0.0.0.0 analytics-tcp.mtgglobals.com.lan
 0.0.0.0 analytics.app-adforce.jp
 0.0.0.0 analytics.avcdn.net
 0.0.0.0 analytics.brainlitix.net
@@ -351,6 +353,9 @@
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cdn.treasuredata.com
 0.0.0.0 cdn1.judge.me
+0.0.0.0 cdn1.stamped.io
+0.0.0.0 cdn1.stamped.io.lan
+0.0.0.0 cdn1.stamped.io.ts.net
 0.0.0.0 cdn3.hsrdkt.com
 0.0.0.0 cdnwidget.judge.me
 0.0.0.0 ce.lijit.com
@@ -387,20 +392,19 @@
 0.0.0.0 cm.g.doubleclick.net.lan
 0.0.0.0 cm.smadex.com
 0.0.0.0 cms.quantserve.com
+0.0.0.0 cms.quantserve.com.lan
 0.0.0.0 collector.appconsent.io
 0.0.0.0 collector.lunalabs.io
+0.0.0.0 collector.lunalabs.io.lan
 0.0.0.0 common-jp.genieesspv.jp
-0.0.0.0 commvod.kwcdn.com.ts.net
-0.0.0.0 aimg.kwcdn.com.lan
-0.0.0.0 img.kwcdn.com.lan
 0.0.0.0 commvod.kwcdn.com.lan
+0.0.0.0 commvod.kwcdn.com.ts.net
 0.0.0.0 component-ota-sg.allawnos.com
 0.0.0.0 component-ota-sg.allawnos.com.lan
 0.0.0.0 component-ota-sg.allawnos.com.ts.net
 0.0.0.0 conduit.branch.io
 0.0.0.0 config.aps.amazon-adsystem.com
 0.0.0.0 config.ssp.taxssp.com
-0.0.0.0 analytics-tcp.mtgglobals.com.lan
 0.0.0.0 configure-tcp-android.mtgglobals.com
 0.0.0.0 configure-tcp-android.mtgglobals.com.lan
 0.0.0.0 configure-tcp-ios.mtgglobals.com
@@ -521,6 +525,9 @@
 0.0.0.0 e4.axon.ai.ts.net
 0.0.0.0 e9xs.adj.st
 0.0.0.0 eb2.3lift.com
+0.0.0.0 ebara-recom-api.smartica.jp
+0.0.0.0 ebara-recom-api.smartica.jp.lan
+0.0.0.0 ebara-recom-api.smartica.jp.ts.net
 0.0.0.0 ec-concier.com
 0.0.0.0 edayo.ademon.net
 0.0.0.0 edayo.advortex.cloud
@@ -661,6 +668,7 @@
 0.0.0.0 img.dsp.bance.jp
 0.0.0.0 img.gsspat.jp
 0.0.0.0 img.gsspat.jp.lan
+0.0.0.0 img.kwcdn.com.lan
 0.0.0.0 img.polymorphicads.jp
 0.0.0.0 imgstorage2.lndpy.com
 0.0.0.0 imgx.jampp.com
@@ -962,6 +970,7 @@
 0.0.0.0 s.logly.co.jp
 0.0.0.0 s.lucead.com
 0.0.0.0 s.update.adsrvr.org
+0.0.0.0 s.update.indexww.com
 0.0.0.0 s.vj0.cc
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s0.2mdn.net.lan
@@ -1625,6 +1634,7 @@
 0.0.0.0 rtb-csync-apac1.smartadserver.com
 0.0.0.0 rtb-csync.smartadserver.com
 0.0.0.0 rtb-csync.smartadserver.com.lan
+0.0.0.0 rtb.mfadsrvr.com
 0.0.0.0 rtb0.doubleverify.com
 0.0.0.0 s.ad.smaato.net
 0.0.0.0 s.ad.smaato.net.lan
@@ -1652,8 +1662,11 @@
 0.0.0.0 spadsync.com.lan
 0.0.0.0 spadsync.com.ts.net
 0.0.0.0 srv.stackadapt.com
+0.0.0.0 ssb-apac1.smartadserver.com
+0.0.0.0 ssb-global.smartadserver.com
 0.0.0.0 ssbsync-apac1.smartadserver.com
 0.0.0.0 ssbsync-global.smartadserver.com
+0.0.0.0 ssbsync-global.smartadserver.com.lan
 0.0.0.0 ssbsync.smartadserver.com
 0.0.0.0 ssbsync.smartadserver.com.lan
 0.0.0.0 sshowads.pubmatic.com
@@ -1730,6 +1743,7 @@
 0.0.0.0 warp.media.net
 0.0.0.0 wave.outbrain.com
 0.0.0.0 wcscv.valuecommerce.com
+0.0.0.0 webchat.helpshift.com
 0.0.0.0 widget-pixels.outbrain.com
 0.0.0.0 widget-pixels.outbrain.com.lan
 0.0.0.0 widgets.outbrain.com
@@ -1770,8 +1784,10 @@
 0.0.0.0 adrevenue.appsflyersdk.com
 0.0.0.0 adrevenue.appsflyersdk.com.lan
 0.0.0.0 adrevenue.appsflyersdk.com.ts.net
+0.0.0.0 api16-access-adx-my-noncdn.pangle.io
 0.0.0.0 app.appsflyer.com
 0.0.0.0 aps-webhandler.appsflyer.com
+0.0.0.0 att.launches.appsflyersdk.com
 0.0.0.0 attr.appsflyer.com
 0.0.0.0 banner.appsflyer.com
 0.0.0.0 cdn-settings.appsflyersdk.com
@@ -1838,6 +1854,8 @@
 0.0.0.0 pyc86x-onelink.appsflyersdk.com
 0.0.0.0 pyc86x-register.appsflyersdk.com
 0.0.0.0 qbhozv-gcdsdk.appsflyersdk.com
+0.0.0.0 qbhozv.inapps.appsflyersdk.com
+0.0.0.0 qbrere.launches.appsflyersdk.com
 0.0.0.0 qkdasj-adrevenue.appsflyersdk.com
 0.0.0.0 qkjbfq-gcdsdk.appsflyersdk.com
 0.0.0.0 register.appsflyer.com
@@ -2328,6 +2346,7 @@
 0.0.0.0 pay.neteasegames.com
 
 # [onelink (associated with AppsFlyer)]
+0.0.0.0 dcjp.onelink.me
 0.0.0.0 dtjp.onelink.me
 0.0.0.0 go.onelink.me
 0.0.0.0 goodnovel.onelink.me

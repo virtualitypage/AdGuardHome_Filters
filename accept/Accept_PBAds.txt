@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_PBAds.txt
 #
-# Last modified: 18 December 2025
+# Last modified: 7 February 2026
 #
 
 # [AppLovin]
@@ -107,12 +107,18 @@
 @@||rt.applovin.com.lan^$client=192.168.8.159
 @@||rt.applovin.com.lan^$client=192.168.8.219
 @@||rt.applovin.com.lan^$client=192.168.8.235
+@@||rt.applovin.com.ts.net^$client=192.168.8.159
+@@||rt.applovin.com.ts.net^$client=192.168.8.219
+@@||rt.applovin.com.ts.net^$client=192.168.8.235
 @@||rt.applovin.com^$client=192.168.8.117
 @@||rt.applovin.com^$client=192.168.8.159
 @@||rt.applovin.com^$client=192.168.8.163
 @@||rt.applovin.com^$client=192.168.8.204
 @@||rt.applovin.com^$client=192.168.8.219
 @@||rt.applovin.com^$client=192.168.8.235
+@@||rt.applvn.com^$client=192.168.8.117
+@@||rt.applvn.com^$client=192.168.8.219
+@@||rt.applvn.com^$client=192.168.8.235
 @@||stage-a-events.applovin.com^$client=192.168.8.117
 @@||stage-a-events.applovin.com^$client=192.168.8.159
 @@||stage-a-events.applovin.com^$client=192.168.8.219
@@ -144,6 +150,7 @@
 @@||sts.applovin.com^$client=192.168.8.235
 @@||t.applovin.com^$client=192.168.8.117
 @@||t.applovin.com^$client=192.168.8.159
+@@||t.applovin.com^$client=192.168.8.204
 @@||t.applovin.com^$client=192.168.8.219
 @@||t.applovin.com^$client=192.168.8.235
 
@@ -410,21 +417,28 @@
 @@||asset.popin.cc^$client=192.168.8.219
 @@||imageaws.popin.cc^$client=192.168.8.117
 @@||imageaws.popin.cc^$client=192.168.8.159
+@@||imageaws.popin.cc^$client=192.168.8.163
 @@||imageaws.popin.cc^$client=192.168.8.219
 @@||inrecsys.popin.cc^$client=192.168.8.159
+@@||inrecsys.popin.cc^$client=192.168.8.163
 @@||inrecsys.popin.cc^$client=192.168.8.219
 @@||jp.popin.cc^$client=192.168.8.159
+@@||jp.popin.cc^$client=192.168.8.163
 @@||jp.popin.cc^$client=192.168.8.219
 @@||jp.popin.cc^$client=192.168.8.235
 @@||log.popin.cc^$client=192.168.8.159
+@@||log.popin.cc^$client=192.168.8.163
 @@||log.popin.cc^$client=192.168.8.219
 @@||log.popin.cc^$client=192.168.8.235
 @@||r.popin.cc^$client=192.168.8.159
+@@||r.popin.cc^$client=192.168.8.163
 @@||r.popin.cc^$client=192.168.8.219
 @@||r.popin.cc^$client=192.168.8.235
 @@||rlog.popin.cc^$client=192.168.8.159
+@@||rlog.popin.cc^$client=192.168.8.163
 @@||rlog.popin.cc^$client=192.168.8.219
 @@||trace.popin.cc^$client=192.168.8.117
 @@||trace.popin.cc^$client=192.168.8.159
+@@||trace.popin.cc^$client=192.168.8.163
 @@||trace.popin.cc^$client=192.168.8.219
 @@||trace.popin.cc^$client=192.168.8.235

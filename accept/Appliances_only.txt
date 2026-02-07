@@ -4,7 +4,7 @@
 # References: querylog
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
 #
-# Last modified: 4 February 2025
+# Last modified: 4 February 2026
 #
 
 # [192.168.8.168 (LDA5F-E17 LED)]

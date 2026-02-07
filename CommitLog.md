@@ -2,6 +2,56 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [28c5406](https://github.com/virtualitypage/AdGuardHome_Filters/commit/28c54065b0f6f614e5a957faf683988f81eeffbe) - 2026-02-04
+
+### Date
+
+- 2026/02/04 20:01:14
+
+### Change
+
+- accept/Appliances_only.txt
+    ```yaml
+    BEFORE:
+      # References: querylog
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
+      #
+    - # Last modified: 23 December 2025
+      #
+
+      # [192.168.8.168 (LDA5F-E17 LED)]
+
+      @@ -17,5 +17,8 @@
+
+      @@||time.google.com^$client=192.168.8.169
+
+      # [192.168.8.170 (PLUG-C2-JP(BT))]
+      @@||iots01-asia-g1.aweray.net
+    - @@||ntp1.aliyun.com
+    ```
+
+    ```yaml
+    AFTER:
+      # References: querylog
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
+      #
+    + # Last modified: 4 February 2026
+      #
+
+      # [192.168.8.168 (LDA5F-E17 LED)]
+
+      @@ -17,5 +17,8 @@
+
+      @@||time.google.com^$client=192.168.8.169
+
+      # [192.168.8.170 (PLUG-C2-JP(BT))]
+    + @@||awesun.aweray.com
+    + @@||client-webapi-global.aweray.com
+      @@||iots01-asia-g1.aweray.net
+    + @@||ntp1.aliyun.com
+    + @@||passport.aweray.com
+    ```
+
 ## Commit: [aff939b](https://github.com/virtualitypage/AdGuardHome_Filters/commit/aff939b6d67107320382e1d3297bfeb39d10f250) - 2026-01-30
 
 ### Date
