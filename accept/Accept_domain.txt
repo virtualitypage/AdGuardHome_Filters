@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 8 February 2026
+# Last modified: 19 February 2026
 #
 
 # [許可リクエスト]
@@ -1471,7 +1471,9 @@
 @@||html-load.com
 
 # [akamai]
+@@/[0-9]*.akstat.io/
 @@/a[0-9]*.[a-z]*.akamai.net/
+@@/a[0-9]*.dsc[a-z][0-9]*.akamai.net/
 @@/a[0-9]*.dsc[a-z]*.akamai.net/
 @@/a[0-9]*.dscapi[0-9]*.akamai.net/
 @@/a[0-9]*.dscg4.akamai.net/
@@ -1479,16 +1481,17 @@
 @@/a[0-9]*.dscw154.akamai.net/
 @@/a[0-9]*.gi3.akamai.net/
 @@/a[0-9]*.mm2.akamai.net/
+@@/a[0-9]*.w[0-9]*.akamai.net/
 @@/e[0-9]*.[a-z]*.akamaiedge.net/
 @@/e[0-9]*.dsc[a-z].akamaiedge.net/
 @@/e[0-9]*.dscapi[0-9].akamaiedge.net/
 @@/e[0-9]*.dsce9.akamaiedge.net/
 @@||*.akamaihd.net
-@@||684d0d4c.akstat.io
 @@||a1437.dscw45.akamai.net
 @@||a1962.w155.akamai.net
 @@||a2047.api10.akamai.net
 @@||amp-api-media-akam.itunes-apple.com.akadns.net
+@@||b.ns1p.net
 @@||c.go-mpulse.net
 @@||ca.iadsdk.apple.com.akadns.net
 @@||captive-cdn.origin-apple.com.akadns.net
@@ -1496,6 +1499,7 @@
 @@||cdn-guile.akamaized.net
 @@||communities-lb.apple.com.akadns.net
 @@||configuration-row-lb.apple.com.akadns.net
+@@||cs.ns1p.net
 @@||disk.akamaized.net
 @@||e35058.api2.akamaiedge.net
 @@||e3811.e9.akamaiedge.net
@@ -1589,15 +1593,19 @@
 @@||apptrailers.itunes.g.aaplimg.com
 @@||apse1-wps-prod.apple.com
 @@||assets-mercury.v.aaplimg.com
+@@||associate.v.aaplimg.com
 @@||attester.gateway.fe2.apple-dns.net
 @@||auth.v.aaplimg.com
+@@||availability.fe2.apple-dns.net
 @@||background-weighted.ls4-apple.com.akadns.net
 @@||bag-cdn-akam.itunes-apple.com.akadns.net
 @@||bag-cdn-lb.itunes-apple.com.akadns.net
 @@||bag-cdn.itunes-apple.com.akadns.net
 @@||bag-smoot.v.aaplimg.com
 @@||bag.itunes.apple.com
+@@||bookkeeper-itunes.g.aaplimg.com
 @@||bpapi.apple.com
+@@||bpapi.v.aaplimg.com
 @@||buy-lb.itunes-apple.com.akadns.net
 @@||buy.itunes-apple.com.akadns.net
 @@||c.apple.com
@@ -1626,6 +1634,7 @@
 @@||communities.apple.com
 @@||config-chr.health.apple.com
 @@||config-chr.health.g.aaplimg.com
+@@||config.me.apple-dns.net
 @@||configuration-lb.ls-apple.com.akadns.net
 @@||configuration.apple.com
 @@||configuration.apple.com.akadns.net
@@ -1722,8 +1731,10 @@
 @@||guzzoni.apple.com
 @@||h3.media.apple.map.fastly.net
 @@||help.origin-apple.com.akadns.net
+@@||hls-svod-aoc-ve.itunes.g.aaplimg.com
 @@||humb.apple.com
 @@||humb.v.aaplimg.com
+@@||idv-signals-pommery-prod.v.aaplimg.com
 @@||images-mercury.v.aaplimg.com
 @@||inappcheck-lb.itunes-apple.com.akadns.net
 @@||inappcheck.itunes.apple.com
@@ -1749,6 +1760,7 @@
 @@||known-issues.apple.com
 @@||known-issues.v.aaplimg.com
 @@||kt-prod.ess.apple.com
+@@||kt-prod.v.aaplimg.com
 @@||lcdn-locator.apple.com
 @@||mailws.fe2.apple-dns.net
 @@||mask-api.fe2.apple-dns.net
@@ -1757,6 +1769,7 @@
 @@||mask.apple-dns.net
 @@||mask.icloud.com
 @@||mcc.fe2.apple-dns.net
+@@||mccgateway.fe2.apple-dns.net
 @@||mesu-cdn.apple.com.akadns.net
 @@||mesu-cdn.origin-apple.com.akadns.net
 @@||mesu.apple.com
@@ -1767,6 +1780,7 @@
 @@||ml.cdn-apple.com
 @@||ml.cdn-apple.g.aaplimg.com
 @@||mobileapp.apple.com
+@@||mobilebackup.fe2.apple-dns.net
 @@||music.apple.com
 @@||musicstatus-apac-s.edge-itunes-apple.com.akadns.net
 @@||musicstatus-apac.edge-itunes-apple.com.akadns.net
@@ -1826,6 +1840,7 @@
 @@||pba0.apple.com
 @@||pba0.g.aaplimg.com
 @@||pbs2i.cdn-apple.com
+@@||pbs2i.v.aaplimg.com
 @@||pd-lb.itunes-apple.com.akadns.net
 @@||pd.itunes.apple.com
 @@||pds-init.ess.apple.com
@@ -1859,18 +1874,21 @@
 @@||rn-sq-device.apple.com
 @@||rtlimages.apple.com
 @@||s-mzstatic-applak.itunes-apple.com.akadns.net
+@@||s.mzstatic.v.aaplimg.com
 @@||safebrowsing-proxy.g.aaplimg.com
 @@||safebrowsing.g.aaplimg.com
 @@||sandbox-dist.itunes-apple.com.akadns.net
 @@||sandbox.itunes-apple.com.akadns.net
 @@||sas-as1-pcms.apple.com
 @@||sas.pcms.apple.com
+@@||sas.pcms.v.aaplimg.com
 @@||sb-music.itunes-apple.com.akadns.net
 @@||se-edge.itunes.apple.com
 @@||se.itunes.apple.com
 @@||se2-cdn.itunes-apple.com.akadns.net
 @@||se2.itunes.apple.com
 @@||securemetrics.apple.com
+@@||securemetrics.v.aaplimg.com
 @@||sequoia.cdn-apple.com
 @@||serverstatus.apple.com
 @@||serverstatus.apple.com.akadns.net
@@ -1882,8 +1900,11 @@
 @@||sharedstreams.fe2.apple-dns.net
 @@||shazam-events.cdn-apple.com
 @@||skl.apple.com
+@@||smoot-api-lookup-aapne1c.v.aaplimg.com
 @@||smoot-api-safari-aapne1a.v.aaplimg.com
 @@||smoot-api-safari-aapne1c.v.aaplimg.com
+@@||smoot-api-spotlight-aapne1a.v.aaplimg.com
+@@||smoot-api-spotlight-aapne1c.v.aaplimg.com
 @@||smoot-feedback.v.aaplimg.com
 @@||smoot-searchv2-aapne1a.v.aaplimg.com
 @@||smoot-searchv2-aapne1c.v.aaplimg.com
@@ -1908,9 +1929,11 @@
 @@||stocks-edge.apple.com
 @@||store.storeimages.apple.com.akadns.net
 @@||store.storeimages.cdn-apple.com
+@@||streamingaudio.g.aaplimg.com
 @@||su.itunes.apple.com
 @@||support.apple.com
 @@||supportmetrics.apple.com
+@@||supportmetrics.v.aaplimg.com
 @@||swallow-apple-com.v.aaplimg.com
 @@||swallow.apple.com
 @@||swcdn.apple.com
@@ -1931,6 +1954,7 @@
 @@||unlinkability.apple.com
 @@||unlinkability.fe2.apple-dns.net
 @@||updates-http.cdn-apple.com
+@@||updates-http.g.aaplimg.com
 @@||updates.cdn-apple.com
 @@||updates.g.aaplimg.com
 @@||upp.itunes.apple.com
@@ -1944,6 +1968,7 @@
 @@||valid.origin-apple.com.akadns.net
 @@||vod-ap-aoc.tv.apple.com
 @@||wallet.cdn-apple.com
+@@||wallet.g.aaplimg.com
 @@||weather-analytics-events.apple.com
 @@||weather-data.apple.com
 @@||weather-data.apple.com.akadns.net
@@ -1976,6 +2001,7 @@
 @@||androidpay-users-pa.googleapis.com
 @@||androidplatformbackuprestore-pa.googleapis.com
 @@||androidresumeonreboot-pa.googleapis.com
+@@||androidtvgtvmfe-pa.googleapis.com
 @@||apis.google.com
 @@||appsgrowthpromo-pa.googleapis.com
 @@||appsitemsuggest-pa.googleapis.com
@@ -2156,6 +2182,7 @@
 @@||proactivebackend-pa.googleapis.com
 @@||proactivebackend-pa.googleapis.com.lan
 @@||prod-lt-playstoregatewayadapter-pa.googleapis.com
+@@||prod-rcs-us-keydelivery-pa.googleapis.com
 @@||pubsub.googleapis.com
 @@||pubsub.googleapis.com.lan
 @@||quake-pa.googleapis.com
@@ -2201,6 +2228,7 @@
 @@||telephonyspamprotect-pa.googleapis.com
 @@||tenor.googleapis.com
 @@||tenor.googleapis.com.lan
+@@||threadcredentialsdistribution.googleapis.com
 @@||translate-pa.googleapis.com
 @@||translate.googleapis.com
 @@||translation.googleapis.com
@@ -2209,13 +2237,16 @@
 @@||update.googleapis.com.lan
 @@||userlocation.googleapis.com
 @@||userlocation.googleapis.com.lan
+@@||verifiablecredentials-pa.googleapis.com
 @@||voilatile-pa.googleapis.com
 @@||voilatile-pa.googleapis.com.lan
 @@||voledevice-pa.googleapis.com
 @@||voledevice-pa.googleapis.com.lan
 @@||waa-pa.googleapis.com
+@@||webapk.googleapis.com
 @@||webpermissionpredictions.googleapis.com
 @@||webpermissionpredictions.googleapis.com.lan
+@@||workspacevideo-pa.googleapis.com
 @@||www.googleapis.com
 @@||www.googleapis.com.lan
 @@||xga-serving-pa.googleapis.com
@@ -2230,6 +2261,7 @@
 @@||adx-f.ads.heytapmobile.com.lan
 @@||adx-id.ads.heytapmobi.com
 @@||adx-id.ads.heytapmobile.com
+@@||adx-op-sg.heytapmobile.com
 @@||appconf-ocs-eu.heytapdl.com
 @@||appconf-ocs-in.heytapdl.com
 @@||appconf-ocs-sgp.heytapdl.com
@@ -2244,6 +2276,7 @@
 @@||cloudconf-app-sg.heytapmobile.com
 @@||cloudconf-app-sg.heytapmobile.com.lan
 @@||cloudconf-app-sg.heytapmobile.com.ts.net
+@@||cloudkit-api-gl.heytapmobile.com
 @@||dc-dragate-sg.heytapmobile.com
 @@||dc-dragate-sg.heytapmobile.com.lan
 @@||dcc-awareness-sg.heytapmobile.com
@@ -2375,6 +2408,8 @@
 @@||sbc-a.w01.rcs.kddi.ne.jp
 @@||st.pass.auone.jp
 @@||station01.ezweb.ne.jp
+@@||steam01.kddi.com
+@@||steam01.steamdr.kddi.com
 @@||sticker-a.e01.rcs.kddi.ne.jp
 @@||sticker-a.w01.rcs.kddi.ne.jp
 @@||sub1.data-storage.auone.jp
@@ -2435,6 +2470,7 @@
 @@||legy-jp.line-apps.com
 @@||legy-jp.line-apps.com.akadns.net
 @@||legy-jp.line-apps.com.ts.net
+@@||legy.line-apps.com
 @@||lg-config.line-apps.com
 @@||lgtmtm-game.linegame.jp
 @@||lgtmtm-game.linegame.jp.lan
@@ -2446,6 +2482,7 @@
 @@||line-manga.blog.jp
 @@||line-objects-internal.com
 @@||line.me
+@@||linecrs-line-scdn-net.vcdn.line-apps.com
 @@||linecrs.line-scdn.net
 @@||linegame-obs.line-scdn.net
 @@||linemanga-obs.line-scdn.net
@@ -2559,6 +2596,7 @@
 @@||prd-jp-news-asset.headless-mercari.com
 @@||static.mercdn.net
 @@||static.mercdn.net.lan
+@@||static.merpay.com
 @@||tag.eisa.mercari.com
 @@||webview-api.mercoin.com
 
@@ -2591,8 +2629,10 @@
 @@||facebook.com
 @@||fbcdn.net
 @@||fbsbx.com
+@@||gateway.instagram.com.ts.net
 @@||i-fallback.instagram.com
 @@||instagram.c10r.instagram.com
+@@||l.instagram.com
 @@||lookaside.fbsbx.com
 @@||lookaside.instagram.com
 @@||m.facebook.com
@@ -2602,6 +2642,7 @@
 @@||ngx-v6.amp-endpoint2.com.lan
 @@||ngx-v6.amp-endpoint2.com.ts.net
 @@||platform-lookaside.fbsbx.com
+@@||scontent-lax3-1.cdninstagram.com
 @@||scontent-sea5-1.cdninstagram.com
 @@||scontent.cdninstagram.com
 @@||scontent.cdninstagram.com.lan
@@ -2614,12 +2655,14 @@
 @@||static.ak.fbcdn.net.lan
 @@||static.ak.fbcdn.net.ts.net
 @@||static.xx.fbcdn.net
+@@||test-gateway.instagram.com
 @@||video.xx.fbcdn.net
 @@||web.facebook.com.lan
 @@||www.facebook.com
 @@||www.fbsbx.com
 @@||z-m-scontent.fallback.xx.fbcdn.net
 @@||z-m-static.xx.fbcdn.net
+@@||z-p42-instagram.c10r.instagram.com
 @@||z-p42-instagram.fallback.c10r.instagram.com
 
 # [microsoft]
@@ -2657,6 +2700,7 @@
 @@||audition.nicovideo.jp
 @@||bff.app-point.nicovideo.jp
 @@||blog.nicovideo.jp
+@@||common-header.nimg.jp
 @@||dcdn.cdn.nicovideo.jp
 @@||dcdn.cdn.nimg.jp
 @@||delivery.domand.nicovideo.jp
@@ -2679,6 +2723,7 @@
 @@||resource.video.nimg.jp
 @@||resources.beta.hiroba.nicovideo.jp
 @@||secure-dcdn.cdn.nimg.jp
+@@||site.nicovideo.jp
 @@||sp.nicovideo.jp
 @@||sug.search.nicovideo.jp
 @@||user-follow-api.nicovideo.jp
@@ -2748,9 +2793,11 @@
 @@||api.radiko.jp.cdn.cloudflare.net
 @@||app-static.cf.radiko.jp
 @@||beacon.ads.smartstream.ne.jp
+@@||beacon.radiko.jp
 @@||log2.radiko.jp
 @@||log3.radiko.jp
 @@||news-static.cf.radiko.jp
+@@||news.radiko.jp
 @@||podcast-static.cf.radiko.jp
 @@||program-static.cf.radiko.jp
 @@||program-static.radiko.jp
@@ -3011,6 +3058,7 @@
 @@||ext-approach.yahoo.co.jp
 @@||extsearch.yahoo.co.jp
 @@||feapi-yvpub.yahooapis.jp
+@@||finance.yahoo.co.jp
 @@||follow-pctr.c.yimg.jp
 @@||follow-stock.yahooapis.jp
 @@||follow.yahooapis.jp
@@ -3018,9 +3066,11 @@
 @@||gw-yvpub.yahoo.co.jp
 @@||i.ebayimg.com
 @@||id.lylink.yahoo.co.jp
+@@||im.ov.yahoo.co.jp
 @@||image.shopping.srv.yimg.jp
 @@||item-shopping.c.yimg.jp
 @@||keep.yahooapis.jp
+@@||kids.yahoo.co.jp
 @@||lifetool-discovery.yahooapis.jp
 @@||liff-lyp-premium.line-apps.com
 @@||login.yahoo.co.jp
@@ -3044,9 +3094,11 @@
 @@||paypayfleamarket.yahoo.co.jp
 @@||personal-yjapp.yahooapis.jp
 @@||poiend-pctr.c.yimg.jp
+@@||promo-search.yahoo.co.jp
 @@||pushlist-yjapp.yahooapis.jp
 @@||quriosity-pctr.c.yimg.jp
 @@||quriosity.yahooapis.jp
+@@||rdr.yahoo.co.jp
 @@||rdr.yahoo.jp
 @@||review-shopping.c.yimg.jp
 @@||rts-pctr.c.yimg.jp
@@ -3054,6 +3106,7 @@
 @@||s.yimg.jp
 @@||s.yimg.jp.lan
 @@||s.yjtag.jp
+@@||salesmanagement.yahoo.co.jp
 @@||sdkcore-force-update.west.edge.storage-yahoo.jp
 @@||sdkcore-force-update.west.edge.storage-yahoo.jp.lan
 @@||sdsb.yahooapis.jp

@@ -2,6 +2,772 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [a55a97b](https://github.com/virtualitypage/AdGuardHome_Filters/commit/a55a97b6258a9739cbe54a38712adce5e23b5c9c) - 2026-02-08
+
+### Date
+
+- 2026/02/08 20:59:38
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 30 January 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -178,7 +178,6 @@
+
+      @@||article-image-ix.nikkei.com
+      @@||article-image.travel.navitime.jp
+      @@||as-api-ws-cdn-1.tdacestudio.com
+    - @@||asapi.aweray.net
+      @@||asia.tools.euroland.com
+      @@||asp.shufoo.net
+      @@||asset.bankapp.jp
+
+      @@ -1489,13 +1488,21 @@
+
+      @@||a1437.dscw45.akamai.net
+      @@||a1962.w155.akamai.net
+      @@||a2047.api10.akamai.net
+      @@||c.go-mpulse.net
+      @@||cdn-guile.akamaized.net
+      @@||disk.akamaized.net
+      @@||e35058.api2.akamaiedge.net
+      @@||e3811.e9.akamaiedge.net
+      @@||gameclub-fp.akamaized.net
+      @@||giga-images-makeshop-jp.akamaized.net
+      @@||kayzencdn.akamaized.net
+      @@||ln-cdn.akamaized.net
+      @@||makeshop-multi-images.akamaized.net
+
+      @@ -1503,12 +1510,19 @@
+
+      @@||mig-jp-cflisa-wlb.verda.akadns.net
+      @@||p16-sg-default.akamaized.net
+      @@||p16-tiktokcdn-com.akamaized.net
+      @@||prd-real.lisa2-wlb.verda2.akadns.net
+      @@||q1.jp-jst.gh-g.v1.akaquill.net
+      @@||s.go-mpulse.net
+      @@||s.ns1p.net
+      @@||s2.go-mpulse.net
+      @@||speee-ad.akamaized.net
+      @@||tags.tiqcdn.com
+      @@||v16m-default.akamaized.net
+      @@||whoami.akamai.net
+
+      @@ -1528,15 +1542,18 @@
+
+      @@||1-courier.sandbox.push.apple.com
+      @@||acsegateway.fe2.apple-dns.net
+      @@||afs.ampservices.v.aaplimg.com
+      @@||amd-infra.apps-apple.com.akadns.net
+      @@||amd-infra.itunes.apple.com
+      @@||amd-infra.itunes.g.aaplimg.com
+      @@||amp-account.itunes-apple.com.akadns.net
+      @@||amp-account.itunes.apple.com
+      @@||amp-api-edge-lb.itunes-apple.com.akadns.net
+      @@||amp-api-edge.apps.apple.com
+    - @@||amp-api-media-akam.itunes-apple.com.akadns.net
+      @@||amp-api-updates.apps.apple.com
+      @@||amp-api.apps.apple.com
+      @@||amp-api.media-lb.apple.com.akadns.net
+      @@||amp-api.media.apple.com
+
+      @@ -1546,10 +1563,14 @@
+
+      @@||apac-asia-courier-4.push-apple.com.akadns.net
+      @@||apac-mask.wrr.mask.apple-dns.net
+      @@||apac-mask.wrr.me.apple-dns.net
+      @@||api-glb-aapne1a.smoot.apple.com
+      @@||api-glb-aapne1c.smoot.apple.com
+      @@||api-safari-aapne1a.smoot.apple.com
+      @@||api-safari-aapne1c.smoot.apple.com
+      @@||api.apple-cloudkit.fe2.apple-dns.net
+      @@||api.smoot.apple.com
+      @@||apis.apple.map.fastly.net
+
+      @@ -1558,6 +1579,7 @@
+
+      @@||app-site-association.g.aaplimg.com
+      @@||apple-relay.fastly-edge.com
+      @@||appleid.apple.com
+      @@||applepay.cdn-apple.com
+      @@||apps-mzstatic-cdn.itunes-apple.com.akadns.net
+      @@||apps-mzstatic-lb.itunes-apple.com.akadns.net
+
+      @@ -1575,8 +1597,10 @@
+
+      @@||bag-cdn.itunes-apple.com.akadns.net
+      @@||bag-smoot.v.aaplimg.com
+      @@||bag.itunes.apple.com
+      @@||buy-lb.itunes-apple.com.akadns.net
+      @@||buy.itunes-apple.com.akadns.net
+      @@||ca.iadsdk.apple.com
+      @@||cabana-config.cdn-apple.com
+      @@||cabana-config.g.aaplimg.com
+
+      @@ -1586,23 +1610,23 @@
+
+      @@||caldav.fe2.apple-dns.net
+      @@||calendars.fe2.apple-dns.net
+      @@||calendars.icloud.com
+    - @@||captive-cdn.origin-apple.com.akadns.net
+    - @@||captive-cidr.origin-apple.com.akadns.net
+      @@||captive.apple.com
+      @@||captive.g.aaplimg.com
+      @@||carrierbundle.g.aaplimg.com
+      @@||cdn-icloud-content.g.aaplimg.com
+      @@||cdn.icloud-content.com
+      @@||cdn.smoot.g.aaplimg.com
+      @@||cdn2.smoot.apple.com
+      @@||cdsassets.apple.com
+      @@||client-api.itunes.apple.com
+      @@||cma.itunes-apple.com.akadns.net
+      @@||cma.itunes.apple.com
+      @@||config-chr.health.apple.com
+      @@||config-chr.health.g.aaplimg.com
+      @@||configuration-lb.ls-apple.com.akadns.net
+    - @@||configuration-row-lb.apple.com.akadns.net
+      @@||configuration.apple.com
+      @@||configuration.apple.com.akadns.net
+      @@||configuration.ls.apple.com
+
+      @@ -1614,6 +1638,8 @@
+
+      @@||courier-ab-vs.push.apple.com
+      @@||croissant.cdn-apple.com
+      @@||croissant.edge.apple
+      @@||cstat.cdn-apple.com
+      @@||cstat.g.aaplimg.com
+      @@||current.jposa3.me.apple-dns.net
+
+      @@ -1621,12 +1647,16 @@
+
+      @@||current.twntc1.me.apple-dns.net
+      @@||device-config.pcms.apple.com
+      @@||device-config.v.aaplimg.com
+      @@||doh-dns-apple-com.v.aaplimg.com
+      @@||doh.dns.apple.com
+      @@||doh.dns.apple.com.v.aaplimg.com
+      @@||downloaddispatch.g.aaplimg.com
+      @@||downloaddispatch.itunes.apple.com
+      @@||ec.pcms.apple.com
+      @@||entitlements-itunes.g.aaplimg.com
+      @@||entitlements.edge-itunes-apple.com.akadns.net
+      @@||entitlements.itunes.apple.com
+
+      @@ -1682,10 +1712,16 @@
+
+      @@||gspe35-applecdn-cutover.ls-apple.com.akadns.net
+      @@||gspe35-cdn.v.aaplimg.com
+      @@||gspe79-cdn.g.aaplimg.com
+      @@||gspe85-ssl.g.aaplimg.com
+      @@||guzzoni-apple-com.v.aaplimg.com
+      @@||guzzoni.apple.com
+      @@||h3.media.apple.map.fastly.net
+      @@||humb.apple.com
+      @@||humb.v.aaplimg.com
+      @@||images-mercury.v.aaplimg.com
+
+      @@ -1705,7 +1741,6 @@
+
+      @@||ipcdn.g.aaplimg.com
+      @@||iphonesubmissions.apple.com
+      @@||iphonesubmissions.v.aaplimg.com
+    - @@||is-ssl-cdn.itunes-apple.com.akadns.net
+      @@||itunes-cdn.itunes-apple.com.akadns.net
+      @@||itunes.apple.com
+      @@||jptyo12.ce.apple-dns.net
+
+      @@ -1726,10 +1761,12 @@
+
+      @@||mesu-cdn.origin-apple.com.akadns.net
+      @@||mesu.apple.com
+      @@||mesu.g.aaplimg.com
+      @@||metricsedge-continent-wrr-cutover.v.aaplimg.com
+      @@||metricsedge-continent-wrr.v.aaplimg.com
+      @@||ml.cdn-apple.com
+      @@||ml.cdn-apple.g.aaplimg.com
+      @@||music.apple.com
+      @@||musicstatus-apac-s.edge-itunes-apple.com.akadns.net
+      @@||musicstatus-apac.edge-itunes-apple.com.akadns.net
+
+      @@ -1739,6 +1776,8 @@
+
+      @@||netcts.cdn-apple.com
+      @@||ocsp2.apple.com
+      @@||ocsp2.g.aaplimg.com
+      @@||ontology.health.apple.com
+      @@||p105-acsegateway.icloud.com
+      @@||p105-caldav.icloud.com
+
+      @@ -1749,10 +1788,14 @@
+
+      @@||p105-fmfmobile.icloud.com
+      @@||p105-fmip.icloud.com
+      @@||p105-fmipmobile.icloud.com
+      @@||p105-quota.icloud.com
+      @@||p106-content.icloud.com
+      @@||p11-mcc.icloud.com
+      @@||p110-sharedstreams.icloud.com
+      @@||p129-fmfmobile.icloud.com
+      @@||p138-sharedstreams.icloud.com
+      @@||p164-acsegateway.icloud.com
+
+      @@ -1764,34 +1807,43 @@
+
+      @@||p164-quota.icloud.com
+      @@||p17-buy-lb.itunes-apple.com.akadns.net
+      @@||p17-buy.itunes.apple.com
+      @@||p25-fmfmobile.icloud.com
+      @@||p25-fmipmobile.icloud.com
+      @@||p25-mailws.icloud.com
+      @@||p25-sharedstreams.icloud.com
+      @@||p34-buy-lb.itunes-apple.com.akadns.net
+      @@||p34-buy.itunes-apple.com.akadns.net
+      @@||p34-buy.itunes.apple.com
+      @@||p61-mcc.icloud.com
+      @@||pancake.cdn-apple.com.akadns.net
+      @@||partiality.itunes.apple.com
+      @@||pba.apple.com
+      @@||pba.v.aaplimg.com
+      @@||pba0.apple.com
+      @@||pba0.g.aaplimg.com
+    - @@||pd-cdn.itunes-apple.com.akadns.net
+      @@||pd-lb.itunes-apple.com.akadns.net
+      @@||pd.itunes.apple.com
+      @@||pds-init.ess.apple.com
+      @@||pds-prod.v.aaplimg.com
+      @@||pds.ess.apple.com
+      @@||play.itunes.apple.com
+      @@||probe-edge.v.aaplimg.com
+      @@||probe.icloud.com
+      @@||probe.me.apple-dns.net
+      @@||probe.siri.apple.com
+      @@||prod-event-relay-weather-api.v.aaplimg.com
+      @@||profile.ess-apple.com.akadns.net
+      @@||profile.ess.apple.com
+      @@||profile.gc.apple.com
+      @@||profile.gc.fe2.apple-dns.net
+      @@||publicassets.cdn-apple.com
+
+      @@ -1799,26 +1851,36 @@
+
+      @@||query.ess-apple.com.akadns.net
+      @@||query.ess.apple.com
+      @@||quota.fe2.apple-dns.net
+      @@||radio-services.g.aaplimg.com
+      @@||radio.itunes.apple.com
+      @@||safebrowsing-proxy.g.aaplimg.com
+      @@||safebrowsing.g.aaplimg.com
+      @@||sandbox-dist.itunes-apple.com.akadns.net
+    - @@||sandbox-origin.itunes-apple.com.akadns.net
+      @@||sandbox.itunes-apple.com.akadns.net
+      @@||sas-as1-pcms.apple.com
+      @@||sas.pcms.apple.com
+      @@||se-edge.itunes.apple.com
+      @@||se.itunes.apple.com
+      @@||se2-cdn.itunes-apple.com.akadns.net
+      @@||se2.itunes.apple.com
+      @@||securemetrics.apple.com
+      @@||sequoia.cdn-apple.com
+      @@||setup.fe2.apple-dns.net
+      @@||setup.icloud.com
+      @@||sf-api-token-service.itunes.apple.com
+      @@||sfss.v.aaplimg.com
+      @@||sharedstreams.fe2.apple-dns.net
+      @@||skl.apple.com
+      @@||smoot-api-safari-aapne1a.v.aaplimg.com
+      @@||smoot-api-safari-aapne1c.v.aaplimg.com
+
+      @@ -1827,18 +1889,25 @@
+
+      @@||smoot-searchv2-aapne1c.v.aaplimg.com
+      @@||smp-device-content.apple.com
+      @@||smp-device-content.g.aaplimg.com
+      @@||speedysub-apac-s.edge-itunes-apple.com.akadns.net
+      @@||speedysub.itunes.apple.com
+      @@||sse-ws-p189.apple.com
+      @@||sse-ws-p189.v.aaplimg.com
+      @@||static.cdn-apple.com
+      @@||static.ess.apple.com
+      @@||static.gc.apple.com
+      @@||staticess.g.aaplimg.com
+      @@||stocks-data-service.apple.com
+      @@||stocks-data-service.lb-apple.com.akadns.net
+      @@||stocks-data-service.v.aaplimg.com
+      @@||stocks-edge.apple.com
+      @@||su.itunes.apple.com
+      @@||support.apple.com
+      @@||supportmetrics.apple.com
+
+      @@ -1857,19 +1926,25 @@
+
+      @@||time.g.aaplimg.com
+      @@||token.safebrowsing.apple
+      @@||token.safebrowsing.apple.com
+      @@||ts.apps-apple.com.akadns.net
+      @@||unlinkability.apple.com
+      @@||unlinkability.fe2.apple-dns.net
+      @@||updates.cdn-apple.com
+      @@||updates.g.aaplimg.com
+      @@||upp.itunes.apple.com
+      @@||us-sandbox-courier-4.push-apple.com.akadns.net
+      @@||usw2-tdm-prod.apple.com
+      @@||uts-api.itunes.apple.com
+      @@||valid-apple.g.aaplimg.com
+      @@||valid.apple.com
+      @@||valid.origin-apple.com.akadns.net
+      @@||vod-ap-aoc.tv.apple.com
+      @@||weather-data.apple.com
+      @@||weather-data.apple.com.akadns.net
+      @@||weather-edge.apple.com
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 8 February 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -178,7 +178,6 @@
+
+      @@||article-image-ix.nikkei.com
+      @@||article-image.travel.navitime.jp
+      @@||as-api-ws-cdn-1.tdacestudio.com
+      @@||asia.tools.euroland.com
+      @@||asp.shufoo.net
+      @@||asset.bankapp.jp
+
+      @@ -1489,13 +1488,21 @@
+
+      @@||a1437.dscw45.akamai.net
+      @@||a1962.w155.akamai.net
+      @@||a2047.api10.akamai.net
+    + @@||amp-api-media-akam.itunes-apple.com.akadns.net
+      @@||c.go-mpulse.net
+    + @@||ca.iadsdk.apple.com.akadns.net
+    + @@||captive-cdn.origin-apple.com.akadns.net
+    + @@||captive-cidr.origin-apple.com.akadns.net
+      @@||cdn-guile.akamaized.net
+    + @@||communities-lb.apple.com.akadns.net
+    + @@||configuration-row-lb.apple.com.akadns.net
+      @@||disk.akamaized.net
+      @@||e35058.api2.akamaiedge.net
+      @@||e3811.e9.akamaiedge.net
+      @@||gameclub-fp.akamaized.net
+      @@||giga-images-makeshop-jp.akamaized.net
+    + @@||imap.mail.me.com.akadns.net
+    + @@||is-ssl-cdn.itunes-apple.com.akadns.net
+      @@||kayzencdn.akamaized.net
+      @@||ln-cdn.akamaized.net
+      @@||makeshop-multi-images.akamaized.net
+
+      @@ -1503,12 +1510,19 @@
+
+      @@||mig-jp-cflisa-wlb.verda.akadns.net
+      @@||p16-sg-default.akamaized.net
+      @@||p16-tiktokcdn-com.akamaized.net
+    + @@||pd-cdn.itunes-apple.com.akadns.net
+      @@||prd-real.lisa2-wlb.verda2.akadns.net
+    + @@||prd-real.lisa2.verda2.akadns.net
+    + @@||prd-real.manager-jp-wlb.verda2.akadns.net
+    + @@||publicassets.lb-apple.com.akadns.net
+      @@||q1.jp-jst.gh-g.v1.akaquill.net
+      @@||s.go-mpulse.net
+      @@||s.ns1p.net
+      @@||s2.go-mpulse.net
+    + @@||sandbox-origin.itunes-apple.com.akadns.net
+    + @@||shop7-makeshop.akamaized.net
+      @@||speee-ad.akamaized.net
+    + @@||stickershop-jp-wlb.line-apps.com.akadns.net
+      @@||tags.tiqcdn.com
+      @@||v16m-default.akamaized.net
+      @@||whoami.akamai.net
+
+      @@ -1528,15 +1542,18 @@
+
+      @@||1-courier.sandbox.push.apple.com
+      @@||acsegateway.fe2.apple-dns.net
+      @@||afs.ampservices.v.aaplimg.com
+    + @@||albert.apple.com
+      @@||amd-infra.apps-apple.com.akadns.net
+      @@||amd-infra.itunes.apple.com
+      @@||amd-infra.itunes.g.aaplimg.com
+      @@||amp-account.itunes-apple.com.akadns.net
+      @@||amp-account.itunes.apple.com
+    + @@||amp-api-edge-cdn-lb.itunes-apple.com.akadns.net
+      @@||amp-api-edge-lb.itunes-apple.com.akadns.net
+      @@||amp-api-edge.apps.apple.com
+    + @@||amp-api-music-akam.itunes-apple.com.akadns.net
+      @@||amp-api-updates.apps.apple.com
+    + @@||amp-api.apps-marketplace.apple.com
+      @@||amp-api.apps.apple.com
+      @@||amp-api.media-lb.apple.com.akadns.net
+      @@||amp-api.media.apple.com
+
+      @@ -1546,10 +1563,14 @@
+
+      @@||apac-asia-courier-4.push-apple.com.akadns.net
+      @@||apac-mask.wrr.mask.apple-dns.net
+      @@||apac-mask.wrr.me.apple-dns.net
+    + @@||api-adservices.apple.com
+      @@||api-glb-aapne1a.smoot.apple.com
+      @@||api-glb-aapne1c.smoot.apple.com
+    + @@||api-lookup-aapne1c.smoot.apple.com
+      @@||api-safari-aapne1a.smoot.apple.com
+      @@||api-safari-aapne1c.smoot.apple.com
+    + @@||api-spotlight-aapne1a.smoot.apple.com
+    + @@||api-spotlight-aapne1c.smoot.apple.com
+      @@||api.apple-cloudkit.fe2.apple-dns.net
+      @@||api.smoot.apple.com
+      @@||apis.apple.map.fastly.net
+
+      @@ -1558,6 +1579,7 @@
+
+      @@||app-site-association.g.aaplimg.com
+      @@||apple-relay.fastly-edge.com
+      @@||appleid.apple.com
+    + @@||appleid.cdn-apple.com
+      @@||applepay.cdn-apple.com
+      @@||apps-mzstatic-cdn.itunes-apple.com.akadns.net
+      @@||apps-mzstatic-lb.itunes-apple.com.akadns.net
+
+      @@ -1575,8 +1597,10 @@
+
+      @@||bag-cdn.itunes-apple.com.akadns.net
+      @@||bag-smoot.v.aaplimg.com
+      @@||bag.itunes.apple.com
+    + @@||bpapi.apple.com
+      @@||buy-lb.itunes-apple.com.akadns.net
+      @@||buy.itunes-apple.com.akadns.net
+    + @@||c.apple.com
+      @@||ca.iadsdk.apple.com
+      @@||cabana-config.cdn-apple.com
+      @@||cabana-config.g.aaplimg.com
+
+      @@ -1586,23 +1610,23 @@
+
+      @@||caldav.fe2.apple-dns.net
+      @@||calendars.fe2.apple-dns.net
+      @@||calendars.icloud.com
+      @@||captive.apple.com
+      @@||captive.g.aaplimg.com
+    + @@||carrierbundle-cdn.itunes-apple.com.akadns.net
+      @@||carrierbundle.g.aaplimg.com
+      @@||cdn-icloud-content.g.aaplimg.com
+      @@||cdn.icloud-content.com
+      @@||cdn.smoot.g.aaplimg.com
+      @@||cdn2.smoot.apple.com
+      @@||cdsassets.apple.com
+    + @@||chatbox-web.apple.com.akadns.net
+      @@||client-api.itunes.apple.com
+      @@||cma.itunes-apple.com.akadns.net
+      @@||cma.itunes.apple.com
+    + @@||communities.apple.com
+      @@||config-chr.health.apple.com
+      @@||config-chr.health.g.aaplimg.com
+      @@||configuration-lb.ls-apple.com.akadns.net
+      @@||configuration.apple.com
+      @@||configuration.apple.com.akadns.net
+      @@||configuration.ls.apple.com
+
+      @@ -1614,6 +1638,8 @@
+
+      @@||courier-ab-vs.push.apple.com
+      @@||croissant.cdn-apple.com
+      @@||croissant.edge.apple
+    + @@||csig.apple.com
+    + @@||csig.g.apple.com
+      @@||cstat.cdn-apple.com
+      @@||cstat.g.aaplimg.com
+      @@||current.jposa3.me.apple-dns.net
+
+      @@ -1621,12 +1647,16 @@
+
+      @@||current.twntc1.me.apple-dns.net
+      @@||device-config.pcms.apple.com
+      @@||device-config.v.aaplimg.com
+    + @@||digitalassets-taa.cdn-apple.com
+    + @@||discussions.apple.com
+    + @@||discussionsjapan.apple.com
+      @@||doh-dns-apple-com.v.aaplimg.com
+      @@||doh.dns.apple.com
+      @@||doh.dns.apple.com.v.aaplimg.com
+      @@||downloaddispatch.g.aaplimg.com
+      @@||downloaddispatch.itunes.apple.com
+      @@||ec.pcms.apple.com
+    + @@||edge-cdn.itunes-apple.com.akadns.net
+      @@||entitlements-itunes.g.aaplimg.com
+      @@||entitlements.edge-itunes-apple.com.akadns.net
+      @@||entitlements.itunes.apple.com
+
+      @@ -1682,10 +1712,16 @@
+
+      @@||gspe35-applecdn-cutover.ls-apple.com.akadns.net
+      @@||gspe35-cdn.v.aaplimg.com
+      @@||gspe79-cdn.g.aaplimg.com
+    + @@||gspe79-ssl-96.ls.apple.com
+      @@||gspe85-ssl.g.aaplimg.com
+    + @@||gspx57-ssl-background.ls.apple.com
+    + @@||gsra.apple.com
+    + @@||gsra.apple.com.v.aaplimg.com
+    + @@||guzzoni-apple-com-hy7bi3e3twh2.v.aaplimg.com
+      @@||guzzoni-apple-com.v.aaplimg.com
+      @@||guzzoni.apple.com
+      @@||h3.media.apple.map.fastly.net
+    + @@||help.origin-apple.com.akadns.net
+      @@||humb.apple.com
+      @@||humb.v.aaplimg.com
+      @@||images-mercury.v.aaplimg.com
+
+      @@ -1705,7 +1741,6 @@
+
+      @@||ipcdn.g.aaplimg.com
+      @@||iphonesubmissions.apple.com
+      @@||iphonesubmissions.v.aaplimg.com
+      @@||itunes-cdn.itunes-apple.com.akadns.net
+      @@||itunes.apple.com
+      @@||jptyo12.ce.apple-dns.net
+
+      @@ -1726,10 +1761,12 @@
+
+      @@||mesu-cdn.origin-apple.com.akadns.net
+      @@||mesu.apple.com
+      @@||mesu.g.aaplimg.com
+    + @@||metrics-config.icloud.com
+      @@||metricsedge-continent-wrr-cutover.v.aaplimg.com
+      @@||metricsedge-continent-wrr.v.aaplimg.com
+      @@||ml.cdn-apple.com
+      @@||ml.cdn-apple.g.aaplimg.com
+    + @@||mobileapp.apple.com
+      @@||music.apple.com
+      @@||musicstatus-apac-s.edge-itunes-apple.com.akadns.net
+      @@||musicstatus-apac.edge-itunes-apple.com.akadns.net
+
+      @@ -1739,6 +1776,8 @@
+
+      @@||netcts.cdn-apple.com
+      @@||ocsp2.apple.com
+      @@||ocsp2.g.aaplimg.com
+    + @@||odin-signals.apple.com
+    + @@||ondevice-agreements.apple.com
+      @@||ontology.health.apple.com
+      @@||p105-acsegateway.icloud.com
+      @@||p105-caldav.icloud.com
+
+      @@ -1749,10 +1788,14 @@
+
+      @@||p105-fmfmobile.icloud.com
+      @@||p105-fmip.icloud.com
+      @@||p105-fmipmobile.icloud.com
+    + @@||p105-mcc.icloud.com
+    + @@||p105-mccgateway.icloud.com
+      @@||p105-quota.icloud.com
+      @@||p106-content.icloud.com
+      @@||p11-mcc.icloud.com
+    + @@||p110-availability.icloud.com
+      @@||p110-sharedstreams.icloud.com
+    + @@||p120-contacts.icloud.com
+      @@||p129-fmfmobile.icloud.com
+      @@||p138-sharedstreams.icloud.com
+      @@||p164-acsegateway.icloud.com
+
+      @@ -1764,34 +1807,43 @@
+
+      @@||p164-quota.icloud.com
+      @@||p17-buy-lb.itunes-apple.com.akadns.net
+      @@||p17-buy.itunes.apple.com
+    + @@||p176-acsegateway.icloud.com
+      @@||p25-fmfmobile.icloud.com
+      @@||p25-fmipmobile.icloud.com
+      @@||p25-mailws.icloud.com
+    + @@||p25-mcc.icloud.com
+      @@||p25-sharedstreams.icloud.com
+      @@||p34-buy-lb.itunes-apple.com.akadns.net
+      @@||p34-buy.itunes-apple.com.akadns.net
+      @@||p34-buy.itunes.apple.com
+    + @@||p41-mobilebackup.icloud.com
+      @@||p61-mcc.icloud.com
+      @@||pancake.cdn-apple.com.akadns.net
+      @@||partiality.itunes.apple.com
+    + @@||pay-static.cdn-apple.com
+      @@||pba.apple.com
+      @@||pba.v.aaplimg.com
+      @@||pba0.apple.com
+      @@||pba0.g.aaplimg.com
+    + @@||pbs2i.cdn-apple.com
+      @@||pd-lb.itunes-apple.com.akadns.net
+      @@||pd.itunes.apple.com
+      @@||pds-init.ess.apple.com
+      @@||pds-prod.v.aaplimg.com
+      @@||pds.ess.apple.com
+      @@||play.itunes.apple.com
+    + @@||pr-pod8-smp-device.apple.com
+    + @@||pr-pod8-smp-device.gcsis-apple.com.akadns.net
+    + @@||prd-usw2-requestattribution-iad.apple.com
+      @@||probe-edge.v.aaplimg.com
+    + @@||probe-siri-apple-com.v.aaplimg.com
+      @@||probe.icloud.com
+      @@||probe.me.apple-dns.net
+      @@||probe.siri.apple.com
+      @@||prod-event-relay-weather-api.v.aaplimg.com
+      @@||profile.ess-apple.com.akadns.net
+      @@||profile.ess.apple.com
+    + @@||profile.gc-apple.com.akadns.net
+      @@||profile.gc.apple.com
+      @@||profile.gc.fe2.apple-dns.net
+      @@||publicassets.cdn-apple.com
+
+      @@ -1799,26 +1851,36 @@
+
+      @@||query.ess-apple.com.akadns.net
+      @@||query.ess.apple.com
+      @@||quota.fe2.apple-dns.net
+    + @@||quota.icloud.com
+      @@||radio-services.g.aaplimg.com
+      @@||radio.itunes.apple.com
+    + @@||register.appattest.apple.com
+    + @@||rn-albert-prod.apple.com
+    + @@||rn-sq-device.apple.com
+    + @@||rtlimages.apple.com
+    + @@||s-mzstatic-applak.itunes-apple.com.akadns.net
+      @@||safebrowsing-proxy.g.aaplimg.com
+      @@||safebrowsing.g.aaplimg.com
+      @@||sandbox-dist.itunes-apple.com.akadns.net
+      @@||sandbox.itunes-apple.com.akadns.net
+      @@||sas-as1-pcms.apple.com
+      @@||sas.pcms.apple.com
+    + @@||sb-music.itunes-apple.com.akadns.net
+      @@||se-edge.itunes.apple.com
+      @@||se.itunes.apple.com
+      @@||se2-cdn.itunes-apple.com.akadns.net
+      @@||se2.itunes.apple.com
+      @@||securemetrics.apple.com
+      @@||sequoia.cdn-apple.com
+    + @@||serverstatus.apple.com
+    + @@||serverstatus.apple.com.akadns.net
+      @@||setup.fe2.apple-dns.net
+      @@||setup.icloud.com
+      @@||sf-api-token-service.itunes.apple.com
+    + @@||sfss.cdn-apple.com
+      @@||sfss.v.aaplimg.com
+      @@||sharedstreams.fe2.apple-dns.net
+    + @@||shazam-events.cdn-apple.com
+      @@||skl.apple.com
+      @@||smoot-api-safari-aapne1a.v.aaplimg.com
+      @@||smoot-api-safari-aapne1c.v.aaplimg.com
+
+      @@ -1827,18 +1889,25 @@
+
+      @@||smoot-searchv2-aapne1c.v.aaplimg.com
+      @@||smp-device-content.apple.com
+      @@||smp-device-content.g.aaplimg.com
+    + @@||smp-device-content.lb-apple.com.akadns.net
+    + @@||smp-device.apple.com
+    + @@||smp-device.gcsis-apple.com.akadns.net
+      @@||speedysub-apac-s.edge-itunes-apple.com.akadns.net
+      @@||speedysub.itunes.apple.com
+    + @@||sq-device.apple.com
+      @@||sse-ws-p189.apple.com
+      @@||sse-ws-p189.v.aaplimg.com
+      @@||static.cdn-apple.com
+      @@||static.ess.apple.com
+      @@||static.gc.apple.com
+      @@||staticess.g.aaplimg.com
+    + @@||statici.icloud.com
+      @@||stocks-data-service.apple.com
+      @@||stocks-data-service.lb-apple.com.akadns.net
+      @@||stocks-data-service.v.aaplimg.com
+      @@||stocks-edge.apple.com
+    + @@||store.storeimages.apple.com.akadns.net
+    + @@||store.storeimages.cdn-apple.com
+      @@||su.itunes.apple.com
+      @@||support.apple.com
+      @@||supportmetrics.apple.com
+
+      @@ -1857,19 +1926,25 @@
+
+      @@||time.g.aaplimg.com
+      @@||token.safebrowsing.apple
+      @@||token.safebrowsing.apple.com
+    + @@||tr.iadsdk.apple.com
+      @@||ts.apps-apple.com.akadns.net
+      @@||unlinkability.apple.com
+      @@||unlinkability.fe2.apple-dns.net
+    + @@||updates-http.cdn-apple.com
+      @@||updates.cdn-apple.com
+      @@||updates.g.aaplimg.com
+      @@||upp.itunes.apple.com
+      @@||us-sandbox-courier-4.push-apple.com.akadns.net
+    + @@||usw2-register-appattest-prod-aws-prod.apple.com
+      @@||usw2-tdm-prod.apple.com
+    + @@||uts-api-cdn.itunes-apple.com.akadns.net
+      @@||uts-api.itunes.apple.com
+      @@||valid-apple.g.aaplimg.com
+      @@||valid.apple.com
+      @@||valid.origin-apple.com.akadns.net
+      @@||vod-ap-aoc.tv.apple.com
+    + @@||wallet.cdn-apple.com
+    + @@||weather-analytics-events.apple.com
+      @@||weather-data.apple.com
+      @@||weather-data.apple.com.akadns.net
+      @@||weather-edge.apple.com
+    ```
+
+- accept/Appliances_only.txt
+    ```yaml
+    BEFORE:
+      # References: querylog
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
+      #
+    - # Last modified: 4 February 2026
+      #
+
+      # [192.168.8.168 (LDA5F-E17 LED)]
+
+      @@ -17,6 +17,7 @@
+
+      @@||time.google.com^$client=192.168.8.169
+
+      # [192.168.8.170 (PLUG-C2-JP(BT))]
+      @@||awesun.aweray.com
+      @@||client-webapi-global.aweray.com
+      @@||iots01-asia-g1.aweray.net
+    ```
+
+    ```yaml
+    AFTER:
+      # References: querylog
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Appliances_only.txt
+      #
+    + # Last modified: 8 February 2026
+      #
+
+      # [192.168.8.168 (LDA5F-E17 LED)]
+
+      @@ -17,6 +17,7 @@
+
+      @@||time.google.com^$client=192.168.8.169
+
+      # [192.168.8.170 (PLUG-C2-JP(BT))]
+    + @@||asapi.aweray.net
+      @@||awesun.aweray.com
+      @@||client-webapi-global.aweray.com
+      @@||iots01-asia-g1.aweray.net
+    ```
+
 ## Commit: [6c70ef4](https://github.com/virtualitypage/AdGuardHome_Filters/commit/6c70ef4731966f651b5e6608dc2c803ae26e9c34) - 2026-02-07
 
 ### Date

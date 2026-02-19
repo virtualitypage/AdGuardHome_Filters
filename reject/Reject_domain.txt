@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 7 February 2026
+# Last modified: 19 February 2026
 #
 
 # [拒否リクエスト]
@@ -138,6 +138,9 @@
 0.0.0.0 ap.srv.stackadapt.com.ts.net
 0.0.0.0 apac.trk.svr-algorix.com
 0.0.0.0 apac03.trk.bid-algorix.com
+0.0.0.0 apac2.admanmedia.com
+0.0.0.0 apac3.admanmedia.com
+0.0.0.0 apac4.admanmedia.com
 0.0.0.0 ape-androids.isappcloud.com
 0.0.0.0 ape-androids.isappcloud.com.lan
 0.0.0.0 api-events.eventstracker.io
@@ -159,6 +162,7 @@
 0.0.0.0 api.btloader.com
 0.0.0.0 api.btrbdf.com
 0.0.0.0 api.bytegle.site
+0.0.0.0 api.bytegle.site.lan
 0.0.0.0 api.company-target.com
 0.0.0.0 api.flipdesk.jp
 0.0.0.0 api.gameanalytics.com
@@ -182,6 +186,7 @@
 0.0.0.0 api.synapse-kddi.net
 0.0.0.0 api.synapse-kddi.net.lan
 0.0.0.0 api.usercentrics.eu
+0.0.0.0 api.usercentrics.eu.lan
 0.0.0.0 api.usercentrics.eu.ts.net
 0.0.0.0 api.xintaicz.cn
 0.0.0.0 api.xintaicz.cn.lan
@@ -356,6 +361,7 @@
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 cdn1.stamped.io.lan
 0.0.0.0 cdn1.stamped.io.ts.net
+0.0.0.0 cdn2.judge.me
 0.0.0.0 cdn3.hsrdkt.com
 0.0.0.0 cdnwidget.judge.me
 0.0.0.0 ce.lijit.com
@@ -644,6 +650,7 @@
 0.0.0.0 ice.360yield.com
 0.0.0.0 icon-config.alsgp0.mi-fds.com
 0.0.0.0 icosa-service-sg-01.allawnos.com
+0.0.0.0 icosa-service-sg-01.allawnos.com.lan
 0.0.0.0 icosa-service-sg.allawnos.com
 0.0.0.0 id.geistm.com
 0.0.0.0 id.geistm.com.lan
@@ -903,6 +910,7 @@
 0.0.0.0 prebid.adnxs.com
 0.0.0.0 prebid.cootlogix.com
 0.0.0.0 prebid.smilewanted.com
+0.0.0.0 prod-e.axon.ai.lan
 0.0.0.0 prod-e.axon.ai.ts.net
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net.lan
@@ -1182,6 +1190,7 @@
 0.0.0.0 track.api.visumo.io
 0.0.0.0 track.hubspot.com
 0.0.0.0 track.lacunads.com
+0.0.0.0 tracker-b.rtb.admanmedia.com
 0.0.0.0 tracker.maticooads.com
 0.0.0.0 tracker.rtb.admanmedia.com
 0.0.0.0 tracking-apac.tmbid.com
@@ -2777,6 +2786,7 @@
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 gallery.market.xiaomi.com
 0.0.0.0 global.market.xiaomi.com
+0.0.0.0 global.market.xiaomi.com.lan
 0.0.0.0 gtglobal.intl.miui.com
 0.0.0.0 h3.market.xiaomi.com
 0.0.0.0 i.mi.com
