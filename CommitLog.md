@@ -2,6 +2,381 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [0365409](https://github.com/virtualitypage/AdGuardHome_Filters/commit/03654092466502bac4cbe779f645b5214d407029) - 2026-02-24
+
+### Date
+
+- 2026/02/24 23:22:54
+
+### Change
+
+- reject/Reject_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    - # Last modified: 19 February 2026
+      #
+
+      # [拒否リクエスト]
+
+      @@ -26,6 +26,7 @@
+
+      0.0.0.0 1x1.a-mo.net
+      0.0.0.0 22233.mc.tritondigital.com
+      0.0.0.0 28123.mc.tritondigital.com
+      0.0.0.0 3ppa.jp.cinarra.com
+      0.0.0.0 9j2k.adj.st
+      0.0.0.0 a.vidoomy.com
+
+      @@ -117,14 +118,18 @@
+
+      0.0.0.0 am.moduleapps.com.ts.net
+      0.0.0.0 am.yahoo.co.jp
+      0.0.0.0 ams.honzik.avcdn.net
+      0.0.0.0 analytex-us.userpilot.io
+      0.0.0.0 analytics-tcp.mtgglobals.com
+      0.0.0.0 analytics-tcp.mtgglobals.com.lan
+      0.0.0.0 analytics.app-adforce.jp
+      0.0.0.0 analytics.avcdn.net
+      0.0.0.0 analytics.brainlitix.net
+      0.0.0.0 analytics.datafortiq.net
+      0.0.0.0 analytics.dv.socure.io
+      0.0.0.0 analytics.gamezen.org
+      0.0.0.0 analytics.google.com
+      0.0.0.0 analytics.roomloft.net
+
+      @@ -241,6 +246,7 @@
+
+      0.0.0.0 audiencedata.im-apps.net
+      0.0.0.0 audiencedata.im-apps.net.lan
+      0.0.0.0 audio.buzzsprout.com
+      0.0.0.0 automate-frontend.linksynergy.com
+      0.0.0.0 automate-k8s.linksynergy.com
+      0.0.0.0 automate.linksynergy.com
+
+      @@ -480,6 +486,8 @@
+
+      0.0.0.0 data.flurry.com.lan
+      0.0.0.0 datain.37hwdata.com
+      0.0.0.0 dcape-na.amazon.com
+      0.0.0.0 dcdn.adnxs.com
+      0.0.0.0 dcg.microsoft.com
+      0.0.0.0 dcg.microsoft.com.lan
+
+      @@ -544,6 +552,7 @@
+
+      0.0.0.0 edge.safedk.com
+      0.0.0.0 edge.safedk.com.lan
+      0.0.0.0 edge.safedk.com.ts.net
+      0.0.0.0 enduser.adsrvr.org
+      0.0.0.0 ep1.adtrafficquality.google
+      0.0.0.0 ep2.adtrafficquality.google
+
+      @@ -566,6 +575,7 @@
+
+      0.0.0.0 f4.axon.ai
+      0.0.0.0 feel-live.com
+      0.0.0.0 file.mysquadbeyond.com
+      0.0.0.0 find.userpilot.io
+      0.0.0.0 fldt.afafb.com
+      0.0.0.0 flux-cdn.com
+
+      @@ -704,9 +714,11 @@
+
+      0.0.0.0 intercom.io
+      0.0.0.0 iota702.rtb.appier.net
+      0.0.0.0 ip-api.com
+      0.0.0.0 ipcheck.blogsys.jp
+      0.0.0.0 ipds.opr.adx.opera.com
+      0.0.0.0 ipm.avcdn.net
+      0.0.0.0 ipv6.6sc.co
+      0.0.0.0 ittpx.eskimi.com
+      0.0.0.0 ittw-asia.eskimi.com
+
+      @@ -861,6 +873,7 @@
+
+      0.0.0.0 octopus.tokyo
+      0.0.0.0 octopus.tokyo.lan
+      0.0.0.0 octopus.tokyo.ts.net
+      0.0.0.0 opex-service-sg.allawnos.com
+      0.0.0.0 opr.adx.opera.com
+      0.0.0.0 ota-recruit-sg.allawnos.com
+
+      @@ -910,6 +923,7 @@
+
+      0.0.0.0 prebid.adnxs.com
+      0.0.0.0 prebid.cootlogix.com
+      0.0.0.0 prebid.smilewanted.com
+      0.0.0.0 prod-e.axon.ai.lan
+      0.0.0.0 prod-e.axon.ai.ts.net
+      0.0.0.0 pubads.g.doubleclick.net
+
+      @@ -918,6 +932,7 @@
+
+      0.0.0.0 pubsub.googleapis.com
+      0.0.0.0 pubsub.googleapis.com.lan
+      0.0.0.0 puz.afafb.com
+      0.0.0.0 qa-analytics.com
+      0.0.0.0 qa-analytics.com.lan
+      0.0.0.0 radar.cedexis.com
+
+      @@ -928,7 +943,11 @@
+
+      0.0.0.0 rec.ebis.ne.jp
+      0.0.0.0 recruit.112.2o7.net
+      0.0.0.0 regionconfig.amplitude.com
+      0.0.0.0 res.adx.opera.com
+      0.0.0.0 research-image-itmedia-co-jp.cdn.ampproject.org
+      0.0.0.0 resize.blogsys.jp
+      0.0.0.0 resource5-cdn.ocolt.com
+
+      @@ -1041,6 +1060,11 @@
+
+      0.0.0.0 sg2-bid.adsrvr.org
+      0.0.0.0 sg2-bid.adsrvr.org.lan
+      0.0.0.0 shepherd.avcdn.net
+      0.0.0.0 shinobi.jp
+      0.0.0.0 simple-vast.rdr.appier.net
+      0.0.0.0 sin3-ib.adnxs.com
+
+      @@ -1050,6 +1074,11 @@
+
+      0.0.0.0 skadnetworks.fyber.com
+      0.0.0.0 so.tpocdm.com
+      0.0.0.0 socdm.com
+      0.0.0.0 sp.nova-ad.net
+      0.0.0.0 spad.i-mobile.co.jp
+      0.0.0.0 spcnv.i-mobile.co.jp
+
+      @@ -1193,6 +1222,7 @@
+
+      0.0.0.0 tracker-b.rtb.admanmedia.com
+      0.0.0.0 tracker.maticooads.com
+      0.0.0.0 tracker.rtb.admanmedia.com
+      0.0.0.0 tracking-apac.tmbid.com
+      0.0.0.0 tracking-useast.tmbid.com
+      0.0.0.0 tracking.aws.judge.me
+
+      @@ -1217,6 +1247,7 @@
+
+      0.0.0.0 universe.send.microad.jp
+      0.0.0.0 ups.analytics.yahoo.com
+      0.0.0.0 ups.im-apps.net
+      0.0.0.0 us.ck-ie.com
+      0.0.0.0 us01.mtgglobals.com
+      0.0.0.0 use-trk.bluevoox.com
+
+      @@ -1291,6 +1322,7 @@
+
+      0.0.0.0 www.tidysuite.net
+      0.0.0.0 www.tidysuite.netrtb.mfadsrvr.com
+      0.0.0.0 www.visumo.jp
+      0.0.0.0 www22.a8.net
+      0.0.0.0 www24.a8.net
+      0.0.0.0 www26.a8.net
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
+      #
+    + # Last modified: 24 February 2026
+      #
+
+      # [拒否リクエスト]
+
+      @@ -26,6 +26,7 @@
+
+      0.0.0.0 1x1.a-mo.net
+      0.0.0.0 22233.mc.tritondigital.com
+      0.0.0.0 28123.mc.tritondigital.com
+    + 0.0.0.0 390yen.myshopify.com
+      0.0.0.0 3ppa.jp.cinarra.com
+      0.0.0.0 9j2k.adj.st
+      0.0.0.0 a.vidoomy.com
+
+      @@ -117,14 +118,18 @@
+
+      0.0.0.0 am.moduleapps.com.ts.net
+      0.0.0.0 am.yahoo.co.jp
+      0.0.0.0 ams.honzik.avcdn.net
+    + 0.0.0.0 ams.honzik.avcdn.net.lan
+      0.0.0.0 analytex-us.userpilot.io
+      0.0.0.0 analytics-tcp.mtgglobals.com
+      0.0.0.0 analytics-tcp.mtgglobals.com.lan
+      0.0.0.0 analytics.app-adforce.jp
+      0.0.0.0 analytics.avcdn.net
+    + 0.0.0.0 analytics.avcdn.net.lan
+    + 0.0.0.0 analytics.avcdn.net.ts.net
+      0.0.0.0 analytics.brainlitix.net
+      0.0.0.0 analytics.datafortiq.net
+      0.0.0.0 analytics.dv.socure.io
+    + 0.0.0.0 analytics.ff.avast.com
+      0.0.0.0 analytics.gamezen.org
+      0.0.0.0 analytics.google.com
+      0.0.0.0 analytics.roomloft.net
+
+      @@ -241,6 +246,7 @@
+
+      0.0.0.0 audiencedata.im-apps.net
+      0.0.0.0 audiencedata.im-apps.net.lan
+      0.0.0.0 audio.buzzsprout.com
+    + 0.0.0.0 auth.ff.avast.com
+      0.0.0.0 automate-frontend.linksynergy.com
+      0.0.0.0 automate-k8s.linksynergy.com
+      0.0.0.0 automate.linksynergy.com
+
+      @@ -480,6 +486,8 @@
+
+      0.0.0.0 data.flurry.com.lan
+      0.0.0.0 datain.37hwdata.com
+      0.0.0.0 dcape-na.amazon.com
+    + 0.0.0.0 dcape-na.amazon.com.lan
+    + 0.0.0.0 dcape-na.amazon.com.ts.net
+      0.0.0.0 dcdn.adnxs.com
+      0.0.0.0 dcg.microsoft.com
+      0.0.0.0 dcg.microsoft.com.lan
+
+      @@ -544,6 +552,7 @@
+
+      0.0.0.0 edge.safedk.com
+      0.0.0.0 edge.safedk.com.lan
+      0.0.0.0 edge.safedk.com.ts.net
+    + 0.0.0.0 egv4py1c-android.mobile-messenger.intercom.com
+      0.0.0.0 enduser.adsrvr.org
+      0.0.0.0 ep1.adtrafficquality.google
+      0.0.0.0 ep2.adtrafficquality.google
+
+      @@ -566,6 +575,7 @@
+
+      0.0.0.0 f4.axon.ai
+      0.0.0.0 feel-live.com
+      0.0.0.0 file.mysquadbeyond.com
+    + 0.0.0.0 filerep-replica.ff.avast.com
+      0.0.0.0 find.userpilot.io
+      0.0.0.0 fldt.afafb.com
+      0.0.0.0 flux-cdn.com
+
+      @@ -704,9 +714,11 @@
+
+      0.0.0.0 intercom.io
+      0.0.0.0 iota702.rtb.appier.net
+      0.0.0.0 ip-api.com
+    + 0.0.0.0 ip-info.ff.avast.com
+      0.0.0.0 ipcheck.blogsys.jp
+      0.0.0.0 ipds.opr.adx.opera.com
+      0.0.0.0 ipm.avcdn.net
+    + 0.0.0.0 ipmcdn.avast.com.lan
+      0.0.0.0 ipv6.6sc.co
+      0.0.0.0 ittpx.eskimi.com
+      0.0.0.0 ittw-asia.eskimi.com
+
+      @@ -861,6 +873,7 @@
+
+      0.0.0.0 octopus.tokyo
+      0.0.0.0 octopus.tokyo.lan
+      0.0.0.0 octopus.tokyo.ts.net
+    + 0.0.0.0 omny-us.pdn.tritondigital.com
+      0.0.0.0 opex-service-sg.allawnos.com
+      0.0.0.0 opr.adx.opera.com
+      0.0.0.0 ota-recruit-sg.allawnos.com
+
+      @@ -910,6 +923,7 @@
+
+      0.0.0.0 prebid.adnxs.com
+      0.0.0.0 prebid.cootlogix.com
+      0.0.0.0 prebid.smilewanted.com
+    + 0.0.0.0 privacy-score.ff.avast.com
+      0.0.0.0 prod-e.axon.ai.lan
+      0.0.0.0 prod-e.axon.ai.ts.net
+      0.0.0.0 pubads.g.doubleclick.net
+
+      @@ -918,6 +932,7 @@
+
+      0.0.0.0 pubsub.googleapis.com
+      0.0.0.0 pubsub.googleapis.com.lan
+      0.0.0.0 puz.afafb.com
+    + 0.0.0.0 px.oa.opera.com
+      0.0.0.0 qa-analytics.com
+      0.0.0.0 qa-analytics.com.lan
+      0.0.0.0 radar.cedexis.com
+
+      @@ -928,7 +943,11 @@
+
+      0.0.0.0 rec.ebis.ne.jp
+      0.0.0.0 recruit.112.2o7.net
+      0.0.0.0 regionconfig.amplitude.com
+    + 0.0.0.0 res-odx.op-mobile.opera.com
+      0.0.0.0 res.adx.opera.com
+    + 0.0.0.0 res.adx.opera.com.lan
+    + 0.0.0.0 res.adx.opera.com.ts.net
+    + 0.0.0.0 res.oa.opera.com
+      0.0.0.0 research-image-itmedia-co-jp.cdn.ampproject.org
+      0.0.0.0 resize.blogsys.jp
+      0.0.0.0 resource5-cdn.ocolt.com
+
+      @@ -1041,6 +1060,11 @@
+
+      0.0.0.0 sg2-bid.adsrvr.org
+      0.0.0.0 sg2-bid.adsrvr.org.lan
+      0.0.0.0 shepherd.avcdn.net
+    + 0.0.0.0 shepherd.avcdn.net.lan
+    + 0.0.0.0 shepherd.avcdn.net.ts.net
+    + 0.0.0.0 shepherd.ff.avast.com
+    + 0.0.0.0 shepherd.sb.avast.com
+    + 0.0.0.0 shepherd.sb.avast.com.lan
+      0.0.0.0 shinobi.jp
+      0.0.0.0 simple-vast.rdr.appier.net
+      0.0.0.0 sin3-ib.adnxs.com
+
+      @@ -1050,6 +1074,11 @@
+
+      0.0.0.0 skadnetworks.fyber.com
+      0.0.0.0 so.tpocdm.com
+      0.0.0.0 socdm.com
+    + 0.0.0.0 sp-*.apkrep.avcdn.net
+    + 0.0.0.0 sp-*.apkrep.avcdn.net.lan
+    + 0.0.0.0 sp-*.honzik.avcdn.net
+    + 0.0.0.0 sp-*.honzik.avcdn.net.lan
+    + 0.0.0.0 sp-497f6f2f.filerep.avcdn.net
+      0.0.0.0 sp.nova-ad.net
+      0.0.0.0 spad.i-mobile.co.jp
+      0.0.0.0 spcnv.i-mobile.co.jp
+
+      @@ -1193,6 +1222,7 @@
+
+      0.0.0.0 tracker-b.rtb.admanmedia.com
+      0.0.0.0 tracker.maticooads.com
+      0.0.0.0 tracker.rtb.admanmedia.com
+    + 0.0.0.0 tracker.rtb.admanmedia.com.lan
+      0.0.0.0 tracking-apac.tmbid.com
+      0.0.0.0 tracking-useast.tmbid.com
+      0.0.0.0 tracking.aws.judge.me
+
+      @@ -1217,6 +1247,7 @@
+
+      0.0.0.0 universe.send.microad.jp
+      0.0.0.0 ups.analytics.yahoo.com
+      0.0.0.0 ups.im-apps.net
+    + 0.0.0.0 urlite.ff.avast.com
+      0.0.0.0 us.ck-ie.com
+      0.0.0.0 us01.mtgglobals.com
+      0.0.0.0 use-trk.bluevoox.com
+
+      @@ -1291,6 +1322,7 @@
+
+      0.0.0.0 www.tidysuite.net
+      0.0.0.0 www.tidysuite.netrtb.mfadsrvr.com
+      0.0.0.0 www.visumo.jp
+    + 0.0.0.0 www17.a8.net
+      0.0.0.0 www22.a8.net
+      0.0.0.0 www24.a8.net
+      0.0.0.0 www26.a8.net
+    ```
+
 ## Commit: [74521c7](https://github.com/virtualitypage/AdGuardHome_Filters/commit/74521c78d766415e54abb63a9692ba80711b24ba) - 2026-02-23
 
 ### Date

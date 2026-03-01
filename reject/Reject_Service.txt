@@ -1,0 +1,422 @@
+# Reject URL List
+# block service domain endings (.lan and .ts.net)
+#
+# References: querylog
+# definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_Service.txt
+#
+# Last modified: 1 March 2026
+#
+
+# [9gag]
+0.0.0.0 9gag.com.lan
+0.0.0.0 9gag.com.ts.net
+
+# [aliexpress]
+0.0.0.0 s.click.aliexpress.com.lan
+0.0.0.0 s.click.aliexpress.com.ts.net
+0.0.0.0 www.aliexpress.com.lan
+0.0.0.0 www.aliexpress.com.ts.net
+
+# [bigo_live]
+0.0.0.0 https-api-hk.bigolive.tv.lan
+0.0.0.0 https-api-hk.bigolive.tv.ts.net
+0.0.0.0 mraid.bigo.sg.lan
+0.0.0.0 mraid.bigo.sg.ts.net
+
+# [bilibili]
+0.0.0.0 _7826._https.broadcast.chat.bilibili.com.lan
+0.0.0.0 _7826._https.broadcast.chat.bilibili.com.ts.net
+0.0.0.0 api.bilibili.com.lan
+0.0.0.0 api.bilibili.com.ts.net
+0.0.0.0 broadcast.chat.bilibili.com.lan
+0.0.0.0 broadcast.chat.bilibili.com.ts.net
+0.0.0.0 cn-hk-eq-01-14.bilivideo.com.lan
+0.0.0.0 cn-hk-eq-01-14.bilivideo.com.ts.net
+0.0.0.0 data.bilibili.com.lan
+0.0.0.0 data.bilibili.com.ts.net
+0.0.0.0 player.bilibili.com.lan
+0.0.0.0 player.bilibili.com.ts.net
+0.0.0.0 s1.hdslb.com.lan
+0.0.0.0 s1.hdslb.com.ts.net
+0.0.0.0 www.bilibili.com.lan
+0.0.0.0 www.bilibili.com.ts.net
+
+# [dailymotion]
+0.0.0.0 graphql.api.dailymotion.com.lan
+0.0.0.0 graphql.api.dailymotion.com.ts.net
+0.0.0.0 mebed.dm-event.net.lan
+0.0.0.0 mebed.dm-event.net.ts.net
+0.0.0.0 pebed.dm-event.net.lan
+0.0.0.0 pebed.dm-event.net.ts.net
+0.0.0.0 s1.dmcdn.net.lan
+0.0.0.0 s1.dmcdn.net.ts.net
+0.0.0.0 s2.dmcdn.net.lan
+0.0.0.0 s2.dmcdn.net.ts.net
+0.0.0.0 vod3.cf.dmcdn.net.lan
+0.0.0.0 vod3.cf.dmcdn.net.ts.net
+0.0.0.0 www.dailymotion.com.lan
+0.0.0.0 www.dailymotion.com.ts.net
+
+# [disneyplus]
+0.0.0.0 disneyplus.com.lan
+0.0.0.0 disneyplus.com.ts.net
+0.0.0.0 www.disneyplus.com.lan
+0.0.0.0 www.disneyplus.com.ts.net
+
+# [ebay]
+0.0.0.0 i.ebayimg.com.lan
+0.0.0.0 i.ebayimg.com.ts.net
+0.0.0.0 ir.ebaystatic.com.lan
+0.0.0.0 ir.ebaystatic.com.ts.net
+0.0.0.0 www.ebay.com.lan
+0.0.0.0 www.ebay.com.ts.net
+
+# [espn]
+0.0.0.0 a.espncdn.com.lan
+0.0.0.0 a.espncdn.com.ts.net
+0.0.0.0 espncdn.com.lan
+0.0.0.0 espncdn.com.ts.net
+0.0.0.0 www.espn.com.lan
+0.0.0.0 www.espn.com.ts.net
+
+# [imgur]
+0.0.0.0 i.imgur.com.lan
+0.0.0.0 i.imgur.com.ts.net
+
+# [kakaotalk]
+0.0.0.0 serv.ds.kakao.com.lan
+0.0.0.0 serv.ds.kakao.com.ts.net
+
+# [linkedin]
+0.0.0.0 lan.sdk.linkedin.com.lan
+0.0.0.0 lan.sdk.linkedin.com.ts.net
+0.0.0.0 px.ads.linkedin.com.lan
+0.0.0.0 px.ads.linkedin.com.ts.net
+0.0.0.0 snap.licdn.com.lan
+0.0.0.0 snap.licdn.com.ts.net
+0.0.0.0 www.linkedin.com.lan
+0.0.0.0 www.linkedin.com.ts.net
+
+# [mail_ru]
+0.0.0.0 ad.mail.ru.lan
+0.0.0.0 ad.mail.ru.ts.net
+0.0.0.0 top-fwz1.mail.ru.lan
+0.0.0.0 top-fwz1.mail.ru.ts.net
+
+# [qq]
+0.0.0.0 android.bugly.qq.com.lan
+0.0.0.0 android.bugly.qq.com.ts.net
+0.0.0.0 api.youtu.qq.com.lan
+0.0.0.0 api.youtu.qq.com.ts.net
+0.0.0.0 ios.bugly.qq.com.lan
+0.0.0.0 ios.bugly.qq.com.ts.net
+0.0.0.0 rcpc-sdk-access-v4.m.qq.com.lan
+0.0.0.0 rcpc-sdk-access-v4.m.qq.com.ts.net
+0.0.0.0 rcpc-sdk-access-v6.m.qq.com.lan
+0.0.0.0 rcpc-sdk-access-v6.m.qq.com.ts.net
+0.0.0.0 rcpc-sdk-access.m.qq.com.lan
+0.0.0.0 rcpc-sdk-access.m.qq.com.ts.net
+0.0.0.0 www.qq.com.lan
+0.0.0.0 www.qq.com.ts.net
+
+# [reddit]
+0.0.0.0 alb.reddit.com.lan
+0.0.0.0 alb.reddit.com.ts.net
+0.0.0.0 i.redd.it.lan
+0.0.0.0 i.redd.it.ts.net
+0.0.0.0 preview.redd.it.lan
+0.0.0.0 preview.redd.it.ts.net
+0.0.0.0 share.redd.it.lan
+0.0.0.0 share.redd.it.ts.net
+0.0.0.0 styles.redditmedia.com.lan
+0.0.0.0 styles.redditmedia.com.ts.net
+0.0.0.0 www.reddit.com.lan
+0.0.0.0 www.reddit.com.ts.net
+0.0.0.0 www.redditstatic.com.lan
+0.0.0.0 www.redditstatic.com.ts.net
+
+# [shein]
+0.0.0.0 onelink.shein.com.lan
+0.0.0.0 onelink.shein.com.ts.net
+
+# [skype]
+0.0.0.0 apac.cc.skype.com.lan
+0.0.0.0 apac.cc.skype.com.ts.net
+0.0.0.0 api.flightproxy.skype.com.lan
+0.0.0.0 api.flightproxy.skype.com.ts.net
+0.0.0.0 api3.cc.skype.com.lan
+0.0.0.0 api3.cc.skype.com.ts.net
+0.0.0.0 config.edge.skype.com.lan
+0.0.0.0 config.edge.skype.com.ts.net
+0.0.0.0 edge.skype.com.lan
+0.0.0.0 edge.skype.com.ts.net
+0.0.0.0 go.trouter.skype.com.lan
+0.0.0.0 go.trouter.skype.com.ts.net
+0.0.0.0 pub-csm-auea-01-t.trouter.skype.com.lan
+0.0.0.0 pub-csm-auea-01-t.trouter.skype.com.ts.net
+0.0.0.0 world.relay.skype.com.lan
+0.0.0.0 world.relay.skype.com.ts.net
+
+# [snapchat]
+0.0.0.0 tr.snapchat.com.lan
+0.0.0.0 tr.snapchat.com.ts.net
+
+# [soundcloud]
+0.0.0.0 i1.sndcdn.com.lan
+0.0.0.0 i1.sndcdn.com.ts.net
+
+# [spotify]
+0.0.0.0 open.spotify.com.lan
+0.0.0.0 open.spotify.com.ts.net
+0.0.0.0 pixel.byspotify.com.lan
+0.0.0.0 pixel.byspotify.com.ts.net
+0.0.0.0 s.shopee.com.br.lan
+0.0.0.0 s.shopee.com.br.ts.net
+
+# [telegram]
+0.0.0.0 t.me.lan
+0.0.0.0 t.me.ts.net
+
+# [temu]
+/cfg-[1-9].kwcdn.com.lan/
+/cfg-[1-9].kwcdn.com.ts.net/
+0.0.0.0 aid.kwcdn.com.lan
+0.0.0.0 aid.kwcdn.com.ts.net
+0.0.0.0 aimg.kwcdn.com.lan
+0.0.0.0 aimg.kwcdn.com.ts.net
+0.0.0.0 cfg.kwcdn.com.lan
+0.0.0.0 cfg.kwcdn.com.ts.net
+0.0.0.0 commvod-us.kwcdn.com.lan
+0.0.0.0 commvod-us.kwcdn.com.ts.net
+0.0.0.0 commvod.kwcdn.com.lan
+0.0.0.0 commvod.kwcdn.com.ts.net
+0.0.0.0 img.kwcdn.com.lan
+0.0.0.0 img.kwcdn.com.ts.net
+0.0.0.0 jp-ds.temu.com.lan
+0.0.0.0 jp-ds.temu.com.ts.net
+0.0.0.0 jp.matk.temu.com.lan
+0.0.0.0 jp.matk.temu.com.ts.net
+0.0.0.0 jp.pftk.temu.com.lan
+0.0.0.0 jp.pftk.temu.com.ts.net
+0.0.0.0 jp.temu.com.lan
+0.0.0.0 jp.temu.com.ts.net
+0.0.0.0 jp.thtk.temu.com.lan
+0.0.0.0 jp.thtk.temu.com.ts.net
+0.0.0.0 locale.temu.com.lan
+0.0.0.0 locale.temu.com.ts.net
+0.0.0.0 mktimg.kwcdn.com.lan
+0.0.0.0 mktimg.kwcdn.com.ts.net
+0.0.0.0 mktvod.kwcdn.com.lan
+0.0.0.0 mktvod.kwcdn.com.ts.net
+0.0.0.0 static-1.kwcdn.com.lan
+0.0.0.0 static-1.kwcdn.com.ts.net
+0.0.0.0 static-2.kwcdn.com.lan
+0.0.0.0 static-2.kwcdn.com.ts.net
+0.0.0.0 static.kwcdn.com.lan
+0.0.0.0 static.kwcdn.com.ts.net
+0.0.0.0 www.temu.com.lan
+0.0.0.0 www.temu.com.ts.net
+
+# [tiktok]
+/pull-c5-tt[0-9]*.tiktokcdn.com.lan/
+/pull-c5-tt[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-f[0-9]*-gcp[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-f[0-9]*-gcp[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-f[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-f[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-f[0-9]*-tt[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-f[0-9]*-tt[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-f[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-f[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-l[0-9]*-gcp[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-l[0-9]*-gcp[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-l[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-l[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-cmaf-l[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-cmaf-l[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-f5-tt[0-9]*.tiktokcdn.com.lan/
+/pull-f5-tt[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-f[0-9]*-gcp[0-9]*.tiktokcdn.com.lan/
+/pull-flv-f[0-9]*-gcp[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-f[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-flv-f[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-f[0-9]*-tt[0-9]*.tiktokcdn.com.lan/
+/pull-flv-f[0-9]*-tt[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-f[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-flv-f[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-l[0-9]*-gcp[0-9]*.tiktokcdn.com.lan/
+/pull-flv-l[0-9]*-gcp[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-l[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-flv-l[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-l[0-9]*-tt[0-9]*.tiktokcdn.com.lan/
+/pull-flv-l[0-9]*-tt[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-l[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-flv-l[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-o[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-flv-o[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-o[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-flv-o[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-q[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-flv-q[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-q[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-flv-q[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-w[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-flv-w[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-flv-w[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-flv-w[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-lls-l[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-lls-l[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+/pull-lls-l[0-9]*-va[0-9]*.tiktokcdn.com.lan/
+/pull-lls-l[0-9]*-va[0-9]*.tiktokcdn.com.ts.net/
+/pull-rtmp-l[0-9]*-sg[0-9]*.tiktokcdn.com.lan/
+/pull-rtmp-l[0-9]*-sg[0-9]*.tiktokcdn.com.ts.net/
+0.0.0.0 api-boot.tiktokv.com.lan
+0.0.0.0 api-boot.tiktokv.com.ts.net
+0.0.0.0 api-core-boot.tiktokv.com.lan
+0.0.0.0 api-core-boot.tiktokv.com.ts.net
+0.0.0.0 api-h2.tiktokv.com.lan
+0.0.0.0 api-h2.tiktokv.com.ts.net
+0.0.0.0 fp22-normal-alisg.tiktokv.com.lan
+0.0.0.0 fp22-normal-alisg.tiktokv.com.ts.net
+0.0.0.0 lf-main-gecko-source.tiktokcdn.com.lan
+0.0.0.0 lf-main-gecko-source.tiktokcdn.com.ts.net
+0.0.0.0 log-boot.tiktokv.com.lan
+0.0.0.0 log-boot.tiktokv.com.ts.net
+0.0.0.0 mon-boot.tiktokv.com.lan
+0.0.0.0 mon-boot.tiktokv.com.ts.net
+0.0.0.0 mon16-normal-alisg.tiktokv.com.lan
+0.0.0.0 mon16-normal-alisg.tiktokv.com.ts.net
+0.0.0.0 p16-common-sign.tiktokcdn-us.com.lan
+0.0.0.0 p16-common-sign.tiktokcdn-us.com.ts.net
+0.0.0.0 p16-sign-sg.tiktokcdn.com.lan
+0.0.0.0 p16-sign-sg.tiktokcdn.com.ts.net
+0.0.0.0 p16-sign-va.tiktokcdn.com.lan
+0.0.0.0 p16-sign-va.tiktokcdn.com.ts.net
+0.0.0.0 p16-ug-incentive-va.tiktokcdn.com.lan
+0.0.0.0 p16-ug-incentive-va.tiktokcdn.com.ts.net
+0.0.0.0 p77-sign-sg.tiktokcdn.com.lan
+0.0.0.0 p77-sign-sg.tiktokcdn.com.ts.net
+0.0.0.0 pull-a5-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-a5-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-a5-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-a5-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-a5-va01.tiktokcdn.com.lan
+0.0.0.0 pull-a5-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-c5-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-c5-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-c5-va01.tiktokcdn.com.lan
+0.0.0.0 pull-c5-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-f5-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-f5-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-f5-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-f5-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-f5-sg01.ttlivecdn.com.lan
+0.0.0.0 pull-f5-sg01.ttlivecdn.com.ts.net
+0.0.0.0 pull-f5-va01.tiktokcdn.com.lan
+0.0.0.0 pull-f5-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-f5-vr-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-f5-vr-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-f5-vr-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-f5-vr-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-f5-vr-va01.tiktokcdn.com.lan
+0.0.0.0 pull-f5-vr-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-g5-tt03.tiktokcdn.com.lan
+0.0.0.0 pull-g5-tt03.tiktokcdn.com.ts.net
+0.0.0.0 pull-g5-tt04.tiktokcdn.com.lan
+0.0.0.0 pull-g5-tt04.tiktokcdn.com.ts.net
+0.0.0.0 pull-hls-f77-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-hls-f77-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-hls-f77-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-hls-f77-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-hls-f77-va01.tiktokcdn.com.lan
+0.0.0.0 pull-hls-f77-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-hls-l77-va01.tiktokcdn.com.lan
+0.0.0.0 pull-hls-l77-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-lls-l11.tiktokcdn.com.lan
+0.0.0.0 pull-lls-l11.tiktokcdn.com.ts.net
+0.0.0.0 pull-o5-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-o5-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-o5-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-o5-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-o5-va01.tiktokcdn.com.lan
+0.0.0.0 pull-o5-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-q5-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-q5-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-q5-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-q5-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-q5-sg01.ttlivecdn.com.lan
+0.0.0.0 pull-q5-sg01.ttlivecdn.com.ts.net
+0.0.0.0 pull-q5-va01.tiktokcdn.com.lan
+0.0.0.0 pull-q5-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-q5-va01.ttlivecdn.com.lan
+0.0.0.0 pull-q5-va01.ttlivecdn.com.ts.net
+0.0.0.0 pull-w5-gcp01.tiktokcdn.com.lan
+0.0.0.0 pull-w5-gcp01.tiktokcdn.com.ts.net
+0.0.0.0 pull-w5-sg01.tiktokcdn.com.lan
+0.0.0.0 pull-w5-sg01.tiktokcdn.com.ts.net
+0.0.0.0 pull-w5-sg01.ttlivecdn.com.lan
+0.0.0.0 pull-w5-sg01.ttlivecdn.com.ts.net
+0.0.0.0 pull-w5-va01.tiktokcdn.com.lan
+0.0.0.0 pull-w5-va01.tiktokcdn.com.ts.net
+0.0.0.0 pull-w5-va01.ttlivecdn.com.lan
+0.0.0.0 pull-w5-va01.ttlivecdn.com.ts.net
+0.0.0.0 push-rtmp-f5-sg01.tiktokcdn.com.lan
+0.0.0.0 push-rtmp-f5-sg01.tiktokcdn.com.ts.net
+0.0.0.0 push-rtmp-f5-sg01.ttlivecdn.com.lan
+0.0.0.0 push-rtmp-f5-sg01.ttlivecdn.com.ts.net
+0.0.0.0 push-rtmp-f5-vr-sg01.tiktokcdn.com.lan
+0.0.0.0 push-rtmp-f5-vr-sg01.tiktokcdn.com.ts.net
+0.0.0.0 search16-normal-c-useast1a.tiktokv.com.lan
+0.0.0.0 search16-normal-c-useast1a.tiktokv.com.ts.net
+0.0.0.0 sf-ssp.tiktokcdn.com.lan
+0.0.0.0 sf-ssp.tiktokcdn.com.ts.net
+0.0.0.0 sf-teko-source.tiktokcdn.com.lan
+0.0.0.0 sf-teko-source.tiktokcdn.com.ts.net
+0.0.0.0 sf16-short-sg.bytedapm.com.lan
+0.0.0.0 sf16-short-sg.bytedapm.com.ts.net
+0.0.0.0 sf16-teko.tiktokcdn.com.lan
+0.0.0.0 sf16-teko.tiktokcdn.com.ts.net
+0.0.0.0 sf16-teko2.tiktokcdn.com.lan
+0.0.0.0 sf16-teko2.tiktokcdn.com.ts.net
+0.0.0.0 sf19-teko.tiktokcdn.com.lan
+0.0.0.0 sf19-teko.tiktokcdn.com.ts.net
+0.0.0.0 sf45-teko.tiktokcdn.com.lan
+0.0.0.0 sf45-teko.tiktokcdn.com.ts.net
+0.0.0.0 tnc-boot.tiktokv.com.lan
+0.0.0.0 tnc-boot.tiktokv.com.ts.net
+0.0.0.0 tnc0-normal-alisg.tiktokv.com.lan
+0.0.0.0 tnc0-normal-alisg.tiktokv.com.ts.net
+0.0.0.0 tnc0-normal-my.tiktokv.com.lan
+0.0.0.0 tnc0-normal-my.tiktokv.com.ts.net
+0.0.0.0 v39-jp.tiktokcdn.com.lan
+0.0.0.0 v39-jp.tiktokcdn.com.ts.net
+0.0.0.0 v58.tiktokcdn.com.lan
+0.0.0.0 v58.tiktokcdn.com.ts.net
+0.0.0.0 v77.tiktokcdn.com.lan
+0.0.0.0 v77.tiktokcdn.com.ts.net
+0.0.0.0 webcast-boot.tiktokv.com.lan
+0.0.0.0 webcast-boot.tiktokv.com.ts.net
+0.0.0.0 widget-sg.tiktokv.com.lan
+0.0.0.0 widget-sg.tiktokv.com.ts.net
+0.0.0.0 www.tiktok.com.lan
+0.0.0.0 www.tiktok.com.ts.net
+
+# [tumblr]
+0.0.0.0 64.media.tumblr.com.lan
+0.0.0.0 64.media.tumblr.com.ts.net
+0.0.0.0 66.media.tumblr.com.lan
+0.0.0.0 66.media.tumblr.com.ts.net
+0.0.0.0 mirrativtmbr.tumblr.com.lan
+0.0.0.0 mirrativtmbr.tumblr.com.ts.net
+0.0.0.0 www.tumblr.com.lan
+0.0.0.0 www.tumblr.com.ts.net
+
+# [vimeo]
+0.0.0.0 player.vimeo.com.lan
+0.0.0.0 player.vimeo.com.ts.net
+
+# [whatsapp]
+0.0.0.0 v.whatsapp.net.lan
+0.0.0.0 v.whatsapp.net.ts.net
+0.0.0.0 web.whatsapp.com.lan
+0.0.0.0 web.whatsapp.com.ts.net
