@@ -2,6 +2,16 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [bdf7119](https://github.com/virtualitypage/AdGuardHome_Filters/commit/bdf711936fe4de6d0c4a146cecdfd036712d0478) - 2026-03-01
+
+### Date
+
+- 2026/03/01 17:50:00
+
+### Add
+
+- reject/Reject_Service.txt
+
 ## Commit: [0365409](https://github.com/virtualitypage/AdGuardHome_Filters/commit/03654092466502bac4cbe779f645b5214d407029) - 2026-02-24
 
 ### Date
