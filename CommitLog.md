@@ -2,6 +2,389 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [2b2ea35](https://github.com/virtualitypage/AdGuardHome_Filters/commit/2b2ea3509072e4b901f8d9f970020653d64687a5) - 2026-03-16
+
+### Date
+
+- 2026/03/16 22:30:35
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 23 February 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -26,6 +26,7 @@
+
+      @@/e[5-9]*.i.lencr.org/
+      @@/e[5-9]*.o.lencr.org/
+      @@/e2c[0-9]*.gcp.gvt2.com/
+      @@/i[1-9]*.ytimg.com/
+      @@/lh[0-9].googleusercontent.com.lan/
+      @@/lh[0-9].googleusercontent.com.ts.net/
+
+      @@ -116,6 +117,7 @@
+
+      @@||amp.shazam.com
+      @@||amzn.asia
+      @@||amzn.to
+      @@||analytics.yay.space
+      @@||analytics.yay.space.lan
+      @@||android-safebrowsing.google.com
+
+      @@ -268,6 +270,7 @@
+
+      @@||blogroll.livedoor.net
+      @@||blogs.vmware.com
+      @@||blogweb.with2.net
+      @@||bolt.dropbox.com
+      @@||bonkura-theater.up.seesaa.net
+      @@||book-pic.webnovel.com
+
+      @@ -284,6 +287,7 @@
+
+      @@||byoinnavi.drsquare.jp
+      @@||byoinnavi.jp
+      @@||c-bing-com.ax-0001.ax-msedge.net
+      @@||c-msn-com-nsatc.trafficmanager.net
+      @@||c-msn-pme.trafficmanager.net
+      @@||c.apple.news
+
+      @@ -390,6 +394,7 @@
+
+      @@||chibicon.net
+      @@||chichi-pui.imgix.net
+      @@||chirashi.otoku.aeonsquare.net
+      @@||choices.trustarc.com
+      @@||choices.truste.com
+      @@||chrome.google.com
+
+      @@ -475,6 +480,7 @@
+
+      @@||damedameyo.up.seesaa.net
+      @@||data.api.streaks.jp
+      @@||data.wovn.io
+      @@||dataplane.rum.us-west-2.amazonaws.com
+      @@||dc-server.live.prod.devsjelly.cloud
+      @@||dc-static.wondershare.com
+
+      @@ -491,6 +497,7 @@
+
+      @@||dex50.deteql.net
+      @@||dhc.demdex.net
+      @@||dic.pixiv.net
+      @@||digikey.jp
+      @@||discord.com
+      @@||dist.micres.cyberowl.jp
+
+      @@ -699,6 +706,8 @@
+
+      @@||img-global-jp.cpcdn.com
+      @@||img-global.cpcdn.com
+      @@||img-sketch.pximg.net
+      @@||img.buzzsight.co
+      @@||img.itmedia.jp
+      @@||img.macromill.com
+
+      @@ -738,6 +747,7 @@
+
+      @@||ja.wikipedia.org
+      @@||jacuadpu1403.demdex.net
+      @@||jdownload.oss-cn-qingdao.aliyuncs.com
+      @@||jicoo-resource.imgix.net
+      @@||jicoo.imgix.net
+      @@||jima.or.jp
+
+      @@ -902,6 +912,7 @@
+
+      @@||mpc-prod-21-1053047382554.us-central1.run.app
+      @@||mpc-prod-23-s6uit34pua-ue.a.run.app
+      @@||mpc2-prod-28-is5qnl632q-ue.a.run.app
+      @@||mr-pandolor-coin-production.an.r.appspot.com
+      @@||msg.township-ios.playrix.com
+      @@||mt.gigazine.net
+
+      @@ -989,6 +1000,7 @@
+
+      @@||p.typekit.net
+      @@||p11-imap.mail.me.com
+      @@||p11-imap.mail.me.com.akadns.net
+      @@||p25-imap.mail.me.com
+      @@||paddock2.kairogame.jp
+      @@||page.taponland.com
+
+      @@ -1118,10 +1130,12 @@
+
+      @@||qiita.com
+      @@||query.hicloud.com
+      @@||r.nikkei.com
+      @@||radiomap.vcdn.pos.here.com
+      @@||rainradar.smartnews.com
+      @@||raw.githubusercontent.com
+      @@||rcs-acs-mcc440.jibe.google.com
+      @@||realtimesupport.clients6.google.com
+      @@||recoverit.wondershare.com
+      @@||recoverit.wondershare.jp
+
+      @@ -1231,6 +1245,7 @@
+
+      @@||sl.skyflag.jp
+      @@||smartnews-assets.s3.ap-northeast-1.amazonaws.com
+      @@||smartview.smartnews.com
+      @@||smt.docomo.ne.jp
+      @@||smtgvs.cdn.weathernews.jp
+      @@||smtp.gmail.com
+
+      @@ -1256,6 +1271,7 @@
+
+      @@||ssai-variants.streaks.jp
+      @@||ssai.api.streaks.jp
+      @@||ssif1.globalsign.com
+      @@||ssl.gstatic.com
+      @@||ssl.syncsearch.jp
+      @@||sssinstagram.com
+
+      @@ -1308,6 +1324,7 @@
+
+      @@||store.mil.movie
+      @@||stream-log.profilepassport.jp
+      @@||stripecdn.map.fastly.net
+      @@||sts.gunosy.com
+      @@||sts.us-west-2.amazonaws.com
+      @@||sudoku-and.s3.us-east-2.amazonaws.com
+
+      @@ -1350,6 +1367,7 @@
+
+      @@||times-abema.ismcdn.jp
+      @@||tjmbk.paypay-bank.co.jp
+      @@||tls13.taboola.map.fastly.net
+      @@||toi.kuronekoyamato.co.jp
+      @@||token.sps-system.com
+      @@||ton.twimg.com
+
+      @@ -1528,6 +1546,7 @@
+
+      @@||www.jabank.org
+      @@||www.jcb.co.jp
+      @@||www.jp-life.japanpost.jp
+      @@||www.jtb.co.jp
+      @@||www.juststarz.com
+      @@||www.kanochat.jp
+
+      @@ -1555,6 +1574,7 @@
+
+      @@||www.merupero.com
+      @@||www.mizuhobank.co.jp
+      @@||www.mnvnmwhr.comprod.mbplayer.com
+      @@||www.mod.go.jp
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 16 March 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -26,6 +26,7 @@
+
+      @@/e[5-9]*.i.lencr.org/
+      @@/e[5-9]*.o.lencr.org/
+      @@/e2c[0-9]*.gcp.gvt2.com/
+    + @@/e2cs[0-9]*.gcp.gvt2.com/
+      @@/i[1-9]*.ytimg.com/
+      @@/lh[0-9].googleusercontent.com.lan/
+      @@/lh[0-9].googleusercontent.com.ts.net/
+
+      @@ -116,6 +117,7 @@
+
+      @@||amp.shazam.com
+      @@||amzn.asia
+      @@||amzn.to
+    + @@||analytics.skyflag.jp
+      @@||analytics.yay.space
+      @@||analytics.yay.space.lan
+      @@||android-safebrowsing.google.com
+
+      @@ -268,6 +270,7 @@
+
+      @@||blogroll.livedoor.net
+      @@||blogs.vmware.com
+      @@||blogweb.with2.net
+    + @@||bloomberg.map.fastly.net
+      @@||bolt.dropbox.com
+      @@||bonkura-theater.up.seesaa.net
+      @@||book-pic.webnovel.com
+
+      @@ -284,6 +287,7 @@
+
+      @@||byoinnavi.drsquare.jp
+      @@||byoinnavi.jp
+      @@||c-bing-com.ax-0001.ax-msedge.net
+    + @@||c-msn-afd.trafficmanager.net
+      @@||c-msn-com-nsatc.trafficmanager.net
+      @@||c-msn-pme.trafficmanager.net
+      @@||c.apple.news
+
+      @@ -390,6 +394,7 @@
+
+      @@||chibicon.net
+      @@||chichi-pui.imgix.net
+      @@||chirashi.otoku.aeonsquare.net
+    + @@||chiyodagrp-f-s.snva.jp
+      @@||choices.trustarc.com
+      @@||choices.truste.com
+      @@||chrome.google.com
+
+      @@ -475,6 +480,7 @@
+
+      @@||damedameyo.up.seesaa.net
+      @@||data.api.streaks.jp
+      @@||data.wovn.io
+    + @@||dataplane.rum.ap-northeast-1.amazonaws.com
+      @@||dataplane.rum.us-west-2.amazonaws.com
+      @@||dc-server.live.prod.devsjelly.cloud
+      @@||dc-static.wondershare.com
+
+      @@ -491,6 +497,7 @@
+
+      @@||dex50.deteql.net
+      @@||dhc.demdex.net
+      @@||dic.pixiv.net
+    + @@||digicata.cecile.co.jp
+      @@||digikey.jp
+      @@||discord.com
+      @@||dist.micres.cyberowl.jp
+
+      @@ -699,6 +706,8 @@
+
+      @@||img-global-jp.cpcdn.com
+      @@||img-global.cpcdn.com
+      @@||img-sketch.pximg.net
+    + @@||img-sp-elle-co-jp.global.ssl.fastly.net
+    + @@||img-sp-hearst-co-jp.global.ssl.fastly.net
+      @@||img.buzzsight.co
+      @@||img.itmedia.jp
+      @@||img.macromill.com
+
+      @@ -738,6 +747,7 @@
+
+      @@||ja.wikipedia.org
+      @@||jacuadpu1403.demdex.net
+      @@||jdownload.oss-cn-qingdao.aliyuncs.com
+    + @@||jetpack.wordpress.com
+      @@||jicoo-resource.imgix.net
+      @@||jicoo.imgix.net
+      @@||jima.or.jp
+
+      @@ -902,6 +912,7 @@
+
+      @@||mpc-prod-21-1053047382554.us-central1.run.app
+      @@||mpc-prod-23-s6uit34pua-ue.a.run.app
+      @@||mpc2-prod-28-is5qnl632q-ue.a.run.app
+    + @@||mpc2-prod-29-is5qnl632q-uc.a.run.app
+      @@||mr-pandolor-coin-production.an.r.appspot.com
+      @@||msg.township-ios.playrix.com
+      @@||mt.gigazine.net
+
+      @@ -989,6 +1000,7 @@
+
+      @@||p.typekit.net
+      @@||p11-imap.mail.me.com
+      @@||p11-imap.mail.me.com.akadns.net
+    + @@||p11-smtp.mail.me.com
+      @@||p25-imap.mail.me.com
+      @@||paddock2.kairogame.jp
+      @@||page.taponland.com
+
+      @@ -1118,10 +1130,12 @@
+
+      @@||qiita.com
+      @@||query.hicloud.com
+      @@||r.nikkei.com
+    + @@||r6.snva.jp
+      @@||radiomap.vcdn.pos.here.com
+      @@||rainradar.smartnews.com
+      @@||raw.githubusercontent.com
+      @@||rcs-acs-mcc440.jibe.google.com
+    + @@||rd.gain-ads.com
+      @@||realtimesupport.clients6.google.com
+      @@||recoverit.wondershare.com
+      @@||recoverit.wondershare.jp
+
+      @@ -1231,6 +1245,7 @@
+
+      @@||sl.skyflag.jp
+      @@||smartnews-assets.s3.ap-northeast-1.amazonaws.com
+      @@||smartview.smartnews.com
+    + @@||smps.weathernews.jp
+      @@||smt.docomo.ne.jp
+      @@||smtgvs.cdn.weathernews.jp
+      @@||smtp.gmail.com
+
+      @@ -1256,6 +1271,7 @@
+
+      @@||ssai-variants.streaks.jp
+      @@||ssai.api.streaks.jp
+      @@||ssif1.globalsign.com
+    + @@||ssl-cache.stream.ne.jp
+      @@||ssl.gstatic.com
+      @@||ssl.syncsearch.jp
+      @@||sssinstagram.com
+
+      @@ -1308,6 +1324,7 @@
+
+      @@||store.mil.movie
+      @@||stream-log.profilepassport.jp
+      @@||stripecdn.map.fastly.net
+    + @@||sts.ap-northeast-1.amazonaws.com
+      @@||sts.gunosy.com
+      @@||sts.us-west-2.amazonaws.com
+      @@||sudoku-and.s3.us-east-2.amazonaws.com
+
+      @@ -1350,6 +1367,7 @@
+
+      @@||times-abema.ismcdn.jp
+      @@||tjmbk.paypay-bank.co.jp
+      @@||tls13.taboola.map.fastly.net
+    + @@||tm-clarity-tag.trafficmanager.net
+      @@||toi.kuronekoyamato.co.jp
+      @@||token.sps-system.com
+      @@||ton.twimg.com
+
+      @@ -1528,6 +1546,7 @@
+
+      @@||www.jabank.org
+      @@||www.jcb.co.jp
+      @@||www.jp-life.japanpost.jp
+    + @@||www.jp.square-enix.com
+      @@||www.jtb.co.jp
+      @@||www.juststarz.com
+      @@||www.kanochat.jp
+
+      @@ -1555,6 +1574,7 @@
+
+      @@||www.merupero.com
+      @@||www.mizuhobank.co.jp
+      @@||www.mnvnmwhr.comprod.mbplayer.com
+    + @@||www.mobit.ne.jp
+      @@||www.mod.go.jp
+      @@||www.monotaro.com
+      @@||www.navitime.co.jp
+    ```
+
 ## Commit: [bdf7119](https://github.com/virtualitypage/AdGuardHome_Filters/commit/bdf711936fe4de6d0c4a146cecdfd036712d0478) - 2026-03-01
 
 ### Date
