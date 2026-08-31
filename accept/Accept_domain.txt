@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 30 August 2026
+# Last modified: 31 August 2026
 #
 
 # [許可リクエスト]
@@ -1030,6 +1030,7 @@
 @@||nvrfix.dvr163.com
 @@||oauth.secure.pixiv.net
 @@||oca-api.netflix.com
+@@||occ-0-3187-3188.1.nflxso.net
 @@||ocsp.comodoca.com
 @@||ocsp.comodoca.com.cdn.cloudflare.net
 @@||ocsp.digicert.com
@@ -1827,6 +1828,10 @@
 @@||captive-cdn.origin-apple.com.akadns.net
 @@||captive-cidr.origin-apple.com.akadns.net
 @@||cdn-guile.akamaized.net
+@@||cdp1.digicert.com.akadns.net
+@@||cdp1.digicert.com.akamaized.net
+@@||cdp1.digicert.com.splitter-eip.akadns.net
+@@||cmoa.akamaized.net
 @@||communities-lb.apple.com.akadns.net
 @@||configuration-row-lb.apple.com.akadns.net
 @@||cs.ns1p.net
@@ -1845,6 +1850,8 @@
 @@||p16-sg-default.akamaized.net
 @@||p16-tiktokcdn-com.akamaized.net
 @@||pd-cdn.itunes-apple.com.akadns.net
+@@||prd-real.linecrs-obs-jp-wlb.verda2.akadns.net
+@@||prd-real.lisa1.verda2.akadns.net
 @@||prd-real.lisa2-wlb.verda2.akadns.net
 @@||prd-real.lisa2.verda2.akadns.net
 @@||prd-real.manager-jp-wlb.verda2.akadns.net
@@ -1856,17 +1863,41 @@
 @@||sandbox-origin.itunes-apple.com.akadns.net
 @@||shop7-makeshop.akamaized.net
 @@||speee-ad.akamaized.net
+@@||st-smtp.mail.me.com.akadns.net
 @@||stickershop-jp-wlb.line-apps.com.akadns.net
 @@||tags.tiqcdn.com
 @@||v16m-default.akamaized.net
+@@||vos.verda.akadns.net
 @@||whoami.akamai.net
 @@||wildcard46.go-mpulse.net.edgekey.net
 
 # [apple]
 # https://support.apple.com/ja-jp/101555
+@@/[0-9]*-courier2.push.apple.com/
+@@/[0-9]*.courier2-push-apple.com.akadns.net/
 @@/edge-[0-9]*.jposa3.ce.apple-dns.net/
 @@/edge-[0-9]*.jposa3.icloud-content.com/
 @@/edge-[0-9]*.jptyo12.icloud-content.com/
+@@/p[0-9]*-acsegateway.icloud.com/
+@@/p[0-9]*-availability.icloud.com/
+@@/p[0-9]*-buy-as.itunes.v.aaplimg.com/
+@@/p[0-9]*-buy-lb.itunes-apple.com.akadns.net/
+@@/p[0-9]*-buy.itunes-apple.com.akadns.net/
+@@/p[0-9]*-buy.itunes.apple.com/
+@@/p[0-9]*-caldav.icloud.com/
+@@/p[0-9]*-contacts.icloud.com/
+@@/p[0-9]*-content.icloud.com/
+@@/p[0-9]*-escrowproxy.icloud.com/
+@@/p[0-9]*-fmf.icloud.com/
+@@/p[0-9]*-fmfmobile.icloud.com/
+@@/p[0-9]*-fmip.icloud.com/
+@@/p[0-9]*-fmipmobile.icloud.com/
+@@/p[0-9]*-mailws.icloud.com/
+@@/p[0-9]*-mcc.icloud.com/
+@@/p[0-9]*-mccgateway.icloud.com/
+@@/p[0-9]*-mobilebackup.icloud.com/
+@@/p[0-9]*-quota.icloud.com/
+@@/p[0-9]*-sharedstreams.icloud.com/
 @@||*-courier.push.apple.com
 @@||*.courier-push-apple.com.akadns.net
 @@||*.courier-sandbox-push-apple.com.akadns.net
@@ -1877,16 +1908,19 @@
 @@||acsegateway.fe2.apple-dns.net
 @@||afs.ampservices.v.aaplimg.com
 @@||albert.apple.com
+@@||albert.v.aaplimg.com
 @@||amd-infra.apps-apple.com.akadns.net
 @@||amd-infra.itunes.apple.com
 @@||amd-infra.itunes.g.aaplimg.com
 @@||amp-account.itunes-apple.com.akadns.net
 @@||amp-account.itunes.apple.com
+@@||amp-api-apps-akam.itunes-apple.com.akadns.net
 @@||amp-api-edge-cdn-lb.itunes-apple.com.akadns.net
 @@||amp-api-edge-lb.itunes-apple.com.akadns.net
 @@||amp-api-edge.apps.apple.com
 @@||amp-api-music-akam.itunes-apple.com.akadns.net
 @@||amp-api-updates.apps.apple.com
+@@||amp-api.apps-lb.itunes-apple.com.akadns.net
 @@||amp-api.apps-marketplace.apple.com
 @@||amp-api.apps.apple.com
 @@||amp-api.media-lb.apple.com.akadns.net
@@ -1895,6 +1929,7 @@
 @@||amp-api.podcasts.apple.com
 @@||amp-api.videos.apple.com
 @@||apac-asia-courier-4.push-apple.com.akadns.net
+@@||apac-asia-courier-vs.push-apple.com.akadns.net
 @@||apac-mask.wrr.mask.apple-dns.net
 @@||apac-mask.wrr.me.apple-dns.net
 @@||api-adservices.apple.com
@@ -1936,6 +1971,7 @@
 @@||bookkeeper-itunes.g.aaplimg.com
 @@||bpapi.apple.com
 @@||bpapi.v.aaplimg.com
+@@||buy-as.itunes.v.aaplimg.com
 @@||buy-lb.itunes-apple.com.akadns.net
 @@||buy.itunes-apple.com.akadns.net
 @@||c.apple.com
@@ -1952,15 +1988,19 @@
 @@||captive.g.aaplimg.com
 @@||carrierbundle-cdn.itunes-apple.com.akadns.net
 @@||carrierbundle.g.aaplimg.com
+@@||cdn-h3.g.aaplimg.com
 @@||cdn-icloud-content.g.aaplimg.com
 @@||cdn.icloud-content.com
 @@||cdn.smoot.g.aaplimg.com
 @@||cdn2.smoot.apple.com
+@@||cdsassets-apple-com.v.aaplimg.com
 @@||cdsassets.apple.com
+@@||certs.g.aaplimg.com
 @@||chatbox-web.apple.com.akadns.net
 @@||client-api.itunes.apple.com
 @@||cma.itunes-apple.com.akadns.net
 @@||cma.itunes.apple.com
+@@||comm-main.ess-apple.com.akadns.net
 @@||communities.apple.com
 @@||config-chr.health.apple.com
 @@||config-chr.health.g.aaplimg.com
@@ -1968,6 +2008,7 @@
 @@||configuration-lb.ls-apple.com.akadns.net
 @@||configuration.apple.com
 @@||configuration.apple.com.akadns.net
+@@||configuration.g.aaplimg.com
 @@||configuration.ls.apple.com
 @@||configuration.ls.v.aaplimg.com
 @@||configuration.v.aaplimg.com
@@ -1984,6 +2025,9 @@
 @@||current.jposa3.me.apple-dns.net
 @@||current.jptyo12.me.apple-dns.net
 @@||current.twntc1.me.apple-dns.net
+@@||cvws-h2.icloud-content.com
+@@||cvws.apple-dns.net
+@@||default.fe2.apple-dns.net
 @@||device-config.pcms.apple.com
 @@||device-config.v.aaplimg.com
 @@||digitalassets-taa.cdn-apple.com
@@ -1995,6 +2039,7 @@
 @@||downloaddispatch.g.aaplimg.com
 @@||downloaddispatch.itunes.apple.com
 @@||ec.pcms.apple.com
+@@||ec.pcms.v.aaplimg.com
 @@||edge-cdn.itunes-apple.com.akadns.net
 @@||entitlements-itunes.g.aaplimg.com
 @@||entitlements.edge-itunes-apple.com.akadns.net
@@ -2013,6 +2058,7 @@
 @@||fpinit.itunes.apple.com
 @@||friend.gc.apple.com
 @@||friend.gc.fe2.apple-dns.net
+@@||gateway-asset.ce.apple-dns.net
 @@||gateway-asset.icloud-content.com
 @@||gateway.fe2.apple-dns.net
 @@||gateway.icloud.com
@@ -2047,6 +2093,7 @@
 @@||gspe*ssl.ls.apple.com.edgesuite.net
 @@||gspe19-geo-selector.ls2-apple.com.akadns.net
 @@||gspe19-multi-cdn-asia.ls2-apple.com.akadns.net
+@@||gspe21-applecdn-cutover.ls-apple.com.akadns.net
 @@||gspe21-cdn.v.aaplimg.com
 @@||gspe35-applecdn-cutover.ls-apple.com.akadns.net
 @@||gspe35-cdn.v.aaplimg.com
@@ -2065,12 +2112,15 @@
 @@||humb.apple.com
 @@||humb.v.aaplimg.com
 @@||idv-signals-pommery-prod.v.aaplimg.com
+@@||ie_sla0.apple-dns.net
 @@||images-mercury.v.aaplimg.com
+@@||inappcheck-ak.itunes-apple.com.akadns.net
 @@||inappcheck-lb.itunes-apple.com.akadns.net
 @@||inappcheck.itunes.apple.com
 @@||init-cdn-lb.ess-apple.com.akadns.net
 @@||init-cdn.itunes-apple.com.akadns.net
 @@||init.ess.g.aaplimg.com
+@@||init.gc-lb-row.apple.com.akadns.net
 @@||init.gc.apple.com
 @@||init.itunes.apple.com
 @@||init.push-apple.com.akadns.net
@@ -2080,8 +2130,10 @@
 @@||ipcdn-lb.apple.com.akadns.net
 @@||ipcdn.apple.com
 @@||ipcdn.g.aaplimg.com
+@@||iphone-ld.g.aaplimg.com
 @@||iphonesubmissions.apple.com
 @@||iphonesubmissions.v.aaplimg.com
+@@||itunes-cdn-itunes-apple-com.v.aaplimg.com
 @@||itunes-cdn.itunes-apple.com.akadns.net
 @@||itunes.apple.com
 @@||jptyo12.ce.apple-dns.net
@@ -2107,6 +2159,7 @@
 @@||metrics-config.icloud.com
 @@||metricsedge-continent-wrr-cutover.v.aaplimg.com
 @@||metricsedge-continent-wrr.v.aaplimg.com
+@@||ml-lb-apple-com.v.aaplimg.com
 @@||ml.cdn-apple.com
 @@||ml.cdn-apple.g.aaplimg.com
 @@||mobileapp.apple.com
@@ -2117,51 +2170,14 @@
 @@||musicstatus.edge-itunes-apple.com.akadns.net
 @@||musicstatus.itunes.apple.com
 @@||mzstorekit.g.aaplimg.com
+@@||mzstorekit.lb-apple.com.akadns.net
 @@||netcts.cdn-apple.com
 @@||ocsp2.apple.com
 @@||ocsp2.g.aaplimg.com
 @@||odin-signals.apple.com
 @@||ondevice-agreements.apple.com
 @@||ontology.health.apple.com
-@@||p105-acsegateway.icloud.com
-@@||p105-caldav.icloud.com
-@@||p105-contacts.icloud.com
-@@||p105-content.icloud.com
-@@||p105-escrowproxy.icloud.com
-@@||p105-fmf.icloud.com
-@@||p105-fmfmobile.icloud.com
-@@||p105-fmip.icloud.com
-@@||p105-fmipmobile.icloud.com
-@@||p105-mcc.icloud.com
-@@||p105-mccgateway.icloud.com
-@@||p105-quota.icloud.com
-@@||p106-content.icloud.com
-@@||p11-mcc.icloud.com
-@@||p110-availability.icloud.com
-@@||p110-sharedstreams.icloud.com
-@@||p120-contacts.icloud.com
-@@||p129-fmfmobile.icloud.com
-@@||p138-sharedstreams.icloud.com
-@@||p164-acsegateway.icloud.com
-@@||p164-caldav.icloud.com
-@@||p164-contacts.icloud.com
-@@||p164-escrowproxy.icloud.com
-@@||p164-fmfmobile.icloud.com
-@@||p164-fmipmobile.icloud.com
-@@||p164-quota.icloud.com
-@@||p17-buy-lb.itunes-apple.com.akadns.net
-@@||p17-buy.itunes.apple.com
-@@||p176-acsegateway.icloud.com
-@@||p25-fmfmobile.icloud.com
-@@||p25-fmipmobile.icloud.com
-@@||p25-mailws.icloud.com
-@@||p25-mcc.icloud.com
-@@||p25-sharedstreams.icloud.com
-@@||p34-buy-lb.itunes-apple.com.akadns.net
-@@||p34-buy.itunes-apple.com.akadns.net
-@@||p34-buy.itunes.apple.com
-@@||p41-mobilebackup.icloud.com
-@@||p61-mcc.icloud.com
+@@||osxapps.itunes.g.aaplimg.com
 @@||pancake.cdn-apple.com.akadns.net
 @@||partiality.itunes.apple.com
 @@||pay-static.cdn-apple.com
@@ -2176,6 +2192,7 @@
 @@||pds-init.ess.apple.com
 @@||pds-prod.v.aaplimg.com
 @@||pds.ess.apple.com
+@@||play-cdn.itunes-apple.com.akadns.net
 @@||play.itunes.apple.com
 @@||pr-pod8-smp-device.apple.com
 @@||pr-pod8-smp-device.gcsis-apple.com.akadns.net
@@ -2185,12 +2202,14 @@
 @@||probe.icloud.com
 @@||probe.me.apple-dns.net
 @@||probe.siri.apple.com
+@@||prod-clips-event-gateway.v.aaplimg.com
 @@||prod-event-relay-weather-api.v.aaplimg.com
 @@||profile.ess-apple.com.akadns.net
 @@||profile.ess.apple.com
 @@||profile.gc-apple.com.akadns.net
 @@||profile.gc.apple.com
 @@||profile.gc.fe2.apple-dns.net
+@@||provision.ess-apple.com.akadns.net
 @@||publicassets.cdn-apple.com
 @@||publicassets.cdn-apple.g.aaplimg.com
 @@||query.ess-apple.com.akadns.net
@@ -2200,6 +2219,7 @@
 @@||radio-services.g.aaplimg.com
 @@||radio.itunes.apple.com
 @@||register.appattest.apple.com
+@@||rks-registration.v.aaplimg.com
 @@||rn-albert-prod.apple.com
 @@||rn-sq-device.apple.com
 @@||rtlimages.apple.com
@@ -2208,11 +2228,13 @@
 @@||safebrowsing-proxy.g.aaplimg.com
 @@||safebrowsing.g.aaplimg.com
 @@||sandbox-dist.itunes-apple.com.akadns.net
+@@||sandbox-itunes-apple-com.v.aaplimg.com
 @@||sandbox.itunes-apple.com.akadns.net
 @@||sas-as1-pcms.apple.com
 @@||sas.pcms.apple.com
 @@||sas.pcms.v.aaplimg.com
 @@||sb-music.itunes-apple.com.akadns.net
+@@||se-edge.itunes-apple.com.akadns.net
 @@||se-edge.itunes.apple.com
 @@||se.itunes.apple.com
 @@||se2-cdn.itunes-apple.com.akadns.net
@@ -2229,6 +2251,7 @@
 @@||sfss.v.aaplimg.com
 @@||sharedstreams.fe2.apple-dns.net
 @@||shazam-events.cdn-apple.com
+@@||shazam-events.v.aaplimg.com
 @@||skl.apple.com
 @@||smoot-api-lookup-aapne1c.v.aaplimg.com
 @@||smoot-api-safari-aapne1a.v.aaplimg.com
@@ -2269,10 +2292,13 @@
 @@||swcdn.apple.com
 @@||swcdn.g.aaplimg.com
 @@||swdist.apple.com
+@@||swdist.g.aaplimg.com
 @@||swscan-cdn.apple.com.akadns.net
 @@||swscan.apple.com
+@@||sync-cdn.itunes-apple.com.akadns.net
 @@||sync.itunes.apple.com
 @@||tdms.apple.com
+@@||tether.v.aaplimg.com
 @@||time-ios.g.aaplimg.com
 @@||time.apple.com
 @@||time.asia.apple.com
@@ -2287,10 +2313,12 @@
 @@||updates-http.g.aaplimg.com
 @@||updates.cdn-apple.com
 @@||updates.g.aaplimg.com
+@@||upp-cdn.itunes-apple.com.akadns.net
 @@||upp.itunes.apple.com
 @@||us-sandbox-courier-4.push-apple.com.akadns.net
 @@||usw2-register-appattest-prod-aws-prod.apple.com
 @@||usw2-tdm-prod.apple.com
+@@||usw2-wps-prod.apple.com
 @@||uts-api-cdn.itunes-apple.com.akadns.net
 @@||uts-api.itunes.apple.com
 @@||valid-apple.g.aaplimg.com
@@ -2312,6 +2340,7 @@
 @@||www.apple.com
 @@||xp-cdn-lb.itunes-apple.com.akadns.net
 @@||xp.apple.com
+@@||xp.g.aaplimg.com
 @@||xp.itunes-apple.com
 @@||xp.itunes-apple.com.akadns.net
 @@||xp.v.aaplimg.com
@@ -2355,6 +2384,7 @@
 @@||clienttracing-pa.googleapis.com
 @@||cloudconfig.googleapis.com
 @@||cloudsearch.googleapis.com
+@@||consentprimitivedataservice-pa.googleapis.com
 @@||contactsui-pa.googleapis.com
 @@||content-autofill.googleapis.com
 @@||content-autofill.googleapis.com.lan
@@ -2367,6 +2397,7 @@
 @@||deviceintegritytokens-pa.googleapis.com
 @@||deviceintegritytokens-pa.googleapis.com.lan
 @@||devicelockcheckin-pa.googleapis.com
+@@||devicesignin-pa.googleapis.com
 @@||dialercallinfolookup-pa.googleapis.com
 @@||digitalassetlinks.googleapis.com
 @@||digitalassetlinks.googleapis.com.lan
@@ -2374,12 +2405,15 @@
 @@||discover-pa.googleapis.com.lan
 @@||driveactivity.googleapis.com
 @@||drivefrontend-pa.googleapis.com
+@@||drivelabels.googleapis.com
 @@||drivesharefrontend-pa.googleapis.com
+@@||earth-pa.googleapis.com
 @@||embeddedassistant-frontend-youtube.googleapis.com
 @@||embeddedassistant.googleapis.com
 @@||familymanagement-pa.googleapis.com
 @@||fcm.googleapis.com
 @@||fcmconnection.googleapis.com
+@@||fcmregistrations.googleapis.com
 @@||fcmtoken.googleapis.com
 @@||federatedcompute-pa.googleapis.com
 @@||federatedcompute-pa.googleapis.com.lan
@@ -2402,6 +2436,8 @@
 @@||firebaseremoteconfigrealtime.googleapis.com.lan
 @@||firebasestorage.googleapis.com
 @@||firestore.googleapis.com
+@@||fitbit-pa.googleapis.com
+@@||fitbitvestibuleshim-pa.googleapis.com
 @@||fitness.googleapis.com
 @@||fitness.googleapis.com.lan
 @@||flexagon-pa.googleapis.com
@@ -2419,6 +2455,7 @@
 @@||geomobileservices-pa.googleapis.com.lan
 @@||geotimezones.googleapis.com
 @@||gmscompliance-pa.googleapis.com
+@@||gogaccountservice-pa.googleapis.com
 @@||googlehomefoyer-pa.googleapis.com
 @@||googleonebackup-pa.googleapis.com
 @@||growth-pa.googleapis.com
@@ -2447,6 +2484,7 @@
 @@||locationhistoryaggregates-pa.googleapis.com
 @@||locationhistoryaggregates-pa.googleapis.com.lan
 @@||locationhistoryplacedetails-pa.googleapis.com
+@@||logging.googleapis.com
 @@||lycraservice-pa.googleapis.com
 @@||mannequin.storage.googleapis.com
 @@||maps.googleapis.com
@@ -2494,6 +2532,7 @@
 @@||people-pa.googleapis.com.lan
 @@||peoplestack-pa.googleapis.com
 @@||performanceparameters.googleapis.com
+@@||personalsafety-pa.googleapis.com
 @@||phonedeviceverification-pa.googleapis.com
 @@||phonedeviceverification-pa.googleapis.com.lan
 @@||photos.googleapis.com
@@ -2507,6 +2546,7 @@
 @@||playbooks-pa.googleapis.com
 @@||playgateway-pa.googleapis.com
 @@||playmoviesdfe-pa.googleapis.com
+@@||playstore-pa.googleapis.com
 @@||playstoregatewayadapter-pa.googleapis.com
 @@||playstoregatewayadapter-pa.googleapis.com.lan
 @@||proactivebackend-pa.googleapis.com
@@ -2542,6 +2582,8 @@
 @@||semanticlocation-pa.googleapis.com
 @@||semanticlocation-pa.googleapis.com.lan
 @@||signaler-pa.googleapis.com
+@@||socialuserlocation.googleapis.com
+@@||socialuserlocation.googleapis.com.lan
 @@||speechs3proto2-pa.googleapis.com
 @@||spot-pa.googleapis.com
 @@||spot-pa.googleapis.com.lan
@@ -2582,6 +2624,7 @@
 @@||xga-serving-pa.googleapis.com
 @@||xgapromomanager-pa.googleapis.com
 @@||youtube.googleapis.com
+@@||youtubei-att.googleapis.com
 @@||youtubei.googleapis.com
 @@||youtubei.googleapis.com.lan
 
@@ -2592,10 +2635,12 @@
 @@||adx-id.ads.heytapmobi.com
 @@||adx-id.ads.heytapmobile.com
 @@||adx-op-sg.heytapmobile.com
+@@||adx-u-sg.heytapmobile.com
 @@||appconf-ocs-eu.heytapdl.com
 @@||appconf-ocs-in.heytapdl.com
 @@||appconf-ocs-sgp.heytapdl.com
 @@||appconf-sgp.heytapdl.com
+@@||browser-api-gl.heytapmobile.com
 @@||cl-data-f.ads.heytapmobile.com
 @@||cl-data-sg.ads.heytapmobi.com
 @@||cl-data-sg.ads.heytapmobi.com.lan
@@ -2611,10 +2656,14 @@
 @@||dc-dragate-sg.heytapmobile.com.lan
 @@||dcc-awareness-sg.heytapmobile.com
 @@||eimg-intl.heytapimg.com
+@@||feedfiles.heytapimg.com
 @@||file-intl-push.heytapdl.com
+@@||g-search-quic-gl.heytapmobile.com
+@@||ga-pic-gl.heytapimg.com
 @@||games-community-gl.heytapmobile.com
 @@||games-community-gl.heytapmobile.com.lan
 @@||global-search-gl.heytapmobile.com
+@@||gsquery.heytapimg.com
 @@||httpdns-push.heytapmobile.com
 @@||httpdns-push.heytapmobile.com.ts.net
 @@||mdp-appconf-eu.heytapdl.com
@@ -2626,6 +2675,7 @@
 @@||mdp-appconf-sg.heytapdl.com
 @@||mdp-appconf-sg.heytapdl.com.lan
 @@||mdp-appconf-sg.heytapdl.com.ts.net
+@@||obus-conf-sg.heytapmobile.com
 @@||obus-config-sg.heytapmobile.com
 @@||obus-dc121100-sg.heytapmobile.com
 @@||obus-dc20123-sg.heytapmobile.com
