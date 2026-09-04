@@ -2,6 +2,637 @@
 
 All commits to this repository will be logged in this file.
 
+## Commit: [8f5b55f](https://github.com/virtualitypage/AdGuardHome_Filters/commit/8f5b55f6a1628ecab2723be519ee42c4defc77b6) - 2026-09-03
+
+### Date
+
+- 2026/09/03 22:38:16
+
+### Change
+
+- accept/Accept_domain.txt
+    ```yaml
+    BEFORE:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    - # Last modified: 2 September 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -26,11 +26,15 @@
+
+      @@/battle-asia-prod-[0-9]*.ldoe.kefirgames.ru/
+      @@/battle-eu-prod-[0-9]*.ldoe.kefirgames.ru/
+      @@/battle-us-prod-[0-9]*.ldoe.kefirgames.ru/
+      @@/beacons[0-9]*.gvt[0-9].com/
+      @@/ci[0-9].googleusercontent.com/
+      @@/clients[0-9].google.com.lan/
+      @@/clients[0-9].google.com.ts.net/
+      @@/clients[0-9].google.com/
+      @@/e[5-9]*.i.lencr.org/
+      @@/e[5-9]*.o.lencr.org/
+      @@/e2c[0-9]*.gcp.gvt2.com/
+
+      @@ -181,6 +185,7 @@
+
+      @@||api.github.com
+      @@||api.goodnovel.com
+      @@||api.gunosy.com
+      @@||api.id.mixerbox.com.cdn.cloudflare.net
+      @@||api.inmense.site
+      @@||api.ipify.org
+
+      @@ -189,6 +194,7 @@
+
+      @@||api.jpid.pf.japanpost.jp
+      @@||api.kickoffo.site
+      @@||api.kochi-bank.bankapp.jp
+      @@||api.letro.jp
+      @@||api.makuake.com
+      @@||api.mapbox.com
+
+      @@ -285,6 +291,7 @@
+
+      @@||backend.mr-colosseum.com
+      @@||bakmas.kairogame.jp
+      @@||balancer.catsthegame.com
+      @@||bam.nr-data.net.cdn.cloudflare.net
+      @@||baseec-img-mng.akamaized.net
+      @@||bcs.amanotes.net
+
+      @@ -292,6 +299,9 @@
+
+      @@||beacon.tws.toyota.jp
+      @@||beacons-handoff.gcp.gvt2.com
+      @@||beacons.gcp.gvt2.com
+      @@||beauty-topics.com
+      @@||beauty.hotpepper.jp
+      @@||bedore.jp
+
+      @@ -320,9 +330,6 @@
+
+      @@||bram-api-prod-xgt6hs3glq-an.a.run.app
+      @@||braze-images.com
+      @@||browser-intake-datadoghq.com
+    - @@||btl-center-prod-0.ldoe.kefirgames.ru
+    - @@||btl-center-prod-1.ldoe.kefirgames.ru
+    - @@||btl-center-prod-3.ldoe.kefirgames.ru
+      @@||bus.ttzgame.com
+      @@||business.google.com
+      @@||byoinnavi.drsquare.jp
+
+      @@ -357,7 +364,6 @@
+
+      @@||cats-ingame-news-origin.nazara.in-dev1
+      @@||cats-ingame-news-origin.nazara.in-dev1.lan
+      @@||cats-ingame-news-origin.nazara.in-dev1.ts.net
+    - @@||cdn-ak.f.st-hatena.com
+      @@||cdn-assets.mr-colosseum.com
+      @@||cdn-client.mr-colosseum.com
+      @@||cdn-content.ampproject.org
+
+      @@ -391,6 +397,7 @@
+
+      @@||cdn.image.st-hatena.com
+      @@||cdn.jsdelivr.net
+      @@||cdn.jsdelivr.net.cdn.cloudflare.net
+      @@||cdn.kusurinomadoguchi.com
+      @@||cdn.lamp.avct.cloud
+      @@||cdn.mini-app-point.devops-app.paypay-sec.co.jp
+
+      @@ -457,6 +464,7 @@
+
+      @@||cloudfront.net.lan
+      @@||cloudinary.map.fastly.net
+      @@||cm.nordvpn.com
+      @@||cnobi.jp.lan
+      @@||code.jquery.com
+      @@||codepush.paidy.com
+
+      @@ -468,6 +476,7 @@
+
+      @@||coinlog.kairogame.jp
+      @@||collector.github.com
+      @@||comment.blogcms.jp
+      @@||completion.amazon.com
+      @@||completion.amazon.com.lan
+      @@||config.mapbox.com
+
+      @@ -502,7 +511,6 @@
+
+      @@||counter2.blog.livedoor.com
+      @@||coupon.smartnews.com
+      @@||couponbank.relo.jp
+    - @@||cp10.cloudflare.com
+      @@||creative-hozon.com
+      @@||creative.dsp.cartajp.com
+      @@||crt.sectigo.com
+
+      @@ -789,6 +797,8 @@
+
+      @@||intelligence.sc.omtrdc.net
+      @@||interactive-sdk.s3.amazonaws.com
+      @@||ipapi.co
+      @@||ipinfo.io
+      @@||iposeidonbussiness.com
+      @@||ipqcache2.shufoo.net
+
+      @@ -1372,6 +1382,7 @@
+
+      @@||static.broadcom.com
+      @@||static.byoinnavi.jp
+      @@||static.cdninstagram.com
+      @@||static.cloudflareinsights.com
+      @@||static.convertio.co
+      @@||static.cookpad.com
+
+      @@ -2623,6 +2634,9 @@
+
+      @@||youtubei.googleapis.com.lan
+
+      # [HeyTap]
+      @@||actimg.heytapimg.com
+      @@||adx-f.ads.heytapmobile.com
+      @@||adx-f.ads.heytapmobile.com.lan
+
+      @@ -2635,9 +2649,6 @@
+
+      @@||appconf-ocs-sgp.heytapdl.com
+      @@||appconf-sgp.heytapdl.com
+      @@||browser-api-gl.heytapmobile.com
+    - @@||cl-data-f.ads.heytapmobile.com
+    - @@||cl-data-sg.ads.heytapmobi.com
+    - @@||cl-data-sg.ads.heytapmobi.com.lan
+      @@||cloudconf-app-eu.heytapmobile.com
+      @@||cloudconf-app-jp.heytapmobile.com
+      @@||cloudconf-app-jp.heytapmobile.com.lan
+
+      @@ -2988,6 +2999,8 @@
+
+      @@||webview-api.mercoin.com
+
+      # [Meta Platforms, Inc.]
+      @@/external.[a-z]*[0-9]-[0-9].fna.fbcdn.net/
+      @@/instagram.[a-z]*[0-9]-[0-9].fna.fbcdn.net/
+      @@/instagram.[a-z]*[0-9][0-9]-[0-9].fna.fbcdn.net/
+
+      @@ -3003,10 +3016,6 @@
+
+      @@||applink.instagram.com
+      @@||attachment.fbsbx.com
+      @@||b-www.facebook.com
+    - @@||cdn-v4.amp-endpoint3.com
+    - @@||cdn-v6.amp-endpoint3.com
+    - @@||cdn-v6.amp-endpoint3.com.lan
+    - @@||cdn-v6.amp-endpoint3.com.ts.net
+      @@||connect.facebook.net
+      @@||creators.facebook.com
+      @@||external-nrt1-2.xx.fbcdn.net
+
+      @@ -3060,7 +3069,7 @@
+
+      # [microsoft]
+      # https://learn.microsoft.com/ja-jp/azure/security/fundamentals/azure-domains
+      @@/[a-z].clarity.ms/
+    - @@/array[0-9].prod.do.dsp.mp.microsoft.com/
+      @@/in[1-2]-gw[0-9]-[0-9]*-3d6c3051.eastus2.cloudapp.azure.com/
+      @@/mamls-prod-as[0-9]*-ip.japaneast.cloudapp.azure.com/
+      @@/onedscolprdaue[0-9]*.australiaeast.cloudapp.azure.com/
+
+      @@ -3488,8 +3497,11 @@
+
+      @@||xml.affiliate.rakuten.co.jp
+
+      # [supercell.com]
+      @@||asset.mtech.supercell.com
+      @@||boombeach.inbox.supercell.com
+      @@||cdn.id.supercell.com
+      @@||cdn.id.supercell.com.lan
+      @@||cdn.supercell.com
+
+      @@ -3504,14 +3516,22 @@
+
+      @@||game-assets.boombeach.com
+      @@||game-assets.clashofclans.com
+      @@||game-assets.clashroyaleapp.com
+      @@||game.boombeachgame.com
+      @@||game.clashroyaleapp.com
+      @@||gamea.clashofclans.com
+      @@||id.supercell.com
+      @@||id.supercell.com.lan
+      @@||ingame-webviews.supercell.com
+      @@||inventory.mtech.supercell.com
+      @@||report.mtech.supercell.com
+      @@||security.id.supercell.com
+      @@||security.id.supercell.com.lan
+
+      @@ -3521,10 +3541,13 @@
+
+      @@||aai.yahooapis.jp
+      @@||aai.yahooapis.jp.lan
+      @@||account-center.lylink.yahoo.co.jp
+      @@||ad.line-scdn.net.ts.net
+      @@||api-proxy-ybrowser.yahooapis.jp
+      @@||api.mhdapi.yahoo.co.jp
+      @@||apple-finance.query.yahoo.com
+      @@||approach.yahooapis.jp
+      @@||auc-pctr.c.yimg.jp
+      @@||aucpay.yahoo.co.jp
+
+      @@ -3540,7 +3563,11 @@
+
+      @@||auctions.yahooapis.jp.lan
+      @@||auth.login.yahoo.co.jp
+      @@||autos-pctr.c.yimg.jp
+      @@||buy.auctions.yahoo.co.jp
+      @@||chie-pctr.c.yimg.jp
+      @@||chiebukuro.yahoo.co.jp
+      @@||clb.yahooapis.jp
+
+      @@ -3549,14 +3576,17 @@
+
+      @@||contact.auctions.yahoo.co.jp
+      @@||datahub-search.yahooapis.jp
+      @@||detail.chiebukuro.yahoo.co.jp
+      @@||displayname-pctr.c.yimg.jp
+      @@||donation.yahoo.co.jp
+      @@||east-yjapp.yahooapis.jp
+      @@||ebookjapan.yahoo.co.jp
+      @@||emergency-weather.yahoo.co.jp
+      @@||ext-approach.yahoo.co.jp
+      @@||extsearch.yahoo.co.jp
+      @@||feapi-yvpub.yahooapis.jp
+      @@||finance.yahoo.co.jp
+      @@||follow-pctr.c.yimg.jp
+      @@||follow-stock.yahooapis.jp
+
+      @@ -3575,6 +3605,7 @@
+
+      @@||login.yahoo.co.jp
+      @@||map.c.yimg.jp
+      @@||map.yahoo.co.jp
+      @@||mempf.yahoo.co.jp
+      @@||mempf.yahooapis.jp
+      @@||mfn.yahoo.co.jp
+
+      @@ -3585,6 +3616,7 @@
+
+      @@||news-pctr.c.yimg.jp
+      @@||news-yjapp.yahooapis.jp
+      @@||news.yahoo.co.jp
+      @@||newsatcl-pctr.c.yimg.jp
+      @@||oxygen-haas.yahooapis.jp
+      @@||page.auctions.yahoo.co.jp
+
+      @@ -3597,6 +3629,7 @@
+
+      @@||pushlist-yjapp.yahooapis.jp
+      @@||quriosity-pctr.c.yimg.jp
+      @@||quriosity.yahooapis.jp
+      @@||rdr.yahoo.co.jp
+      @@||rdr.yahoo.jp
+      @@||review-shopping.c.yimg.jp
+
+      @@ -3621,6 +3654,7 @@
+
+      @@||shopping-crmapis.yahoo.co.jp
+      @@||shopping-ptah-proxy.yahoo.co.jp
+      @@||shopping-ptah.yahooapis.jp
+      @@||shopping.c.yimg.jp
+      @@||shopping.yahoo.co.jp
+      @@||shp-parts-library.west.edge.storage-yahoo.jp
+    ```
+
+    ```yaml
+    AFTER:
+      # References: none
+      # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
+      #
+    + # Last modified: 3 September 2026
+      #
+
+      # [許可リクエスト]
+
+      @@ -26,11 +26,15 @@
+
+      @@/battle-asia-prod-[0-9]*.ldoe.kefirgames.ru/
+      @@/battle-eu-prod-[0-9]*.ldoe.kefirgames.ru/
+      @@/battle-us-prod-[0-9]*.ldoe.kefirgames.ru/
+    + @@/beacons[0-9]*.gvt[0-9].com.lan/
+      @@/beacons[0-9]*.gvt[0-9].com/
+    + @@/btl-center-prod-[0-9].ldoe.kefirgames.ru/
+    + @@/cdn-ak.[a-z].st-hatena.com/
+      @@/ci[0-9].googleusercontent.com/
+      @@/clients[0-9].google.com.lan/
+      @@/clients[0-9].google.com.ts.net/
+      @@/clients[0-9].google.com/
+    + @@/cp[0-9]*.cloudflare.com/
+      @@/e[5-9]*.i.lencr.org/
+      @@/e[5-9]*.o.lencr.org/
+      @@/e2c[0-9]*.gcp.gvt2.com/
+
+      @@ -181,6 +185,7 @@
+
+      @@||api.github.com
+      @@||api.goodnovel.com
+      @@||api.gunosy.com
+    + @@||api.id.mixerbox.com
+      @@||api.id.mixerbox.com.cdn.cloudflare.net
+      @@||api.inmense.site
+      @@||api.ipify.org
+
+      @@ -189,6 +194,7 @@
+
+      @@||api.jpid.pf.japanpost.jp
+      @@||api.kickoffo.site
+      @@||api.kochi-bank.bankapp.jp
+    + @@||api.kochi-bank.bankapp.jp.cdn.cloudflare.net
+      @@||api.letro.jp
+      @@||api.makuake.com
+      @@||api.mapbox.com
+
+      @@ -285,6 +291,7 @@
+
+      @@||backend.mr-colosseum.com
+      @@||bakmas.kairogame.jp
+      @@||balancer.catsthegame.com
+    + @@||balancer.catsthegame.com.lan
+      @@||bam.nr-data.net.cdn.cloudflare.net
+      @@||baseec-img-mng.akamaized.net
+      @@||bcs.amanotes.net
+
+      @@ -292,6 +299,9 @@
+
+      @@||beacon.tws.toyota.jp
+      @@||beacons-handoff.gcp.gvt2.com
+      @@||beacons.gcp.gvt2.com
+    + @@||beacons.gcp.gvt2.com.lan
+    + @@||beacons.gvt2.com
+    + @@||beacons.gvt2.com.lan
+      @@||beauty-topics.com
+      @@||beauty.hotpepper.jp
+      @@||bedore.jp
+
+      @@ -320,9 +330,6 @@
+
+      @@||bram-api-prod-xgt6hs3glq-an.a.run.app
+      @@||braze-images.com
+      @@||browser-intake-datadoghq.com
+      @@||bus.ttzgame.com
+      @@||business.google.com
+      @@||byoinnavi.drsquare.jp
+
+      @@ -357,7 +364,6 @@
+
+      @@||cats-ingame-news-origin.nazara.in-dev1
+      @@||cats-ingame-news-origin.nazara.in-dev1.lan
+      @@||cats-ingame-news-origin.nazara.in-dev1.ts.net
+      @@||cdn-assets.mr-colosseum.com
+      @@||cdn-client.mr-colosseum.com
+      @@||cdn-content.ampproject.org
+
+      @@ -391,6 +397,7 @@
+
+      @@||cdn.image.st-hatena.com
+      @@||cdn.jsdelivr.net
+      @@||cdn.jsdelivr.net.cdn.cloudflare.net
+    + @@||cdn.jsdelivr.net.lan
+      @@||cdn.kusurinomadoguchi.com
+      @@||cdn.lamp.avct.cloud
+      @@||cdn.mini-app-point.devops-app.paypay-sec.co.jp
+
+      @@ -457,6 +464,7 @@
+
+      @@||cloudfront.net.lan
+      @@||cloudinary.map.fastly.net
+      @@||cm.nordvpn.com
+    + @@||cnobi.jp
+      @@||cnobi.jp.lan
+      @@||code.jquery.com
+      @@||codepush.paidy.com
+
+      @@ -468,6 +476,7 @@
+
+      @@||coinlog.kairogame.jp
+      @@||collector.github.com
+      @@||comment.blogcms.jp
+    + @@||commonlog.cld.navitime.jp
+      @@||completion.amazon.com
+      @@||completion.amazon.com.lan
+      @@||config.mapbox.com
+
+      @@ -502,7 +511,6 @@
+
+      @@||counter2.blog.livedoor.com
+      @@||coupon.smartnews.com
+      @@||couponbank.relo.jp
+      @@||creative-hozon.com
+      @@||creative.dsp.cartajp.com
+      @@||crt.sectigo.com
+
+      @@ -789,6 +797,8 @@
+
+      @@||intelligence.sc.omtrdc.net
+      @@||interactive-sdk.s3.amazonaws.com
+      @@||ipapi.co
+    + @@||iphone-contents.totalnaviapp.navitime.jp
+    + @@||iphone.totalnaviapp.navitime.jp
+      @@||ipinfo.io
+      @@||iposeidonbussiness.com
+      @@||ipqcache2.shufoo.net
+
+      @@ -1372,6 +1382,7 @@
+
+      @@||static.broadcom.com
+      @@||static.byoinnavi.jp
+      @@||static.cdninstagram.com
+    + @@||static.cld.navitime.jp
+      @@||static.cloudflareinsights.com
+      @@||static.convertio.co
+      @@||static.cookpad.com
+
+      @@ -2623,6 +2634,9 @@
+
+      @@||youtubei.googleapis.com.lan
+
+      # [HeyTap]
+    + @@/cl-data-[a-z]*.ads.heytapmobi.com.lan/
+    + @@/cl-data-[a-z]*.ads.heytapmobi.com/
+    + @@/cl-data-[a-z]*.ads.heytapmobile.com/
+      @@||actimg.heytapimg.com
+      @@||adx-f.ads.heytapmobile.com
+      @@||adx-f.ads.heytapmobile.com.lan
+
+      @@ -2635,9 +2649,6 @@
+
+      @@||appconf-ocs-sgp.heytapdl.com
+      @@||appconf-sgp.heytapdl.com
+      @@||browser-api-gl.heytapmobile.com
+      @@||cloudconf-app-eu.heytapmobile.com
+      @@||cloudconf-app-jp.heytapmobile.com
+      @@||cloudconf-app-jp.heytapmobile.com.lan
+
+      @@ -2988,6 +2999,8 @@
+
+      @@||webview-api.mercoin.com
+
+      # [Meta Platforms, Inc.]
+    + @@/cdn-v[0-9].amp-endpoint3.com.lan/
+    + @@/cdn-v[0-9].amp-endpoint3.com/
+      @@/external.[a-z]*[0-9]-[0-9].fna.fbcdn.net/
+      @@/instagram.[a-z]*[0-9]-[0-9].fna.fbcdn.net/
+      @@/instagram.[a-z]*[0-9][0-9]-[0-9].fna.fbcdn.net/
+
+      @@ -3003,10 +3016,6 @@
+
+      @@||applink.instagram.com
+      @@||attachment.fbsbx.com
+      @@||b-www.facebook.com
+      @@||connect.facebook.net
+      @@||creators.facebook.com
+      @@||external-nrt1-2.xx.fbcdn.net
+
+      @@ -3060,7 +3069,7 @@
+
+      # [microsoft]
+      # https://learn.microsoft.com/ja-jp/azure/security/fundamentals/azure-domains
+      @@/[a-z].clarity.ms/
+    + @@/array[0-9]*.prod.do.dsp.mp.microsoft.com/
+      @@/in[1-2]-gw[0-9]-[0-9]*-3d6c3051.eastus2.cloudapp.azure.com/
+      @@/mamls-prod-as[0-9]*-ip.japaneast.cloudapp.azure.com/
+      @@/onedscolprdaue[0-9]*.australiaeast.cloudapp.azure.com/
+
+      @@ -3488,8 +3497,11 @@
+
+      @@||xml.affiliate.rakuten.co.jp
+
+      # [supercell.com]
+    + @@||analytics.support.supercell.com
+      @@||asset.mtech.supercell.com
+    + @@||assets.social.supercell.com
+      @@||boombeach.inbox.supercell.com
+    + @@||boombeach.supercell.com
+      @@||cdn.id.supercell.com
+      @@||cdn.id.supercell.com.lan
+      @@||cdn.supercell.com
+
+      @@ -3504,14 +3516,22 @@
+
+      @@||game-assets.boombeach.com
+      @@||game-assets.clashofclans.com
+      @@||game-assets.clashroyaleapp.com
+    + @@||game-assets.squadbustersgame.com
+      @@||game.boombeachgame.com
+      @@||game.clashroyaleapp.com
+      @@||gamea.clashofclans.com
+      @@||id.supercell.com
+      @@||id.supercell.com.lan
+      @@||ingame-webviews.supercell.com
+    + @@||ingame.support.supercell.com
+    + @@||init.mkt.supercell.com
+    + @@||init.mkt.supercell.com.lan
+      @@||inventory.mtech.supercell.com
+    + @@||link.boombeach.com
+    + @@||report.mkt.supercell.com
+      @@||report.mtech.supercell.com
+    + @@||sdk.social.supercell.com
+    + @@||sdk.social.supercell.com.lan
+      @@||security.id.supercell.com
+      @@||security.id.supercell.com.lan
+
+      @@ -3521,10 +3541,13 @@
+
+      @@||aai.yahooapis.jp
+      @@||aai.yahooapis.jp.lan
+      @@||account-center.lylink.yahoo.co.jp
+    + @@||account.edit.yahoo.co.jp
+      @@||ad.line-scdn.net.ts.net
+    + @@||ads-feedback.yahoo.co.jp
+      @@||api-proxy-ybrowser.yahooapis.jp
+      @@||api.mhdapi.yahoo.co.jp
+      @@||apple-finance.query.yahoo.com
+    + @@||approach.yahoo.co.jp
+      @@||approach.yahooapis.jp
+      @@||auc-pctr.c.yimg.jp
+      @@||aucpay.yahoo.co.jp
+
+      @@ -3540,7 +3563,11 @@
+
+      @@||auctions.yahooapis.jp.lan
+      @@||auth.login.yahoo.co.jp
+      @@||autos-pctr.c.yimg.jp
+    + @@||bimi.west.edge.storage-yahoo.jp
+    + @@||btcs.yahoo.co.jp
+      @@||buy.auctions.yahoo.co.jp
+    + @@||carnavi-s.yahooapis.jp
+    + @@||carnavi.yahooapis.jp
+      @@||chie-pctr.c.yimg.jp
+      @@||chiebukuro.yahoo.co.jp
+      @@||clb.yahooapis.jp
+
+      @@ -3549,14 +3576,17 @@
+
+      @@||contact.auctions.yahoo.co.jp
+      @@||datahub-search.yahooapis.jp
+      @@||detail.chiebukuro.yahoo.co.jp
+    + @@||directoffer-images.west.edge.storage-yahoo.jp
+      @@||displayname-pctr.c.yimg.jp
+      @@||donation.yahoo.co.jp
+      @@||east-yjapp.yahooapis.jp
+      @@||ebookjapan.yahoo.co.jp
+      @@||emergency-weather.yahoo.co.jp
+      @@||ext-approach.yahoo.co.jp
+    + @@||external-datahub-search.yahooapis.jp
+      @@||extsearch.yahoo.co.jp
+      @@||feapi-yvpub.yahooapis.jp
+    + @@||finance-pctr.c.yimg.jp
+      @@||finance.yahoo.co.jp
+      @@||follow-pctr.c.yimg.jp
+      @@||follow-stock.yahooapis.jp
+
+      @@ -3575,6 +3605,7 @@
+
+      @@||login.yahoo.co.jp
+      @@||map.c.yimg.jp
+      @@||map.yahoo.co.jp
+    + @@||map.yahooapis.jp
+      @@||mempf.yahoo.co.jp
+      @@||mempf.yahooapis.jp
+      @@||mfn.yahoo.co.jp
+
+      @@ -3585,6 +3616,7 @@
+
+      @@||news-pctr.c.yimg.jp
+      @@||news-yjapp.yahooapis.jp
+      @@||news.yahoo.co.jp
+    + @@||newsapp.yahooapis.jp
+      @@||newsatcl-pctr.c.yimg.jp
+      @@||oxygen-haas.yahooapis.jp
+      @@||page.auctions.yahoo.co.jp
+
+      @@ -3597,6 +3629,7 @@
+
+      @@||pushlist-yjapp.yahooapis.jp
+      @@||quriosity-pctr.c.yimg.jp
+      @@||quriosity.yahooapis.jp
+    + @@||rd.listing.yahoo.co.jp
+      @@||rdr.yahoo.co.jp
+      @@||rdr.yahoo.jp
+      @@||review-shopping.c.yimg.jp
+
+      @@ -3621,6 +3654,7 @@
+
+      @@||shopping-crmapis.yahoo.co.jp
+      @@||shopping-ptah-proxy.yahoo.co.jp
+      @@||shopping-ptah.yahooapis.jp
+    + @@||shopping-salendipity.yahoo.co.jp
+      @@||shopping.c.yimg.jp
+      @@||shopping.yahoo.co.jp
+      @@||shp-parts-library.west.edge.storage-yahoo.jp
+    ```
+
 ## Commit: [d0bb8c0](https://github.com/virtualitypage/AdGuardHome_Filters/commit/d0bb8c07218feeb95b4ce8e2abf4a0373bd978ab) - 2026-09-02
 
 ### Date
