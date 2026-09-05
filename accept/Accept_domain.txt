@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 4 September 2026
+# Last modified: 5 September 2026
 #
 
 # [許可リクエスト]
@@ -999,6 +999,8 @@
 @@||mtcs.nhk.or.jp
 @@||music.amanotes.net
 @@||muvlgl.com
+@@||muvluv-girls-garden.com
+@@||muvluv-girls-garden.wikiru.jp
 @@||mws.cdn.weathernews.jp
 @@||my-coupon-static.smartnews.com
 @@||my.komeri-card.com
@@ -1796,25 +1798,36 @@
 # [アンチ広告ブロッカー／Ad-Shield]
 # https://turgenev.hatenablog.com/entry/2025/04/27/215220
 # https://note.com/adlock/n/n74a211a47117
+@@||0.html-load.cc
 @@||0.html-load.com
 @@||1.content-loader.com
+@@||1.html-load.cc
 @@||1.html-load.com
 @@||2.content-loader.com
+@@||2.html-load.cc
 @@||2.html-load.com
 @@||3.content-loader.com
+@@||3.html-load.cc
 @@||3.html-load.com
 @@||4.content-loader.com
+@@||4.html-load.cc
 @@||4.html-load.com
 @@||5.content-loader.com
+@@||5.html-load.cc
 @@||5.html-load.com
 @@||6.content-loader.com
+@@||6.html-load.cc
 @@||6.html-load.com
 @@||7.content-loader.com
+@@||7.html-load.cc
 @@||7.html-load.com
 @@||8.content-loader.com
+@@||8.html-load.cc
 @@||8.html-load.com
 @@||9.content-loader.com
+@@||9.html-load.cc
 @@||9.html-load.com
+@@||html-load.cc
 @@||html-load.com
 
 # [akamai]
