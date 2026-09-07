@@ -4,7 +4,7 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 13 July 2026
+# Last modified: 7 September 2026
 #
 
 # [拒否リクエスト]
@@ -12,12 +12,18 @@
 /[a-z].amoad.com/
 /[a-z][a-z].amoad.com/
 /apac[0-9]*.admanmedia.com/
+/az[1-9]*.vo.msecnd.net.lan/
+/az[1-9]*.vo.msecnd.net/
 /b9[0-9].yahoo.co.jp/
-/cm-[1-9]*-[1-9]*.getui.com/
+/cached-ad-[a-z].fyber.com.lan/
+/cached-ad-[a-z].fyber.com/
+/cm-[0-9]*-[0-9]*.getui.com/
 /got.iad3rs0zone[1-9].pubnative.net/
 /mdtb-cf-[0-9].ads.aps.amazon-adsystem.com.lan/
 /mdtb-cf-[0-9].ads.aps.amazon-adsystem.com/
 /p[0-9]*.cedexis-test.com/
+/site-[0-9]*.gslb[0-9]*.sakura.ne.jp/
+/taj[1-9].ebis.ne.jp/
 /us-e-[0-9]*.admanmedia.com/
 /vulcan[1-9].branch.io.lan/
 /vulcan[1-9].branch.io/
@@ -225,6 +231,7 @@
 0.0.0.0 apiv3-prod.flipdesk.jp
 0.0.0.0 apm.yahoo.co.jp
 0.0.0.0 apm.yahoo.co.jp.lan
+0.0.0.0 app-analytics-services-att.com
 0.0.0.0 app-analytics-services.com
 0.0.0.0 app-measurement.com
 0.0.0.0 app-measurement.com.lan
@@ -278,9 +285,6 @@
 0.0.0.0 automate.linksynergy.com
 0.0.0.0 aws.inshot.cc
 0.0.0.0 az416426.vo.msecnd.net
-0.0.0.0 az764295.vo.msecnd.net
-0.0.0.0 az764295.vo.msecnd.net.lan
-0.0.0.0 az764295.vo.msecnd.net.ts.net
 0.0.0.0 b.6sc.co
 0.0.0.0 b.adnxs.com
 0.0.0.0 b.im-apps.net
@@ -321,6 +325,7 @@
 0.0.0.0 bypass.jp
 0.0.0.0 c-hzgt2.getui.com
 0.0.0.0 c.4dex.io
+0.0.0.0 c.4dex.tech
 0.0.0.0 c.6sc.co
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 c.amazon-adsystem.com.lan
@@ -334,11 +339,6 @@
 0.0.0.0 c3.a-mo.net
 0.0.0.0 cache.send.microad.jp
 0.0.0.0 cache.send.microad.jp.cdngc.net
-0.0.0.0 cached-ad-a.fyber.com
-0.0.0.0 cached-ad-a.fyber.com.lan
-0.0.0.0 cached-ad-a.fyber.com.ts.net
-0.0.0.0 cached-ad-b.fyber.com
-0.0.0.0 cached-ad-b.fyber.com.lan
 0.0.0.0 cached-ad-canary.fyber.com
 0.0.0.0 cached-ad.fyber.com
 0.0.0.0 caps.twitter.com
@@ -479,8 +479,6 @@
 0.0.0.0 control.smbeat.jp
 0.0.0.0 control.smbeat.jp.lan
 0.0.0.0 cr.adsappier.com
-0.0.0.0 crashlyticsreports-pa.googleapis.com
-0.0.0.0 crashlyticsreports-pa.googleapis.com.lan
 0.0.0.0 crcdn01.adnxs.com
 0.0.0.0 creative-bunny.bidease.com
 0.0.0.0 creative-cdn77.bidease.com
@@ -812,6 +810,7 @@
 0.0.0.0 js.miyuki-web.net
 0.0.0.0 js.miyuki-web.net.lan
 0.0.0.0 js.ptengine.jp
+0.0.0.0 js.ptengine.jp.lan
 0.0.0.0 js.rtoaster.jp
 0.0.0.0 js.ssp.bance.jp
 0.0.0.0 jscdn.appier.net
@@ -834,6 +833,7 @@
 0.0.0.0 lb.eu-1-id5-sync.com
 0.0.0.0 lbs.eu-1-id5-sync.com
 0.0.0.0 lcs.naver.com
+0.0.0.0 lcs.naver.com.lan
 0.0.0.0 lexicon.33across.com
 0.0.0.0 lf-cdn.coze.cn
 0.0.0.0 log-v4-insight.kaizenplatform.net
@@ -882,6 +882,7 @@
 0.0.0.0 mobile-collector.newrelic.com.ts.net
 0.0.0.0 mobile.adsafeprotected.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
+0.0.0.0 mobile.pipe.aria.microsoft.com.lan
 0.0.0.0 morires-api.actverse.me
 0.0.0.0 morires-master-data.actverse.me
 0.0.0.0 morires-ws.actverse.me
@@ -1163,8 +1164,6 @@
 0.0.0.0 sin3-test0-ib.adnxs.com
 0.0.0.0 sin3-test0-ib.adnxs.com.lan
 0.0.0.0 sin3-test1-ib.adnxs.com
-0.0.0.0 site-113200157461.gslb3.sakura.ne.jp
-0.0.0.0 site-113401565138.gslb11.sakura.ne.jp
 0.0.0.0 site.ca-conv.jp
 0.0.0.0 skadnetworks.fyber.com
 0.0.0.0 so.tpocdm.com
@@ -1281,6 +1280,7 @@
 0.0.0.0 syndicatedsearch.goog.lan
 0.0.0.0 syndicatedsearch.goog.ts.net
 0.0.0.0 t-odx.op-mobile.opera.com
+0.0.0.0 t-odx.op-mobile.opera.com.lan
 0.0.0.0 t.adclr.jp
 0.0.0.0 t.adx.opera.com
 0.0.0.0 t.adx.opera.com.lan
@@ -1295,7 +1295,6 @@
 0.0.0.0 tagger.opecloud.com
 0.0.0.0 tags.rd.linksynergy.com
 0.0.0.0 tags.srv.stackadapt.com
-0.0.0.0 taj1.ebis.ne.jp
 0.0.0.0 td.doubleclick.net
 0.0.0.0 templatesadactions.startappservice.com
 0.0.0.0 tenshoku.mynavi.jp
@@ -1437,6 +1436,7 @@
 0.0.0.0 www.google-analytics.com.ts.net
 0.0.0.0 www.googleoptimize.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.googletagmanager.com.lan
 0.0.0.0 www.googletagmanager.com.ts.net
 0.0.0.0 www.npttech.com
 0.0.0.0 www.qoo10.jp
@@ -1470,22 +1470,24 @@
 
 # [広告・データ分析・トラッキング関連]
 # https://www.netify.ai/resources/applications_reference
+/[0-9].collect.igodigital.com.lan/
+/[0-9].collect.igodigital.com/
+/[0-9]*.akstat.io/
 /a[0-9]*.casalemedia.com/
 /beacon-iad[1-9].rubiconproject.com/
 /image[0-9].pubmatic.com.lan/
 /image[0-9].pubmatic.com/
 ||*.sdk-hb.smaato.net
-0.0.0.0 546001125.collect.igodigital.com
-0.0.0.0 684d0d44.akstat.io
-0.0.0.0 684d0d4b.akstat.io
 0.0.0.0 a.teads.tv
 0.0.0.0 a.teads.tv.edgekey.net
 0.0.0.0 a.teads.tv.lan
 0.0.0.0 accdn.lpsnmedia.net
 0.0.0.0 ad-delivery.net
 0.0.0.0 ad.jp.ap.valuecommerce.com
+0.0.0.0 addons.mozilla.org
 0.0.0.0 adrta.com
 0.0.0.0 ads.adingo.jp
+0.0.0.0 ads.adingo.jp.lan
 0.0.0.0 ads.adjust-net.jp
 0.0.0.0 ads.adjust-net.jp.lan
 0.0.0.0 ads.mozilla.org
@@ -1778,6 +1780,7 @@
 0.0.0.0 placements.tapjoy.com
 0.0.0.0 play.mintegral.com
 0.0.0.0 playable.mintegral.com
+0.0.0.0 playable.mintegral.com.lan
 0.0.0.0 playercdn.jivox.com
 0.0.0.0 pm.w55c.net
 0.0.0.0 pok.mintegral.net
@@ -1831,6 +1834,7 @@
 0.0.0.0 sdk-hb-cfg.smaato.net
 0.0.0.0 sdk.tresensa.com
 0.0.0.0 secure-assets.rubiconproject.com
+0.0.0.0 services.addons.mozilla.org
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 settings.crashlytics.com.lan
 0.0.0.0 settings.crashlytics.com.ts.net
@@ -1889,6 +1893,7 @@
 0.0.0.0 targeting.unrulymedia.com
 0.0.0.0 tcheck.outbrainimg.com
 0.0.0.0 tk.mosspf.net
+0.0.0.0 tk.mosspf.net.lan
 0.0.0.0 token.rubiconproject.com
 0.0.0.0 tps-dn-ae1.doubleverify.com
 0.0.0.0 tps.doubleverify.com
@@ -2056,7 +2061,14 @@
 0.0.0.0 lgirob.skadsdkless.appsflyersdk.com
 0.0.0.0 luakl2-adrevenue.appsflyersdk.com
 0.0.0.0 luakl2-impression.appsflyersdk.com
+0.0.0.0 okmkyi.adrevenue.appsflyersdk.com
+0.0.0.0 okmkyi.conversions.appsflyersdk.com
+0.0.0.0 okmkyi.gcdsdk.appsflyersdk.com
+0.0.0.0 okmkyi.inapps.appsflyersdk.com
+0.0.0.0 okmkyi.launches.appsflyersdk.com
+0.0.0.0 okmkyi.pia.appsflyersdk.com
 0.0.0.0 orspid-adrevenue.appsflyersdk.com
+0.0.0.0 orspid-register.appsflyersdk.com
 0.0.0.0 otpi0g-dlsdk.appsflyersdk.com
 0.0.0.0 privacy-sandbox.appsflyersdk.com
 0.0.0.0 pyc86x-dlsdk.appsflyersdk.com
@@ -2077,6 +2089,7 @@
 0.0.0.0 sgwckg.launches.appsflyersdk.com
 0.0.0.0 sgwckg.launches.appsflyersdk.com.lan
 0.0.0.0 snjqhu-dlsdk.appsflyersdk.com
+0.0.0.0 statgw.devtodev.com
 0.0.0.0 statgw.devtodev.com.lan
 0.0.0.0 tfqwb2-register.appsflyersdk.com
 0.0.0.0 tys9m3-dlsdk.appsflyersdk.com
@@ -2097,6 +2110,7 @@
 0.0.0.0 vd8qif.launches.appsflyersdk.com
 0.0.0.0 viap.appsflyersdk.com
 0.0.0.0 viap.appsflyersdk.com.lan
+0.0.0.0 w0ipyj.inapps.appsflyersdk.com
 0.0.0.0 w0ipyj.launches.appsflyersdk.com
 0.0.0.0 w3togo.launches.appsflyersdk.com
 0.0.0.0 wa.appsflyer.com
@@ -2125,6 +2139,7 @@
 0.0.0.0 zvf6kq.conversions.appsflyersdk.com
 0.0.0.0 zvf6kq.inapps.appsflyersdk.com
 0.0.0.0 zvf6kq.launches.appsflyersdk.com
+0.0.0.0 zvf6kq.register.appsflyersdk.com
 
 # [apple (mobile analytics and spyware, telemetry and tracking)]
 /cl[1-4]-cdn-us.origin-apple.com.akadns.net/
@@ -2331,6 +2346,7 @@
 0.0.0.0 hwid.platform.hicloud.com
 0.0.0.0 hwid.platform.hicloud.com.lan
 0.0.0.0 logbak.hicloud.com
+0.0.0.0 logbak.hicloud.com.lan
 0.0.0.0 metrics-dra.dt.hicloud.com
 0.0.0.0 metrics-dra.dt.hicloud.com.lan
 0.0.0.0 metrics-dra.dt.hicloud.com.ts.net
@@ -2871,7 +2887,6 @@
 0.0.0.0 tnc-boot.tiktokv.com.lan^$client=~192.168.8.117
 0.0.0.0 tnc-boot.tiktokv.com^$client=~192.168.8.117
 0.0.0.0 tnc0-normal-my.tiktokv.com
-0.0.0.0 tnc0-normal-my.tiktokv.com.lan
 0.0.0.0 tnc16-alisg.isnssdk.com
 0.0.0.0 tnc16-alisg.isnssdk.com.lan
 0.0.0.0 tnc16-alisg.isnssdk.com.ts.net
@@ -2887,7 +2902,7 @@
 0.0.0.0 webcast.tiktok.com.ttdns2.com^$client=~192.168.8.117
 
 # [unity3d (mobile analytics and spyware)]
-||assets-*.lunalabs.io
+/assets-[0-9].lunalabs.io/
 0.0.0.0 a-adq.mediation.unity3d.com
 0.0.0.0 ae.iads.unity3d.com
 0.0.0.0 ae.iads.unity3d.com.lan
@@ -3081,6 +3096,7 @@
 
 # [その他 (広告・追跡)]
 # https://btonews.blog.fc2.com/blog-entry-410.html
+/api[0-9].cv.mieru-ca.com/
 /in-ftd-[0-9]*.jp2.vip.prod.criteo.com/
 /in-ftd-[0-9]*.jp2.vip.prod.criteo.net/
 /log[0-9]*.interactive-circle.jp.lan/
@@ -3102,6 +3118,7 @@
 0.0.0.0 adchk.fivecdm.com.ts.net
 0.0.0.0 adgen.socdm.com
 0.0.0.0 ads.as.criteo.com
+0.0.0.0 ads.as.criteo.com.lan
 0.0.0.0 ads.as.criteo.com.ts.net
 0.0.0.0 adserver.cxad.cxense.com
 0.0.0.0 andromeda.iad-01.braze.com
@@ -3112,8 +3129,6 @@
 0.0.0.0 api.karte.io
 0.0.0.0 api.karte.io.lan
 0.0.0.0 api.karte.io.ts.net
-0.0.0.0 api2.cv.mieru-ca.com
-0.0.0.0 api3.cv.mieru-ca.com
 0.0.0.0 appconf.rfp.fout.jp
 0.0.0.0 appconf.rfp.fout.jp.lan
 0.0.0.0 appconf.rfp.fout.jp.ts.net
@@ -3135,6 +3150,7 @@
 0.0.0.0 carview-d.openx.net
 0.0.0.0 cat.jp2.as.criteo.com
 0.0.0.0 cat.sg1.as.criteo.com
+0.0.0.0 cat.sg1.as.criteo.com.lan
 0.0.0.0 cd.ladsp.com
 0.0.0.0 cd.ladsp.com.lan
 0.0.0.0 cdn-blocks.karte.io
@@ -3351,6 +3367,7 @@
 0.0.0.0 cadmus.script.ac
 0.0.0.0 cadmus.script.ac.lan
 0.0.0.0 cadmus2.script.ac
+0.0.0.0 cadmus2.script.ac.lan
 
 # [侵入型アプリケーション]
 # https://www.enigmasoftware.jp/clickservedartsearchnet-removal/
