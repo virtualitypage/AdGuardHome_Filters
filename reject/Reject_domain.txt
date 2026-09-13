@@ -4,27 +4,35 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/reject/Reject_domain.txt
 #
-# Last modified: 7 September 2026
+# Last modified: 13 September 2026
 #
 
 # [拒否リクエスト]
+/[0-9]*.rsc.cdn77.org/
 /[a-z].amoad.com.lan/
 /[a-z].amoad.com/
 /[a-z][a-z].amoad.com/
 /apac[0-9]*.admanmedia.com/
+/apac[0-9]*.ivcsmrt.com/
+/apac[1-9].deliverimp.com/
+/apac[1-9].progrtb.com/
 /az[1-9]*.vo.msecnd.net.lan/
 /az[1-9]*.vo.msecnd.net/
 /b9[0-9].yahoo.co.jp/
 /cached-ad-[a-z].fyber.com.lan/
 /cached-ad-[a-z].fyber.com/
 /cm-[0-9]*-[0-9]*.getui.com/
+/endpoint[0-9]*.rhebus.works/
+/endpoint[0-9]*.smartbid.ai/
 /got.iad3rs0zone[1-9].pubnative.net/
 /mdtb-cf-[0-9].ads.aps.amazon-adsystem.com.lan/
 /mdtb-cf-[0-9].ads.aps.amazon-adsystem.com/
+/node[0-9]*.videowalldirect.com/
 /p[0-9]*.cedexis-test.com/
 /site-[0-9]*.gslb[0-9]*.sakura.ne.jp/
 /taj[1-9].ebis.ne.jp/
 /us-e-[0-9]*.admanmedia.com/
+/us-east[1-9]*.zxyvrtd.com/
 /vulcan[1-9].branch.io.lan/
 /vulcan[1-9].branch.io/
 /www[1-9]*.a8.net/
@@ -33,7 +41,12 @@
 ||*.c.appier.net.lan
 ||*.fls.doubleclick.net
 0.0.0.0 *.imptracking.com
+0.0.0.0 1004255de.bountystory.click
+0.0.0.0 1004257de.bountystory.tech
+0.0.0.0 1004258in.bountystory.site
+0.0.0.0 1004259de.bountystory.fun
 0.0.0.0 1004267de.scrollara.net
+0.0.0.0 1004279de.bountystory.online
 0.0.0.0 1x1.a-mo.net
 0.0.0.0 22233.mc.tritondigital.com
 0.0.0.0 28123.mc.tritondigital.com
@@ -63,6 +76,8 @@
 0.0.0.0 accounts.doubleclick.net
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acdn.adnxs.com.lan
+0.0.0.0 ad-arrow.com
+0.0.0.0 ad-arrow.com.lan
 0.0.0.0 ad-generation.jp
 0.0.0.0 ad-generation.jp.lan
 0.0.0.0 ad-nex.com
@@ -144,6 +159,11 @@
 0.0.0.0 analytics.avcdn.net
 0.0.0.0 analytics.avcdn.net.lan
 0.0.0.0 analytics.avcdn.net.ts.net
+0.0.0.0 analytics.bountystory.click
+0.0.0.0 analytics.bountystory.fun
+0.0.0.0 analytics.bountystory.online
+0.0.0.0 analytics.bountystory.site
+0.0.0.0 analytics.bountystory.tech
 0.0.0.0 analytics.brainlitix.net
 0.0.0.0 analytics.datafortiq.net
 0.0.0.0 analytics.dv.socure.io
@@ -692,6 +712,7 @@
 0.0.0.0 hermes-api.learnings.ai
 0.0.0.0 hk-cdn.youngle.tech
 0.0.0.0 html5.adsrvr.org
+0.0.0.0 hw.dict.naver.com
 0.0.0.0 hw.zuimeitianqi.com
 0.0.0.0 hybird.mtgglobals.com
 0.0.0.0 i.alicdn.com
@@ -785,6 +806,7 @@
 0.0.0.0 j.microad.net
 0.0.0.0 j.microad.net.wcdnga.com
 0.0.0.0 jbsp.adj.st
+0.0.0.0 job.mynavi.jp
 0.0.0.0 jp-col-ext.nelo.navercorp.com
 0.0.0.0 jp-col-ext.nelo.navercorp.com.lan
 0.0.0.0 jp-col-ext.nelo.navercorp.com.ts.net
@@ -814,6 +836,7 @@
 0.0.0.0 js.rtoaster.jp
 0.0.0.0 js.ssp.bance.jp
 0.0.0.0 jscdn.appier.net
+0.0.0.0 jsconfig.adsafeprotected.com
 0.0.0.0 jy9q.adj.st
 0.0.0.0 k8s1-event-tracker-sg.lb.indexww.com
 0.0.0.0 k8s1-event-tracker-ty.lb.indexww.com
@@ -883,6 +906,7 @@
 0.0.0.0 mobile.adsafeprotected.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com.lan
+0.0.0.0 momiboku.sakura.ne.jp
 0.0.0.0 morires-api.actverse.me
 0.0.0.0 morires-master-data.actverse.me
 0.0.0.0 morires-ws.actverse.me
@@ -921,6 +945,7 @@
 0.0.0.0 noti-asia.adsmoloco.com
 0.0.0.0 noti-asia.adsmoloco.com.lan
 0.0.0.0 noti-asia.adsmoloco.com.ts.net
+0.0.0.0 notice.sg.bidder.paddlewaver.com
 0.0.0.0 notifications-gke-sdk-bidding-a.fyber.com
 0.0.0.0 notifications-gke-sdk-bidding-b.fyber.com
 0.0.0.0 notifications-gke-sdk-bidding-canary.fyber.com
@@ -945,6 +970,8 @@
 0.0.0.0 ob.cityrobotflower.com
 0.0.0.0 observe-tcp.mtgglobals.com
 0.0.0.0 observe-tcp.mtgglobals.com.lan
+0.0.0.0 oci-node-120-59.videowalldirect.com
+0.0.0.0 oci-node-146-151.videowalldirect.com
 0.0.0.0 octopus.tokyo
 0.0.0.0 octopus.tokyo.lan
 0.0.0.0 octopus.tokyo.ts.net
@@ -1004,6 +1031,7 @@
 0.0.0.0 prebid.cootlogix.com
 0.0.0.0 prebid.smilewanted.com
 0.0.0.0 privacy-score.ff.avast.com
+0.0.0.0 privacy-service.afafb.com
 0.0.0.0 prod-e.axon.ai.lan
 0.0.0.0 prod-e.axon.ai.ts.net
 0.0.0.0 prod-e4.axon.ai
@@ -1011,6 +1039,7 @@
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net.lan
 0.0.0.0 pubads.g.doubleclick.net.ts.net
+0.0.0.0 publisher.liveperson.net
 0.0.0.0 pubsub.googleapis.com
 0.0.0.0 pubsub.googleapis.com.lan
 0.0.0.0 puz.afafb.com
@@ -1103,6 +1132,7 @@
 0.0.0.0 script.4dex.io.lan
 0.0.0.0 script.hotjar.com
 0.0.0.0 scripts.im-apps.net
+0.0.0.0 sdand1.afafb.com
 0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk-api-v1.singular.net.lan
 0.0.0.0 sdk-api-v1.singular.net.ts.net
@@ -1145,6 +1175,7 @@
 0.0.0.0 sg-setting-tcp.mtgglobals.com
 0.0.0.0 sg-trk.bluevoox.com
 0.0.0.0 sg-trk2.bluevoox.com
+0.0.0.0 sg.notice.adx.paddlewaver.com
 0.0.0.0 sg01.mtgglobals.com
 0.0.0.0 sg2-bid.adsrvr.org
 0.0.0.0 sg2-bid.adsrvr.org.lan
@@ -1242,6 +1273,7 @@
 0.0.0.0 static.octopus.tokyo
 0.0.0.0 static.smilewanted.com
 0.0.0.0 static.starmobicloud.net
+0.0.0.0 staticjs.adsafeprotected.com
 0.0.0.0 statics.a8.net
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 statsf-tm.everesttech.net
@@ -1332,6 +1364,7 @@
 0.0.0.0 track.api.visumo.io
 0.0.0.0 track.hubspot.com
 0.0.0.0 track.lacunads.com
+0.0.0.0 track.paddlewaver.com
 0.0.0.0 tracker-b.rtb.admanmedia.com
 0.0.0.0 tracker.maticooads.com
 0.0.0.0 tracker.maticooads.com.lan
@@ -1355,6 +1388,7 @@
 0.0.0.0 u-tyo.4dex.io
 0.0.0.0 uct.service.usercentrics.eu
 0.0.0.0 uh.nakanohito.jp
+0.0.0.0 uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net
 0.0.0.0 ums.acuityplatform.com
 0.0.0.0 uncn.jp
 0.0.0.0 uncn.jp.lan
@@ -1402,6 +1436,7 @@
 0.0.0.0 video.visumo.jp
 0.0.0.0 vimp.u.send.microad.jp
 0.0.0.0 visitor-33across.omnitagjs.com
+0.0.0.0 vmap.v.ad-generation.jp
 0.0.0.0 vogue-mode-symphony.site
 0.0.0.0 vpaid.vidoomy.com
 0.0.0.0 vscode-cdn.z01.azurefd.net
@@ -1470,6 +1505,7 @@
 
 # [広告・データ分析・トラッキング関連]
 # https://www.netify.ai/resources/applications_reference
+# https://www.ipfire.org/dbl/lists/ads
 /[0-9].collect.igodigital.com.lan/
 /[0-9].collect.igodigital.com/
 /[0-9]*.akstat.io/
@@ -1477,7 +1513,9 @@
 /beacon-iad[1-9].rubiconproject.com/
 /image[0-9].pubmatic.com.lan/
 /image[0-9].pubmatic.com/
+||*.prmutv.co
 ||*.sdk-hb.smaato.net
+0.0.0.0 1itqsy0n.micpn.com
 0.0.0.0 a.teads.tv
 0.0.0.0 a.teads.tv.edgekey.net
 0.0.0.0 a.teads.tv.lan
@@ -1549,6 +1587,7 @@
 0.0.0.0 assets.mintegral.com
 0.0.0.0 assets.mintegral.com.lan
 0.0.0.0 assets.mintegral.com.ts.net
+0.0.0.0 assets.mozilla.net
 0.0.0.0 at.outbrain.com
 0.0.0.0 at.outbrain.com.lan
 0.0.0.0 at.teads.tv
@@ -1763,6 +1802,7 @@
 0.0.0.0 navvy.media.net
 0.0.0.0 new.ads.vungle.com
 0.0.0.0 newplayable.mintegral.com
+0.0.0.0 nova.collect.igodigital.com
 0.0.0.0 odb.outbrain.com
 0.0.0.0 ow.pubmatic.com
 0.0.0.0 ow.pubmatic.com.lan
@@ -1824,6 +1864,7 @@
 0.0.0.0 s.update.rubiconproject.com
 0.0.0.0 s1.kwai.net
 0.0.0.0 s12.device.marketingcloudapis.com
+0.0.0.0 s2s-events.ads.vungle.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 s2s.adjust.com.lan
 0.0.0.0 s2s.adjust.com.ts.net
@@ -1985,6 +2026,7 @@
 0.0.0.0 adrevenue.appsflyersdk.com.lan
 0.0.0.0 adrevenue.appsflyersdk.com.ts.net
 0.0.0.0 api16-access-adx-my-noncdn.pangle.io
+0.0.0.0 api16-access-wf-sg.pangle-b.io
 0.0.0.0 app.appsflyer.com
 0.0.0.0 aps-webhandler.appsflyer.com
 0.0.0.0 att.launches.appsflyersdk.com
@@ -2589,6 +2631,7 @@
 
 # [onelink (associated with AppsFlyer)]
 0.0.0.0 dcjp.onelink.me
+0.0.0.0 dfgame.onelink.me
 0.0.0.0 dtjp.onelink.me
 0.0.0.0 go.onelink.me
 0.0.0.0 goodnovel.onelink.me
@@ -2833,6 +2876,7 @@
 0.0.0.0 p16-heycan-sign-va.ibyteimg.com
 0.0.0.0 p16-lp-sg.ibyteimg.com
 0.0.0.0 p16-magic-sg.ibyteimg.com
+0.0.0.0 p16-org-account-sign-sg.ibyteimg.com
 0.0.0.0 p16-push-sign-va.ibyteimg.com
 0.0.0.0 p16-seeyou-sg.ibyteimg.com
 0.0.0.0 p16-sign-sg.tiktokcdn.com.lan
@@ -3001,6 +3045,7 @@
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.aurogon.intl.miui.com.lan
 0.0.0.0 api.brs.intl.miui.com
+0.0.0.0 api.comm.miui.com
 0.0.0.0 api.competition.intl.miui.com
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.gallery.intl.miui.com
@@ -3016,6 +3061,7 @@
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 browser.cdn.intl.miui.com
 0.0.0.0 brs.api.intl.miui.com
+0.0.0.0 camera.cdn.xiaomi.com
 0.0.0.0 cdn-exp-sg-recommend.pt.xiaomi.com
 0.0.0.0 cdn-file.hyperos.mi.com
 0.0.0.0 cdn-font.hyperos.mi.com
@@ -3088,6 +3134,7 @@
 0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 update.intl.miui.com
 0.0.0.0 update.intl.miui.com.lan
+0.0.0.0 video.global.e.mi.com
 0.0.0.0 virus-engine.sec.intl.miui.com
 0.0.0.0 weatherapi.intl.xiaomi.com
 0.0.0.0 weatherapi.intl.xiaomi.com.lan
