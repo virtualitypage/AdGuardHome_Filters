@@ -4,10 +4,12 @@
 # References: none
 # definition: https://virtualitypage.github.io/AdGuardHome_Filters/accept/Accept_domain.txt
 #
-# Last modified: 5 September 2026
+# Last modified: 14 September 2026
 #
 
 # [許可リクエスト]
+@@/[0-9].gravatar.com/
+@@/[0-9].topinfostream.com/
 @@/acfs[0-9].goodnovel.com/
 @@/af-south-[0-9].alb.pulse.perfmetrics.netflix.com/
 @@/alt[0-9]-360yield.com.google.com.lan/
@@ -62,7 +64,6 @@
 @@/media[0-9]*.giphy.com/
 @@/mpc-prod-[0-9]*-[0-9]*.us-central1.run.app/
 @@/mpc-prod-[0-9]*-[0-9]*pua-uc.a.run.app/
-@@/mx-central-1.alb.pulse.perfmetrics.netflix.com/
 @@/ngw-cli-[0-9].dvr163.com/
 @@/oca-api.us-east-[0-9].origin.prodaa.netflix.com/
 @@/r1[0-4]*.i.lencr.org/
@@ -75,9 +76,12 @@
 @@||*.blob.core.windows.net
 @@||*.cloudfront.net
 @@||*.cloudfront.net.lan
+@@||*.d.sardine.ai
 @@||*.execute-api.eu-west-1.amazonaws.com
 @@||*.h5capsule.com
+@@||*.lolipop.jp
 @@||*.sardine.ai
+@@||*.studioiframesandbox.com
 @@||*.user.webaccel.jp
 @@||2.na.dl.wireshark.org
 @@||268gr.com
@@ -217,6 +221,7 @@
 @@||api.plugin.myideal.jp
 @@||api.pocket.shonenmagazine.com
 @@||api.rudderstack.com
+@@||api.sardine.ai
 @@||api.seminar.shift-ai.co.jp
 @@||api.smartwaon.com
 @@||api.stripe.com
@@ -236,15 +241,18 @@
 @@||apis.imyfone.com
 @@||aplapi.weathernews.jp
 @@||app-api.pixiv.net
+@@||app-content.cyberlink.com
 @@||app.au-market.com
 @@||app.backinstock.org
 @@||app.botchan.chat
 @@||app.bspace.jp
 @@||app.chatplus.jp
+@@||app.cyberlink.com
 @@||app.paypay.ne.jp
 @@||app.plugin.myideal.jp
 @@||app3-us-tx.bb.zeptodev.com
 @@||app4.paypay.ne.jp
+@@||appad.cyberlink.com
 @@||appassets.androidplatform.net
 @@||appassets.androidplatform.net.lan
 @@||appget.com
@@ -319,6 +327,8 @@
 @@||bff-v2.eneos-ss.app
 @@||bff-v2.eneos-ss.app.lan
 @@||bff-v2.eneos-ss.app.ts.net
+@@||bg.au-market.com
+@@||bg.au-market.com.lan
 @@||billing-server-public.devplay.com
 @@||biz-media.tokyo
 @@||bkan-media.com
@@ -523,6 +533,7 @@
 @@||couponbank.relo.jp
 @@||creative-hozon.com
 @@||creative.dsp.cartajp.com
+@@||credit.cyberlink.com
 @@||crt.sectigo.com
 @@||cse.google.com
 @@||csi.gstatic.com
@@ -609,6 +620,7 @@
 @@||edge.surfeasy.com.ts.net
 @@||edgedl.me.gvt1.com
 @@||ee.wovn.io
+@@||efvmrcvbsolnm2sjlthre-us-west-2.r.nflxso.net
 @@||egg.5ch.net
 @@||emb.nhk.or.jp
 @@||embed.chatbot.digital.ricoh.com
@@ -679,6 +691,7 @@
 @@||fuchsia-blobs.googleusercontent.com
 @@||fundingchoicesmessages.google.com.lan
 @@||fw.gl-inet.com
+@@||g.thefreakcircus.my
 @@||g*.gstatic.com
 @@||gacha-lineup.pokapoka-farm.com
 @@||gacraft.jp
@@ -695,6 +708,7 @@
 @@||gdpr.fc2.com
 @@||gds.google.com
 @@||gemini.google.com
+@@||genesis.cyberlink.com
 @@||gengaku-prod.s3.amazonaws.com
 @@||geo0.ggpht.com
 @@||get-beauty.net
@@ -755,6 +769,7 @@
 @@||id.sankei.jp
 @@||id.sonyentertainmentnetwork.com
 @@||idlink.cdp.app-box.jp
+@@||igleanerva.cyberlink.com
 @@||image-itmedia-co-jp.cdn.ampproject.org
 @@||image-tunag-jp.imgix.net
 @@||image.0101.co.jp
@@ -835,7 +850,7 @@
 @@||jp-prod-temp.s3.us-west-2.amazonaws.com
 @@||jp.images-monotaro.com
 @@||js.api.nidan.d2c.ne.jp
-@@||js.dsp.cartajp.com
+@@||js.api.nidan.d2c.ne.jp.lan
 @@||js.pay.com
 @@||js.stripe.com
 @@||jsdelivr.map.fastly.net
@@ -844,6 +859,7 @@
 @@||k2k.sagawa-exp.co.jp
 @@||ka-f.fontawesome.com
 @@||ka-p.fontawesome.com
+@@||ka-p.fontawesome.com.cdn.cloudflare.net
 @@||kairoclub.kairogame.jp
 @@||kaironotification.kairogame.jp
 @@||kakakucom.demdex.net
@@ -942,6 +958,7 @@
 @@||matchmaker.live.prod.devsjelly.cloud
 @@||matomo2000.fc2.com
 @@||matrix.dailyinnovation.biz
+@@||mauth.cyberlink.com
 @@||meas.hera.d2c.ne.jp
 @@||measure.lamp.avct.cloud
 @@||media.amazon.map.fastly.net
@@ -1002,13 +1019,13 @@
 @@||muvluv-girls-garden.com
 @@||muvluv-girls-garden.wikiru.jp
 @@||mws.cdn.weathernews.jp
+@@||mx-central-1.alb.pulse.perfmetrics.netflix.com
 @@||my-coupon-static.smartnews.com
 @@||my.komeri-card.com
 @@||myaccount.google.com
 @@||myactivity.google.com
 @@||mybest.go.link
 @@||mzstatic.com.edgekey.net
-@@||n.sni.global.fastly.net
 @@||n.yapp.li
 @@||n1-goo-nl.ldoe.kefir.games
 @@||na-eu-as.idcf.map.fastly.net
@@ -1048,6 +1065,8 @@
 @@||oauth.secure.pixiv.net
 @@||oca-api.netflix.com
 @@||occ-0-3187-3188.1.nflxso.net
+@@||occ-0-8929-3188.1.nflxso.net
+@@||occ-0-993-988.1.nflxso.net
 @@||ocsp.comodoca.com
 @@||ocsp.comodoca.com.cdn.cloudflare.net
 @@||ocsp.digicert.com
@@ -1083,6 +1102,7 @@
 @@||ow.skyflag.jp
 @@||owb101.goo.ne.jp
 @@||p-smith.com
+@@||p.sardine.ai
 @@||p.twitter.com
 @@||p.twitter.com.lan
 @@||p.twitter.com.ts.net
@@ -1176,6 +1196,7 @@
 @@||prd-acop-demographics-api.internal.ameba.jp
 @@||prd-real.card-type-message-wlb.verda2.akadns.net
 @@||president.jp
+@@||privacy.cyberlink.com
 @@||privatter.net
 @@||pro.syncsearch.jp
 @@||probe.twitter.com
@@ -1311,6 +1332,7 @@
 @@||seal.digicert.com
 @@||seal.globalsign.com
 @@||secure.globalsign.com
+@@||secure.gravatar.com
 @@||secure.xsolla.com
 @@||securl.nu
 @@||seed.webmedia.navitime.jp
@@ -1446,7 +1468,6 @@
 @@||sy.ameblo.jp
 @@||sync.im-apps.net
 @@||syndication.twitter.com
-@@||t-odx.op-mobile.opera.com.lan
 @@||t.blog.livedoor.jp
 @@||t.co
 @@||t.sni.global.fastly.net
@@ -1461,6 +1482,11 @@
 @@||tenor.com
 @@||tential-ec-img.imgix.net
 @@||terms.snow.me
+@@||thefreakcircus.cc
+@@||thefreakcircus.my
+@@||thefreakcircus.org
+@@||thefreakcircus2.com
+@@||thefreakcircusguide.org
 @@||threadstoper1000.doorblog.jp
 @@||thumb.ac-illust.com
 @@||thumbnail.smartnews.com
@@ -1612,9 +1638,6 @@
 @@||www.acom.co.jp
 @@||www.aderans.co.jp
 @@||www.adidas.jp
-@@||www.adsensecustomsearchads.com
-@@||www.adsensecustomsearchads.com.lan
-@@||www.adsensecustomsearchads.com.ts.net
 @@||www.agrinews.co.jp
 @@||www.amazon.co.jp
 @@||www.amazon.com
@@ -1650,6 +1673,7 @@
 @@||www.google.us.lan
 @@||www.googleadservices.com
 @@||www.googletagservices.com
+@@||www.googletagservices.com.lan
 @@||www.gstatic.com
 @@||www.gstatic.com.lan
 @@||www.hijiyama-u.ac.jp
@@ -1709,6 +1733,7 @@
 @@||www.onamae.com
 @@||www.oricon.co.jp
 @@||www.paypal.com
+@@||www.paypalobjects.com
 @@||www.paypay-card.co.jp
 @@||www.paypay.ne.jp
 @@||www.pixiv.net
@@ -1727,6 +1752,7 @@
 @@||www.smartwaon.com
 @@||www.smbc-card.com
 @@||www.sourcenext.com
+@@||www.speedtest.net
 @@||www.speedtest.net.cdn.cloudflare.net
 @@||www.sponichi.co.jp
 @@||www.studio-alice.co.jp
@@ -1736,8 +1762,10 @@
 @@||www.threads.net
 @@||www.tiffany.co.jp
 @@||www.tm.ak.prd.aadg.trafficmanager.net
+@@||www.topinfostream.com
 @@||www.topvalu.net
 @@||www.touken-ranbu.jp
+@@||www.toukenranbu.jp
 @@||www.town.kahoku.yamagata.jp
 @@||www.trendmicro.com
 @@||www.trendmicro.de
@@ -1760,6 +1788,8 @@
 @@||www2.gred.jp
 @@||www3-nhk-or-jp.cdn.ampproject.org
 @@||www3.l.google.com
+@@||www3r.nhk.or.jp
+@@||www5.nhk.or.jp
 @@||www5.tmn-anshin.co.jp
 @@||x.blueduckredapple.com
 @@||x.com
@@ -1773,7 +1803,6 @@
 @@||yapp.li
 @@||yastatic.net
 @@||yasurok2.wordpress.com
-@@||yield-manager.browsiprod.com
 @@||yomiuri.map.fastly.net
 @@||yorozu-kochi.go.jp
 @@||youtu.be
@@ -1864,11 +1893,15 @@
 @@||configuration-row-lb.apple.com.akadns.net
 @@||cs.ns1p.net
 @@||disk.akamaized.net
+@@||ds-linear-abematv.akamaized.net
 @@||e35058.api2.akamaiedge.net
 @@||e3811.e9.akamaiedge.net
+@@||ec-videopf01-hls.akamaized.net
 @@||gameclub-fp.akamaized.net
 @@||giga-images-makeshop-jp.akamaized.net
 @@||imap.mail.me.com.akadns.net
+@@||img-prod-cms-rt-microsoft-com.akamaized.net
+@@||img-s-msn-com.akamaized.net
 @@||is-ssl-cdn.itunes-apple.com.akadns.net
 @@||kayzencdn.akamaized.net
 @@||ln-cdn.akamaized.net
@@ -1894,7 +1927,9 @@
 @@||st-smtp.mail.me.com.akadns.net
 @@||stickershop-jp-wlb.line-apps.com.akadns.net
 @@||tags.tiqcdn.com
+@@||uz-analysis.akamaized.net
 @@||v16m-default.akamaized.net
+@@||vod-abematv.akamaized.net
 @@||vos.verda.akadns.net
 @@||whoami.akamai.net
 @@||wildcard46.go-mpulse.net.edgekey.net
@@ -2346,7 +2381,6 @@
 @@||vod-ap-aoc.tv.apple.com
 @@||wallet.cdn-apple.com
 @@||wallet.g.aaplimg.com
-@@||weather-analytics-events.apple.com
 @@||weather-data.apple.com
 @@||weather-data.apple.com.akadns.net
 @@||weather-edge.apple.com
@@ -2572,8 +2606,6 @@
 @@||proactivebackend-pa.googleapis.com.lan
 @@||prod-lt-playstoregatewayadapter-pa.googleapis.com
 @@||prod-rcs-us-keydelivery-pa.googleapis.com
-@@||pubsub.googleapis.com
-@@||pubsub.googleapis.com.lan
 @@||quake-pa.googleapis.com
 @@||reach-pa.googleapis.com
 @@||readaloud.googleapis.com
@@ -3059,12 +3091,18 @@
 @@||payments-graph.instagram.com
 @@||platform-lookaside.fbsbx.com
 @@||scontent-lax3-1.cdninstagram.com
+@@||scontent-nrt6-1.oculuscdn.com
+@@||scontent-sea1-1.oculuscdn.com
 @@||scontent-sea5-1.cdninstagram.com
+@@||scontent-sea5-1.oculuscdn.com
+@@||scontent-sin2-1.oculuscdn.com
+@@||scontent-tpe5-1.oculuscdn.com
 @@||scontent.cdninstagram.com
 @@||scontent.cdninstagram.com.lan
 @@||scontent.cdninstagram.com.ts.net
 @@||scontent.fallback.cdninstagram.com
 @@||scontent.fallback.xx.fbcdn.net
+@@||scontent.oculuscdn.com
 @@||scontent.xx.fbcdn.net
 @@||star.fallback.c10r.instagram.com
 @@||static.ak.fbcdn.net
@@ -3085,6 +3123,7 @@
 
 # [microsoft]
 # https://learn.microsoft.com/ja-jp/azure/security/fundamentals/azure-domains
+@@/[0-9].au.download.windowsupdate.com/
 @@/[a-z].clarity.ms/
 @@/array[0-9]*.prod.do.dsp.mp.microsoft.com/
 @@/in[1-2]-gw[0-9]-[0-9]*-3d6c3051.eastus2.cloudapp.azure.com/
@@ -3101,6 +3140,8 @@
 @@/onedscolprdwus[0-9]*.westus.cloudapp.azure.com/
 @@/v[0-9].events.data.microsoft.com/
 @@||1d.tlu.dl.delivery.mp.microsoft.com
+@@||201650-ipv4fdsmte.gr.global.aa-rt.sharepoint.com
+@@||201650-ipv4mte.gr.global.aa-rt.sharepoint.com
 @@||access-point.cloudmessaging.edge.microsoft.com
 @@||ajax.microsoft.com
 @@||appsforoffice.microsoft.com
@@ -3117,6 +3158,7 @@
 @@||cp501.prod.do.dsp.mp.microsoft.com
 @@||crl.microsoft.com
 @@||cs.dds.microsoft.com
+@@||ctldl.windowsupdate.com
 @@||data-edge.smartscreen.microsoft.com
 @@||deault-exp-tas-com.e-0014.e-msedge.net
 @@||definitionupdates.microsoft.com
@@ -3124,6 +3166,7 @@
 @@||displaycatalog.mp.microsoft.com
 @@||dl.delivery.mp.microsoft.com
 @@||download.microsoft.com
+@@||download.windowsupdate.com
 @@||e-0014.e-msedge.net
 @@||ecs.office.com
 @@||edge.microsoft.com
@@ -3140,7 +3183,7 @@
 @@||greenid-prod-pme.westus2.cloudapp.azure.com
 @@||kv501.prod.do.dsp.mp.microsoft.com
 @@||licensing.mp.microsoft.com
-@@||mobile.pipe.aria.microsoft.com.lan
+@@||mobile.events.data.microsoft.com
 @@||ms-sso.copilot.microsoft.com
 @@||msedge.api.cdp.microsoft.com
 @@||msedge.b.tlu.dl.delivery.mp.microsoft.com
@@ -3149,7 +3192,10 @@
 @@||nav-edge.smartscreen.microsoft.com
 @@||nav.smartscreen.microsoft.com
 @@||nf.smartscreen.microsoft.com
+@@||ocws.officeapps.live.com
+@@||odc.officeapps.live.com
 @@||officeclient.microsoft.com
+@@||oloobe.officeapps.live.com
 @@||oneocsp.microsoft.com
 @@||outlook.office.com
 @@||ov-df.microsoft.com
@@ -3461,7 +3507,6 @@
 @@||rsvh.travel.rakuten.co.jp
 @@||rt.rakuten.co.jp
 @@||rt.rakuten.co.jp.lan
-@@||s-ad.rmp.rakuten.co.jp
 @@||s-cdn.rmp.rakuten.co.jp
 @@||s-dlv.rmp.rakuten.co.jp
 @@||s-evt.rmp.rakuten.co.jp
